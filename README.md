@@ -1,4 +1,4 @@
-popcorn-time.github.io
+Popcorn Time Website
 ======================
 
-### Site for getpopcornti.me
+### Site for [popcorn.yts.re](https://popcorn.yts.re)
