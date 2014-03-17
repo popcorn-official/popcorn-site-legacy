@@ -1,4 +1,4 @@
 Popcorn Time Website
 ======================
 
-### Site for [popcorn.yts.re](https://popcorn.yts.re)
+### Site for [popcorn.cdnjd.com](https://popcorn.cdnjd.com)
