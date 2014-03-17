@@ -4124,17 +4124,21 @@ span.code {
 }
 
 body.mac .dl-win,
-body.mac .dl-linux,
+body.mac .dl-lin-32,
+body.mac .dl-lin-64,
 body.win .dl-mac,
-body.win .dl-lin,
-body.lin .dl-mac,
-body.lin .dl-win,
+body.win .dl-lin-32,
+body.win .dl-lin-64,
+body.lin-32 .dl-mac,
+body.lin-64 .dl-mac,
+body.lin-32 .dl-win,
+body.lin-64 .dl-win,
 body.nope .dl-win,
 body.nope .dl-mac {
   display: none !important;
 }
 
-body .dl-win, body .dl-lin {
+body .dl-win, body .dl-lin-32, body .dl-lin-64 {
   display: none !important;
 }
 
@@ -4142,6 +4146,7 @@ body.win .dl-win {
   display: inline-block !important;
 }
 
-body.lin .dl-lin {
+body.lin-32 .dl-lin-32,
+body.lin-64 .dl-lin-64 {
   display: inline-block !important;
 }
