@@ -1,21 +1,48 @@
 {
-	"updated_at": "2014-02-28 19:10:00",
-	 "windows": {
-		"version": "0.2.0",
-		"versionName": "Beta 2.5",
-		"downloadUrl": "https://mega.co.nz/#!cB4FxL6a!uZWeXJ--13XzxIgclRV2K9ShT5TuH42G_qnj05zCip4",
-		"description": "Popcorn Time Beta 2.5 has many improvements, including better subtitles, faster load times, new languages, and a ton of bug fixes. Update now!"
-	},
-	 "mac": {
-		"version": "0.2.0",
-		"versionName": "Beta 2.5",
-		"downloadUrl": "https://mega.co.nz/#!ZE5QxS7I!d3zXX8lLiq-ePuvgaJ08VUNmDo4LW1Hj0lvdxt8e_9Q",
-		"description": "Popcorn Time Beta 2.5 has many improvements, including better subtitles, faster load times, new languages, and a ton of bug fixes. Update now!"
+	"windows": {
+		"version": "0.2.8",
+		"updateUrl": "http://popcorn.cdnjd.com/releases/updates/0_2_8.nw",
+		"checksum": "66869d8c056eeb2c3099ad14ca0e5d537f5272ab",
+		"signature": "MEQCIDN/WI2qYtiUboKnucSEK/HeZQh9rUd6RliOJXROwqAdAiBhFcyEJ5qm8f+fRlPqNELWXuqqRL8gCfeaum0MbVoaRw==",
+		"title": "0.2.8 RC1",
+		"description": "This new release brings a more stable and bug-free Popcorn-Time.",
+		"changeLog": ["New Installer based on NSIS. Removes older, obsolete ISS installer","Fixed (most) character encoding issues with subtitles","Added missing German flag","Sidebar rendering fixes","Watch Now button now enables regardless of subtitle availability","Fixed the trakt.tv data handling to better handle missing data","The window can now be dragged across multiple monitors","Scrolling through subtitles no longer changes volume","ArchLinux users should no longer encounter a crash, if you do install the ttf-ms-fonts package","Will now fallback to a YTS mirror if the main site is inaccessible","Video player will no longer restart when the spacebar is pressed","Added a fix to allow loading more movies on large screen resolutions","Updated the packaged ffmpeg library to hopefully give better support","Fixed some extraneous hex entities in movie titles","Fixed some issues relating to playing the last movie played instead of the chosen one","Fixed an issue which would freeze the entire UI when a movie model was incorrectly disposed","Switching categories will now cancel the previous request","Fixed a genre switching bug which would double sort by date","Prevent numerous requests to YifySubtitles"],
+		"gitTag": "v0.2.8-beta",
+		"gitCommit": "f4832ebe"
 	},
 	"linux": {
-		"version": "0.1.1",
-		"versionName": "Beta 2",
-		"downloadUrl": "https://mega.co.nz/#!PUg0EQZQ!GANw4x6k9Yz51gJKywUOI6mcRvpxMb36ANtJOZ1zWQc",
-		"description": "Popcorn Time Beta 2 has many improvements, including faster load times, new languages, and a ton of bug fixes. Update now!"
+		"x86": {
+			"version": "0.2.8",
+			"updateUrl": "http://popcorn.cdnjd.com/releases/updates/0_2_8.nw",
+			"checksum": "66869d8c056eeb2c3099ad14ca0e5d537f5272ab",
+			"signature": "MEQCIDN/WI2qYtiUboKnucSEK/HeZQh9rUd6RliOJXROwqAdAiBhFcyEJ5qm8f+fRlPqNELWXuqqRL8gCfeaum0MbVoaRw==",
+			"title": "0.2.8 RC1",
+			"description": "This new release brings a more stable and bug-free Popcorn-Time.",
+			"changeLog": ["New Installer based on NSIS. Removes older, obsolete ISS installer","Fixed (most) character encoding issues with subtitles","Added missing German flag","Sidebar rendering fixes","Watch Now button now enables regardless of subtitle availability","Fixed the trakt.tv data handling to better handle missing data","The window can now be dragged across multiple monitors","Scrolling through subtitles no longer changes volume","ArchLinux users should no longer encounter a crash, if you do install the ttf-ms-fonts package","Will now fallback to a YTS mirror if the main site is inaccessible","Video player will no longer restart when the spacebar is pressed","Added a fix to allow loading more movies on large screen resolutions","Updated the packaged ffmpeg library to hopefully give better support","Fixed some extraneous hex entities in movie titles","Fixed some issues relating to playing the last movie played instead of the chosen one","Fixed an issue which would freeze the entire UI when a movie model was incorrectly disposed","Switching categories will now cancel the previous request","Fixed a genre switching bug which would double sort by date","Prevent numerous requests to YifySubtitles"],
+			"gitTag": "v0.2.8-beta",
+			"gitCommit": "f4832ebe"
+		},
+		"x64": {
+			"version": "0.2.8",
+			"updateUrl": "http://popcorn.cdnjd.com/releases/updates/0_2_8.nw",
+			"checksum": "66869d8c056eeb2c3099ad14ca0e5d537f5272ab",
+			"signature": "MEQCIDN/WI2qYtiUboKnucSEK/HeZQh9rUd6RliOJXROwqAdAiBhFcyEJ5qm8f+fRlPqNELWXuqqRL8gCfeaum0MbVoaRw==",
+			"title": "0.2.8 RC1",
+			"description": "This new release brings a more stable and bug-free Popcorn-Time.",
+			"changeLog": ["New Installer based on NSIS. Removes older, obsolete ISS installer","Fixed (most) character encoding issues with subtitles","Added missing German flag","Sidebar rendering fixes","Watch Now button now enables regardless of subtitle availability","Fixed the trakt.tv data handling to better handle missing data","The window can now be dragged across multiple monitors","Scrolling through subtitles no longer changes volume","ArchLinux users should no longer encounter a crash, if you do install the ttf-ms-fonts package","Will now fallback to a YTS mirror if the main site is inaccessible","Video player will no longer restart when the spacebar is pressed","Added a fix to allow loading more movies on large screen resolutions","Updated the packaged ffmpeg library to hopefully give better support","Fixed some extraneous hex entities in movie titles","Fixed some issues relating to playing the last movie played instead of the chosen one","Fixed an issue which would freeze the entire UI when a movie model was incorrectly disposed","Switching categories will now cancel the previous request","Fixed a genre switching bug which would double sort by date","Prevent numerous requests to YifySubtitles"],
+			"gitTag": "v0.2.8-beta",
+			"gitCommit": "f4832ebe"
+		}
+	},
+	"mac": {
+		"version": "0.2.8",
+		"updateUrl": "http://popcorn.cdnjd.com/releases/updates/0_2_8.nw",
+		"checksum": "66869d8c056eeb2c3099ad14ca0e5d537f5272ab",
+		"signature": "MEQCIDN/WI2qYtiUboKnucSEK/HeZQh9rUd6RliOJXROwqAdAiBhFcyEJ5qm8f+fRlPqNELWXuqqRL8gCfeaum0MbVoaRw==",
+		"title": "0.2.8 RC1",
+		"description": "This new release brings a more stable and bug-free Popcorn-Time.",
+		"changeLog": ["New Installer based on NSIS. Removes older, obsolete ISS installer","Fixed (most) character encoding issues with subtitles","Added missing German flag","Sidebar rendering fixes","Watch Now button now enables regardless of subtitle availability","Fixed the trakt.tv data handling to better handle missing data","The window can now be dragged across multiple monitors","Scrolling through subtitles no longer changes volume","ArchLinux users should no longer encounter a crash, if you do install the ttf-ms-fonts package","Will now fallback to a YTS mirror if the main site is inaccessible","Video player will no longer restart when the spacebar is pressed","Added a fix to allow loading more movies on large screen resolutions","Updated the packaged ffmpeg library to hopefully give better support","Fixed some extraneous hex entities in movie titles","Fixed some issues relating to playing the last movie played instead of the chosen one","Fixed an issue which would freeze the entire UI when a movie model was incorrectly disposed","Switching categories will now cancel the previous request","Fixed a genre switching bug which would double sort by date","Prevent numerous requests to YifySubtitles"],
+		"gitTag": "v0.2.8-beta",
+		"gitCommit": "f4832ebe"
 	}
 }
