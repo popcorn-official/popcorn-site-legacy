@@ -1,4 +1,4 @@
 Popcorn Time Website
 ======================
 
-### Site for [popcorn.cdnjd.com](http://popcorn.cdnjd.com)
+### Site for [popcorn-time.tv](http://popcorn-time.tv)

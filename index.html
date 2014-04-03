@@ -60,34 +60,22 @@
 
 	<title>Popcorn Time - Watch torrent movies instantly</title>
 	<meta name="description" content="Skip the downloads! Watch the best movies instantly in HD, with subtitles, for free! Available for Windows, Mac and Linux." />
-	<link rel="image_src" href="http://popcorn.cdnjd.com/images/header-ui.jpg" / >
+	<link rel="image_src" href="images/header-ui.jpg" / >
 
 	<meta property="og:title" content="Popcorn Time" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://popcorn.cdnjd.com/images/header-ui.jpg" />
-	<meta property="og:url" content="http://popcorn.cdnjd.com" />
+	<meta property="og:image" content="http://popcorn-time.tv/images/header-ui.jpg" />
+	<meta property="og:url" content="http://popcorn-time.tv" />
 	<meta property="og:site_name" content="Popcorn Time" />
-
-	<script type="text/javascript">
-	// Redirect the user to the correct language
-	// TODO: Remember the preferred language
-	var language = (navigator.language || navigator.userLanguage).toLowerCase().slice(0,2);
-	var supportedLanguages = ['es'];
-	if( language != 'en' ) {
-		for( i in supportedLanguages ) {
-			if( supportedLanguages[i] === language ){ window.location.replace("/"+language); break; }
-		}
-	}
-	</script>
 </head>
 <body class="beta">
 	<section id="header">
 
 		<nav class="fixed-width fadeInDown wow">
-			<a href="http://popcorn.cdnjd.com" id="logo">Popcorn Time</a>
+			<a href="/" id="logo">Popcorn Time</a>
 			<ul class="align-right">
-				<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>
-				<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"></a></li>
+				<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>
+				<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"></a></li>-->
 				<li class="social"><a href="http://github.com/popcorn-team" target="_blank" class="icon-github"></a></li>
 			</ul>
 
@@ -104,19 +92,19 @@
 
 		<ul id="links">
 			<li class="download dl-mac">
-				<a data-file="Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a><br />
+				<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a><br />
 				<small>For Mac OSX 10.7 and above</small>
 			</li>
 			<li class="download dl-win">
-				<a data-file="Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a><br />
+				<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a><br />
 				<small>For Windows 7 and above</small>
 			</li>
 			<li class="download dl-lin-32">
-				<a data-file="Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a><br />
+				<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a><br />
 				<small>For 32-bit Linux Users</small>
 			</li>
 			<li class="download dl-lin-64">
-				<a data-file="Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a><br />
+				<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a><br />
 				<small>For 64-bit Linux Users</small>
 			</li>
 		</ul>
@@ -160,19 +148,19 @@
 				<hr />
 				<h2>Best of all... it's free!</h2>
 				<div class="dl-mac">
-					<a data-file="Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a>
 					<small>For Mac OSX 10.7 and above</small>
 				</div>
 				<div class="dl-win">
-					<a data-file="Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a>
 					<small>For Windows 7 and above</small>
 				</div>
 				<div class="dl-lin-32">
-					<a data-file="Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-lin" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-lin" target="_blank">Download Beta 2.8</a>
 					<small>For 32-bit Linux Users</small>
 				</div>
 				<div class="dl-lin-64">
-					<a data-file="Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-lin" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-lin" target="_blank">Download Beta 2.8</a>
 					<small>For 64-bit Linux Users</small>
 				</div>
 			</div>
@@ -198,19 +186,19 @@
 			</div>
 			<ul class="platforms">
 				<li class="mac icon-laptop fadeInUp wow" data-wow-delay=".2s">
-					<a data-file="Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Mac.tar.gz" class="btn-main icon-mac" target="_blank">Download Beta 2.8</a>
 					<small>For Mac OSX 10.7 and above</small>
 				</li>
 				<li class="win icon-screen fadeInUp wow" data-wow-delay=".4s">
-					<a data-file="Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Win.exe" class="btn-main icon-win" target="_blank">Download Beta 2.8</a>
 					<small>For Windows 7 and above</small>
 				</li>
 				<li class="lin-32 icon-window fadeInUp wow" data-wow-delay=".6s">
-					<a data-file="Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-32.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a>
 					<small>For 32-bit Linux Users</small>
 				</li>
 				<li class="lin-64 icon-window fadeInUp wow" data-wow-delay=".8s">
-					<a data-file="Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a>
+					<a data-file="http://cdn.popcorn-time.tv/Popcorn-Time-0.2.8-Linux-64.tar.gz" class="btn-main icon-linux" target="_blank">Download Beta 2.8</a>
 					<small>For 64-bit Linux Users</small>
 				</li>
 			</ul>
@@ -223,10 +211,10 @@
 		<section id="footer" class="fadeInUp wow">
 			<hr style="display: none">
 			<nav class="clear-fix">
-				<a href="http://popcorn.cdnjd.com" class="logo">Popcorn time</a>
+				<a href="/" class="logo">Popcorn time</a>
 				<ul>
-					<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>
-					<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"> </a></li>
+					<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>
+					<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"> </a></li>-->
 					<li class="github"><a href="http://github.com/popcorn-team" target="_blank" class="icon-github">Github</a></li>
                 </ul>
 			</nav>
