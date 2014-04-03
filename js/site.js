@@ -6,10 +6,6 @@ var mac = /Mac/,
     lin = /Lin/,
     lin64 = /x86_64/;
 
-Array.prototype.forEach.call(document.querySelectorAll('[data-file]'), function(el) {
-  el.href = fileHost + el.getAttribute('data-file');
-});
-
 if(mac.test(userAgent)) {
 	document.getElementsByTagName('body')[0].className+=' mac';
 } else if (win.test(userAgent)) {
