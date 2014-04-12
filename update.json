@@ -2,7 +2,7 @@
 	"windows": {
 		"version": "0.2.8.1",
 		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_1.nw",
-		"checksum": "3af94b2bedd4c8f0c88897f5e09c58e5c29405ef",
+		"checksum": "7cc3bc810f6c4d017f52dcd71fa535e22b4bac8f",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 		"title": "0.2.8.1 Hotfix",
 		"description": "Quick update to fix quality changing bug.",
@@ -14,7 +14,7 @@
 		"x86": {
 			"version": "0.2.8.1",
 			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_1.nw",
-			"checksum": "3af94b2bedd4c8f0c88897f5e09c58e5c29405ef",
+			"checksum": "7cc3bc810f6c4d017f52dcd71fa535e22b4bac8f",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 			"title": "0.2.8.1 Hotfix",
 			"description": "Quick update to fix quality changing bug.",
@@ -25,7 +25,7 @@
 		"x64": {
 			"version": "0.2.8.1",
 			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_1.nw",
-			"checksum": "3af94b2bedd4c8f0c88897f5e09c58e5c29405ef",
+			"checksum": "7cc3bc810f6c4d017f52dcd71fa535e22b4bac8f",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 			"title": "0.2.8.1 Hotfix",
 			"description": "Quick update to fix quality changing bug.",
@@ -37,7 +37,7 @@
 	"mac": {
 		"version": "0.2.8.1",
 		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_1.nw",
-		"checksum": "3af94b2bedd4c8f0c88897f5e09c58e5c29405ef",
+		"checksum": "7cc3bc810f6c4d017f52dcd71fa535e22b4bac8f",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 		"title": "0.2.8.1 Hotfix",
 		"description": "Quick update to fix quality changing bug.",
