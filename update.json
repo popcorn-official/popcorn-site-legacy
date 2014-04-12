@@ -8,7 +8,7 @@
 		"description": "Quick update to fix quality changing bug.",
 		"changeLog": ["Fixes a bug that wouldn't allow for changing the quality"],
 		"gitTag": "v0.2.8-beta",
-		"gitCommit": "3eda43d"
+		"gitCommit": "83ef059"
 	},
 	"linux": {
 		"x86": {
@@ -20,7 +20,7 @@
 			"description": "Quick update to fix quality changing bug.",
 			"changeLog": ["Fixes a bug that wouldn't allow for changing the quality"],
 			"gitTag": "v0.2.8-beta",
-			"gitCommit": "3eda43d"
+			"gitCommit": "83ef059"
 		},
 		"x64": {
 			"version": "0.2.8.1",
@@ -31,7 +31,7 @@
 			"description": "Quick update to fix quality changing bug.",
 			"changeLog": ["Fixes a bug that wouldn't allow for changing the quality"],
 			"gitTag": "v0.2.8-beta",
-			"gitCommit": "3eda43d"
+			"gitCommit": "83ef059"
 		}
 	},
 	"mac": {
@@ -43,6 +43,6 @@
 		"description": "Quick update to fix quality changing bug.",
 		"changeLog": ["Fixes a bug that wouldn't allow for changing the quality"],
 		"gitTag": "v0.2.8-beta",
-		"gitCommit": "3eda43d"
+		"gitCommit": "83ef059"
 	}
 }
