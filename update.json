@@ -1,10 +1,10 @@
 {
 	"windows": {
-		"version": "0.2.8.2",
+		"version": "0.2.8",
 		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
-		"checksum": "2fe7adc9e96b57e8f665060f44547365afb9045e",
+		"checksum": "ca8e01ca29fc19db385d6c4638f1186d2e5d6c6d",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
-		"title": "0.2.8.2 Hotfix",
+		"title": "0.2.82 Hotfix",
 		"description": "Update system.",
 		"changeLog": ["Fixes a bug that allow to keep the application up2date."],
 		"gitTag": "v0.2.8-beta",
@@ -12,22 +12,22 @@
 	},
 	"linux": {
 		"x86": {
-			"version": "0.2.8.2",
+			"version": "0.2.8",
 			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
-			"checksum": "2fe7adc9e96b57e8f665060f44547365afb9045e",
+			"checksum": "ca8e01ca29fc19db385d6c4638f1186d2e5d6c6d",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
-			"title": "0.2.8.2 Hotfix",
+			"title": "0.2.82 Hotfix",
 			"description": "Update system.",
 			"changeLog": ["Fixes a bug that allow to keep the application up2date."],
 			"gitTag": "v0.2.8-beta",
 			"gitCommit": "83ef059"
 		},
 		"x64": {
-			"version": "0.2.8.2",
+			"version": "0.2.8",
 			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
-			"checksum": "2fe7adc9e96b57e8f665060f44547365afb9045e",
+			"checksum": "ca8e01ca29fc19db385d6c4638f1186d2e5d6c6d",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
-			"title": "0.2.8.2 Hotfix",
+			"title": "0.2.82 Hotfix",
 			"description": "Update system.",
 			"changeLog": ["Fixes a bug that allow to keep the application up2date."],
 			"gitTag": "v0.2.8-beta",
@@ -35,11 +35,11 @@
 		}
 	},
 	"mac": {
-		"version": "0.2.8.2",
+		"version": "0.2.8",
 		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
-		"checksum": "2fe7adc9e96b57e8f665060f44547365afb9045e",
+		"checksum": "ca8e01ca29fc19db385d6c4638f1186d2e5d6c6d",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
-		"title": "0.2.8.2 Hotfix",
+		"title": "0.2.82 Hotfix",
 		"description": "Update system.",
 		"changeLog": ["Fixes a bug that allow to keep the application up2date."],
 		"gitTag": "v0.2.8-beta",
