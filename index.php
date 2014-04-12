@@ -1,33 +1,33 @@
 <?php
 $domain       = "http://get-popcorn.com/";
-$link_win  	  = $domain."releases/build/Popcorn-Time-0.2.8-Win32.zip";
-$link_mac		  = $domain."releases/build/Popcorn-Time-0.2.8-Mac.tar.gz";
+$link_win     = $domain."releases/build/Popcorn-Time-0.2.8-Win32.zip";
+$link_mac     = $domain."releases/build/Popcorn-Time-0.2.8-Mac.tar.gz";
 $link_linux32 = $domain."releases/build/Popcorn-Time-0.2.8-Linux-32.tar.gz";
-$link_linux64	= $domain."releases/build/Popcorn-Time-0.2.8-Linux-64.tar.gz";
+$link_linux64 = $domain."releases/build/Popcorn-Time-0.2.8-Linux-64.tar.gz";
 $link_version = "2.8";
 $link_fb      = "https://facebook.com/getpopcorntime";
-$link_tt		  = "https://twitter.com/popcorntimetv";
-$link_gh		  = "http://github.com/popcorn-official";
+$link_tt      = "https://twitter.com/popcorntimetv";
+$link_gh      = "http://github.com/popcorn-official";
 
 $lang_get     = checklang($_GET["lang"]);
 $lang_ck      = checklang($_COOKIE["lang"], true);
 
 if($lang_get)
-  $lang = $_GET["lang"];
+   $lang = $_GET["lang"];
 elseif($lang_ck)
-  $lang = $_COOKIE["lang"];
+   $lang = $_COOKIE["lang"];
 else
-  $lang = "en";
+   $lang = "en";
   
 include("lang/$lang.php");
 
 function checklang($langtemp, $cookie=false){
-  if(isset($langtemp) && preg_match("/^[a-z-]{2,5}$/i", $langtemp)){
-    if(file_exists("lang/$langtemp.php")){
-      if(!$cookie) setcookie("lang", $langtemp, time()+2592000);
-      return true;
+    if(isset($langtemp) && preg_match("/^[a-z-]{2,5}$/i", $langtemp)){
+        if(file_exists("lang/$langtemp.php")){
+            if(!$cookie) setcookie("lang", $langtemp, time()+2592000);
+            return true;
+        }else return false;
     }else return false;
-  }else return false;
 }
 
 ?>
@@ -93,7 +93,7 @@ function checklang($langtemp, $cookie=false){
 	<link rel="icon" href="<?=$domain?>favicon.ico" type="image/x-icon" />
 
 	<title>Popcorn Time - <?=$langsite["TITLE_DESC"]?></title>
-	<meta name="description" content="Skip the downloads! Watch the best movies instantly in HD, with subtitles, for free! Available for Windows, Mac and Linux." />
+	<meta name="description" content="<?=$langsite["SITE_DESC"]?>" />
 	<link rel="image_src" href="<?=$domain?>images/header-ui.jpg" />
 
 	<meta property="og:title" content="Popcorn Time" />
@@ -154,33 +154,33 @@ function checklang($langtemp, $cookie=false){
 			<div class="clear-fix">
 				<article class="fadeInLeft wow">
 					<img src="<?=$domain?>images/icon-best.gif" alt=""/>
-					<h5><?=$langfeatures["MOVIES"]?></h5>
-					<p><?=$langfeatures["MOVIES_DESC"]?></p>
+					<h5><?=$langsite["FEAT_MOVIES"]?></h5>
+					<p><?=$langsite["FEAT_MOVIES_DESC"]?></p>
 				</article>
 
 				<article class="fadeInRight wow">
 					<img src="<?=$domain?>images/icon-watch.gif" alt=""/>
-					<h5><?=$langfeatures["NORESTRICTION"]?></h5>
-					<p><?=$langfeatures["NORESTRICTION_DESC"]?></p>
+					<h5><?=$langsite["FEAT_NORESTRICTION"]?></h5>
+					<p><?=$langsite["FEAT_NORESTRICTION_DESC"]?></p>
 				</article>
 
 				<article class="fadeInLeft wow">
 					<img src="<?=$domain?>images/icon-search.gif" alt=""/>
-					<h5><?=$langfeatures["CATALOGUE"]?></h5>
-					<p><?=$langfeatures["CATALOGUE_DESC"]?></p>
+					<h5><?=$langsite["FEAT_CATALOGUE"]?></h5>
+					<p><?=$langsite["FEAT_CATALOGUE_DESC"]?></p>
 				</article>
 
 				<article class="fadeInRight wow">
 					<img src="<?=$domain?>images/icon-subs.gif" alt=""/>
-					<h5><?=$langfeatures["QUALITY"]?></h5>
-					<p><?=$langfeatures["QUALITY_DESC"]?></p>
+					<h5><?=$langsite["FEAT_QUALITY"]?></h5>
+					<p><?=$langsite["FEAT_QUALITY_DESC"]?></p>
 				</article>
 			</div>
 
 			<div class="width-50 align-center action fadeInUp wow">
 				<img src="<?=$domain?>images/pochoclin.gif" alt="Pochoclin" class="align-center pochoclin"/>
 				<hr />
-				<h2><?=$langfeatures["BEST"]?></h2>
+				<h2><?=$langsite["FEAT_BEST"]?></h2>
 				<div class="dl-mac">
 					<a href="<?=$link_mac?>" class="btn-main icon-mac" target="_blank"><?=sprintf($langsite["BTN_DOWNLOAD"],$link_version)?></a>
 					<small><?=$langsite["DL_DESC_MAC"]?></small>
