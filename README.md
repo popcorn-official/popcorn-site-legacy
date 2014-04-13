@@ -1,4 +1,4 @@
 Popcorn Time Website
 ======================
 
-### Site for [get-popcorn.com](http://get-popcorn.com)
+### The site is [get-popcorn.com](http://get-popcorn.com)
