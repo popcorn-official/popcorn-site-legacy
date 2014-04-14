@@ -28,7 +28,7 @@ $langsite = Array(
     "HOW_2"                  => "Alege HD & Subtitrarea",
     "HOW_3"                  => "Apasa play & bucurăte de film!",
     "GET_TITLE"              => "Un nou mod de a viziona filme",
-    "GET_DESC"               => "Dute si faţi un bol de popcorn & lasă restul pe seama noastră.",
+    "GET_DESC"               => "Dute şi faţi un bol de popcorn & lasă restul pe seama noastră.",
     "FOOTER"                 => "Făcut cu <span>&lt;3</span> de un grup de programatori din Jurul Lumii"
 );
 ?>
