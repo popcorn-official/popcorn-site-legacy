@@ -1,7 +1,7 @@
 {
 	"windows": {
 		"version": "0.2.8",
-		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
 		"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 		"title": "0.2.82 Hotfix",
@@ -13,7 +13,7 @@
 	"linux": {
 		"x86": {
 			"version": "0.2.8",
-			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
 			"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 			"title": "0.2.82 Hotfix",
@@ -24,7 +24,7 @@
 		},
 		"x64": {
 			"version": "0.2.8",
-			"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
 			"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
 			"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 			"title": "0.2.82 Hotfix",
@@ -36,7 +36,7 @@
 	},
 	"mac": {
 		"version": "0.2.8",
-		"updateUrl": "http://get-popcorn.com/releases/updates/0_2_8_2.nw",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
 		"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
 		"signature": "MEUCIQCJh6w+boAOmk3p77FI1kL+li2TWsxHZhG832e3O06IZAIgJ13KlMBNSN3wFBfOj1l6cysyCzm1iq1qBlWD3gjfc7I=",
 		"title": "0.2.82 Hotfix",
