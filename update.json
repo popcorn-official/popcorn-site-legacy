@@ -1,48 +1,48 @@
 {
 	"windows": {
-		"version": "0.2.8",
-		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
-		"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
-		"signature": "MCwCFDwNb+ViLk2Z6neKFHLKtWAKt23uAhRfaj7BOuptYw/DXFku4NeRdS5mfg==",
-		"title": "0.2.82 Hotfix",
+		"version": "0.2.9",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_9.nw",
+		"checksum": "701f6213ff123a2952d6ebe46bd48a78c197dc64",
+		"signature": "MCwCFAJxIgjnKckuhL3gu5zrzojyLInuAhRxH/7K0kalzbRPHu19IWfaCwBx+w==",
+		"title": "0.2.9 Hotfix",
 		"description": "Update system.",
-		"changeLog": ["Fixes a bug that allow to keep the application up2date."],
-		"gitTag": "v0.2.8-beta",
-		"gitCommit": "83ef059"
+		"changeLog": ["Security fixes for the autoupdater."],
+		"gitTag": "v0.2.9",
+		"gitCommit": "c98892c"
 	},
 	"linux": {
 		"x86": {
-			"version": "0.2.8",
-			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
-			"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
-			"signature": "MCwCFDwNb+ViLk2Z6neKFHLKtWAKt23uAhRfaj7BOuptYw/DXFku4NeRdS5mfg==",
-			"title": "0.2.82 Hotfix",
+			"version": "0.2.9",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_9.nw",
+			"checksum": "701f6213ff123a2952d6ebe46bd48a78c197dc64",
+			"signature": "MCwCFAJxIgjnKckuhL3gu5zrzojyLInuAhRxH/7K0kalzbRPHu19IWfaCwBx+w==",
+			"title": "0.2.9 Hotfix",
 			"description": "Update system.",
-			"changeLog": ["Fixes a bug that allow to keep the application up2date."],
-			"gitTag": "v0.2.8-beta",
-			"gitCommit": "83ef059"
+			"changeLog": ["Security fixes for the autoupdater."],
+			"gitTag": "v0.2.9",
+			"gitCommit": "c98892c"
 		},
 		"x64": {
-			"version": "0.2.8",
-			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
-			"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
-			"signature": "MCwCFDwNb+ViLk2Z6neKFHLKtWAKt23uAhRfaj7BOuptYw/DXFku4NeRdS5mfg==",
-			"title": "0.2.82 Hotfix",
+			"version": "0.2.9",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_9.nw",
+			"checksum": "701f6213ff123a2952d6ebe46bd48a78c197dc64",
+			"signature": "MCwCFAJxIgjnKckuhL3gu5zrzojyLInuAhRxH/7K0kalzbRPHu19IWfaCwBx+w==",
+			"title": "0.2.9 Hotfix",
 			"description": "Update system.",
-			"changeLog": ["Fixes a bug that allow to keep the application up2date."],
-			"gitTag": "v0.2.8-beta",
-			"gitCommit": "83ef059"
+			"changeLog": ["Security fixes for the autoupdater."],
+			"gitTag": "v0.2.9",
+			"gitCommit": "c98892c"
 		}
 	},
 	"mac": {
-		"version": "0.2.8",
-		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_8_2.nw",
-		"checksum": "a2da45004ec827bdabffb4ac16d628812a7e4e5c",
-		"signature": "MCwCFDwNb+ViLk2Z6neKFHLKtWAKt23uAhRfaj7BOuptYw/DXFku4NeRdS5mfg==",
-		"title": "0.2.82 Hotfix",
+		"version": "0.2.9",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_2_9.nw",
+		"checksum": "701f6213ff123a2952d6ebe46bd48a78c197dc64",
+		"signature": "MCwCFAJxIgjnKckuhL3gu5zrzojyLInuAhRxH/7K0kalzbRPHu19IWfaCwBx+w==",
+		"title": "0.2.9 Hotfix",
 		"description": "Update system.",
-		"changeLog": ["Fixes a bug that allow to keep the application up2date."],
-		"gitTag": "v0.2.8-beta",
-		"gitCommit": "83ef059"
+		"changeLog": ["Security fixes for the autoupdater."],
+		"gitTag": "v0.2.9",
+		"gitCommit": "c98892c"
 	}
 }
