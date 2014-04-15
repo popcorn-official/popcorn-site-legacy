@@ -87,7 +87,7 @@
 	<meta property="og:url" content="<?=$domain?>" />
 	<meta property="og:site_name" content="Popcorn Time" />
 
-	<!-- <meta http-equiv="refresh" content="2;url=<?=$download_file;?>" /> -->
+	<meta http-equiv="refresh" content="2;url=<?=$download_file;?>" />
 
 </head>
 <body id="page-faq" class="beta">
