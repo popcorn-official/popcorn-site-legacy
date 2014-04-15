@@ -74,7 +74,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-	<title>Popcorn Time - <?=$langsite["TITLE_DLS"]?></title>
+	<title>Popcorn Time - <?=$langsite["TITLE_DL"]?></title>
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>" />
 	<link rel="image_src" href="images/header-ui.png" / >
 	
@@ -352,7 +352,7 @@
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p><?=$langsite["FOOTER"]?><br /> <small><a href="<?=$domain?>tos">Terms of Service</a> — <a href="<?=$domain?>faq">FAQ</a></small></p>
+				<p><?=$langsite["FOOTER"]?><br /> <small><a href="<?=$domain?>tos">Terms of Service</a> ï¿½ <a href="<?=$domain?>faq">FAQ</a></small></p>
 			</footer>
 		</section>
 
