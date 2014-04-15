@@ -33,3 +33,9 @@ try {
     wow.init();
   };
 } catch(err) {  }
+
+$(document).ready(function() {
+	$('#langswitch').polyglotLanguageSwitcher({
+		effect: 'slide'
+	});
+});

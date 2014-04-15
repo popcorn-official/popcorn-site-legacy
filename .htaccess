@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteRule ^faq$ faq.html [L]
-RewriteRule ^tos$ tos.html [L]
-RewriteRule ^([a-z]{2})/faq$ $1/faq.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !\.php$
+RewriteRule ^(.*)$ $1.php [L]

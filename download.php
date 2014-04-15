@@ -1,31 +1,25 @@
 <?php
-	
+	include("inc/config.php");
 	$releases = Array(
-		"mac"		=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Mac.tar.gz",
-		"win32"		=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Win-32.zip",
-		"linux32"	=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Linux-32.tar.gz",
-		"linux64"	=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Linux-64.tar.gz"
+		"mac"		=> $link_mac,
+		"win"		=> $link_win,
+		"linux32"	=> $link_linux32,
+		"linux64"	=> $link_linux64
 	);
 
-	if (isset($_GET['os'])) {
-		
-		if (isset($releases[$_GET['os']])) {
-			$download_file = $releases[$_GET['os']];
-		} else {
-			header("Location: /");
-			die();
-		}
+	if (isset($_GET['os']) && isset($releases[$_GET['os']])) {
+		$download_file = $releases[$_GET['os']];
 	} else {
 		header("Location: /");
-		die();
 	}
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="<?=$domain?>" />
+	<link rel="stylesheet" type="text/css" href="<?=$domain?>css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!--
                                                         .,;+###+;:.
                                                   .##;`             .'@:
@@ -76,72 +70,77 @@
                                  :@. ;:      ;''';.     ';;;'',:'#@@#+';,`
                                     :@;     `'++#@@##';,.`
                                        ;,.`                                                          -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+									   
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-	<title>Download  - Popcorn Time</title>
-	<meta name="description" content="Stream movies from torrents. Skip the downloads. Launch, click, watch." />
+	<title>Popcorn Time - <?=$langsite["TITLE_DLS"]?></title>
+	<meta name="description" content="<?=$langsite["SITE_DESC"]?>" />
 	<link rel="image_src" href="images/header-ui.png" / >
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="<?=$domain?>js/jquery.polyglot.language.switcher.js" type="text/javascript"></script>
 
 	<meta property="og:title" content="Popcorn Time" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://get-popcorn.com/images/header-ui.png" />
-	<meta property="og:url" content="http://get-popcorn.com/" />
+	<meta property="og:image" content="<?=$domain?>images/header-ui.png" />
+	<meta property="og:url" content="<?=$domain?>" />
 	<meta property="og:site_name" content="Popcorn Time" />
 
-	<meta http-equiv="refresh" content="0;url=<?php echo $download_file; ?>">
+	<!-- <meta http-equiv="refresh" content="2;url=<?=$download_file;?>" /> -->
 
 </head>
 <body id="page-faq" class="beta">
 
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
-			<a href="/" id="logo">Popcorn Time</a>
+			<a href="<?=$domain?>" id="logo">Popcorn Time</a>
 			<ul class="align-right">
-				<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>-->
-				<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"></a></li>
-				<li class="social"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github"></a></li>
+				<!--<li class="social"><a href="<?=$link_fb?>" target="_blank" class="icon-facebook"></a></li>-->
+				<li class="social"><a href="<?=$link_bl?>" target="_blank" class="icon-ghost"></a></li>
+				<li class="social"><a href="<?=$link_tt?>" target="_blank" class="icon-twitter"></a></li>
+				<li class="social"><a href="<?=$link_gh?>" target="_blank" class="icon-github"></a></li>
 			</ul>
 
 			<ul class="align-left">
-				<li class="text"><a href="faq.html">FAQ</a></li>
-				<li class="text"><a href="tos.html">TOS</a></li>
+				<div id="langswitch">
+					<form action="#" method="post">
+						<select name="lang">
+							<?=printlangs()?>
+						</select>
+					</form>
+				</div>
+				<li class="text"><a href="faq">FAQ</a></li>
+				<li class="text"><a href="tos">TOS</a></li>
 			</ul>
 		</nav>
 	</section>
 
 	<div class="container fadeIn wow">
 		<section id="downloads" class="fixed-width">
-			<h1>Thank you for using Popcorn Time</h1>
-			<p>
-				Your download is about to start. <a href="<?php echo $download_file; ?>">Click here</a> if your download didn't start
-			</p>
+			<h1><?=$langsite["DL_THANKYOU"]?></h1>
+			<p><?=$langsite["DL_STARTING_1"]?> <a href="<?=$download_file?>"><?=$langsite["DL_STARTING_2"]?></a> <?=$langsite["DL_STARTING_3"]?></p>
 
 			<p>
-
 				<!-- Begin MailChimp Signup Form -->
 				<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 				<style type="text/css">
 					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 				</style>
 				<div id="mc_embed_signup">
-				<form action="http://get-popcorn.us8.list-manage2.com/subscribe/post?u=afbd4b6f42dd2b6ddb4f34b9b&amp;id=b1d0d0a4a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<h2>Subscribe to our official mailing list</h2>
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
-				</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_afbd4b6f42dd2b6ddb4f34b9b_b1d0d0a4a1" value=""></div>
-					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</form>
+					<form action="http://get-popcorn.us8.list-manage2.com/subscribe/post?u=afbd4b6f42dd2b6ddb4f34b9b&amp;id=b1d0d0a4a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<h2><?=$langsite["MAIL_SUBSCRIBE"]?></h2>
+						<div class="mc-field-group">
+							<label for="mce-EMAIL"><?=$langsite["MAIL_EMAIL"]?></label>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
+						</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;"><input type="text" name="b_afbd4b6f42dd2b6ddb4f34b9b_b1d0d0a4a1" value=""></div>
+						<div class="clear"><input type="submit" value="<?=$langsite["MAIL_SUBSCRIBE_BTN"]?>" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
 				</div>
 				<script type="text/javascript">
 				var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
@@ -345,20 +344,20 @@
 			<nav class="clear-fix">
 				<a href="/" class="logo">Popcorn time</a>
 				<ul>
-					<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>-->
-					<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"> </a></li>
-					<li class="github"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github">Github</a></li>
+					<!--<li class="social"><a href="<?=$link_fb?>" target="_blank" class="icon-facebook"> </a></li>-->
+					<li class="social"><a href="<?=$link_tt?>" target="_blank" class="icon-twitter"> </a></li>
+					<li class="github"><a href="<?=$link_gh?>" target="_blank" class="icon-github">Github</a></li>
                 </ul>
 			</nav>
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br /> <small><a href="tos.html">Terms of Service</a> &mdash; <a href="faq.html">FAQ</a></small></p>
+				<p><?=$langsite["FOOTER"]?><br /> <small><a href="<?=$domain?>tos">Terms of Service</a> — <a href="<?=$domain?>faq">FAQ</a></small></p>
 			</footer>
 		</section>
 
 	</div>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="<?=$domain?>js/wow.js"></script>
+	<script type="text/javascript" src="<?=$domain?>js/site.js"></script>
 </body>
 </html>
