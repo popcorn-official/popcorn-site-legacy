@@ -1,4 +1,10 @@
 RewriteEngine On
+
+#remove trailing slash
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !\.php$
-RewriteRule ^(.*)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1 [R=301,L]
+
+RewriteRule ^faq$ faq.php [L]
+RewriteRule ^tos$ tos.php [L]
+RewriteRule ^download/(.*)$ download.php?os=$1 [L]
