@@ -4003,15 +4003,18 @@ span.code {
     text-align: center;
   }
 }
-#page-faq #header {
+#page-faq #header,
+#page-tos #header {
   height: auto;
   position: static;
   background-image: none;
 }
-#page-faq .container {
+#page-faq .container,
+#page-tos .container {
   top: auto;
 }
-#page-faq .container article {
+#page-faq .container article,
+#page-tos .container article {
   border-top: 1px solid #eee;
   padding: 10px 0 15px;
 }
