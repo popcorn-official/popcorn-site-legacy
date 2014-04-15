@@ -72,11 +72,21 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="images/header-ui.jpg">
 
+<<<<<<< HEAD
 	<meta property="og:title" content="Popcorn Time">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/images/header-ui.jpg">
 	<meta property="og:url" content="<?=DOMAIN?>">
 	<meta property="og:site_name" content="Popcorn Time">
+=======
+	<meta property="og:title" content="Popcorn Time" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="<?=$domain?>images/header-ui.png" />
+	<meta property="og:url" content="<?=$domain?>" />
+	<meta property="og:site_name" content="Popcorn Time" />
+
+	<meta http-equiv="refresh" content="2;url=<?=$download_file;?>" />
+>>>>>>> upstream/master
 
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
