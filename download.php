@@ -1,20 +1,8 @@
 <?php
-	
-	$releases = Array(
-		"mac"		=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Mac.tar.gz",
-		"win32"		=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Win-32.zip",
-		"linux32"	=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Linux-32.tar.gz",
-		"linux64"	=> "http://cdn.get-popcorn.com/build/Popcorn-Time-0.2.9-Linux-64.tar.gz"
-	);
+	require_once(__DIR__ . '/_config.php');
 
-	if (isset($_GET['os'])) {
-		
-		if (isset($releases[$_GET['os']])) {
-			$download_file = $releases[$_GET['os']];
-		} else {
-			header("Location: /");
-			die();
-		}
+	if(isset($_GET['os']) && $_GET['os'] && isset($releases) && is_array($releases) && array_key_exists($_GET['os'], $releases)) {
+		$download_file = $releases[$_GET['os']];
 	} else {
 		header("Location: /");
 		die();
@@ -23,8 +11,8 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -76,36 +64,37 @@
                                  :@. ;:      ;''';.     ';;;'',:'#@@#+';,`
                                     :@;     `'++#@@##';,.`
                                        ;,.`                                                          -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
 	<title>Download  - Popcorn Time</title>
-	<meta name="description" content="Stream movies from torrents. Skip the downloads. Launch, click, watch." />
-	<link rel="image_src" href="images/header-ui.png" / >
+	<meta name="description" content="Stream movies from torrents. Skip the downloads. Launch, click, watch.">
+	<link rel="image_src" href="/images/header-ui.png" / >
 
-	<meta property="og:title" content="Popcorn Time" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://get-popcorn.com/images/header-ui.png" />
-	<meta property="og:url" content="http://get-popcorn.com/" />
-	<meta property="og:site_name" content="Popcorn Time" />
+	<meta property="og:title" content="Popcorn Time">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="/images/header-ui.png">
+	<meta property="og:url" content="<?php echo DOMAIN; ?>">
+	<meta property="og:site_name" content="Popcorn Time">
 
 	<meta http-equiv="refresh" content="0;url=<?php echo $download_file; ?>">
 
 </head>
-<body id="page-faq" class="beta">
+<body class="beta page">
 
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
-			<a href="/" id="logo">Popcorn Time</a>
+			<a href="<?php echo LINK_HOME; ?>" id="logo">Popcorn Time</a>
 			<ul class="align-right">
-				<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>-->
-				<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"></a></li>
-				<li class="social"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github"></a></li>
+				<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?php echo LINK_FCBK; ?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+				<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?php echo LINK_TWTR; ?>" target="_blank" class="icon-twitter"></a></li><?php } ?>
+				<?php if(defined('LINK_GTHB')) { ?><li class="social"><a href="<?php echo LINK_GTHB; ?>" target="_blank" class="icon-github"></a></li><?php } ?>
 			</ul>
 
 			<ul class="align-left">
-				<li class="text"><a href="faq.html">FAQ</a></li>
-				<li class="text"><a href="tos.html">TOS</a></li>
+				<li class="text"><a href="<?php echo LINK_HOME; ?>">HOME</a></li>
+				<li class="text"><a href="<?php echo LINK_FAQ; ?>">FAQ</a></li>
+				<li class="text"><a href="<?php echo LINK_TOS; ?>">TOS</a></li>
 			</ul>
 		</nav>
 	</section>
@@ -343,22 +332,22 @@
 		<section id="footer" class="fadeInUp wow">
 			<hr style="display: none">
 			<nav class="clear-fix">
-				<a href="/" class="logo">Popcorn time</a>
+				<a href="<?php echo LINK_HOME; ?>" class="logo">Popcorn time</a>
 				<ul>
-					<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>-->
-					<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"> </a></li>
-					<li class="github"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github">Github</a></li>
+					<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?php echo LINK_FCBK; ?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+					<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?php echo LINK_TWTR; ?>" target="_blank" class="icon-twitter"> </a></li><?php } ?>
+					<?php if(defined('LINK_GTHB')) { ?><li class="github"><a href="<?php echo LINK_GTHB; ?>" target="_blank" class="icon-github">Github</a></li><?php } ?>
                 </ul>
 			</nav>
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br /> <small><a href="tos.html">Terms of Service</a> &mdash; <a href="faq.html">FAQ</a></small></p>
+				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br> <small><a href="<?php echo LINK_TOS; ?>">Terms of Service</a> &mdash; <a href="<?php echo LINK_FAQ; ?>l">FAQ</a></small></p>
 			</footer>
 		</section>
 
 	</div>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="/js/wow.js"></script>
+	<script type="text/javascript" src="/js/site.js"></script>
 </body>
 </html>

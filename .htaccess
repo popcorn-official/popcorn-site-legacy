@@ -1,4 +1,15 @@
 RewriteEngine On
-RewriteRule ^faq$ faq.html [L]
-RewriteRule ^tos$ tos.html [L]
-RewriteRule ^([a-z]{2})/faq$ $1/faq.html [L]
+
+#remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1 [R=301,L]
+
+RewriteRule ^faq$ faq.php [L]
+RewriteRule ^tos$ tos.php [L]
+RewriteRule ^download/(.*)$ download.php?os=$1 [L]
+
+#language
+RewriteRule ^([a-z]{2})/faq$ $1/faq.php [L]
+RewriteRule ^([a-z]{2})/tos$ $1/tos.php [L]
+RewriteRule ^([a-z]{2})/download/(.*)$ $1/download.php?os=$2 [L]

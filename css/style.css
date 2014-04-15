@@ -4003,71 +4003,68 @@ span.code {
     text-align: center;
   }
 }
-#page-faq #header,
-#page-tos #header {
+.page #header {
   height: auto;
   position: static;
   background-image: none;
 }
-#page-faq .container,
-#page-tos .container {
+.page .container {
   top: auto;
 }
-#page-faq .container article,
-#page-tos .container article {
+.page .container article {
   border-top: 1px solid #eee;
   padding: 10px 0 15px;
 }
-#page-faq .container h1 {
+.page .container h1 {
   font-size: 36px;
   font-weight: bold;
   color: #0e1226;
   margin-bottom: 10px;
 }
-#page-faq .container #what {
+.page .container #what {
   border-top: 0;
   padding: 0;
 }
-#page-faq .container #what p {
+.page .container #what p {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 20px;
   margin-top: 0;
 }
-#page-faq .container article:not(#what) p {
+.page .container article:not(#what) p {
   font-size: 18px;
   line-height: 22px;
 }
-#page-faq .container h2 {
+.page .container h2 {
   font-size: 24px;
   font-weight: bold;
   color: #0e1226;
   margin-bottom: 5px;
 }
-#page-faq .container h2 + p {
+.page .container h2 + p {
   margin-top: 0;
 }
-#page-faq .container strong {
+.page .container strong {
   color: #0e1226;
   opacity: .6;
 }
-#page-faq .container .icon-mac,
-#page-faq .container .icon-win {
+.page .container .icon-mac,
+.page .container .icon-win {
   position: relative;
   padding-left: 50px;
 }
-#page-faq .container .icon-mac:before,
-#page-faq .container .icon-win:before {
+.page .container .icon-mac:before,
+.page .container .icon-win:before {
   position: absolute;
   left: 18px;
   top: 0;
 }
-#page-faq .container .warning {
+.page .container .warning {
   padding: 10px 10px 10px 50px;
   border-radius: 2px;
   position: relative;
 }
-#page-faq .container .warning:before {
+.page .container .warning:before {
   position: absolute;
   top: 10px;
   left: 18px;
@@ -4086,14 +4083,14 @@ span.code {
   font-size: 18px;
   color: #858230;
 }
-#page-faq .container .warning a {
+.page .container .warning a {
   color: #858230;
   font-weight: bold;
 }
-#page-faq .container .warning a:hover {
+.page .container .warning a:hover {
   text-decoration: none;
 }
-#page-faq .container .step-code li {
+.page .container .step-code li {
   list-style: none;
   padding: 5px 0 5px 10px;
 }

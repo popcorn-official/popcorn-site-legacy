@@ -1,8 +1,9 @@
+<?php require_once(__DIR__ . '/_config.php'); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -55,8 +56,8 @@
                                     :@;     `'++#@@##';,.`
                                        ;,.`                                                          -->
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
 	<title>Popcorn Time - Watch torrent movies instantly</title>
 	<meta name="description" content="Skip the downloads! Watch the best movies instantly in HD, with subtitles, for free! Available for Windows, Mac and Linux.">
@@ -64,23 +65,23 @@
 
 	<meta property="og:title" content="Popcorn Time">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://get-popcorn.com/images/header-ui.jpg">
-	<meta property="og:url" content="http://get-popcorn.com/">
+	<meta property="og:image" content="/images/header-ui.jpg">
+	<meta property="og:url" content="<?php echo DOMAIN; ?>">
 	<meta property="og:site_name" content="Popcorn Time">
 </head>
 <body class="beta">
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
-			<a href="/" id="logo">Popcorn Time</a>
+			<a href="<?php echo LINK_HOME; ?>" id="logo">Popcorn Time</a>
 			<ul class="align-right">
-				<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>-->
-				<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"></a></li>
-				<li class="social"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github"></a></li>
+				<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?php echo LINK_FCBK; ?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+				<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?php echo LINK_TWTR; ?>" target="_blank" class="icon-twitter"></a></li><?php } ?>
+				<?php if(defined('LINK_GTHB')) { ?><li class="social"><a href="<?php echo LINK_GTHB; ?>" target="_blank" class="icon-github"></a></li><?php } ?>
 			</ul>
 
 			<ul class="align-left">
-				<li class="text"><a href="faq.html">FAQ</a></li>
-				<li class="text"><a href="tos.html">TOS</a></li>
+				<li class="text"><a href="<?php echo LINK_FAQ; ?>">FAQ</a></li>
+				<li class="text"><a href="<?php echo LINK_TOS; ?>">TOS</a></li>
 			</ul>
 		</nav>
 
@@ -91,23 +92,23 @@
 
 		<ul id="links">
 			<li class="download dl-mac">
-				<a href="download.php?os=mac" class="btn-main icon-mac">Download Beta 2.9</a><br>
+				<a href="<?php echo LINK_DL; ?>/mac" class="btn-main icon-mac">Download Beta <?php echo VERSION; ?></a><br>
 				<small>For Mac OSX 10.6 and above</small>
 			</li>
 			<li class="download dl-win">
-				<a href="download.php?os=win32" class="btn-main icon-win">Download Beta 2.9</a><br>
+				<a href="<?php echo LINK_DL; ?>/win32" class="btn-main icon-win">Download Beta <?php echo VERSION; ?></a><br>
 				<small>For Windows 7 and above</small>
 			</li>
 			<li class="download dl-lin-32">
-				<a href="download.php?os=linux32" class="btn-main icon-linux">Download Beta 2.9</a><br>
+				<a href="<?php echo LINK_DL; ?>/linux32" class="btn-main icon-linux">Download Beta <?php echo VERSION; ?></a><br>
 				<small>For 32-bit Linux Users</small>
 			</li>
 			<li class="download dl-lin-64">
-				<a href="download.php?os=linux64" class="btn-main icon-linux">Download Beta 2.9</a><br>
+				<a href="<?php echo LINK_DL; ?>/linux64" class="btn-main icon-linux">Download Beta <?php echo VERSION; ?></a><br>
 				<small>For 64-bit Linux Users</small>
 			</li>
 		</ul>
-		<img src="images/header-ui.jpg" class="ui-screenshot fadeInUp wow" alt="Popcorn Time UI">
+		<img src="/images/header-ui.jpg" class="ui-screenshot fadeInUp wow" alt="Popcorn Time UI">
 	</section>
 
 	<div class="container">
@@ -118,48 +119,48 @@
 		<section id="features" class="fixed-width">
 			<div class="clear-fix">
 				<article class="fadeInLeft wow">
-					<img src="images/icon-best.gif" alt="">
+					<img src="/images/icon-best.gif" alt="">
 					<h5>Great movies</h5>
 					<p>We're constantly searching all over the web for the best torrents from the most important sites.</p>
 				</article>
 
 				<article class="fadeInRight wow">
-					<img src="images/icon-watch.gif" alt="">
+					<img src="/images/icon-watch.gif" alt="">
 					<h5>No restrictions</h5>
 					<p>Watch any movie as many times as you want. All you need to get started is a proper internet connection.</p>
 				</article>
 
 				<article class="fadeInLeft wow">
-					<img src="images/icon-search.gif" alt="">
+					<img src="/images/icon-search.gif" alt="">
 					<h5>Awesome catalogue</h5>
 					<p>If the movie is out there, Popcorn Time will find the best version possible and start streaming it right away.</p>
 				</article>
 
 				<article class="fadeInRight wow">
-					<img src="images/icon-subs.gif" alt="">
+					<img src="/images/icon-subs.gif" alt="">
 					<h5>The best quality</h5>
 					<p>Watch your movie instantly in HD and with subtitles. And then keep watching.</p>
 				</article>
 			</div>
 
 			<div class="width-50 align-center action fadeInUp wow">
-				<img src="images/pochoclin.gif" alt="Pochoclin" class="align-center pochoclin">
+				<img src="/images/pochoclin.gif" alt="Pochoclin" class="align-center pochoclin">
 				<hr>
 				<h2>Best of all... it's free!</h2>
 				<div class="dl-mac">
-					<a href="download.php?os=mac" class="btn-main icon-mac">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/mac" class="btn-main icon-mac">Download Beta <?php echo VERSION; ?></a>
 					<small>For Mac OSX 10.6 and above</small>
 				</div>
 				<div class="dl-win">
-					<a href="download.php?os=win32" class="btn-main icon-win">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/win32" class="btn-main icon-win">Download Beta <?php echo VERSION; ?></a>
 					<small>For Windows 7 and above</small>
 				</div>
 				<div class="dl-lin-32">
-					<a href="download.php?os=linux32" class="btn-main icon-lin">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/linux32" class="btn-main icon-lin">Download Beta <?php echo VERSION; ?></a>
 					<small>For 32-bit Linux Users</small>
 				</div>
 				<div class="dl-lin-64">
-					<a href="download.php?os=linux64" class="btn-main icon-lin">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/linux64" class="btn-main icon-lin">Download Beta <?php echo VERSION; ?></a>
 					<small>For 64-bit Linux Users</small>
 				</div>
 			</div>
@@ -175,7 +176,7 @@
 					<li class="icon-play">Click play & enjoy!</li>
 				</ul>
 			</div>
-			<img src="images/how-ui.jpg" class="ui-screenshot fadeInRight wow" alt="Popcorn Time UI">
+			<img src="/images/how-ui.jpg" class="ui-screenshot fadeInRight wow" alt="Popcorn Time UI">
 		</section>
 
 		<section id="get-app">
@@ -185,19 +186,19 @@
 			</div>
 			<ul class="platforms">
 				<li class="mac icon-laptop fadeInUp wow" data-wow-delay=".2s">
-					<a href="download.php?os=mac" class="btn-main icon-mac">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/mac" class="btn-main icon-mac">Download Beta <?php echo VERSION; ?></a>
 					<small>For Mac OSX 10.6 and above</small>
 				</li>
 				<li class="win icon-screen fadeInUp wow" data-wow-delay=".4s">
-					<a href="download.php?os=win32" class="btn-main icon-win">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/win32" class="btn-main icon-win">Download Beta <?php echo VERSION; ?></a>
 					<small>For Windows 7 and above</small>
 				</li>
 				<li class="lin-32 icon-window fadeInUp wow" data-wow-delay=".6s">
-					<a href="download.php?os=linux32" class="btn-main icon-linux">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/linux32" class="btn-main icon-linux">Download Beta <?php echo VERSION; ?></a>
 					<small>For 32-bit Linux Users</small>
 				</li>
 				<li class="lin-64 icon-window fadeInUp wow" data-wow-delay=".8s">
-					<a href="download.php?os=linux64" class="btn-main icon-linux">Download Beta 2.9</a>
+					<a href="<?php echo LINK_DL; ?>/linux64" class="btn-main icon-linux">Download Beta <?php echo VERSION; ?></a>
 					<small>For 64-bit Linux Users</small>
 				</li>
 			</ul>
@@ -210,21 +211,21 @@
 		<section id="footer" class="fadeInUp wow">
 			<hr style="display: none">
 			<nav class="clear-fix">
-				<a href="/" class="logo">Popcorn time</a>
+				<a href="<?php echo LINK_HOME; ?>" class="logo">Popcorn time</a>
 				<ul>
-					<!--<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>-->
-					<li class="social"><a href="https://twitter.com/popcorntimetv" target="_blank" class="icon-twitter"> </a></li>
-					<li class="github"><a href="http://github.com/popcorn-official" target="_blank" class="icon-github">Github</a></li>
+					<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?php echo LINK_FCBK; ?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+					<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?php echo LINK_TWTR; ?>" target="_blank" class="icon-twitter"> </a></li><?php } ?>
+					<?php if(defined('LINK_GTHB')) { ?><li class="github"><a href="<?php echo LINK_GTHB; ?>" target="_blank" class="icon-github">Github</a></li><?php } ?>
                 </ul>
 			</nav>
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br> <small><a href="tos.html">Terms of Service</a> — <a href="faq.html">FAQ</a></small></p>
+				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br> <small><a href="<?php echo LINK_TOS; ?>">Terms of Service</a> — <a href="<?php echo LINK_FAQ; ?>">FAQ</a></small></p>
 			</footer>
 		</section>
 	</div>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="/js/wow.js"></script>
+	<script type="text/javascript" src="/js/site.js"></script>
 </body>
 </html>
