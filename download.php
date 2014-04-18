@@ -1,13 +1,7 @@
 <?php
-	include("inc/config.php");
-	$releases = Array(
-		"mac"		=> $link_mac,
-		"win"		=> $link_win,
-		"linux32"	=> $link_linux32,
-		"linux64"	=> $link_linux64
-	);
+	require_once(__DIR__ . "/inc/config.php");
 
-	if (isset($_GET['os']) && isset($releases[$_GET['os']])) {
+	if(isset($_GET['os']) && array_key_exists($_GET['os'], $releases)) {
 		$download_file = $releases[$_GET['os']];
 	} else {
 		header("Location: /");
@@ -16,10 +10,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<link rel="canonical" href="<?=$domain?>" />
-	<link rel="stylesheet" type="text/css" href="<?=$domain?>css/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8">
+	<link rel="canonical" href="<?=DOMAIN?>">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
                                                   .##;`             .'@:
@@ -71,35 +65,30 @@
                                     :@;     `'++#@@##';,.`
                                        ;,.`                                                          -->
 									   
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-	<title>Popcorn Time - <?=$langsite["TITLE_DL"]?></title>
-	<meta name="description" content="<?=$langsite["SITE_DESC"]?>" />
-	<link rel="image_src" href="images/header-ui.png" / >
-	
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
-    <script src="<?=$domain?>js/jquery.polyglot.language.switcher.js" type="text/javascript"></script>
+	<title><?=$langsite["TITLE_DL"]?> - Popcorn Time</title>
+	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
+	<link rel="image_src" href="images/header-ui.jpg">
 
-	<meta property="og:title" content="Popcorn Time" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="<?=$domain?>images/header-ui.png" />
-	<meta property="og:url" content="<?=$domain?>" />
-	<meta property="og:site_name" content="Popcorn Time" />
+	<meta property="og:title" content="Popcorn Time">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="/images/header-ui.jpg">
+	<meta property="og:url" content="<?=DOMAIN?>">
+	<meta property="og:site_name" content="Popcorn Time">
 
-	<meta http-equiv="refresh" content="2;url=<?=$download_file;?>" />
-
+	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
-<body id="page-faq" class="beta">
-
+<body class="beta page">
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
-			<a href="<?=$domain?>" id="logo">Popcorn Time</a>
+			<a href="<?=LINK_HOME?>" id="logo">Popcorn Time</a>
 			<ul class="align-right">
-				<!--<li class="social"><a href="<?=$link_fb?>" target="_blank" class="icon-facebook"></a></li>-->
-				<li class="social"><a href="<?=$link_bl?>" target="_blank" class="icon-ghost"></a></li>
-				<li class="social"><a href="<?=$link_tt?>" target="_blank" class="icon-twitter"></a></li>
-				<li class="social"><a href="<?=$link_gh?>" target="_blank" class="icon-github"></a></li>
+				<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?=LINK_FCBK?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+				<?php if(defined('LINK_BLOG')) { ?><li class="social"><a href="<?=LINK_BLOG?>" target="_blank" class="icon-ghost"></a></li><?php } ?>
+				<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?=LINK_TWTR?>" target="_blank" class="icon-twitter"></a></li><?php } ?>
+				<?php if(defined('LINK_GTHB')) { ?><li class="social"><a href="<?=LINK_GTHB?>" target="_blank" class="icon-github"></a></li><?php } ?>
 			</ul>
 
 			<ul class="align-left">
@@ -110,8 +99,9 @@
 						</select>
 					</form>
 				</div>
-				<li class="text"><a href="faq">FAQ</a></li>
-				<li class="text"><a href="tos">TOS</a></li>
+				<li class="text"><a href="<?=LINK_HOME?>">HOME</a></li>
+				<li class="text"><a href="<?=LINK_FAQ?>">FAQ</a></li>
+				<li class="text"><a href="<?=LINK_TOS?>">TOS</a></li>
 			</ul>
 		</nav>
 	</section>
@@ -342,22 +332,25 @@
 		<section id="footer" class="fadeInUp wow">
 			<hr style="display: none">
 			<nav class="clear-fix">
-				<a href="/" class="logo">Popcorn time</a>
+				<a href="<?=LINK_HOME?>" class="logo">Popcorn time</a>
 				<ul>
-					<!--<li class="social"><a href="<?=$link_fb?>" target="_blank" class="icon-facebook"> </a></li>-->
-					<li class="social"><a href="<?=$link_tt?>" target="_blank" class="icon-twitter"> </a></li>
-					<li class="github"><a href="<?=$link_gh?>" target="_blank" class="icon-github">Github</a></li>
+					<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?=LINK_FCBK?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
+					<?php if(defined('LINK_BLOG')) { ?><li class="social"><a href="<?=LINK_BLOG?>" target="_blank" class="icon-ghost"></a></li><?php } ?>
+					<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?=LINK_TWTR?>" target="_blank" class="icon-twitter"></a></li><?php } ?>
+					<?php if(defined('LINK_GTHB')) { ?><li class="github"><a href="<?=LINK_GTHB?>" target="_blank" class="icon-github">Github</a></li><?php } ?>
                 </ul>
 			</nav>
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p><?=$langsite["FOOTER"]?><br /> <small><a href="<?=$domain?>tos">Terms of Service</a> ï¿½ <a href="<?=$domain?>faq">FAQ</a></small></p>
+				<p><?=$langsite["FOOTER"]?><br> <small><a href="<?=LINK_TOS?>">Terms of Service</a> — <a href="<?=LINK_FAQ?>">FAQ</a></small></p>
 			</footer>
 		</section>
 
 	</div>
-	<script type="text/javascript" src="<?=$domain?>js/wow.js"></script>
-	<script type="text/javascript" src="<?=$domain?>js/site.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/wow.js"></script>
+	<script type="text/javascript" src="/js/site.js"></script>
+    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
 </body>
 </html>
