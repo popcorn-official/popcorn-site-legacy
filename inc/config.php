@@ -1,4 +1,6 @@
 <?php
+	require_once(__DIR__ . '/language.class.php');
+	
 	define('DOMAIN', 		'http://get-popcorn.com/');
 	define('VERSION',		'2.9');
 	
@@ -23,28 +25,8 @@
 	);
 	
 	/* language manager */
-	$langlist = array();
-	foreach(scandir("inc/lang") as $value) {
-		if(preg_match("/^([a-z-]{2,5}).php$/i", $value, $langname)){
-			$langlist[]=$langname[1];
-		}
-	}
-	$lang = "en";
-	if (!empty($_GET["lang"])) {
-		$newlang = $_GET["lang"];
-	} else if (!empty($_COOKIE["lang"])) {
-		$newlang = $_COOKIE["lang"];
-	}
-	if (isset($newlang) && preg_match("/^[a-z-]{2,5}$/i", $newlang) && in_array($newlang, $langlist)) {
-		$lang = $newlang;
-		setcookie("lang", $lang,time()+31536000);
-	}
-	if(!empty($_GET["lang"])) header("Location: ".strtok($_SERVER['REQUEST_URI'], '?'));
-	include("inc/lang/$lang.php");
+	define('LANG_DIR',			__DIR__.'/lang');
+	define('DEFAULT_LANGUAGE',	'en');
 
-	function printlangs(){
-		global $langlist,$lang;
-		foreach($langlist as $langname){
-			echo "<option id='$langname' value='$langname' ".($langname == $lang? 'selected':'').">&nbsp;</option>\n";
-		}
-	}
+	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE);
+	$langsite = $l->includeLanguage();
