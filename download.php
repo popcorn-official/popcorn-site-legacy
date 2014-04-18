@@ -68,7 +68,7 @@
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-	<title><?=$langsite["TITLE_DLS"]?> - Popcorn Time</title>
+	<title><?=$langsite["TITLE_DL"]?> - Popcorn Time</title>
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="images/header-ui.jpg">
 
