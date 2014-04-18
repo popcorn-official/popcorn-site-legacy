@@ -29,9 +29,7 @@
 				$this->createCookie($language);
 			}
 			
-			require_once($this->getLanguageDirectory() . '/' . $this->formatLanguageFileName($language));
-			
-			return $langsite;
+			return $this->getLanguageDirectory() . '/' . $this->formatLanguageFileName($language);
 		}
 
 		public function printLanguageOptions() {
@@ -48,7 +46,7 @@
 			foreach(scandir($this->getLanguageDirectory()) as $language) {
 				$language = $this->formatLanguageName($language);
 				if($this->isValidLanguage($language)) {
-					$languages[] = $language;
+					$languages[] = strtolower($language);
 				}
 			}
 			

@@ -5,10 +5,10 @@
 	define('VERSION',		'2.9');
 	
 	/* navigation */
-	define('LINK_HOME',		'/');
-	define('LINK_FAQ',		'/faq');
-	define('LINK_TOS',		'/tos');
-	define('LINK_DL',		'/download');
+	define('LINK_HOME',		DOMAIN);
+	define('LINK_FAQ',		'faq');
+	define('LINK_TOS',		'tos');
+	define('LINK_DL',		'download');
 	
 	/* social */
 	// define('LINK_FCBK',		'https://facebook.com/getpopcorntime');
@@ -29,4 +29,5 @@
 	define('DEFAULT_LANGUAGE',	'en');
 
 	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE);
-	$langsite = $l->includeLanguage();
+	require_once($l->includeLanguage());
+?>

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -57,16 +57,16 @@
                                     :@;     `'++#@@##';,.`
                                        ;,.`                                                          -->
 
-	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 	<title>Popcorn Time - <?=$langsite["TITLE_INDEX"]?></title>
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
-	<link rel="image_src" href="/images/header-ui.jpg">
+	<link rel="image_src" href="images/header-ui.jpg">
 
 	<meta property="og:title" content="Popcorn Time">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="/images/header-ui.jpg">
+	<meta property="og:image" content="images/header-ui.jpg">
 	<meta property="og:url" content="<?=DOMAIN?>">
 	<meta property="og:site_name" content="Popcorn Time">
 </head>
@@ -118,7 +118,7 @@
 				<small><?=$langsite["DL_DESC_LIN64"]?></small>
 			</li>
 		</ul>
-		<img src="/images/header-ui.jpg" class="ui-screenshot fadeInUp wow" alt="Popcorn Time UI">
+		<img src="images/header-ui.jpg" class="ui-screenshot fadeInUp wow" alt="Popcorn Time UI">
 	</section>
 
 	<div class="container">
@@ -129,32 +129,32 @@
 		<section id="features" class="fixed-width">
 			<div class="clear-fix">
 				<article class="fadeInLeft wow">
-					<img src="/images/icon-best.gif" alt="">
+					<img src="images/icon-best.gif" alt="">
 					<h5><?=$langsite["FEAT_MOVIES"]?></h5>
 					<p><?=$langsite["FEAT_MOVIES_DESC"]?></p>
 				</article>
 
 				<article class="fadeInRight wow">
-					<img src="/images/icon-watch.gif" alt="">
+					<img src="images/icon-watch.gif" alt="">
 					<h5><?=$langsite["FEAT_NORESTRICTION"]?></h5>
 					<p><?=$langsite["FEAT_NORESTRICTION_DESC"]?></p>
 				</article>
 
 				<article class="fadeInLeft wow">
-					<img src="/images/icon-search.gif" alt="">
+					<img src="images/icon-search.gif" alt="">
 					<h5><?=$langsite["FEAT_CATALOGUE"]?></h5>
 					<p><?=$langsite["FEAT_CATALOGUE_DESC"]?></p>
 				</article>
 
 				<article class="fadeInRight wow">
-					<img src="/images/icon-subs.gif" alt="">
+					<img src="images/icon-subs.gif" alt="">
 					<h5><?=$langsite["FEAT_QUALITY"]?></h5>
 					<p><?=$langsite["FEAT_QUALITY_DESC"]?></p>
 				</article>
 			</div>
 
 			<div class="width-70 align-center action fadeInUp wow">
-				<img src="/images/pochoclin.gif" alt="Pochoclin" class="align-center pochoclin">
+				<img src="images/pochoclin.gif" alt="Pochoclin" class="align-center pochoclin">
 				<hr>
 				<h2><?=$langsite["FEAT_BEST"]?></h2>
 				<br>
@@ -187,7 +187,7 @@
 					<li class="icon-play"><?=$langsite["HOW_3"]?></li>
 				</ul>
 			</div>
-			<img src="/images/how-ui.jpg" class="ui-screenshot fadeInRight wow" alt="Popcorn Time UI">
+			<img src="images/how-ui.jpg" class="ui-screenshot fadeInRight wow" alt="Popcorn Time UI">
 		</section>
 
 		<section id="get-app">
@@ -234,8 +234,8 @@
 		</section>
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="/js/wow.js"></script>
-	<script type="text/javascript" src="/js/site.js"></script>
-    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+    <script type="text/javascript" src="js/jquery.polyglot.language.switcher.js"></script>
 </body>
 </html>
