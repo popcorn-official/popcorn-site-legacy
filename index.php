@@ -86,7 +86,7 @@
 				<div id="langswitch">
 					<form action="#" method="post">
 						<select name="lang">
-							<?=printlangs()?>
+							<?=$l->printLanguageOptions()?>
 						</select>
 					</form>
 				</div>
