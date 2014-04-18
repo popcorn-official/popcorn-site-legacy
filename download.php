@@ -66,15 +66,15 @@
                                        ;,.`                                                          -->
 									   
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
 	<title><?=$langsite["TITLE_DL"]?> - Popcorn Time</title>
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
-	<link rel="image_src" href="images/header-ui.jpg">
+	<link rel="image_src" href="/images/header-ui.jpg">
 
 	<meta property="og:title" content="Popcorn Time">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="images/header-ui.jpg">
+	<meta property="og:image" content="/images/header-ui.jpg">
 	<meta property="og:url" content="<?=DOMAIN?>">
 	<meta property="og:site_name" content="Popcorn Time">
 
@@ -349,8 +349,8 @@
 
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/site.js"></script>
-    <script type="text/javascript" src="js/jquery.polyglot.language.switcher.js"></script>
+	<script type="text/javascript" src="/js/wow.js"></script>
+	<script type="text/javascript" src="/js/site.js"></script>
+    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
 </body>
 </html>
