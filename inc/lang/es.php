@@ -38,7 +38,7 @@ $langsite = Array(
     "HOW_2"=> "Elije HD y Subtítulos",
     "HOW_3"=> "Click en reproducir y a disfrutar",
     "GET_TITLE"=> "Una nueva manera de ver películas",
-    "GET_DESC"=> "Sólo ocupate del pochoclo y dejanos el resto a nosotros.",
+    "GET_DESC"=> "Vos ocupate del pochoclo que nostros nos encargamos del resto.",
     "FOOTER"=> "Hecho con <span>&lt;3</span> por un montón de geeks alrededor del mundo"
 );
 
