@@ -343,7 +343,7 @@
 			<footer>
 				<hr>
 				<i class="film"></i>
-				<p><?=$langsite["FOOTER"]?><br> <small><a href="<?=LINK_TOS?>">Terms of Service</a> � <a href="<?=LINK_FAQ?>">FAQ</a></small></p>
+				<p><?=$langsite["FOOTER"]?><br> <small><a href="<?=LINK_TOS?>">Terms of Service</a> — <a href="<?=LINK_FAQ?>">FAQ</a></small></p>
 			</footer>
 		</section>
 
