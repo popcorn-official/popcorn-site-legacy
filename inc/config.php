@@ -1,14 +1,14 @@
 <?php
 	require_once(__DIR__ . '/language.class.php');
 	
-	define('DOMAIN', 		'http://get-popcorn.com/');
+	define('DOMAIN',		'http://get-popcorn.com/');
 	define('VERSION',		'2.9');
 	
 	/* navigation */
 	define('LINK_HOME',		DOMAIN);
-	define('LINK_FAQ',		'faq');
-	define('LINK_TOS',		'tos');
-	define('LINK_DL',		'download');
+	define('LINK_FAQ',		DOMAIN . 'faq');
+	define('LINK_TOS',		DOMAIN . 'tos');
+	define('LINK_DL',		DOMAIN . 'download');
 	
 	/* social */
 	// define('LINK_FCBK',		'https://facebook.com/getpopcorntime');
