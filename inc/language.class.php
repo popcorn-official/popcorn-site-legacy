@@ -35,7 +35,7 @@
 		public function printLanguageOptions() {
 			$optionsString = '';
 			foreach($this->getLanguages() as $language) {
-				$optionsString .= "<option id='"  . $language . "' value='" . $language . "' " . ($language == $this->getUserLanguage() ? 'selected' : '') . ">&nbsp;</option>\n";
+				$optionsString .= "<option id='" . $language . "' value='" . $language . "' " . ($language == $this->getUserLanguage() ? 'selected' : '') . ">&nbsp;</option>\n";
 			}
 			
 			return $optionsString;
@@ -58,13 +58,15 @@
 				$language = $_GET["lang"];
 			} else if(isset($_COOKIE["lang"]) && $this->isValidLanguage($_COOKIE["lang"])) {
 				$language = $_COOKIE["lang"];
+			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5))) {
+				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
 			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))) {
 				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			} else {
 				$language = $this->getDefaultLanguage();
 			}
 
-			return $language;
+			return strtolower($language);
 		}
 
 		private function checkCookie($language) {
