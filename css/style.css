@@ -3121,38 +3121,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'BrandonText';
-  src: url("../fonts/brandontext-regular-webfont.eot");
-  src: url("../fonts/brandontext-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-regular-webfont.woff") format("woff"), url("../fonts/brandontext-regular-webfont.ttf") format("truetype"), url("../fonts/brandontext-regular-webfont.svg#BrandonText") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BrandonText';
-  src: url("../fonts/brandontext-bold-webfont.eot");
-  src: url("../fonts/brandontext-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-bold-webfont.woff") format("woff"), url("../fonts/brandontext-bold-webfont.ttf") format("truetype"), url("../fonts/brandontext-bold-webfont.svg#BrandonText") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BrandonText';
-  src: url("../fonts/brandontext-light-webfont.eot");
-  src: url("../fonts/brandontext-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-light-webfont.woff") format("woff"), url("../fonts/brandontext-light-webfont.ttf") format("truetype"), url("../fonts/brandontext-light-webfont.svg#BrandonText") format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BrandonText';
-  src: url("../fonts/brandontext-regularitalic-webfont.eot");
-  src: url("../fonts/brandontext-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandontext-regularitalic-webfont.woff") format("woff"), url("../fonts/brandontext-regularitalic-webfont.ttf") format("truetype"), url("../fonts/brandontext-regularitalic-webfont.svg#BrandonText") format("svg");
-  font-weight: normal;
-  font-style: italic;
-}
-
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: 'popcorn';
   speak: none;
@@ -3237,8 +3205,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 body {
-  font-family: "BrandonText";
-  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   line-height: 19px;
   color: #7a818e;
 }
@@ -3269,32 +3237,32 @@ img {
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 48px;
+  font-weight: 300;
+  font-size: 46px;
   line-height: 48px;
 }
 
 h2 {
-  font-weight: 400;
-  font-size: 36px;
+  font-weight: 300;
+  font-size: 34px;
   line-height: 36px;
 }
 
 h3 {
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: 300;
+  font-size: 28px;
   line-height: 30px;
 }
 
 h4 {
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 22px;
   line-height: 24px;
 }
 
 h5 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   color: #122a4a;
   margin: 0;
@@ -3336,7 +3304,7 @@ span.code {
   border-radius: 3px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px rgba(255, 255, 255, 0.2);
   padding: 14px 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -3421,8 +3389,8 @@ span.code {
   background: url(../images/bg-header.jpg) no-repeat center top #0a0b28;
   color: #fff;
   text-align: center;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding-top: 30px;
@@ -3553,7 +3521,7 @@ span.code {
   left: -30px;
 }
 #links li small {
-  font-size: 12px;
+  font-size: 11px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: normal;
   font-style: italic;
@@ -3645,12 +3613,12 @@ span.code {
 
 .warning {
   background: rgba(251, 249, 93, 0.5);
-  font-size: 16px;
+  font-size: 14px;
   padding: 15px 0;
   color: #858230;
 }
 .warning h5 {
-  font-size: 18px;
+  font-size: 16px;
   color: #858230;
   display: block;
   max-width: 880px;
@@ -3827,7 +3795,8 @@ span.code {
 }
 #get-app {
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 300;
   padding: 50px 0 0 0;
   color: #444c5e;
 }
@@ -4001,7 +3970,8 @@ span.code {
 }
 #footer footer {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 300;
 }
 #footer footer p {
   padding: 20px 0;
@@ -4049,27 +4019,28 @@ span.code {
   padding: 10px 0 15px;
 }
 .page .container h1 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
   color: #0e1226;
   margin-bottom: 10px;
 }
 .page .container #what {
   border-top: 0;
+  font-weight: 300;
   padding: 0;
 }
 .page .container #what p {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   margin-bottom: 20px;
   margin-top: 0;
 }
 .page .container article:not(#what) p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
 }
 .page .container h2 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
   color: #0e1226;
   margin-bottom: 5px;

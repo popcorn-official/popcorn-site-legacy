@@ -12,6 +12,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700&subset=latin,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
