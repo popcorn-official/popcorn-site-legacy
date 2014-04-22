@@ -3156,43 +3156,43 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-Italic.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-BoldItalic.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url("../fonts/RobotoCondensed-LightItalic.ttf") format("truetype");
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
@@ -3300,7 +3300,7 @@ limitations under the License.
 }
 
 body {
-  font-family: "Roboto Condensed";
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 19px;
   color: #7a818e;
