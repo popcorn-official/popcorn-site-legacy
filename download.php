@@ -4,7 +4,7 @@
 	if(isset($_GET['os']) && array_key_exists($_GET['os'], $releases)) {
 		$download_file = $releases[$_GET['os']];
 	} else {
-		header("Location: /");
+		header("Location: " . LINK_HOME);
 	}
 ?>
 <!DOCTYPE HTML>
