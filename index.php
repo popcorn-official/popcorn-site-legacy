@@ -84,13 +84,13 @@
 			</ul>
 
 			<ul class="align-left">
-				<div id="langswitch">
+				<li id="langswitch">
 					<form action="#" method="post">
 						<select name="lang">
 							<?=$l->printLanguageOptions()?>
 						</select>
 					</form>
-				</div>
+				</li>
 				<li class="text"><a href="<?=LINK_FAQ?>">FAQ</a></li>
 				<li class="text"><a href="<?=LINK_TOS?>">TOS</a></li>
 			</ul>
