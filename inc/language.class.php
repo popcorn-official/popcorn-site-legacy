@@ -4,21 +4,7 @@
 				$defaultLanguage;
 
 		public function __construct($languageDirectory, $defaultLanguage) {
-			$this->setLanguageDirectory($languageDirectory);
-			$this->setDefaultLanguage($defaultLanguage);
-		}
-		
-		public function getLanguageDirectory() {
-			return $this->languageDirectory;
-		}
-		private function setLanguageDirectory($languageDirectory) {
 			$this->languageDirectory = $languageDirectory;
-		}
-
-		public function getDefaultLanguage() {
-			return $this->defaultLanguage;
-		}
-		private function setDefaultLanguage($defaultLanguage) {
 			$this->defaultLanguage = $defaultLanguage;
 		}
 
@@ -29,7 +15,7 @@
 				$this->createCookie($language);
 			}
 			
-			return $this->getLanguageDirectory() . '/' . $this->formatLanguageFileName($language);
+			return $this->languageDirectory . '/' . $this->formatLanguageFileName($language);
 		}
 
 		public function printLanguageOptions() {
@@ -43,7 +29,7 @@
 			
 		private function getLanguages() {
 			$languages = array();
-			foreach(scandir($this->getLanguageDirectory()) as $language) {
+			foreach(scandir($this->languageDirectory) as $language) {
 				$language = $this->formatLanguageName($language);
 				if($this->isValidLanguage($language)) {
 					$languages[] = $language;
@@ -63,7 +49,7 @@
 			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))) {
 				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			} else {
-				$language = $this->getDefaultLanguage();
+				$language = $this->defaultLanguage;
 			}
 
 			return strtolower($language);
@@ -80,7 +66,7 @@
 
 		private function isValidLanguage($language) {
 			$languageFile = $this->formatLanguageFileName($language);
-			return (file_exists($this->getLanguageDirectory() . '/' . $languageFile) && is_file($this->getLanguageDirectory() . '/' . $languageFile) && preg_match("/^([a-z-]{2,5})$/i", $language));
+			return (file_exists($this->languageDirectory . '/' . $languageFile) && is_file($this->languageDirectory . '/' . $languageFile) && preg_match("/^([a-z-]{2,5})$/i", $language));
 		}
 		
 		private function formatLanguageFileName($language) {
