@@ -29,5 +29,5 @@
 	define('DEFAULT_LANGUAGE',	'en');
 
 	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE);
-	require_once($l->includeLanguage());
+	require_once($l->getLanguageFileName());
 ?>

@@ -8,7 +8,7 @@
 			$this->defaultLanguage = $defaultLanguage;
 		}
 
-		public function includeLanguage($language = null) {
+		public function getLanguageFileName($language = null) {
 			$language = ($language && $this->isValidLanguage($language)) ? $language : $this->getUserLanguage();
 
 			if(!$this->checkCookie($language)) {
@@ -20,14 +20,14 @@
 
 		public function printLanguageOptions() {
 			$optionsString = '';
-			foreach($this->getLanguages() as $language) {
+			foreach($this->getExistingLanguages() as $language) {
 				$optionsString .= "<option id='" . $language . "' value='" . $language . "' " . ($language == $this->getUserLanguage() ? 'selected' : '') . ">&nbsp;</option>\n";
 			}
 			
 			return $optionsString;
 		}
 			
-		private function getLanguages() {
+		private function getExistingLanguages() {
 			$languages = array();
 			foreach(scandir($this->languageDirectory) as $language) {
 				$language = $this->formatLanguageName($language);
