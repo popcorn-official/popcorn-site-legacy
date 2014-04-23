@@ -1,24 +1,3 @@
-var userAgent = navigator.platform;
-
-var mac = /Mac/,
-    win = /Win/,
-    lin = /Lin/,
-    lin64 = /x86_64/;
-
-if(mac.test(userAgent)) {
-	document.getElementsByTagName('body')[0].className+=' mac';
-} else if (win.test(userAgent)) {
-	document.getElementsByTagName('body')[0].className+=' win';
-} else if (lin.test(userAgent)) {
-  if(lin64.test(userAgent)) {
-    document.getElementsByTagName('body')[0].className+=' lin-64';
-  } else {
-    document.getElementsByTagName('body')[0].className+=' lin-32';
-  }
-} else {
-	document.getElementsByTagName('body')[0].className+=' nope';
-}
-
 var heroHeight = document.getElementById('header').offsetHeight;
 
 // Disable WOW on small screens.
@@ -35,6 +14,28 @@ try {
 } catch(err) {  }
 
 $(document).ready(function() {
+	// Display correct download link
+	var userAgent = navigator.platform;
+	var mac = /Mac/,
+		win = /Win/,
+		lin = /Lin/,
+		lin64 = /x86_64/;
+
+	if(mac.test(userAgent)) {
+		$('body').addClass('mac');
+	} else if (win.test(userAgent)) {
+		$('body').addClass('win');
+	} else if (lin.test(userAgent)) {
+		if(lin64.test(userAgent)) {
+			$('body').addClass('lin-64');
+		} else {
+			$('body').addClass('lin-32');
+		}
+	} else {
+		$('body').addClass('nope');
+	}
+
+
 	// Language switcher
 	$('#langswitch').polyglotLanguageSwitcher({
 		effect: 'slide',
