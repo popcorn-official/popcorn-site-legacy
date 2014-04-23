@@ -68,7 +68,7 @@ $langfaq = Array(
     "LAUNCH_Q2"=> "Je hebt misschien niet genoeg gebruikers rechten",
     "LAUNCH_A2"=> "Open een Terminal en typ:",
     "STUCK_Q"=> "Ik kan niet voorbij het eerste \"Even geduld ...\" scherm komen",
-    "STUCK_A"=> "Het is mogelijk dat uw internet provider de API blokeert die wordt gebruikt door deze app. <a href=\"http://en.wikipedia.org/wiki/Websites_blocked_in_the_United_Kingdom\">Zoals deze in het Verenigd Koninkrijk</ a>.",
+    "STUCK_A"=> "Het is mogelijk dat uw internet provider de API blokeert die wordt gebruikt door deze app. <a href=\"http://en.wikipedia.org/wiki/Websites_blocked_in_the_United_Kingdom\">Zoals deze in het Verenigd Koninkrijk</a>.",
     "SUBS_Q"=> "Waarom kan ik geen ondertiteling selecteren?",
     "SUBS_A"=> "Misschien moet je wachten tot alle film gegevens (cover, samenvatting, lengte, etc. ..) wordt opgehaald. Soms is die data niet juist!",
     "BUILDS_Q"=> "Denken jullie na over de lancering voor Android / iOS / Chromecast / Smart TV's / Commodore 64?",
