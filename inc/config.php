@@ -25,9 +25,10 @@
 	);
 	
 	/* language manager */
-	define('LANG_DIR',			__DIR__.'/lang');
+	define('LANG_DIR',			__DIR__ . '/lang');
 	define('DEFAULT_LANGUAGE',	'en');
+	define('LANG_PARAM',		'lang'); // Must be the same as polyglotLanguageSwitcher paramName option in /js/site.js
 
-	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE);
+	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE, LANG_PARAM);
 	require_once($l->getLanguageFileName());
 ?>

@@ -1,11 +1,13 @@
 <?php
 	class LanguageManager {
 		private	$languageDirectory,
-				$defaultLanguage;
+				$defaultLanguage,
+				$paramName;
 
-		public function __construct($languageDirectory, $defaultLanguage) {
+		public function __construct($languageDirectory, $defaultLanguage, $paramName) {
 			$this->languageDirectory = $languageDirectory;
 			$this->defaultLanguage = $defaultLanguage;
+			$this->paramName = $paramName;
 		}
 
 		public function getLanguageFileName($language = null) {
@@ -40,10 +42,10 @@
 		}
 
 		private function getUserLanguage() {
-			if(isset($_GET["lang"]) && $this->isValidLanguage($_GET["lang"])) {
-				$language = $_GET["lang"];
-			} else if(isset($_COOKIE["lang"]) && $this->isValidLanguage($_COOKIE["lang"])) {
-				$language = $_COOKIE["lang"];
+			if(isset($_GET[$this->paramName]) && $this->isValidLanguage($_GET[$this->paramName])) {
+				$language = $_GET[$this->paramName];
+			} else if(isset($_COOKIE[$this->paramName]) && $this->isValidLanguage($_COOKIE[$this->paramName])) {
+				$language = $_COOKIE[$this->paramName];
 			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5))) {
 				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
 			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))) {
@@ -56,12 +58,12 @@
 		}
 
 		private function checkCookie($language) {
-			return (isset($_COOKIE['lang']) && $_COOKIE['lang'] == $language);
+			return (isset($_COOKIE[$this->paramName]) && $_COOKIE[$this->paramName] == $language);
 		}
 		
 		private function createCookie($language) {
-			setcookie("lang", $language, time()+31536000);
-			header("Location: ".strtok($_SERVER['REQUEST_URI'], '?'));
+			setcookie($this->paramName, $language, time() + 31536000);
+			header("Location: " . strtok($_SERVER['REQUEST_URI'], '?'));
 		}
 
 		private function isValidLanguage($language) {

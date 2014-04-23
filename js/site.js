@@ -36,6 +36,7 @@ try {
 
 $(document).ready(function() {
 	$('#langswitch').polyglotLanguageSwitcher({
-		effect: 'slide'
+		effect: 'slide',
+		paramName: 'lang'
 	});
 });
