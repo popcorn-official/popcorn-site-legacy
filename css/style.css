@@ -4008,8 +4008,9 @@ span.code {
 }
 .page #header {
   height: auto;
-  position: static;
+  position: relative;
   background-image: none;
+  z-index: 2;
 }
 .page .container {
   top: auto;
