@@ -58,8 +58,6 @@
 				$language = $_GET["lang"];
 			} else if(isset($_COOKIE["lang"]) && $this->isValidLanguage($_COOKIE["lang"])) {
 				$language = $_COOKIE["lang"];
-			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))) {
-				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			} else {
 				$language = $this->getDefaultLanguage();
 			}
