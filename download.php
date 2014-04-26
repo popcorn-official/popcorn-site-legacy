@@ -363,7 +363,7 @@
 					<span class="tweet-count share-btn-count"><?=$obj->get_tweets(); ?></span>
 				</a>
 	
-				<a href="#" onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?=$title;?>&amp;p[summary]=<?=$summary;?>&amp;p[url]=<?=$url; ?>&amp;&p[images][0]=<?=$image;?>', 'sharer', 'toolbar=0,status=0,width=550,height=400');" class="share-btn" target="_blank">
+				<a href="#" onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?=$langsite["TITLE_DL"]?>&amp;p[summary]=<?=$langsite["SITE_DESC"]?>&amp;p[url]=http://get-popcorn.com/&amp;&p[images][0]=http://i.imgur.com/vTa6FwR.png', 'sharer', 'toolbar=0,status=0,width=550,height=400');" class="share-btn" target="_blank">
 					<span class="share-btn-action share-btn-like">Share</span>
 					<span class="share-btn-count"><?=$obj->get_fb(); ?></span>
 				</a>
