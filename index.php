@@ -63,12 +63,8 @@
 	<title>Popcorn Time - <?=$langsite["TITLE_INDEX"]?></title>
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="images/header-ui.jpg">
-
-	<meta property="og:title" content="Popcorn Time">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="images/header-ui.jpg">
-	<meta property="og:url" content="<?=DOMAIN?>">
-	<meta property="og:site_name" content="Popcorn Time">
+	
+	<?php include_once('inc/social_tags.php'); ?>
 </head>
 <body class="beta">
 	<section id="header">
