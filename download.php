@@ -350,7 +350,7 @@
 		</section>
 
 	</div>
-	<a href="#" id="show" style="display:none"></a>
+	<a href="#" id="show" style="/*display:none*/">teste modal</a>
 	<div id="modal_popup">
 		<div class="header-modal">
 			Help us the spread the world, a new version is coming soon.
