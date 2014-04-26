@@ -6,6 +6,12 @@
 	} else {
 		header("Location: /");
 	}
+	require_once("inc/social.php");
+
+	$obj=new shareCount("http://get-popcorn.com");  //Use your website or URL
+	//echo $obj->get_tweets(); //to get tweets
+	//echo $obj->get_fb(); //to get facebook total count (likes+shares+comments)
+	//echo $obj->get_plusones(); //to get google plusones
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -73,8 +79,7 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="/images/header-ui.jpg">
 
-	<?php include_once('social_tags.php'); ?>
-
+	<?php include_once('inc/social_tags.php'); ?>
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
 <body class="beta page">
@@ -344,6 +349,32 @@
 			</footer>
 		</section>
 
+	</div>
+	<div id="modal_popup">
+		<div class="header-modal">
+			Help us the spread the world, a new version is coming soon.
+		</div>
+		<div class="modal-body">
+			<p>Some people are saying we are dead, you can be sure it's not true.</p>
+			<section class="share-container">
+				<a href="https://twitter.com/share" class="twitter-share-button share-btn" target="_blank" data-url="http://get-popcorn.com" data-via="popcorntimetv" data-related="popcorntimetv" data-hashtags="popcorntimetv">
+					<span class="share-btn-action share-btn-tweet">Tweet</span>
+					<span class="tweet-count share-btn-count"><?=$obj->get_tweets(); ?></span>
+				</a>
+	
+				<a href="#" onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?=$title;?>&amp;p[summary]=<?=$summary;?>&amp;p[url]=<?=$url; ?>&amp;&p[images][0]=<?=$image;?>', 'sharer', 'toolbar=0,status=0,width=550,height=400');" class="share-btn" target="_blank">
+					<span class="share-btn-action share-btn-like">Share</span>
+					<span class="share-btn-count"><?=$obj->get_fb(); ?></span>
+				</a>
+				<a href="https://plus.google.com/share?url=http://get-popcorn.com" class="share-btn" target="_blank">
+					<span class="share-btn-action share-btn-plus">+1</span>
+					<span class="share-btn-count"><?=$obj->get_plusones(); ?></span>
+				</a>
+			</section>
+			<p style="margin-bottom: 20px;">We are stronger than ever, with the idea to move this project to another level.</p>
+			<a style="margin-left:200px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
+		</div>
+		<img class="pochoclin-img" src="popcorntime-hi.png" alt="Pochoclin">
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/wow.js"></script>
