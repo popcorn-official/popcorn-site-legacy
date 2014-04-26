@@ -13,6 +13,7 @@
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/avgrund.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -72,11 +73,7 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="/images/header-ui.jpg">
 
-	<meta property="og:title" content="Popcorn Time">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="/images/header-ui.jpg">
-	<meta property="og:url" content="<?=DOMAIN?>">
-	<meta property="og:site_name" content="Popcorn Time">
+	<?php include_once('social_tags.php'); ?>
 
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
@@ -351,6 +348,18 @@
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/wow.js"></script>
 	<script type="text/javascript" src="/js/site.js"></script>
-    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
+    	<script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
+    	<script type="text/javascript" src="/js/jquery.avgrund.js"></script>
+	<script>
+	$(function() {
+		$('#show').avgrund({
+			holderClass: 'custom',
+			showClose: true,
+			showCloseText: 'x',
+			onBlurContainer: 'body', // this is the body or the container of the most background code
+			template: $("#modal_popup")
+		});
+	});
+	</script>
 </body>
 </html>
