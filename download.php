@@ -350,6 +350,7 @@
 		</section>
 
 	</div>
+	<a href="#" id="show" style="display:none"></a>
 	<div id="modal_popup">
 		<div class="header-modal">
 			Help us the spread the world, a new version is coming soon.
@@ -382,15 +383,19 @@
     	<script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
     	<script type="text/javascript" src="/js/jquery.avgrund.js"></script>
 	<script>
-	$(function() {
-		$('#show').avgrund({
-			holderClass: 'custom',
-			showClose: true,
-			showCloseText: 'x',
-			onBlurContainer: 'body', // this is the body or the container of the most background code
-			template: $("#modal_popup")
+		$(function() {
+			$(document).ready(function(){
+				setTimeout(function(){
+					$('#show').avgrund({
+						holderClass: 'custom',
+						showClose: true,
+						showCloseText: 'x',
+						onBlurContainer: 'body', // this is the body or the container of the most background code
+						template: $("#modal_popup")
+					}).click();
+				},2000);
+			});
 		});
-	});
 	</script>
 </body>
 </html>
