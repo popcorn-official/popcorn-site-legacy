@@ -74,7 +74,7 @@ $langfaq = Array(
     "BUILDS_Q"               => "Thinking about launching for Android/iOS/Chromecast/Smart TVs/Commodore 64?",
     "BUILDS_A"               => "Our efforts are currently towards making the best desktop app for watching torrent movies. So launching versions for other devices is not in our inmediate roadmap.",
     "DEVICES_Q"              => "Does the app work on Raspberry Pi/ChomeBook/BeagleBone?",
-    "DEVICES_A"              => "Currently the App compiled only for Win/Linux32/Linux64/Mac but if you want to try it on ARM go for it!",
+    "DEVICES_A"              => "Currently the App is compiled only for Win/Linux32/Linux64/Mac but if you want to try it on ARM go for it!",
     "SITE_Q"                 => "You are changing site/repo more often than some underwear, which is the best place to start with?",
     "SITE_A"                 => "Well yes, the App had difficult times, the best place for the latest info yet is the IRC channel."
 );
