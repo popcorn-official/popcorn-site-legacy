@@ -6,12 +6,7 @@
 	} else {
 		header("Location: /");
 	}
-	require_once("inc/social.php");
 
-	$obj=new shareCount("http://get-popcorn.com");  //Use your website or URL
-	//echo $obj->get_tweets(); //to get tweets
-	//echo $obj->get_fb(); //to get facebook total count (likes+shares+comments)
-	//echo $obj->get_plusones(); //to get google plusones
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -19,7 +14,6 @@
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/avgrund.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -143,17 +137,7 @@
 				    var jqueryLoaded=false;
 				}
 				var head= document.getElementsByTagName('head')[0];
-				if (!jqueryLoaded) {
-				    var script = document.createElement('script');
-				    script.type = 'text/javascript';
-				    script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-				    head.appendChild(script);
-				    if (script.readyState && script.onload!==null){
-				        script.onreadystatechange= function () {
-				              if (this.readyState == 'complete') mce_preload_check();
-				        }    
-				    }
-				}
+
 
 				var err_style = '';
 				try{
@@ -350,52 +334,57 @@
 		</section>
 
 	</div>
-	<a href="#" id="show" style="/*display:none*/">teste modal</a>
+	
+	<div id="modal_overlay"></div>
 	<div id="modal_popup">
 		<div class="header-modal">
-			Help us the spread the world, a new version is coming soon.
+			Help us the spread the word.
+
+			<div style="float:right"><a style="color:#fff" id="close" href='#'>&#10006;</a></div>
 		</div>
 		<div class="modal-body">
 			<p>Some people are saying we are dead, you can be sure it's not true.</p>
+			<p>We are stronger than ever, with the idea to move this project to another level.</p>
+			<p>A new version will be ready soon, and we need your help to promote it.</p>
 			<section class="share-container">
-				<a href="https://twitter.com/share" class="twitter-share-button share-btn" target="_blank" data-url="http://get-popcorn.com" data-via="popcorntimetv" data-related="popcorntimetv" data-hashtags="popcorntimetv">
-					<span class="share-btn-action share-btn-tweet">Tweet</span>
-					<span class="tweet-count share-btn-count"><?=$obj->get_tweets(); ?></span>
-				</a>
-	
-				<a href="#" onClick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?=$langsite["TITLE_DL"]?>&amp;p[summary]=<?=$langsite["SITE_DESC"]?>&amp;p[url]=http://get-popcorn.com/&amp;&p[images][0]=http://i.imgur.com/vTa6FwR.png', 'sharer', 'toolbar=0,status=0,width=550,height=400');" class="share-btn" target="_blank">
-					<span class="share-btn-action share-btn-like">Share</span>
-					<span class="share-btn-count"><?=$obj->get_fb(); ?></span>
-				</a>
-				<a href="https://plus.google.com/share?url=http://get-popcorn.com" class="share-btn" target="_blank">
-					<span class="share-btn-action share-btn-plus">+1</span>
-					<span class="share-btn-count"><?=$obj->get_plusones(); ?></span>
-				</a>
+
+				<div>
+					<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://get-popcorn.com"></a>
+					<a class="addthis_button_tweet" addthis:url="http://get-popcorn.com"></a>
+				</div>
 			</section>
-			<p style="margin-bottom: 20px;">We are stronger than ever, with the idea to move this project to another level.</p>
-			<a style="margin-left:200px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
+			<a style="margin-top:20px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
 		</div>
-		<img class="pochoclin-img" src="popcorntime-hi.png" alt="Pochoclin">
+		<img class="pochoclin-img" src="/images/popcorntime-hi.png" alt="Pochoclin">
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/wow.js"></script>
 	<script type="text/javascript" src="/js/site.js"></script>
-    	<script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
-    	<script type="text/javascript" src="/js/jquery.avgrund.js"></script>
+    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
 	<script>
 		$(function() {
-			$(document).ready(function(){
-				setTimeout(function(){
-					$('#show').avgrund({
-						holderClass: 'custom',
-						showClose: true,
-						showCloseText: 'x',
-						onBlurContainer: 'body', // this is the body or the container of the most background code
-						template: $("#modal_popup")
-					}).click();
-				},2000);
+
+			// show on first load
+			$("#modal_overlay").show();
+			$("#modal_popup").show();
+
+			$('#close, #modal_overlay').click(function(e) {
+			  e.preventDefault();
+				  $('#modal_overlay, #modal_popup').fadeOut(400);
 			});
 		});
 	</script>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=224983064364244";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e5fa81f74c94ef8"></script>
+
 </body>
 </html>
