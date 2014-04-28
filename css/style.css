@@ -3960,6 +3960,7 @@ span.code {
 #footer hr {
   border: none;
   border-top: 1px solid #a2a2a2;
+  display: none;
 }
 #footer hr + i {
   display: block;
@@ -4171,6 +4172,52 @@ body.lin-64 .dl-lin-64 {
 	line-height: 1.3em
 }
 
+/* mail */
+#downloads #mc_embed_signup {
+	margin-top: 15px;
+	overflow: auto;
+}
+
+#downloads #mc_embed_signup form {
+	padding: 0;
+}
+
+#downloads #mc_embed_signup .mc-field-group {
+	float: left;
+	width: 400px;
+}
+
+#downloads #mc_embed_signup .button {
+	position: absolute;
+	left: 435px;
+	top: 76px;
+}
+
+#downloads #mc_embed_signup .clear {
+	clear: none;
+	float: left;
+}
+
+#downloads #mce-error-response, #downloads #mce-success-response {
+	display: none;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 15px;
+}
+
+#downloads #mce-success-response {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #468847;
+}
+
+#downloads #mce-error-response, #downloads #mc_embed_signup div.mce_inline_error {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+}
+
 /* ---------------------------------------------------------------------- */
 /* "Polyglot" Language Switcher
 /* ----------------------------------------------------------------------
@@ -4181,9 +4228,6 @@ License: MIT License
 License URI: http://www.opensource.org/licenses/mit-license.php
 ------------------------------------------------------------------------- */
 
-/* ---------------------------------------------------------------------- */
-/* Generic
-/* ---------------------------------------------------------------------- */
 #langswitch, #langswitch * {
 	margin: 0;
 	padding: 0; 
@@ -4209,9 +4253,6 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 	display: none;	
 }
 
-/* ---------------------------------------------------------------------- */
-/* JS-created Code
-/* ---------------------------------------------------------------------- */
 #langswitch a {
 	text-decoration: none;
 	display: block;	
@@ -4266,8 +4307,6 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 #langswitch a.current:hover span.trigger, #langswitch a.current:active span.trigger, #langswitch a.active span.trigger {
 	background-position: left bottom !important;
 }
-
-/* Drop-Down Menu */
 
 #langswitch ul.dropdown { 
 	display: none;
@@ -4332,6 +4371,7 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 
 .header-modal .close {
 	color: #fff;
+	cursor: pointer;
 	display: block;
 	font-weight: normal;
 	position: absolute;

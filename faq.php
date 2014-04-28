@@ -175,7 +175,7 @@
 		</section>
 
 		<section id="footer" class="fadeInUp wow">
-			<hr style="display: none">
+			<hr>
 			<nav class="clear-fix">
 				<a href="<?=LINK_HOME?>" class="logo">Popcorn time</a>
 				<ul>
