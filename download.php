@@ -6,6 +6,7 @@
 	} else {
 		header("Location: " . LINK_HOME);
 	}
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -73,12 +74,7 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="/images/header-ui.jpg">
 
-	<meta property="og:title" content="Popcorn Time">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="/images/header-ui.jpg">
-	<meta property="og:url" content="<?=DOMAIN?>">
-	<meta property="og:site_name" content="Popcorn Time">
-
+	<?php include_once('inc/social_tags.php'); ?>
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
 <body class="beta page">
@@ -142,17 +138,7 @@
 				    var jqueryLoaded=false;
 				}
 				var head= document.getElementsByTagName('head')[0];
-				if (!jqueryLoaded) {
-				    var script = document.createElement('script');
-				    script.type = 'text/javascript';
-				    script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-				    head.appendChild(script);
-				    if (script.readyState && script.onload!==null){
-				        script.onreadystatechange= function () {
-				              if (this.readyState == 'complete') mce_preload_check();
-				        }    
-				    }
-				}
+
 
 				var err_style = '';
 				try{
@@ -349,9 +335,57 @@
 		</section>
 
 	</div>
+	
+	<div id="modal_overlay"></div>
+	<div id="modal_popup">
+		<div class="header-modal">
+			Help us the spread the word.
+
+			<div style="float:right"><a style="color:#fff" id="close" href='#'>&#10006;</a></div>
+		</div>
+		<div class="modal-body">
+			<p>Some people are saying we are dead, you can be sure it's not true.</p>
+			<p>We are stronger than ever, with the idea to move this project to another level.</p>
+			<p>A new version will be ready soon, and we need your help to promote it.</p>
+			<section class="share-container">
+
+				<div>
+					<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://get-popcorn.com"></a>
+					<a class="addthis_button_tweet" addthis:url="http://get-popcorn.com"></a>
+				</div>
+			</section>
+			<a style="margin-top:20px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
+		</div>
+		<img class="pochoclin-img" src="/images/popcorntime-hi.png" alt="Pochoclin">
+	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/wow.js"></script>
 	<script type="text/javascript" src="/js/site.js"></script>
     <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
+	<script>
+		$(function() {
+
+			// show on first load
+			$("#modal_overlay").show();
+			$("#modal_popup").show();
+
+			$('#close, #modal_overlay').click(function(e) {
+			  e.preventDefault();
+				  $('#modal_overlay, #modal_popup').fadeOut(400);
+			});
+		});
+	</script>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=224983064364244";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e5fa81f74c94ef8"></script>
+
 </body>
 </html>

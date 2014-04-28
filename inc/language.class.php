@@ -46,10 +46,6 @@
 				$language = $_GET[$this->paramName];
 			} else if(isset($_COOKIE[$this->paramName]) && $this->isValidLanguage($_COOKIE[$this->paramName])) {
 				$language = $_COOKIE[$this->paramName];
-			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5))) {
-				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5);
-			} else if($this->isValidLanguage(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))) {
-				$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			} else {
 				$language = $this->defaultLanguage;
 			}
