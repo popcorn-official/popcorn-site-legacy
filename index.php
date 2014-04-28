@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700&subset=latin,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
@@ -64,7 +65,7 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="images/header-ui.jpg">
 	
-	<?php include_once('inc/social_tags.php'); ?>
+	<?php include_once(__DIR__ . '/inc/social-tags.php'); ?>
 </head>
 <body class="beta">
 	<section id="header">
@@ -79,13 +80,13 @@
 			</ul>
 
 			<ul class="align-left">
-				<div id="langswitch">
+				<li id="langswitch">
 					<form action="#" method="post">
 						<select name="lang">
 							<?=$l->printLanguageOptions()?>
 						</select>
 					</form>
-				</div>
+				</li>
 				<li class="text"><a href="<?=LINK_FAQ?>">FAQ</a></li>
 				<li class="text"><a href="<?=LINK_TOS?>">TOS</a></li>
 			</ul>
@@ -212,7 +213,7 @@
 		</section>
 
 		<section id="footer" class="fadeInUp wow">
-			<hr style="display: none">
+			<hr>
 			<nav class="clear-fix">
 				<a href="<?=LINK_HOME?>" class="logo">Popcorn time</a>
 				<ul>

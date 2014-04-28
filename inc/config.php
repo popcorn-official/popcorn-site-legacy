@@ -1,20 +1,21 @@
 <?php
 	require_once(__DIR__ . '/language.class.php');
 	
-	define('DOMAIN', 		'http://get-popcorn.com/');
+	define('DOMAIN',		'http://get-popcorn.com/');
 	define('VERSION',		'2.9');
 	
 	/* navigation */
 	define('LINK_HOME',		DOMAIN);
-	define('LINK_FAQ',		'faq');
-	define('LINK_TOS',		'tos');
-	define('LINK_DL',		'download');
+	define('LINK_FAQ',		DOMAIN . 'faq');
+	define('LINK_TOS',		DOMAIN . 'tos');
+	define('LINK_DL',		DOMAIN . 'download');
 	
 	/* social */
 	// define('LINK_FCBK',		'https://facebook.com/getpopcorntime');
 	define('LINK_TWTR',		'https://twitter.com/popcorntimetv');
 	define('LINK_GTHB',		'http://github.com/popcorn-official');
 	define('LINK_BLOG',		'http://blog.get-popcorn.com/');
+	define('TWTR_ACCT',		'@popcorntimetv');
 
 	/* download */
 	$releases = array(
@@ -25,9 +26,10 @@
 	);
 	
 	/* language manager */
-	define('LANG_DIR',			__DIR__.'/lang');
-	define('DEFAULT_LANGUAGE',	'en');
+	define('LANG_DIR',		__DIR__ . '/lang');
+	define('LANG_DEFAULT',	'en');
+	define('LANG_PARAM',	'lang'); // Must be the same as polyglotLanguageSwitcher paramName option in /js/site.js
 
-	$l = new LanguageManager(LANG_DIR, DEFAULT_LANGUAGE);
-	require_once($l->includeLanguage());
+	$l = new LanguageManager(LANG_DIR, LANG_DEFAULT, LANG_PARAM);
+	require_once($l->getLanguageFileName());
 ?>
