@@ -49,4 +49,12 @@ $(document).ready(function() {
 			$(this).attr("target", "_blank");
 		}
 	});
+	
+	// Popup on download page
+	$("#modal-overlay").show();
+	$("#modal-popup").show();
+	$('.close, #modal-overlay').click(function(e) {
+		e.preventDefault();
+		$('#modal-overlay, #modal-popup').fadeOut(400);
+	});
 });

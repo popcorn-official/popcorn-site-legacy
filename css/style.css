@@ -4291,18 +4291,31 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 }
 
 /* social modal */
+#modal-overlay {
+	display: none;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+    background-color: black;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity=70);
+	width: 100%;
+	height: 100%;
+	z-index: 90;
+}
 
-#modal_popup{
+#modal-popup {
 	display:none;
-  position: absolute; /* makes the div go into a position that’s absolute to the browser viewing area */
-  left: 50%; /* positions the div half way horizontally */
-  top: 50%; /* positions the div half way vertically */
-  margin-top:-200px;
-  margin-left:-300px;
-  background-color: #ffffff;
-  width: 600px;
-  height:400px;
-  z-index: 100; /* makes the div the top layer, so it’ll lay on top of the other content */
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -300px;
+	background: #fff url(../images/popcorntime-hi.png) bottom left no-repeat;
+	width: 600px;
+	height: 400px;
+	z-index: 100;
 }
 
 .header-modal {
@@ -4312,190 +4325,53 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 	color: #FFF;
 	font-size: 25px;
 	line-height: 60px;
-  font-weight:bold;
-  text-align: center;
+	font-weight:bold;
+	text-align: center;
+	position: relative;
 }
+
+.header-modal .close {
+	color: #fff;
+	display: block;
+	font-weight: normal;
+	position: absolute;
+	text-decoration: none;
+	top: -10px;
+	right: 10px;
+}
+
 .modal-body {
-	padding: 30px 10px 10px;
+	padding: 25px 35px 10px;
 	font-size: 17px;
 	color: #000;
-	text-align: center;
+	text-align: justify;
 }
-.pochoclin-img{
+
+.modal-body .btn-main {
+	float: right;
+	margin: 20px 10px;
+}
+
+.modal-body .pochoclin-img{
 	position: absolute;
 	bottom: 0;
 	width: 150px;
 	left: 10px;
 }
-/* buttons to share */
+
+/* share buttons  */
 .share-container {
-  margin: 0 auto 10px;
-  text-align: center;
-}
-.share-btn {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0 20px;
-  padding-top: 40px;
-  width: 80px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 8px;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-}
-.share-btn:active {
-  margin-top: 3px;
-}
-.share-btn:active .share-btn-action {
-  padding-bottom: 3px;
-  -webkit-box-shadow: inset 0 -3px rgba(0, 0, 0, 0.15), inset 0 -1px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -3px rgba(0, 0, 0, 0.15), inset 0 -1px rgba(0, 0, 0, 0.15);
-}
-.share-btn:active .share-btn-action:after {
-  bottom: 3px;
+	margin: 0 auto 10px;
+	text-align: right;
 }
 
-.share-btn-count {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
-  line-height: 30px;
-  font-size: 19px;
-  letter-spacing: -1px;
-  color: #555;
-  text-shadow: 0 1px white;
-  background: #E7E7E7;
-  border-width: 1px 1px 0;
-  border-style: solid;
-  border-color: #c5c5c5 #bbb;
-  border-radius: 8px 8px 0 0;
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.03), transparent 40%);
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.03), transparent 40%);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.03), transparent 40%);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.03), transparent 40%);
-  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 1px rgba(0, 0, 0, 0.18), 0 2px rgba(0, 0, 0, 0.07);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 1px rgba(0, 0, 0, 0.18), 0 2px rgba(0, 0, 0, 0.07);
-}
-.share-btn-count:before, .share-btn-count:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -6px;
-  border: 6px solid transparent;
-  border-top-color: #e6eff5;
-}
-.share-btn-count:before {
-  margin-left: -7px;
-  margin-top: 1px;
-  border-width: 7px;
-  border-top-color: rgba(0, 0, 0, 0.07);
-}
-
-.share-btn-action {
-  display: block;
-  position: relative;
-  line-height: 32px;
-  padding: 2px 0 6px;
-  font-size: 12px;
-  color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-  border: solid rgba(0, 0, 0, 0.18);
-  border-width: 0 1px;
-  border-radius: 0 0 8px 8px;
-}
-.share-btn-action:before {
-  content: '';
-  display: inline-block;
-  vertical-align: top;
-  margin: 8px 2px 0 0;
-  width: 18px;
-  height: 18px;
-  background-image: url("icons.png");
-}
-.share-btn-action:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 6px;
-  left: 0;
-  right: 0;
-  border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.25);
-  box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.25);
-}
-
-.share-btn-tweet {
-  background: #83cfe8;
-  background-image: -webkit-linear-gradient(top, #83cfe8, #6ebbd4);
-  background-image: -moz-linear-gradient(top, #83cfe8, #6ebbd4);
-  background-image: -o-linear-gradient(top, #83cfe8, #6ebbd4);
-  background-image: linear-gradient(to bottom, #83cfe8, #6ebbd4);
-  -webkit-box-shadow: inset 0 -6px rgba(0, 0, 0, 0.16), inset 0 -1px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -6px rgba(0, 0, 0, 0.16), inset 0 -1px rgba(0, 0, 0, 0.15);
-}
-.share-btn-tweet:before {
-  margin-left: -3px;
-}
-.share-btn-tweet:after {
-  -webkit-box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.5);
-  box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.5);
-}
-.share-btn-tweet + .share-btn-count {
-  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 1px rgba(0, 0, 0, 0.12), 0 2px rgba(0, 0, 0, 0.04);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 1px rgba(0, 0, 0, 0.12), 0 2px rgba(0, 0, 0, 0.04);
-}
-.share-btn-tweet + .share-btn-count:before {
-  border-top-color: rgba(0, 0, 0, 0.05);
-}
-
-.share-btn-like {
-  background: #6480bd;
-  background-image: -webkit-linear-gradient(top, #6480bd, #3c5894);
-  background-image: -moz-linear-gradient(top, #6480bd, #3c5894);
-  background-image: -o-linear-gradient(top, #6480bd, #3c5894);
-  background-image: linear-gradient(to bottom, #6480bd, #3c5894);
-  -webkit-box-shadow: inset 0 -6px rgba(0, 0, 0, 0.15), inset 0 -1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 -6px rgba(0, 0, 0, 0.15), inset 0 -1px rgba(0, 0, 0, 0.2);
-}
-.share-btn-like:before {
-  background-position: -18px 0;
-}
-
-.share-btn-plus {
-  background: #626262;
-  background-image: -webkit-linear-gradient(top, #626262, #404040);
-  background-image: -moz-linear-gradient(top, #626262, #404040);
-  background-image: -o-linear-gradient(top, #626262, #404040);
-  background-image: linear-gradient(to bottom, #626262, #404040);
-  -webkit-box-shadow: inset 0 -6px rgba(0, 0, 0, 0.08), inset 0 -1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 -6px rgba(0, 0, 0, 0.08), inset 0 -1px rgba(0, 0, 0, 0.3);
-}
-.share-btn-plus:before {
-  display: none;
-}
-
-#modal_overlay {
-    display: none;  /* ensures it’s invisible until it’s called */
-    position: absolute;  /* makes the div go into a position that’s absolute to the browser viewing area */
-    left: 0%; /* makes the div span all the way across the viewing area */
-    top: 0%; /* makes the div span all the way across the viewing area */
-    background-color: black;
-    -moz-opacity: 0.7; /* makes the div transparent, so you have a cool overlay effect */
-    opacity: .70;
-    filter: alpha(opacity=70);
-    width: 100%;
-    height: 100%;
-    z-index: 90; /* makes the div the second most top layer, so it’ll lay on top of everything else EXCEPT for divs with a higher z-index (meaning the #overlay ruleset) */
+.share-container a {
+	margin-left: 7px;
 }
 
 div.addthis_toolbox {
-        width: 500px;
-        margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
 }
 
 /* Flags */

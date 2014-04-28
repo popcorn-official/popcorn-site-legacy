@@ -336,46 +336,30 @@
 
 	</div>
 	
-	<div id="modal_overlay"></div>
-	<div id="modal_popup">
+	<div id="modal-overlay"></div>
+	<div id="modal-popup">
 		<div class="header-modal">
 			Help us the spread the word.
-
-			<div style="float:right"><a style="color:#fff" id="close" href='#'>&#10006;</a></div>
+			<a class="close" href='#'>&#10006;</a>
 		</div>
 		<div class="modal-body">
 			<p>Some people are saying we are dead, you can be sure it's not true.</p>
 			<p>We are stronger than ever, with the idea to move this project to another level.</p>
 			<p>A new version will be ready soon, and we need your help to promote it.</p>
 			<section class="share-container">
-
 				<div>
-					<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://get-popcorn.com"></a>
-					<a class="addthis_button_tweet" addthis:url="http://get-popcorn.com"></a>
+					<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="<?=DOMAIN?>"></a>
+					<a class="addthis_button_tweet" addthis:url="<?=DOMAIN?>"></a>
 				</div>
 			</section>
-			<a style="margin-top:20px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
+			<a class='btn-main' href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74" target='_blank'>Click here to see a preview of 0.3</a>
 		</div>
-		<img class="pochoclin-img" src="/images/popcorntime-hi.png" alt="Pochoclin">
 	</div>
+
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/wow.js"></script>
 	<script type="text/javascript" src="/js/site.js"></script>
     <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
-	<script>
-		$(function() {
-
-			// show on first load
-			$("#modal_overlay").show();
-			$("#modal_popup").show();
-
-			$('#close, #modal_overlay').click(function(e) {
-			  e.preventDefault();
-				  $('#modal_overlay, #modal_popup').fadeOut(400);
-			});
-		});
-	</script>
-
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
