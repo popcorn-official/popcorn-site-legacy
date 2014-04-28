@@ -74,7 +74,7 @@
 	<meta name="description" content="<?=$langsite["SITE_DESC"]?>">
 	<link rel="image_src" href="/images/header-ui.jpg">
 
-	<?php include_once('inc/social_tags.php'); ?>
+	<?php include_once(__DIR__ . '/inc/social-tags.php'); ?>
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
 </head>
 <body class="beta page">

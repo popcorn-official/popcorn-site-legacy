@@ -15,6 +15,7 @@
 	define('LINK_TWTR',		'https://twitter.com/popcorntimetv');
 	define('LINK_GTHB',		'http://github.com/popcorn-official');
 	define('LINK_BLOG',		'http://blog.get-popcorn.com/');
+	define('TWTR_ACCT',		'@popcorntimetv');
 
 	/* download */
 	$releases = array(
