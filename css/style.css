@@ -3882,6 +3882,10 @@ span.code {
   color: #fff;
 }
 
+#mailchimp-signup #mc_embed_signup {
+  padding: 0 30% 0 30%;
+}
+
 #footer {
   width: 980px;
   margin: 0 auto;
