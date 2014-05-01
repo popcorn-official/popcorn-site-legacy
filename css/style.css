@@ -3886,6 +3886,10 @@ span.code {
   padding: 0 30% 0 30%;
 }
 
+#downloads {
+  padding: 50px 0 50px 0;
+}
+
 #footer {
   width: 980px;
   margin: 0 auto;
