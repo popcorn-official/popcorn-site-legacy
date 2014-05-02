@@ -3882,6 +3882,14 @@ span.code {
   color: #fff;
 }
 
+#mailchimp-signup #mc_embed_signup {
+  padding: 0 30% 0 30%;
+}
+
+#downloads {
+  padding: 50px 0 50px 0;
+}
+
 #footer {
   width: 980px;
   margin: 0 auto;
@@ -3939,7 +3947,10 @@ span.code {
   position: absolute;
   left: -30px;
 }
-#footer ul a.icon-facebook, #footer ul a.icon-twitter, #footer ul a.icon-ghost {
+#footer ul a.icon-facebook,
+#footer ul a.icon-twitter,
+#footer ul a.icon-ghost,
+#footer ul a.icon-github {
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -3953,7 +3964,10 @@ span.code {
   -moz-transition: background ease .2s;
   transition: background ease .2s;
 }
-#footer ul a.icon-facebook:hover, #footer ul a.icon-twitter:hover, #footer ul a.icon-ghost:hover {
+#footer ul a.icon-facebook:hover,
+#footer ul a.icon-twitter:hover,
+#footer ul a.icon-ghost:hover,
+#footer ul a.icon-github:hover {
   background: #005c98;
 }
 #footer ul a.icon-twitter {
@@ -3963,24 +3977,49 @@ span.code {
 #footer ul a.icon-twitter:hover {
   background: #00a3cf;
 }
+
+#footer ul a.icon-github {
+  text-indent: 5px;
+  background-color: white;
+}
+
+#footer ul a.icon-github:hover {
+  background-color: white;
+}
+
 #footer ul a.icon-ghost {
-  text-indent: 7px;
+  text-indent: 10px;
   background: #E5850A;
 }
 #footer ul a.icon-ghost:hover {
   background: #E79338;
 }
-#footer ul a.icon-facebook:before, #footer ul a.icon-twitter:before {
+#footer ul a.icon-facebook:before,
+#footer ul a.icon-twitter:before,
+#footer ul a.icon-github:before {
   display: block;
   position: absolute;
   top: 8px;
   left: 50%;
   margin-left: -15px;
 }
+
+#footer ul a.icon-github:before {
+  color: #333;
+  font-size: 28px;
+  text-align: center;
+  top: 1px;
+  left: 11px;
+}
+
+#footer ul a.icon-github:hover:before {
+  color: #464646;
+}
+
 #footer ul a.icon-twitter:before {
   font-size: 12px;
   top: 9px;
-  margin-left: -13px;
+  margin-left: -12px;
 }
 #footer ul small {
   display: block;

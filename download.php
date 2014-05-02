@@ -13,7 +13,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -323,7 +323,7 @@
 					<?php if(defined('LINK_FCBK')) { ?><li class="social"><a href="<?=LINK_FCBK?>" target="_blank" class="icon-facebook"></a></li><?php } ?>
 					<?php if(defined('LINK_BLOG')) { ?><li class="social"><a href="<?=LINK_BLOG?>" target="_blank" class="icon-ghost"></a></li><?php } ?>
 					<?php if(defined('LINK_TWTR')) { ?><li class="social"><a href="<?=LINK_TWTR?>" target="_blank" class="icon-twitter"></a></li><?php } ?>
-					<?php if(defined('LINK_GTHB')) { ?><li class="github"><a href="<?=LINK_GTHB?>" target="_blank" class="icon-github">Github</a></li><?php } ?>
+					<?php if(defined('LINK_GTHB')) { ?><li class="social"><a href="<?=LINK_GTHB?>" target="_blank" class="icon-github">Github</a></li><?php } ?>
                 </ul>
 			</nav>
 			<footer>
@@ -355,12 +355,12 @@
 			</section>
 			<a style="margin-top:20px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
 		</div>
-		<img class="pochoclin-img" src="/images/popcorntime-hi.png" alt="Pochoclin">
+		<img class="pochoclin-img" src="images/popcorntime-hi.png" alt="Pochoclin">
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="/js/wow.js"></script>
-	<script type="text/javascript" src="/js/site.js"></script>
-    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+    <script type="text/javascript" src="js/jquery.polyglot.language.switcher.js"></script>
 	<script>
 		$(function() {
 
