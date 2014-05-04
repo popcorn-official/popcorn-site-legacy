@@ -75,7 +75,7 @@
 
 	<?php include_once('inc/social_tags.php'); ?>
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
-</head>ima
+</head>
 <body class="beta page">
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
