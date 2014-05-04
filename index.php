@@ -222,7 +222,7 @@
 						<h2><?=$langsite["MAIL_SUBSCRIBE"]?></h2>
 						<div class="mc-field-group">
 							<label for="mce-EMAIL"><?=$langsite["MAIL_EMAIL"]?></label>
-							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" >
 						</div>
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
