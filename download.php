@@ -13,7 +13,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="canonical" href="<?=DOMAIN?>">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -75,7 +75,7 @@
 
 	<?php include_once('inc/social_tags.php'); ?>
 	<?php if(isset($download_file)) { ?><meta http-equiv="refresh" content="2;url=<?=$download_file;?>"><?php } ?>
-</head>
+</head>ima
 <body class="beta page">
 	<section id="header">
 		<nav class="fixed-width fadeInDown wow">
@@ -355,12 +355,12 @@
 			</section>
 			<a style="margin-top:20px" href="http://discuss.get-popcorn.com/t/updated-official-preview-april-23-2014/74">Click here to see a preview of 0.3</a>
 		</div>
-		<img class="pochoclin-img" src="images/popcorntime-hi.png" alt="Pochoclin">
+		<img class="pochoclin-img" src="/images/popcorntime-hi.png" alt="Pochoclin">
 	</div>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/site.js"></script>
-    <script type="text/javascript" src="js/jquery.polyglot.language.switcher.js"></script>
+	<script type="text/javascript" src="/js/wow.js"></script>
+	<script type="text/javascript" src="/js/site.js"></script>
+    <script type="text/javascript" src="/js/jquery.polyglot.language.switcher.js"></script>
 	<script>
 		$(function() {
 
