@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--
                                                         .,;+###+;:.
@@ -60,25 +60,14 @@
 
 	<title>Popcorn Time - Watch torrent movies instantly</title>
 	<meta name="description" content="Skip the downloads! Watch the best movies instantly in HD, with subtitles, for free! Available for Windows, Mac and Linux." />
-	<link rel="image_src" href="http://popcorn.cdnjd.com/images/header-ui.jpg" / >
+	<link rel="image_src" href="/images/header-ui.jpg" / >
 
 	<meta property="og:title" content="Popcorn Time" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://popcorn.cdnjd.com/images/header-ui.jpg" />
-	<meta property="og:url" content="http://popcorn.cdnjd.com" />
+	<meta property="og:image" content="/images/header-ui.jpg" />
+	<meta property="og:url" content="https://get-popcorn.com" />
 	<meta property="og:site_name" content="Popcorn Time" />
-
-	<script type="text/javascript">
-	// Redirect the user to the correct language
-	// TODO: Remember the preferred language
-	var language = (navigator.language || navigator.userLanguage).toLowerCase().slice(0,2);
-	var supportedLanguages = ['es'];
-	if( language != 'en' ) {
-		for( i in supportedLanguages ) {
-			if( supportedLanguages[i] === language ){ window.location.replace("/"+language); break; }
-		}
-	}
-	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
 </head>
 <body class="beta">
 	<section id="header">
