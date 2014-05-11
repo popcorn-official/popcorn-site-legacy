@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="124px" height="124.197px" viewBox="0 0 124 124.197" enable-background="new 0 0 124 124.197" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright (c) Mark Simonson, 2005. All rights reserved. -->
+<!-- Copyright: Copyright 2014 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="ProximaNovaCond-BoldIt" units-per-em="1000" underline-position="-133" underline-thickness="20"/>
+<missing-glyph horiz-adv-x="469" d="M430,-90l0,842l-351,0l0,-842M398,-60l-288,0l0,782l288,0z"/>
+<glyph unicode="E" horiz-adv-x="481" d="M387,0l26,118l-248,0l36,162l240,0l27,118l-241,0l33,151l248,0l26,118l-382,0l-147,-667z"/>
+<glyph unicode="H" horiz-adv-x="608" d="M495,0l147,667l-135,0l-58,-265l-221,0l58,265l-134,0l-147,-667l134,0l63,284l221,0l-63,-284z"/>
+<glyph unicode="I" horiz-adv-x="252" d="M139,0l147,667l-134,0l-147,-667z"/>
+<glyph unicode="M" horiz-adv-x="735" d="M623,0l147,667l-183,0l-216,-386l-43,386l-176,0l-147,-667l134,0l98,444l50,-444l53,0l247,444l-98,-444z"/>
+<glyph unicode="O" horiz-adv-x="622" d="M287,-12C499,-12 623,217 623,422C623,572 525,678 373,678C161,678 37,449 37,243C37,93 135,-12 287,-12M295,107C222,107 175,161 175,246C175,391 254,559 364,559C436,559 484,504 484,419C484,275 405,107 295,107z"/>
+<glyph unicode="S" horiz-adv-x="498" d="M226,-12C371,-12 462,92 462,214C462,382 225,403 225,486C225,525 257,560 305,560C356,560 413,538 448,495l78,96C478,647 398,678 316,678C177,678 83,576 83,461C83,294 321,278 321,190C321,144 288,106 232,106C167,106 103,138 69,187l-81,-99C33,29 124,-12 226,-12z"/>
+<glyph unicode="V" horiz-adv-x="554" d="M304,0l345,667l-151,0l-246,-509l-21,509l-140,0l51,-667z"/>
+<glyph unicode="W" horiz-adv-x="767" d="M555,0l299,667l-147,0l-188,-464l7,464l-105,0l-198,-464l17,464l-141,0l5,-667l140,0l184,444l-13,-444z"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- Copyright (c) Mark Simonson, 2005. All rights reserved. -->
+<!-- Copyright: Copyright 2014 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="ProximaNova-Bold" units-per-em="1000" underline-position="-133" underline-thickness="20"/>
+<missing-glyph horiz-adv-x="483" d="M417,-90l0,842l-351,0l0,-842M385,-60l-288,0l0,782l288,0z"/>
+<glyph unicode="B" horiz-adv-x="663" d="M428,0C555,0 622,80 622,180C622,264 565,333 494,344C557,357 609,413 609,497C609,586 544,667 417,667l-351,0l0,-667M386,400l-178,0l0,145l178,0C434,545 464,514 464,472C464,430 434,400 386,400M391,123l-183,0l0,155l183,0C447,278 477,242 477,200C477,152 445,123 391,123z"/>
+<glyph unicode="E" horiz-adv-x="583" d="M538,0l0,125l-330,0l0,151l323,0l0,125l-323,0l0,141l330,0l0,125l-472,0l0,-667z"/>
+<glyph unicode="S" horiz-adv-x="600" d="M303,-12C483,-12 570,80 570,202C570,451 187,380 187,486C187,526 221,553 282,553C350,553 422,530 476,480l79,104C489,645 401,677 295,677C138,677 42,585 42,474C42,223 426,304 426,186C426,148 388,112 310,112C218,112 145,153 98,202l-77,-108C83,31 175,-12 303,-12z"/>
+<glyph unicode="T" horiz-adv-x="582" d="M363,0l0,542l194,0l0,125l-532,0l0,-125l195,0l0,-542z"/>
+</font>
+
+	<g>
+	<defs>
+		<rect id="SVGID_1_" width="124" height="124.197"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" d="M33,100.197V9.669c-0.674,0.373-1.343,0.752-2,1.15v89.378H33z"/>
+	<path clip-path="url(#SVGID_2_)" d="M54,100.197V2.744c-0.67,0.089-1.337,0.187-2,0.298v97.155H54z"/>
+	<path clip-path="url(#SVGID_2_)" d="M75,100.197V3.626c-0.663-0.147-1.329-0.281-2-0.405v96.976H75z"/>
+	<path clip-path="url(#SVGID_2_)" d="M96,100.197v-87.43c-0.656-0.453-1.325-0.888-2-1.314v88.744H96z"/>
+	<path clip-path="url(#SVGID_2_)" d="M52,3.042V1.014C45.239,2.116,38.844,4.313,33,7.42v2.249C38.811,6.453,45.212,4.181,52,3.042"
+		/>
+	<path clip-path="url(#SVGID_2_)" d="M62,2.197c3.759,0,7.432,0.363,11,1.024V1.194c-3.573-0.643-7.245-0.997-11-0.997
+		c-2.712,0-5.379,0.194-8,0.534v2.013C56.619,2.395,59.286,2.197,62,2.197"/>
+	<path clip-path="url(#SVGID_2_)" d="M94,11.452V9.113c-5.785-3.5-12.188-6.075-19-7.534v2.046C81.847,5.138,88.252,7.819,94,11.452
+		"/>
+	<path clip-path="url(#SVGID_2_)" d="M75,120.768v2.046c6.812-1.459,13.215-4.033,19-7.533v-2.34
+		C88.252,116.575,81.847,119.255,75,120.768"/>
+	<path clip-path="url(#SVGID_2_)" d="M62,122.197c-2.714,0-5.381-0.198-8-0.547v2.013c2.621,0.34,5.288,0.534,8,0.534
+		c3.755,0,7.427-0.354,11-0.997v-2.027C69.432,121.833,65.759,122.197,62,122.197"/>
+	<path clip-path="url(#SVGID_2_)" d="M124,62.197c0-21.639-11.151-40.713-28-51.808v2.378c15.701,10.82,26,28.919,26,49.43
+		c0,20.511-10.299,38.61-26,49.43v2.378C112.849,102.91,124,83.835,124,62.197"/>
+	<path clip-path="url(#SVGID_2_)" d="M33,114.725v2.249c5.844,3.106,12.239,5.304,19,6.404v-2.026
+		C45.212,120.211,38.811,117.94,33,114.725"/>
+	<path clip-path="url(#SVGID_2_)" d="M2,62.197c0-21.792,11.62-40.869,29-51.378V8.538C12.487,19.275,0,39.299,0,62.197
+		c0,22.898,12.487,42.922,31,53.659v-2.281C13.62,103.066,2,83.989,2,62.197"/>
+	<path clip-path="url(#SVGID_2_)" d="M31,113.575v2.281c0.66,0.383,1.325,0.759,2,1.118v-2.249
+		C32.326,114.352,31.657,113.973,31,113.575"/>
+	<path clip-path="url(#SVGID_2_)" d="M33,9.668V7.42c-0.675,0.359-1.34,0.735-2,1.118v2.281C31.657,10.421,32.326,10.042,33,9.668"
+		/>
+	<path clip-path="url(#SVGID_2_)" d="M52,121.351v2.028c0.663,0.107,1.331,0.197,2,0.284v-2.014
+		C53.33,121.56,52.663,121.462,52,121.351"/>
+	<path clip-path="url(#SVGID_2_)" d="M54,2.744V0.73c-0.669,0.086-1.337,0.176-2,0.284v2.028C52.663,2.931,53.33,2.833,54,2.744"/>
+	<path clip-path="url(#SVGID_2_)" d="M75,3.625V1.579c-0.662-0.142-1.33-0.265-2-0.386V3.22C73.671,3.345,74.337,3.479,75,3.625"/>
+	<path clip-path="url(#SVGID_2_)" d="M73,121.172v2.027c0.67-0.12,1.338-0.243,2-0.385v-2.047
+		C74.337,120.915,73.671,121.048,73,121.172"/>
+	<path clip-path="url(#SVGID_2_)" d="M96,12.766v-2.378c-0.66-0.434-1.323-0.865-2-1.275v2.339
+		C94.675,11.879,95.344,12.314,96,12.766"/>
+	<path clip-path="url(#SVGID_2_)" d="M94,112.941v2.339c0.677-0.409,1.34-0.841,2-1.274v-2.378
+		C95.344,112.08,94.675,112.514,94,112.941"/>
+	<polygon clip-path="url(#SVGID_2_)" points="20,35.197 20,9.287 107,1.098 107,35.197 	"/>
+	<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M106,2.197v32H21v-24L106,2.197z M108,0l-2.187,0.206l-85,8L19,8.375v1.821v24
+		v2h2h85h2v-2v-32V0z"/>
+	<polygon clip-path="url(#SVGID_2_)" points="102,85.197 61,88.197 22,85.197 22,65.197 61,62.197 102,65.197 	"/>
+</g>
+<text transform="matrix(1 0 0 1 33 80.1968)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="2">M</tspan><tspan x="13.2" y="0" fill="#FFFFFF" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="1">O</tspan><tspan x="24.3" y="0" fill="#FFFFFF" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="2">VIE</tspan><tspan x="50.129" y="0" fill="#FFFFFF" font-family="'ProximaNovaCond-BoldIt'" font-size="15">S</tspan></text>
+<text transform="matrix(1 0 0 1 26 27.1968)" fill="#FFFFFF" font-family="'ProximaNova-Bold'" font-size="18">B</text>
+<text transform="matrix(1 0 0 1 47.9961 27.1968)" fill="#FFFFFF" font-family="'ProximaNova-Bold'" font-size="18">E</text>
+<text transform="matrix(1 0 0 1 69.002 27.1968)" fill="#FFFFFF" font-family="'ProximaNova-Bold'" font-size="18">S</text>
+<text transform="matrix(1 0 0 1 90.998 27.1968)" fill="#FFFFFF" font-family="'ProximaNova-Bold'" font-size="18">T</text>
+<g>
+	<defs>
+		<rect id="SVGID_3_" width="124" height="124.197"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<rect x="42" y="7.53" clip-path="url(#SVGID_4_)" fill="#FFFFFF" width="1" height="26.667"/>
+	<rect x="63" y="5.864" clip-path="url(#SVGID_4_)" fill="#FFFFFF" width="1" height="28.333"/>
+	<rect x="86" y="4.197" clip-path="url(#SVGID_4_)" fill="#FFFFFF" width="1" height="30"/>
+	<path clip-path="url(#SVGID_4_)" fill="#E74C3C" d="M68.701,41.714c2.561,0.992,4.263,3.441,4.299,6.188
+		c0.035,2.746-1.603,5.239-4.137,6.297l-22.989,9.597c-4.833,2.019-10.272,2.02-15.105,0.003L9.428,54.898
+		c-2.811-1.172-4.627-3.935-4.587-6.98c0.039-3.045,1.926-5.761,4.766-6.859l21.225-8.212c4.819-1.865,10.161-1.864,14.979,0.002
+		L68.701,41.714z"/>
+</g>
+<text transform="matrix(1 0 0 1 13.2993 53.1968)"><tspan x="0" y="0" fill="#F3F3F4" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="1">SH</tspan><tspan x="19.47" y="0" fill="#F3F3F4" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="1">O</tspan><tspan x="29.895" y="0" fill="#F3F3F4" font-family="'ProximaNovaCond-BoldIt'" font-size="15" letter-spacing="1">W</tspan><tspan x="42.975" y="0" fill="#F3F3F4" font-family="'ProximaNovaCond-BoldIt'" font-size="15">S</tspan></text>
+<g>
+	<defs>
+		<rect id="SVGID_5_" width="124" height="124.197"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  overflow="visible"/>
+	</clipPath>
+	<rect x="33" y="100.197" clip-path="url(#SVGID_6_)" width="19" height="2"/>
+	<rect x="54" y="100.197" clip-path="url(#SVGID_6_)" width="19" height="2"/>
+	<path clip-path="url(#SVGID_6_)" d="M96,100.197v2h10.709c0.585-0.653,1.151-1.322,1.707-2H96z"/>
+	<path clip-path="url(#SVGID_6_)" d="M31,100.197H15.573c0.558,0.68,1.132,1.345,1.718,2H31V100.197z"/>
+	<rect x="75" y="100.197" clip-path="url(#SVGID_6_)" width="19" height="2"/>
+	<rect x="31" y="100.197" clip-path="url(#SVGID_6_)" width="2" height="2"/>
+	<rect x="52" y="100.197" clip-path="url(#SVGID_6_)" width="2" height="2"/>
+	<rect x="73" y="100.197" clip-path="url(#SVGID_6_)" width="2" height="2"/>
+	<rect x="94" y="100.197" clip-path="url(#SVGID_6_)" width="2" height="2"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="17.011,38.995 11.048,23.706 19.123,37.992 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="19.083,37.907 25.677,22.88 21.286,38.692 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="16.123,41.143 1.096,34.548 16.908,38.939 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="21.35,38.662 36.376,45.255 20.564,40.865 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="16.661,40.328 5.716,28.1 18.288,38.647 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="18.22,38.582 19.127,22.197 20.558,38.545 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="16.582,42.65 0.197,41.743 16.545,40.313 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="21.619,39.632 35.963,31.662 22.896,41.59 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="21.941,40.554 38.299,39.244 22.293,42.866 	"/>
+	<polygon clip-path="url(#SVGID_6_)" fill="#E74C3C" points="20.141,39.085 30.782,26.592 22.024,40.471 	"/>
+</g>
+</svg>

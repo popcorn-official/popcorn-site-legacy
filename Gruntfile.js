@@ -195,12 +195,17 @@ module.exports = function(grunt) {
     // Grunt Watch
     watch: {
       css: {
+        spawn: false,
         files: ['src/stylus/*'],
         tasks: ['stylus']
       },
       js: {
         files: ['src/js/*'],
         tasks: ['copy:js']
+      },
+      images: {
+        files: ['src/images/*'],
+        tasks: ['copy:images']
       },
       html: {
         files: ['src/*.html'],
