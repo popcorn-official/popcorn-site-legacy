@@ -7,6 +7,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-html-validation');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   
   grunt.registerTask('default', [
     'stylus',
@@ -18,7 +19,7 @@ module.exports = function(grunt) {
     'copy:update'
   ]);
 
-  grunt.registerTask('dev', [
+  grunt.registerTask('test', [
     'default',
     'validation:dev'
   ]);
@@ -46,6 +47,11 @@ module.exports = function(grunt) {
   grunt.registerTask('js', [
     'uglify'
   ]);
+
+  grunt.registerTask('develop', [
+    'connect',
+    'watch'
+  ])
 
   grunt.initConfig({
     // Stylus Compiling
@@ -177,9 +183,29 @@ module.exports = function(grunt) {
         dest: 'compiled/'
       }
     },
+    // Static Webserver
+    connect: {
+      server: {
+        options: {
+          port: 8080,
+          base: 'compiled'
+        }
+      }
+    },
+    // Grunt Watch
     watch: {
-      files: ['src/stylus/*'],
-      tasks: ['stylus'],
+      css: {
+        files: ['src/stylus/*'],
+        tasks: ['stylus']
+      },
+      js: {
+        files: ['src/js/*'],
+        tasks: ['copy:js']
+      },
+      html: {
+        files: ['src/*.html'],
+        tasks: ['copy:html']
+      }
     }
   });
 };
