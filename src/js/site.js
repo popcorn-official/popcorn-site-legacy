@@ -1,14 +1,10 @@
-var userAgent = navigator.platform,
-    fileHost = "http://popcorn.cdnjd.com/releases/";
-
+var userAgent = navigator.platform;
 var mac = /Mac/,
     win = /Win/,
     lin = /Lin/,
     lin64 = /x86_64/;
 
-Array.prototype.forEach.call(document.querySelectorAll('[data-file]'), function(el) {
-  el.href = fileHost + el.getAttribute('data-file');
-});
+rewriteDownloadUrls(document.querySelectorAll('[data-file]'));
 
 if(mac.test(userAgent)) {
 	document.getElementsByTagName('body')[0].className+=' mac';
