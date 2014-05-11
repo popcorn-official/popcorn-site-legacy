@@ -1,26 +1,13 @@
 #how {
 	background: url(../images/bg-how.jpg) no-repeat center #0e1226;
+	background-size: auto 100%;
 	height: 569px;
 	position: relative;
 	color: #fff;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	padding-top: 105px;
+	padding-top: 40px;
 	overflow: hidden;
-
-	&:before, &:after {
-		content:"";
-		height: 20px;
-		width: 100%;
-		background: url(../images/film-tile.png) repeat-x center;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-	&:after {
-		top: auto;
-		bottom: 0;
-	}
+	text-align: center;
 
 	h2, h4 {
 		margin: 0 0 10px;
@@ -31,30 +18,13 @@
 		font-weight: bold;
 		margin-top: 50px;
 
-		a {
-			color: #f2a500;
-			&:hover {
-				text-decoration: none;
-			}
-		}
-
-		&:before {
-			content: "";
-			width: 2px;
-			height: 100%;
-			background: #42485e;
-			opacity: .5;
-			position: absolute;
-			left: 22px;
-			top: 0px;
-			bottom: 0px;
-		}
 		li {
 			line-height: 42px;
 			position: relative;
 			list-style: none;
 			padding-left: 25px;
 			margin: 0 0 50px 0;
+			display: inline-block;
 
 			&:last-child {
 				margin: 0;
@@ -65,9 +35,7 @@
 			  border-color: rgb( 16, 21, 45 );
 			  border-style: solid;
 			  border-radius: 50%;
-			  background-image: -moz-linear-gradient( 90deg, #80bde4 0%, #e4f2fa 100%);
-			  background-image: -webkit-linear-gradient( 90deg, #80bde4 0%, #e4f2fa 100%);
-			  background-image: -ms-linear-gradient( 90deg, #80bde4 0%, #e4f2fa 100%);
+			  background-image: linear-gradient( 90deg, #80bde4 0%, #e4f2fa 100%);
 			  box-shadow: 0px 0px 6px 0px rgba( 28, 92, 145, .3 );
 			  display: block;
 			  width: 40px;
@@ -80,40 +48,6 @@
 			  left: -40px;
 			  top: 0;
 			}
-			&.icon-vlc:before {
-				font-size: 18px;
-				line-height: 40px;
-			}
-			&.icon-eye:before {
-				font-size: 13px;
-			}
-			&.icon-hd:before {
-				font-size: 18px;
-			}
-			&.icon-play:before {
-				font-size: 12px;
-				text-indent: 3px;
-			}
-		}
-	}
-
-	.ui-screenshot {
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		display: block;
-		margin-left: -150px;
-	}
-}
-
-@media screen and (max-width: 830px) {
-	#how {
-		background-position: left;
-		.ui-screenshot {
-			display: none;
-		}
-		.fixed-width {
-			max-width: 270px;
 		}
 	}
 }
