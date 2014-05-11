@@ -12,7 +12,7 @@ Setting up the website for production is easy
 Setting up the website for development is just as easy
   1. Run `npm install` in the root directory
   2. Run `grunt`
-  3. Run `grunt debug` 
+  3. Run `grunt develop` 
   4. Visit [http://localhost:8080/](http://localhost:8080/) 
   5. Edit any file and refresh the page!
   6. Enjoy!
