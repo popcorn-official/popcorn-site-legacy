@@ -17,36 +17,37 @@
 		position: relative;
 		font-weight: bold;
 		margin-top: 50px;
+		padding-left: 0;
 
 		li {
 			line-height: 42px;
+			min-width: 175px;
 			position: relative;
 			list-style: none;
-			padding-left: 25px;
-			margin: 0 0 50px 0;
+			padding-top: 157px;
 			display: inline-block;
+			overflow: visible;
+			font-family: 'Proxima Nova Semibold';
+			font-size: 20px;
+			margin-right: 190px;
+
+			&.how-open {
+				background: url(../images/how-open.png) no-repeat top center;
+				background-size: auto 157px;
+			}
+
+			&.how-subtitles {
+				background: url(../images/how-subtitles.png) no-repeat top center;
+				background-size: auto 157px;
+			}
+
+			&.how-play {
+				background: url(../images/how-play.png) no-repeat top center;
+				background-size: auto 157px;
+			}
 
 			&:last-child {
 				margin: 0;
-			}
-
-			&:before {
-			  border-width: 2px;
-			  border-color: rgb( 16, 21, 45 );
-			  border-style: solid;
-			  border-radius: 50%;
-			  background-image: linear-gradient( 90deg, #80bde4 0%, #e4f2fa 100%);
-			  box-shadow: 0px 0px 6px 0px rgba( 28, 92, 145, .3 );
-			  display: block;
-			  width: 40px;
-			  height: 40px;
-			  text-align: center;
-			  color: #0e1328;
-			  text-shadow: 0px 1px #fff;
-			  line-height: 42px;
-			  position: absolute;
-			  left: -40px;
-			  top: 0;
 			}
 		}
 	}
