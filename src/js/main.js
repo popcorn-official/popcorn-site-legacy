@@ -1,11 +1,11 @@
 /* === Popcorn Site === */
 /* ---  Analytics   --- */
 analytics.initialize({
-    'Sentry' : 'XXXXXXXXXX',
+    //'Sentry' : 'XXXXXXXXXX',
     'Google Analytics' : {
         trackingId              : 'UA-38440155-3',
         domain                  : 'get-popcorn.com',
-        universalClient         : true
+        universalClient         : false
     }
 });
 
