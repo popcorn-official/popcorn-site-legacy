@@ -1,6 +1,6 @@
 #footer {
-	width: 980px;
-	margin: 0 auto;
+	padding-top: 80px;
+	background: #203041;
 
 	.logo {
 		display: block;
@@ -9,11 +9,16 @@
 		overflow: hidden;
 		width: 193px;
 		height: 46px;
-		background: url(../images/footer-logo.png) no-repeat;
+		background: url(../images/footer-logo.png) no-repeat center;
+		background-size: cover;
+		opacity: 0.3;
 		margin-top: 21px;
 	}
+
 	nav {
-		padding: 10px 0 45px;
+		width: 980px;
+		padding-bottom: 80px;
+		margin: 0 auto;
 	}
 
 	ul {
@@ -110,23 +115,18 @@
 
 	hr {
 		border: none;
-		border-top: 1px solid #a2a2a2;
-	}
-
-	hr + i {
-		display: block;
-		width: 40px;
-		height: 20px;
-		background: url(../images/footer-film.png) no-repeat;
-		margin: -18px auto 0;
+		border-top: 1px solid #3b5570;
+		width: 980px;
 	}
 
 	footer {
 		text-align: center;
 		font-size: 14px;
+		color: #526d8a;
+		font-family: 'Proxima Nova Light';
 
 		p {
-			padding: 20px 0;
+			padding: 20px 0 0;
 
 			span {
 				color: #e74c3c;
@@ -134,12 +134,14 @@
 		}
 
 		small {
+			padding-bottom: 10px;
 			display: block;
+		}
+
+		a {
+			text-decoration: none;
+			color: #526d8a;
 			font-size: 14px;
-			color: #d7d4d4;
-			a {
-				color:#6496b7;
-			}
 		}
 	}
 }
