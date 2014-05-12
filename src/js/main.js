@@ -3,9 +3,9 @@
 analytics.initialize({
     'Sentry' : 'XXXXXXXXXX',
     'Google Analytics' : {
-        trackingId              : 'UA-xxxxxx-x',
+        trackingId              : 'UA-38440155-3',
         domain                  : 'get-popcorn.com',
-        universalClient         : false
+        universalClient         : true
     }
 });
 
