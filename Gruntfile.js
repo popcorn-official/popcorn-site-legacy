@@ -101,7 +101,7 @@ module.exports = function(grunt) {
     uglify: {
       compile: {
         files: {
-          'compiled/js/main.min.js': 'src/js/main.js'
+          'compiled/js/main.min.js': 'src/js/main.js',
           'compiled/js/site.min.js': 'src/js/site.js'
         }
       }
