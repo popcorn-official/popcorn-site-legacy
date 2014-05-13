@@ -12,7 +12,12 @@
 		background: url(../images/footer-logo.png) no-repeat center;
 		background-size: cover;
 		opacity: 0.3;
+		transition: opacity 0.2s ease;
 		margin-top: 21px;
+
+		&:hover {
+			opacity: 0.9;
+		}
 	}
 
 	nav {
@@ -44,7 +49,7 @@
 			background-color: #E67E22;
 		}
 
-		&.major:before {
+		&.critical:before {
 			background-color: #E74C3C;
 		}
 	}
