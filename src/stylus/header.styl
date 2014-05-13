@@ -39,6 +39,7 @@
 			top: 0;
 			right: 0;
 		}
+
 		ul {
 			list-style: none;
 			margin: 5px 0;
@@ -58,34 +59,42 @@
 					text-decoration: none;
 				}
 			}
-			li.social a {
-				display: block;
-				width: 26px;
-				height: 26px;
-				text-align: center;
-				color: #fff;
-				text-decoration: none;
-				line-height: 32px;
-				border-radius: 50%;
-				position: relative;
 
-				&.icon-facebook:before {
-					font-size: 16px;
-					position: absolute;
-					top: 5px;
-					left: 9px;
-				}
-				&.icon-twitter:before {
-					font-size: 12px;
-					position: absolute;
-					top: 7px;
-					left: 6px;
-				}
-				&.icon-github:before {
-					position: absolute;
-					top: 0px;
-					left: 0px;
-					font-size: 25px;
+			&.social {
+				li {
+					list-style: none;
+					vertical-align: middle;
+					display: inline-block;
+					margin: 0;
+					margin-left: 10px;
+
+					&:first-child {
+						margin: 0;
+					}
+
+					a {
+						width: 32px;
+						height: 32px;
+						display: block;
+						transition: opacity 0.2s ease;
+
+						&:hover {
+							opacity: 0.7;
+						}
+
+						&.twitter {
+							background: url(../images/icon-twitter.png) no-repeat center;
+							background-size: contain;
+						}
+						&.blog {
+							background: url(../images/icon-twitter.png) no-repeat center;
+							background-size: contain;
+						}
+						&.github {
+							background: url(../images/icon-github.png) no-repeat center;
+							background-size: contain;
+						}
+					}
 				}
 			}
 		}
