@@ -8,6 +8,8 @@ analytics.initialize({
         universalClient         : false
     }
 });
+
+analytics.pageview()
 getCurrentStatus()
 
 function getCurrentStatus() {
