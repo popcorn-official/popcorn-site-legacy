@@ -21,7 +21,7 @@ function getCurrentStatus() {
 
 function rewriteDownloadUrls(domElements) {
 	_.each(domElements, function(el) {
-		el.href = "http://get-popcorn.com/download/" + el.getAttribute('data-file');
+		el.href = "https://0d4761a651e048a99d86d5ee11d70ea2.objectstore.eu/releases/" + el.getAttribute('data-file');
 		analytics.trackLink(el, 'Download', {
 			category: 'Click',
 			label: $(el).data('os'),
