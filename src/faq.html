@@ -44,25 +44,28 @@
 </head>
 <body id="page-faq" class="beta">
 	<section id="header">
-		<nav class="fixed-width fadeInDown wow">
-			<a href="http://popcorn.cdnjd.com" id="logo">Popcorn Time</a>
-			<ul class="align-right">
-				<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"></a></li>
-				<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"></a></li>
-				<li class="social"><a href="http://github.com/popcorn-team" target="_blank" class="icon-github"></a></li>
-			</ul>
+		<nav class="fixed-width">
+            <a href="http://get-popcorn.com" id="logo">Popcorn Time</a>
+            <ul class="social align-right">
+                <li><a href="http://blog.get-popcorn.com/" target="_blank" class="blog"></a></li>
+                <li><a href="https://twitter.com/popcorntimetv" target="_blank" class="twitter"></a></li>
+                <li><a href="https://github.com/popcorn-official" target="_blank" class="github"></a></li>
+            </ul>
 
-			<ul class="align-left">
-				<li class="text"><a href="faq">FAQ</a></li>
-				<li class="text"><a href="tos">TOS</a></li>
-			</ul>
-		</nav>
+            <ul class="align-left">
+                <li class="text"><a data-i18n="nav.home" href="/">HOME</a></li>
+                <li class="text"><a data-i18n="nav.tos" href="tos.html">TOS</a></li>
+            </ul>
+        </nav>
 	</section>
 
 	<div class="container fadeIn wow">
 		<section id="faq" class="fixed-width">
-			<p class="warning">To enjoy a great experience, always make sure you're running <a href="http://popcorn.cdnjd.com" target="_blank">the latest Popcorn Time version</a>. <br/>
-			Our only official site is <a href="http://popcorn.cdnjd.com" target="_blank">popcorn.cdnjd.com</a> (for now). Do not get the app from anywhere else, as there's a few fake sites going around.</p>
+			<div class="warning">
+	            <img src="images/icon-warning.svg">
+	            <h5 data-i18n="warning.whatitdoes">Popcorn Time streams movies and TV shows from torrents</h5>
+	            <p data-i18n="warning.copyright">Downloading copyrighted material may be illegal in your country. Use at your own risk.</p>
+	        </div>
 
 			<article id="what">
 				<h1>Frequently Asked Questions</h1>
@@ -130,22 +133,25 @@
 			</article>
 		</section>
 
-		<section id="footer" class="fadeInUp wow">
-			<hr style="display: none">
-			<nav class="clear-fix">
-				<a href="http://popcorn.cdnjd.com" class="logo">Popcorn time</a>
-				<ul>
-					<li class="social"><a href="https://facebook.com/getpopcorntime" target="_blank" class="icon-facebook"> </a></li>
-					<li class="social"><a href="http://twitter.com/getpopcornapp" target="_blank" class="icon-twitter"> </a></li>
-					<li class="github"><a href="http://github.com/popcorn-team" target="_blank" class="icon-github">Github</a></li>
+		<section id="footer">
+            <nav class="clear-fix">
+                <a href="http://get-popcorn.com" class="logo">Popcorn time</a>
+                <ul class="social">
+                    <li><a href="http://blog.get-popcorn.com/" target="_blank" class="blog"></a></li>
+                    <li><a href="https://twitter.com/popcorntimetv" target="_blank" class="twitter"></a></li>
+                    <li><a href="https://github.com/popcorn-official" target="_blank" class="github"></a></li>
                 </ul>
-			</nav>
-			<footer>
-				<hr>
-				<i class="film"></i>
-				<p>Made with <span>&lt;3</span> by a bunch of geeks from All Around The World<br /> <small><a href="tos">Terms of Service</a> &mdash; <a href="faq">FAQ</a></small></p>
-			</footer>
-		</section>
+            </nav>
+            <footer>
+                <hr>
+                <p>Made with <span>&#10084;</span> by a bunch of geeks from All Around The World</p>
+                <small>
+                    <a id="status" data-i18n="footer.faq" href="http://status.get-popcorn.com/" target="_blank">Status</a> &mdash; 
+                    <a data-i18n="footer.tos" href="tos">Terms of Service</a> &mdash; 
+                    <a data-i18n="footer.faq" href="faq">FAQ</a>
+                </small>
+            </footer>
+        </section>
 	</div>
     <script type="text/javascript" src="js/main<% if(!data.dev) { %>.min<% } %>.js"></script>
     <script type="text/javascript" src="js/site<% if(!data.dev) { %>.min<% } %>.js"></script>
