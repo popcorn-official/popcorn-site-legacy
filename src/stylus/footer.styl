@@ -21,6 +21,34 @@
 		margin: 0 auto;
 	}
 
+	#status {
+
+		&:before {
+			content: '';
+			border-radius: 99px;
+			margin-right: 4px;
+			width: 9px;
+			height: 9px;
+			display: inline-block;
+		}
+		
+		&.none:before {
+			background-color: #2FCC66;
+		}
+
+		&.minor:before {
+			background-color: #F1C40F;
+		}
+
+		&.major:before {
+			background-color: #E67E22;
+		}
+
+		&.major:before {
+			background-color: #E74C3C;
+		}
+	}
+
 	ul {
 		float: right;
 		padding: 0;
@@ -70,7 +98,6 @@
 			color: #6496b7;
 			font-size: 12px;
 			font-style: italic;
-
 		}
 	}
 

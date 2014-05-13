@@ -8,11 +8,14 @@ analytics.initialize({
         universalClient         : false
     }
 });
+getCurrentStatus()
 
-
-
-
-
+function getCurrentStatus() {
+	var statusUrl = 'http://status.get-popcorn.com/index.json';
+	$.get(statusUrl, function(resp) {
+		$('#status').addClass(resp.status.indicator);
+	}, 'json');
+}
 
 function rewriteDownloadUrls(domElements) {
 	_.each(domElements, function(el) {
