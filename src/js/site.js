@@ -19,18 +19,3 @@ if(mac.test(userAgent)) {
 } else {
 	document.getElementsByTagName('body')[0].className+=' nope';
 }
-
-var heroHeight = document.getElementById('header').offsetHeight;
-
-// Disable WOW on small screens.
-try {
-  if(window.innerWidth > 768) {
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100
-      }
-    );
-    wow.init();
-  };
-} catch(err) {  }
