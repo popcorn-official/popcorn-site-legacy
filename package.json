@@ -23,6 +23,7 @@
     "grunt-contrib-stylus": "^0.15.1",
     "grunt-contrib-uglify": "^0.4.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-ejs-render": "^0.2.5",
     "grunt-html-validation": "^0.1.16",
     "nib": "^1.0.2",
     "stylus": "^0.44.0"

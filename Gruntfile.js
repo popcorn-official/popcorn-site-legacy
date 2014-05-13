@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-html-validation');
+  grunt.loadNpmTasks('grunt-ejs-render');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-connect');
@@ -15,7 +16,7 @@ module.exports = function(grunt) {
     'copy:fonts',
     'copy:images',
     'copy:js',
-    'copy:html',
+    'render:dev',
     'copy:update'
   ]);
 
@@ -41,6 +42,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('html', [
+    'render:dist',
     'htmlmin'
   ]);
 
@@ -81,9 +83,9 @@ module.exports = function(grunt) {
           caseSensitive: true
         },
         files: {
-          'compiled/index.html': 'src/index.html',
-          'compiled/faq.html': 'src/faq.html',
-          'compiled/tos.html': 'src/tos.html'
+          'compiled/index.html': 'compiled/index.html',
+          'compiled/faq.html': 'compiled/faq.html',
+          'compiled/tos.html': 'compiled/tos.html'
         }
       }
     },
@@ -100,6 +102,7 @@ module.exports = function(grunt) {
       compile: {
         files: {
           'compiled/js/main.min.js': 'src/js/main.js'
+          'compiled/js/site.min.js': 'src/js/site.js'
         }
       }
     },
@@ -125,9 +128,9 @@ module.exports = function(grunt) {
         stoponerror: false,
         files: {
           src: [
-            'src/index.html',
-            'src/faq.html',
-            'src/tos.html'
+            'compiled/index.html',
+            'compiled/faq.html',
+            'compiled/tos.html'
           ]
         }
       },
@@ -170,12 +173,6 @@ module.exports = function(grunt) {
         src: 'js/*',
         dest: 'compiled/'
       },
-      html: {
-        expand: true,
-        cwd: 'src/',
-        src: ['faq.html', 'index.html', 'tos.html'],
-        dest: 'compiled/'
-      },
       update: {
         expand: true,
         cwd: 'src/',
@@ -189,6 +186,29 @@ module.exports = function(grunt) {
         options: {
           port: 8080,
           base: 'compiled'
+        }
+      }
+    },
+    // EJS Rendering
+    render: {
+      dev: {
+        files: {
+          'compiled/index.html': ['src/index.html'],
+          'compiled/faq.html': ['src/faq.html'],
+          'compiled/tos.html': ['src/tos.html']
+        },
+        options: {
+          data: { dev: true }
+        }
+      },
+      dist: {
+        files: {
+          'compiled/index.html': ['src/index.html'],
+          'compiled/faq.html': ['src/faq.html'],
+          'compiled/tos.html': ['src/tos.html']
+        },
+        options: {
+          data: { dev: false }
         }
       }
     },
@@ -209,7 +229,7 @@ module.exports = function(grunt) {
       },
       html: {
         files: ['src/*.html'],
-        tasks: ['copy:html']
+        tasks: ['render:dev']
       }
     }
   });
