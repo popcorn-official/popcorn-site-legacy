@@ -28,7 +28,7 @@
 	input[type="submit"] {
 		border: none;
 		padding: 16px;
-		background: #e94b35;
+		background: $button-red;
 		color: #fff;
 		font-family: 'Proxima Nova Semibold';
 		font-size: 19px;
@@ -36,9 +36,18 @@
 		margin-left: -10px;
 		border-bottom-left-radius: 0px;
 		border-top-left-radius: 0px;
+		transition: background-color ease .2s;
 
 		&:focus {
 			outline: none;
 		}
+
+		  &:hover {
+			background-color: darken($button-red, 10%);
+		  }
+
+		  &:active {
+			background-color: darken($button-red, 20%);
+		  }
 	}
 }
