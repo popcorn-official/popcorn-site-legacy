@@ -230,6 +230,10 @@ module.exports = function(grunt) {
       html: {
         files: ['src/*.html'],
         tasks: ['render:dev']
+      },
+      templates: {
+        files: ['src/templates/*'],
+        tasks: ['render:dev']
       }
     }
   });
