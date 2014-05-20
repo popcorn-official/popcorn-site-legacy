@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     'copy:images',
     'copy:js',
     'render:dev',
-    'copy:update'
+    'copy:misc'
   ]);
 
   grunt.registerTask('test', [
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     'validation:dist',
     'copy:favicon',
     'copy:fonts',
-    'copy:update'
+    'copy:misc'
   ]);
 
   grunt.registerTask('css', [
@@ -173,10 +173,10 @@ module.exports = function(grunt) {
         src: 'js/*',
         dest: 'compiled/'
       },
-      update: {
+      misc: {
         expand: true,
         cwd: 'src/',
-        src: 'update.json',
+        src: ['update.json', 'sitemap.xml', 'robots.txt'],
         dest: 'compiled/'
       }
     },
