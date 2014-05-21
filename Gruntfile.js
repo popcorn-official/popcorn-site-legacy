@@ -55,6 +55,7 @@ module.exports = function(grunt) {
     'watch'
   ])
 
+  grunt.config('pkg', grunt.file.readJSON('package.json'));
   grunt.initConfig({
     // Stylus Compiling
     stylus: {
@@ -198,7 +199,7 @@ module.exports = function(grunt) {
           'compiled/tos.html': ['src/tos.html']
         },
         options: {
-          data: { dev: true }
+          data: { dev: true, pkg: grunt.config('pkg') }
         }
       },
       dist: {
@@ -208,7 +209,7 @@ module.exports = function(grunt) {
           'compiled/tos.html': ['src/tos.html']
         },
         options: {
-          data: { dev: false }
+          data: { dev: false, pkg: grunt.config('pkg') }
         }
       }
     },
