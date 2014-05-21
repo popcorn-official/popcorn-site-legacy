@@ -1,0 +1,75 @@
+<% function author() { %>{
+    "@type" : "Organization",
+    "name" : "Popcorn Team",
+    "email": "hello@get-popcorn.com",
+    "logo" : "http://get-popcorn.com/images/icon152.png"
+  }<% } %>
+<script type="application/ld+json">
+[ {
+  "@context": "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Popcorn Team",
+  "email": "hello@get-popcorn.com",
+  "logo" : "http://get-popcorn.com/images/icon152.png"
+}, {
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Popcorn Time",
+  "url" : "http://get-popcorn.com",
+  "image" : "http://i.imgur.com/3gLQm3R.png",
+  "screenshot" : "http://i.imgur.com/3gLQm3R.png",
+  "author" : <% author() %>,
+  "isFamilyFriendly" : true,
+  "applicationCategory" : "Multimedia",
+  "applicationSubCategory" : "Streaming",
+  "downloadUrl" : "http://cdn.get-popcorn.com/build/Popcorn-Time-0.3.0-Mac.tar.gz",
+  "operatingSystem" : "Mac OSX 10.7 and above",
+  "processorRequirements" : "32-bit or 64-bit",
+  "softwareVersion" : "<%- data.pkg.version %>"
+}, {
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Popcorn Time",
+  "url" : "http://get-popcorn.com",
+  "image" : "http://i.imgur.com/3gLQm3R.png",
+  "screenshot" : "http://i.imgur.com/3gLQm3R.png",
+  "author" : <% author() %>,
+  "isFamilyFriendly" : true,
+  "applicationCategory" : "Multimedia",
+  "applicationSubCategory" : "Streaming",
+  "downloadUrl" : "http://cdn.get-popcorn.com/build/Popcorn-Time-0.3.0-Win.zip",
+  "operatingSystem" : "Windows 7 and above",
+  "processorRequirements" : "32-bit or 64-bit",
+  "softwareVersion" : "<%- data.pkg.version %>"
+}, {
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Popcorn Time",
+  "url" : "http://get-popcorn.com",
+  "image" : "http://i.imgur.com/3gLQm3R.png",
+  "screenshot" : "http://i.imgur.com/3gLQm3R.png",
+  "author" : <% author() %>,
+  "isFamilyFriendly" : true,
+  "applicationCategory" : "Multimedia",
+  "applicationSubCategory" : "Streaming",
+  "downloadUrl" : "http://cdn.get-popcorn.com/build/Popcorn-Time-0.3.0-Linux-32.tar.gz",
+  "operatingSystem" : "Linux",
+  "processorRequirements" : "32-bit",
+  "softwareVersion" : "<%- data.pkg.version %>"
+}, {
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Popcorn Time",
+  "url" : "http://get-popcorn.com",
+  "image" : "http://i.imgur.com/3gLQm3R.png",
+  "screenshot" : "http://i.imgur.com/3gLQm3R.png",
+  "author" : <% author() %>,
+  "isFamilyFriendly" : true,
+  "applicationCategory" : "Multimedia",
+  "applicationSubCategory" : "Streaming",
+  "downloadUrl" : "http://cdn.get-popcorn.com/build/Popcorn-Time-0.3.0-Linux-64.tar.gz",
+  "operatingSystem" : "Linux",
+  "processorRequirements" : "64-bit",
+  "softwareVersion" : "<%- data.pkg.version %>"
+} ]
+</script>
