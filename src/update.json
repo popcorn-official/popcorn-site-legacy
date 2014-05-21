@@ -1,48 +1,48 @@
 {
 	"windows": {
-		"version": "0.3.0",
-		"updateUrl": "https://0d4761a651e048a99d86d5ee11d70ea2.objectstore.eu/updates/0_3_0.nw",
-		"checksum": "d9027c4ed47f1eaec1ef65a9b8910c4a2f0dac0c",
-		"signature": "MCwCFAGFbAc1wgUa5EZ25HiSxVa8ZWDbAhQ/IpoiFsrMGm6zStFMqlZdenHL0Q==",
-		"title": "0.3.0 Alpha Release",
+		"version": "0.3.1",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+		"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
+		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
+		"title": "0.3.1 Beta Release",
 		"description": "Attention, please read changelog.",
 		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
-		"gitTag": "v0.3.0",
-		"gitCommit": "e0b8ec2955"
+		"gitTag": "v0.3.1",
+		"gitCommit": "1c777a09bd"
 	},
 	"linux": {
 		"x86": {
-			"version": "0.3.0",
-			"updateUrl": "https://0d4761a651e048a99d86d5ee11d70ea2.objectstore.eu/updates/0_3_0.nw",
-			"checksum": "d9027c4ed47f1eaec1ef65a9b8910c4a2f0dac0c",
-			"signature": "MCwCFAGFbAc1wgUa5EZ25HiSxVa8ZWDbAhQ/IpoiFsrMGm6zStFMqlZdenHL0Q==",
-			"title": "0.3.0 Alpha Release",
+			"version": "0.3.1",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+			"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
+			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
+			"title": "0.3.1 Beta Release",
 			"description": "Attention, please read changelog.",
 			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
-			"gitTag": "v0.3.0",
-			"gitCommit": "e0b8ec2955"
+			"gitTag": "v0.3.1",
+			"gitCommit": "1c777a09bd"
 		},
 		"x64": {
-			"version": "0.3.0",
-			"updateUrl": "https://0d4761a651e048a99d86d5ee11d70ea2.objectstore.eu/updates/0_3_0.nw",
-			"checksum": "d9027c4ed47f1eaec1ef65a9b8910c4a2f0dac0c",
-			"signature": "MCwCFAGFbAc1wgUa5EZ25HiSxVa8ZWDbAhQ/IpoiFsrMGm6zStFMqlZdenHL0Q==",
-			"title": "0.3.0 Alpha Release",
+			"version": "0.3.1",
+			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+			"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
+			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
+			"title": "0.3.1 Beta Release",
 			"description": "Attention, please read changelog.",
 			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
-			"gitTag": "v0.3.0",
-			"gitCommit": "e0b8ec2955"
+			"gitTag": "v0.3.1",
+			"gitCommit": "1c777a09bd"
 		}
 	},
 	"mac": {
-		"version": "0.3.0",
-		"updateUrl": "https://0d4761a651e048a99d86d5ee11d70ea2.objectstore.eu/updates/0_3_0.nw",
-		"checksum": "d9027c4ed47f1eaec1ef65a9b8910c4a2f0dac0c",
-		"signature": "MCwCFAGFbAc1wgUa5EZ25HiSxVa8ZWDbAhQ/IpoiFsrMGm6zStFMqlZdenHL0Q==",
-		"title": "0.3.0 Alpha Release",
+		"version": "0.3.1",
+		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+		"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
+		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
+		"title": "0.3.1 Beta Release",
 		"description": "Attention, please read changelog.",
 		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
-		"gitTag": "v0.3.0",
-		"gitCommit": "e0b8ec2955"
+		"gitTag": "v0.3.1",
+		"gitCommit": "1c777a09bd"
 	}
 }
