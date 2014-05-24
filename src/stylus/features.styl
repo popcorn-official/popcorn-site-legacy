@@ -3,23 +3,18 @@
 	padding-bottom: 0;
 	
 	div:first-child {
-		width: 980px;
 		margin: 0 auto;
+		max-width: 90%;
 	}
 
 	div.save-wrapper {
 		margin: 0 auto;
-		width: 400px;
 	}
 
 	article {
-		width: 400px;
-		float: left;
+		width: 49%;
+		display: inline-block;
 		padding: 30px 0;
-
-		&:nth-child(even) {
-			margin-left: 180px;
-		}
 
 		h5 {
 			font-family: 'Proxima Nova Semibold';
@@ -32,7 +27,6 @@
 			float: left;
 			margin-right: 25px;
 			position: relative;
-			top: -10px;
 		}
 	}
 
@@ -137,8 +131,8 @@
 			box-sizing: border-box;
 			width: 100%;
 			max-width: 800px;
-			margin: 40px auto !important;
 			padding: 0 8%;
+			padding-top: 10px;
 			overflow: hidden;
 			float: none;
 		}
@@ -179,6 +173,14 @@
 			img {
 				max-width: 80px;
 			}
+		}
+	}
+}
+
+@media screen and (min-width: 1280px){
+	#features {
+		.clear-fix{
+			width: 1000px;
 		}
 	}
 }
