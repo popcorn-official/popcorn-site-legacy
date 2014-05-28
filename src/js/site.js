@@ -19,3 +19,18 @@ if(mac.test(userAgent)) {
 } else {
 	document.getElementsByTagName('body')[0].className+=' nope';
 }
+
+$(function() {
+  $('a[data-scroll][href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
