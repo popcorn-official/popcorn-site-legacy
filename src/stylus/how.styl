@@ -24,6 +24,10 @@
 		font-weight: normal;
 		margin-top: 50px;
 		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
 
 		li {
 			line-height: 25px;
@@ -31,11 +35,14 @@
 			position: relative;
 			list-style: none;
 			padding-top: 175px;
-			display: inline-block;
+			display: block;
 			overflow: visible;
 			font-family: 'Proxima Nova Semibold';
 			font-size: 20px;
-			margin-right: 190px;
+			width: 190px;
+			margin-bottom: 50px;
+			flex-grow: 1;
+			align-self: center;
 
 			&.how-open {
 				background: url(../images/how-open.png) no-repeat top center;
@@ -51,7 +58,7 @@
 				background: url(../images/how-play.png) no-repeat top center;
 				background-size: auto 157px;
 			}
-
+			
 			&:last-child {
 				margin: 0;
 			}
