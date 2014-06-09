@@ -5,32 +5,32 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://get-popcorn.com/</loc>
+  <loc>http://popcorntime.io/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://blog.get-popcorn.com/</loc>
+  <loc>http://blog.popcorntime.io/</loc>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://discuss.get-popcorn.com/</loc>
+  <loc>http://discuss.popcorntime.io/</loc>
   <changefreq>always</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://get-popcorn.com/tos</loc>
+  <loc>http://popcorntime.io/tos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://get-popcorn.com/faq</loc>
+  <loc>http://popcorntime.io/faq</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://status.get-popcorn.com/</loc>
+  <loc>http://status.popcorntime.io/</loc>
   <changefreq>always</changefreq>
   <priority>0.50</priority>
 </url>

@@ -4,7 +4,7 @@ analytics.initialize({
     //'Sentry' : 'XXXXXXXXXX',
     'Google Analytics' : {
         trackingId              : 'UA-38440155-3',
-        domain                  : 'get-popcorn.com',
+        domain                  : 'popcorntime.io',
         universalClient         : false
     }
 });
@@ -13,7 +13,7 @@ analytics.pageview()
 getCurrentStatus()
 
 function getCurrentStatus() {
-	var statusUrl = 'http://status.get-popcorn.com/index.json';
+	var statusUrl = 'http://status.popcorntime.io/index.json';
 	$.get(statusUrl, function(resp) {
 		$('#status').addClass(resp.status.indicator);
 	}, 'json');
@@ -21,7 +21,7 @@ function getCurrentStatus() {
 
 function rewriteDownloadUrls(domElements) {
 	_.each(domElements, function(el) {
-		el.href = "http://cdn.get-popcorn.com/build/" + el.getAttribute('data-file');
+		el.href = "http://cdn.popcorntime.io/build/" + el.getAttribute('data-file');
 		analytics.trackLink(el, 'Download', {
 			category: 'Click',
 			label: $(el).data('os'),
