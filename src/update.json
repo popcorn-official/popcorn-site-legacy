@@ -1,7 +1,7 @@
 {
 	"windows": {
 		"version": "0.3.1",
-		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_1.nw",
 		"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
 		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 		"title": "0.3.1 Beta Release",
@@ -13,7 +13,7 @@
 	"linux": {
 		"x86": {
 			"version": "0.3.1",
-			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_1.nw",
 			"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
 			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 			"title": "0.3.1 Beta Release",
@@ -24,7 +24,7 @@
 		},
 		"x64": {
 			"version": "0.3.1",
-			"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_1.nw",
 			"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
 			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 			"title": "0.3.1 Beta Release",
@@ -36,7 +36,7 @@
 	},
 	"mac": {
 		"version": "0.3.1",
-		"updateUrl": "http://cdn.get-popcorn.com/_updates/0_3_1.nw",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_1.nw",
 		"checksum": "edf8c0075f161c08d38c1289b24bba2a0394557f",
 		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 		"title": "0.3.1 Beta Release",
