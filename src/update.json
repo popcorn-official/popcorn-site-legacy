@@ -6,7 +6,7 @@
 		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 		"title": "0.3.1 Beta Release",
 		"description": "Attention, please read changelog.",
-		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
+		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://popcorntime.io"],
 		"gitTag": "v0.3.1",
 		"gitCommit": "1c777a09bd"
 	},
@@ -18,7 +18,7 @@
 			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 			"title": "0.3.1 Beta Release",
 			"description": "Attention, please read changelog.",
-			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
+			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://popcorntime.io"],
 			"gitTag": "v0.3.1",
 			"gitCommit": "1c777a09bd"
 		},
@@ -29,7 +29,7 @@
 			"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 			"title": "0.3.1 Beta Release",
 			"description": "Attention, please read changelog.",
-			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
+			"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://popcorntime.io"],
 			"gitTag": "v0.3.1",
 			"gitCommit": "1c777a09bd"
 		}
@@ -41,7 +41,7 @@
 		"signature": "MCwCFH6T4LoNxTJ0rw2TLmdF0FSCjUzCAhQVekCBod9XVjtingKsXJBaokMbSw==",
 		"title": "0.3.1 Beta Release",
 		"description": "Attention, please read changelog.",
-		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://get-popcorn.com"],
+		"changeLog": ["We highly recommend that you download the latest update manually as many things changed. Popcorn Time will still work perfectly however some video files may fail to play or load.","Official website: http://popcorntime.io"],
 		"gitTag": "v0.3.1",
 		"gitCommit": "1c777a09bd"
 	}
