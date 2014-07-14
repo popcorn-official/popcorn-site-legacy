@@ -13,7 +13,7 @@ analytics.pageview()
 getCurrentStatus()
 
 function getCurrentStatus() {
-	var statusUrl = 'http://status.popcorntime.io/index.json';
+	var statusUrl = 'http://popcorntime.statuspage.io/index.json';
 	$.get(statusUrl, function(resp) {
 		$('#status').addClass(resp.status.indicator);
 	}, 'json');
@@ -21,7 +21,7 @@ function getCurrentStatus() {
 
 function rewriteDownloadUrls(domElements) {
 	_.each(domElements, function(el) {
-		el.href = "http://cdn.popcorntime.io/build/" + el.getAttribute('data-file');
+		el.href = "//cdn.popcorntime.io/build/" + el.getAttribute('data-file');
 		analytics.trackLink(el, 'Download', {
 			category: 'Click',
 			label: $(el).data('os'),
