@@ -24,9 +24,16 @@
 		font-weight: normal;
 		margin-top: 50px;
 		padding-left: 0;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
+		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
+		-webkit-align-content: center;
 		align-content: center;
+		-webkit-justify-content: center;
 		justify-content: center;
 
 		li {
@@ -41,7 +48,9 @@
 			font-size: 20px;
 			width: 190px;
 			margin-bottom: 50px;
+			-webkit-flex-grow: 1;
 			flex-grow: 1;
+			-webkit-align-self: center;
 			align-self: center;
 
 			&.how-open {
