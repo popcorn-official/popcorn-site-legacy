@@ -9,7 +9,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-connect');
-  
+
   grunt.registerTask('default', [
     'stylus',
     'copy:favicon',
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
           paths: ['stylus']
         },
         files: {
-          'compiled/css/main.css' : 'src/stylus/main.styl'
+          'compiled/css/main.css': 'src/stylus/main.styl'
         }
       }
     },
@@ -103,7 +103,8 @@ module.exports = function(grunt) {
       compile: {
         files: {
           'compiled/js/main.min.js': 'src/js/main.js',
-          'compiled/js/site.min.js': 'src/js/site.js'
+          'compiled/js/site.min.js': 'src/js/site.js',
+          'compiled/js/smothscroll.min.js': 'src/js/smothscroll.js'
         }
       }
     },
@@ -199,7 +200,10 @@ module.exports = function(grunt) {
           'compiled/tos.html': ['src/tos.html']
         },
         options: {
-          data: { dev: true, pkg: grunt.config('pkg') }
+          data: {
+            dev: true,
+            pkg: grunt.config('pkg')
+          }
         }
       },
       dist: {
@@ -209,7 +213,10 @@ module.exports = function(grunt) {
           'compiled/tos.html': ['src/tos.html']
         },
         options: {
-          data: { dev: false, pkg: grunt.config('pkg') }
+          data: {
+            dev: false,
+            pkg: grunt.config('pkg')
+          }
         }
       }
     },
