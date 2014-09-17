@@ -5,7 +5,7 @@ analytics.initialize({
     'Google Analytics' : {
         trackingId              : 'UA-38440155-3',
         domain                  : 'popcorntime.io',
-        universalClient         : false
+        universalClient         : true
     }
 });
 
@@ -21,11 +21,11 @@ function getCurrentStatus() {
 
 function rewriteDownloadUrls(domElements) {
 	_.each(domElements, function(el) {
-		el.href = "//cdn.popcorntime.io/build/" + el.getAttribute('data-file');
+		el.href = "https://cdn.popcorntime.io/build/" + el.getAttribute('data-file');
 		analytics.trackLink(el, 'Download', {
 			category: 'Click',
 			label: $(el).data('os'),
-			value: '0.3.0'
+			value: '0.3.3'
 		})
 	})
 }
