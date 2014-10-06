@@ -25,7 +25,7 @@ function rewriteDownloadUrls(domElements) {
 		analytics.trackLink(el, 'Download', {
 			category: 'Click',
 			label: $(el).data('os'),
-			value: '0.3.3'
+			value: '0.3.4'
 		})
 	})
 }
