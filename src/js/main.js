@@ -13,7 +13,7 @@ analytics.pageview()
 getCurrentStatus()
 
 function getCurrentStatus() {
-	var statusUrl = 'https://popcorntime.statuspage.io/index.json';
+	var statusUrl = 'https://popcorntime.statuspage.io/api/v1/status.json';
 	$.get(statusUrl, function(resp) {
 		$('#status').addClass(resp.status.indicator);
 	}, 'json');
