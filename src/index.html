@@ -7,7 +7,6 @@
 				<li><a href="http://blog.popcorntime.io/" target="_blank" class="blog">Blog</a></li>
 				<li><a href="http://discuss.popcorntime.io/" target="_blank" class="discourse">Forum</a></li>
 				<li><a href="https://twitter.com/popcorntimetv" target="_blank" class="twitter">Twitter</a></li>
-				<li><a href="https://plus.google.com/106562585070802704431" rel="publisher" target="_blank" class="google">Google+</a></li>
 				<li><a href="https://www.facebook.com/PopcornTimeTv" target="_blank" class="facebook">Facebook</a></li>
 				<li><a href="https://git.popcorntime.io/" target="_blank" class="stash">Stash</a></li>
 			</ul>
@@ -17,10 +16,8 @@
 				<li class="text"><a data-i18n="nav.tos" href="https://popcorntime.io/tos">TOS</a></li>
 			</ul>
 
-			<ul class="align-left" style="margin-top:30px;">
-				<li style="display:relative">
-					<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fpopcorntime.io&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=159481197468524" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-				</li>
+			<div class="align-left facebook-widget">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fpopcorntime.io&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=159481197468524" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 			</ul>			
 		</nav>
 
@@ -31,20 +28,20 @@
 
 		<ul id="links">
 			<li class="download dl-mac">
-				<a data-i18n="download.text" data-os="Mac" data-file="Popcorn-Time-0.3.4-Mac.dmg" class="btn-main icon-mac">Download Beta 3.4</a><br />
-				<small data-i18n="download.mac">For Mac OSX 10.7 and above&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+				<a data-i18n="download.text" data-os="Mac" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a><br />
+				<small data-i18n="download.mac">For Mac OSX 10.7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-win">
-				<a data-i18n="download.text" data-os="Windows" data-file="Popcorn-Time-0.3.4-Setup.exe" class="btn-main icon-win">Download Beta 3.4</a><br />
-				<small data-i18n="download.windows">For Windows 7 and above&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+				<a data-i18n="download.text" data-os="Windows" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a><br />
+				<small data-i18n="download.windows">For Windows 7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-lin-32">
-				<a data-i18n="download.text" data-os="Linux 32" data-file="Popcorn-Time-0.3.4-Linux32.tar.xz" class="btn-main icon-linux">Download Beta 3.4</a><br />
-				<small data-i18n="download.linux32">For 32-bit Linux&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+				<a data-i18n="download.text" data-os="Linux 32" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a><br />
+				<small data-i18n="download.linux32">For 32-bit Linux <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-lin-64">
-				<a data-i18n="download.text" data-os="Linux 64" data-file="Popcorn-Time-0.3.4-Linux64.tar.xz" class="btn-main icon-linux">Download Beta 3.4</a><br />
-				<small data-i18n="download.linux64">For 64-bit Linux&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+				<a data-i18n="download.text" data-os="Linux 64" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a><br />
+				<small data-i18n="download.linux64">For 64-bit Linux <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 			</li>
 		</ul>
 	</section>
@@ -95,20 +92,20 @@
 				<hr />
 				<h2>Best of all... it's free!</h2>
 				<div class="dl-mac">
-					<a data-i18n="download.text" data-os="Mac" data-file="Popcorn-Time-0.3.4-Mac.dmg" class="btn-main icon-mac">Download Beta 3.4</a>
-					<small data-i18n="download.mac">For Mac OSX 10.7 and above&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+					<a data-i18n="download.text" data-os="Mac" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a>
+					<small data-i18n="download.mac">For Mac OSX 10.7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
 				<div class="dl-win">
-					<a data-i18n="download.text" data-os="Windows" data-file="Popcorn-Time-0.3.4-Setup.exe" class="btn-main icon-win">Download Beta 3.4</a>
-					<small data-i18n="download.windows">For Windows 7 and above&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+					<a data-i18n="download.text" data-os="Windows" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a>
+					<small data-i18n="download.windows">For Windows 7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
 				<div class="dl-lin-32">
-					<a data-i18n="download.text" data-os="Linux 32" data-file="Popcorn-Time-0.3.4-Linux32.tar.xz" class="btn-main icon-lin">Download Beta 3.4</a>
-					<small data-i18n="download.linux32">For 32-bit Linux Users&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+					<a data-i18n="download.text" data-os="Linux 32" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-lin">Download Beta <%- data.meta.version %></a>
+					<small data-i18n="download.linux32">For 32-bit Linux Users <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
 				<div class="dl-lin-64">
-					<a data-i18n="download.text" data-os="Linux 64" data-file="Popcorn-Time-0.3.4-Linux64.tar.xz" class="btn-main icon-lin">Download Beta 3.4</a>
-					<small data-i18n="download.linux64">For 64-bit Linux Users&nbsp;&nbsp;|&nbsp;&nbsp;<a data-scroll href="#get-app">Other platforms</a></small>
+					<a data-i18n="download.text" data-os="Linux 64" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-lin">Download Beta <%- data.meta.version %></a>
+					<small data-i18n="download.linux64">For 64-bit Linux Users <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
 			</div>
 		</section>
@@ -132,26 +129,26 @@
 			</div>
 			<ul id="platforms" class="platforms">
 				<li class="mac icon-laptop">
-					<a data-i18n="download.text" data-os="Mac" data-file="Popcorn-Time-0.3.4-Mac.dmg" class="btn-main icon-mac">Download Beta 3.4</a>
+					<a data-i18n="download.text" data-os="Mac" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.mac">For Mac OSX 10.7 and above</small>
 				</li>
 				<li class="win icon-screen">
-					<a data-i18n="download.text" data-os="Windows" data-file="Popcorn-Time-0.3.4-Setup.exe" class="btn-main icon-win">Download Beta 3.4</a>
+					<a data-i18n="download.text" data-os="Windows" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.windows">For Windows 7 and above</small>
 				</li>
 				<li class="lin-32 icon-window">
-					<a data-i18n="download.text" data-os="Linux 32" data-file="Popcorn-Time-0.3.4-Linux32.tar.xz" class="btn-main icon-linux">Download Beta 3.4</a>
+					<a data-i18n="download.text" data-os="Linux 32" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux32">For 32-bit Linux</small>
 				</li>
 				<li class="lin-64 icon-window">
-					<a data-i18n="download.text" data-os="Linux 64" data-file="Popcorn-Time-0.3.4-Linux64.tar.xz" class="btn-main icon-linux">Download Beta 3.4</a>
+					<a data-i18n="download.text" data-os="Linux 64" href="https://cdn.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux64">For 64-bit Linux</small>
 				</li>
 			</ul>
 		</section>
 
 		<section id="subscribe">
-			<h1>Get notified when a new version is available</h1>
+			<h2>Get notified when a new version is available</h2>
 			<form action="https://get-popcorn.us8.list-manage.com/subscribe/post?u=afbd4b6f42dd2b6ddb4f34b9b&amp;id=b1d0d0a4a1" method="POST">
 				<input type="email" name="EMAIL" data-i18n="email.placeholder" placeholder="Email Address">
 				<input type="submit" name="subscribe" value="Subscribe">
