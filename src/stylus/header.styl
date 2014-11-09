@@ -1,5 +1,5 @@
 #header {
-	height: 570px;
+	height: 500px;
 	background: url(../images/bg-header.jpg) no-repeat center top #203041;
 	background-size: cover;
 	font-family: 'Proxima Nova Light';
@@ -29,6 +29,16 @@
 
 	nav {
 		position: relative;
+
+		.facebook-widget {
+			margin: 30px 0 0 10px;
+
+			iframe {
+				border: none;
+				overflow: hidden;
+				height: 21px;
+			}
+		}
 
 		.align-left {
 			position: absolute;
@@ -170,6 +180,10 @@
 			color: #d6d7d7;
 			font-weight: normal;
 			font-family: 'Proxima Nova Semibold Italic';
+
+			.divider {
+				padding: 0 3px;
+			}
 
 			a {
 				color: #D6D7D7 !important;

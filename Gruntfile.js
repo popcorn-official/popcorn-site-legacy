@@ -56,6 +56,7 @@ module.exports = function(grunt) {
   ])
 
   grunt.config('pkg', grunt.file.readJSON('package.json'));
+  grunt.config('metadata', grunt.file.readJSON('metadata.json'));
   grunt.initConfig({
     // Stylus Compiling
     stylus: {
@@ -102,9 +103,7 @@ module.exports = function(grunt) {
     uglify: {
       compile: {
         files: {
-          'compiled/js/main.min.js': 'src/js/main.js',
-          'compiled/js/site.min.js': 'src/js/site.js',
-          'compiled/js/smothscroll.min.js': 'src/js/smothscroll.js'
+          'compiled/js/main.min.js': 'src/js/main.js'
         }
       }
     },
@@ -202,7 +201,8 @@ module.exports = function(grunt) {
         options: {
           data: {
             dev: true,
-            pkg: grunt.config('pkg')
+            pkg: grunt.config('pkg'),
+            meta: grunt.config('metadata')
           }
         }
       },
@@ -215,7 +215,8 @@ module.exports = function(grunt) {
         options: {
           data: {
             dev: false,
-            pkg: grunt.config('pkg')
+            pkg: grunt.config('pkg'),
+            meta: grunt.config('metadata')
           }
         }
       }
