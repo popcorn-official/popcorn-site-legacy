@@ -35,7 +35,7 @@
 		}
 	},
 	"mac": {
-		"version": "0.0.1",
+		"version": "0.3.5-1",
 		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_1.nw",
 		"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
 		"signature": "MCwCFGvdmcTGo74z3SK8Tkrex5c1XhJyAhRvBbJCASrw7ZrXR3l6PDiTZ4glvQ==",
