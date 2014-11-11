@@ -1,48 +1,48 @@
 {
 	"windows": {
-		"version": "0.3.3",
-		"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.4_fix1.zip",
-		"checksum": "23e0e9c8378236f63e3c1a7f0d86c5420e7f9d0a",
-		"signature": "MCwCFGVkFHFyunS7cuA5x+FHZ31ArR+6AhRfTjO6rxZwh+U27NFLe92dwOQR4g==",
-		"title": "0.3.4 Beta Release",
-		"description": "Attention, please read changelog.",
-		"changeLog": ["If you can't update, please download it from our official website","Official website: https://popcorntime.io"],
-		"gitTag": "v0.3.4",
-		"gitCommit": "1c777a09bd"
+		"version": "0.3.5-1",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.5.1.nw",
+		"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
+		"signature": "MCwCFGElASSAq7AmjFcM2oCPBzG1z26NAhRMNPQ1d7TI8HUTF1BmgDSDLOj5ZA==",
+		"title": "0.3.5 Hotfix 1",
+		"description": "Hotfix release for movies and other issues in 0.3.5",
+		"changeLog": [],
+		"gitTag": "v0.3.5.1",
+		"gitCommit": "2d71c51d71f"
 	},
 	"linux": {
 		"x86": {
-			"version": "0.3.3",
-			"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.4_fix1.nw",
-			"checksum": "8addf33fcb6eb0b694d2c81b1a0c3049f9116739",
-			"signature": "MCwCFENVfeY4NgOd71Mr5X/GJOeiLMC6AhRpEfHNG2Ys+nPgqsEMDIhPqYOyHw==",
-			"title": "0.3.4 Beta Release",
-			"description": "Attention, please read changelog.",
-			"changeLog": ["If you can't update, please download it from our official website","Official website: https://popcorntime.io"],
-			"gitTag": "v0.3.4",
-			"gitCommit": "1c777a09bd"
+			"version": "0.3.5-1",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.5.1.nw",
+			"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
+			"signature": "MCwCFGElASSAq7AmjFcM2oCPBzG1z26NAhRMNPQ1d7TI8HUTF1BmgDSDLOj5ZA==",
+			"title": "0.3.5 Hotfix 1",
+			"description": "Hotfix release for movies and other issues in 0.3.5",
+			"changeLog": [],
+			"gitTag": "v0.3.5.1",
+			"gitCommit": "2d71c51d71f"
 		},
 		"x64": {
-			"version": "0.3.3",
-			"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.4_fix1.nw",
-			"checksum": "8addf33fcb6eb0b694d2c81b1a0c3049f9116739",
-			"signature": "MCwCFENVfeY4NgOd71Mr5X/GJOeiLMC6AhRpEfHNG2Ys+nPgqsEMDIhPqYOyHw==",
-			"title": "0.3.4 Beta Release",
-			"description": "Attention, please read changelog.",
-			"changeLog": ["If you can't update, please download it from our official website","Official website: https://popcorntime.io"],
-			"gitTag": "v0.3.4",
-			"gitCommit": "1c777a09bd"
+			"version": "0.3.5-1",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.5.1.nw",
+			"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
+			"signature": "MCwCFGElASSAq7AmjFcM2oCPBzG1z26NAhRMNPQ1d7TI8HUTF1BmgDSDLOj5ZA==",
+			"title": "0.3.5 Hotfix 1",
+			"description": "Hotfix release for movies and other issues in 0.3.5",
+			"changeLog": [],
+			"gitTag": "v0.3.5.1",
+			"gitCommit": "2d71c51d71f"
 		}
 	},
 	"mac": {
-		"version": "0.3.3",
-		"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.4_fix1.nw",
-		"checksum": "8addf33fcb6eb0b694d2c81b1a0c3049f9116739",
-		"signature": "MCwCFENVfeY4NgOd71Mr5X/GJOeiLMC6AhRpEfHNG2Ys+nPgqsEMDIhPqYOyHw==",
-		"title": "0.3.4 Beta Release",
-		"description": "Attention, please read changelog.",
-		"changeLog": ["If you can't update, please download it from our official website","Official website: https://popcorntime.io"],
-		"gitTag": "v0.3.4",
-		"gitCommit": "1c777a09bd"
+		"version": "0.3.5-1",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0.3.5.1.nw",
+		"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
+		"signature": "MCwCFGElASSAq7AmjFcM2oCPBzG1z26NAhRMNPQ1d7TI8HUTF1BmgDSDLOj5ZA==",
+		"title": "0.3.5 Hotfix 1",
+		"description": "Hotfix release for movies and other issues in 0.3.5",
+		"changeLog": [],
+		"gitTag": "v0.3.5.1",
+		"gitCommit": "2d71c51d71f"
 	}
 }
