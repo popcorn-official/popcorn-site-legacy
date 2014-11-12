@@ -1,6 +1,6 @@
 {
 	"windows": {
-		"version": "0.3.5-2",
+		"version": "0.0.1",
 		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.win.nw",
 		"checksum": "55ec1d16c43bc646b59890d92807f37b5030c67d",
 		"signature": "MCwCFH2F9uj3bC5pX+usZu/5ESsYGIOpAhRszl0YkKOWyWHadL13ki1Jzc8/6g==",
@@ -19,7 +19,7 @@
 	},
 	"linux": {
 		"x86": {
-			"version": "0.3.5-2",
+			"version": "0.0.1",
 			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.lin.nw",
 			"checksum": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
 			"signature": "MCwCFBiUlB1Zy42KKdYmcWQ0B4Ys8ySFAhRutv5CMhCUMZLaR5zCa+m7sHxX1g==",
@@ -37,7 +37,7 @@
 			"gitCommit": "6fdede3acb8"
 		},
 		"x64": {
-			"version": "0.3.5-2",
+			"version": "0.0.1",
 			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.lin.nw",
 			"checksum": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
 			"signature": "MCwCFBiUlB1Zy42KKdYmcWQ0B4Ys8ySFAhRutv5CMhCUMZLaR5zCa+m7sHxX1g==",
@@ -56,7 +56,7 @@
 		}
 	},
 	"mac": {
-		"version": "0.3.5-2",
+		"version": "0.0.1",
 		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.nw",
 		"checksum": "7127d960b215c72b24b84414a16d48ab9fafd55f",
 		"signature": "MCwCFH/c4m2jFDA8HzkCBrixdgOgJ0o2AhR5+464+1FWoz+ev7OTugOwB1uRLw==",
