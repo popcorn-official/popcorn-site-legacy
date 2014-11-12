@@ -1,48 +1,76 @@
 {
 	"windows": {
-		"version": "0.0.1",
-		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_1.win.nw",
-		"checksum": "568bdffca2c8ea06fefd52db18db579809b9fa91",
-		"signature": "MCwCFEpU7xwmVay9i3R3NQxBHcKntc5HAhQylHWBo8xBN+WnjYKc2dLGzKBT5A==",
-		"title": "0.3.5 Hotfix 1",
-		"description": "Hotfix release for movies and other issues in 0.3.5",
-		"changeLog": [],
-		"gitTag": "v0.3.5.1",
-		"gitCommit": "2d71c51d71f"
+		"version": "0.3.5-2",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.win.nw",
+		"checksum": "55ec1d16c43bc646b59890d92807f37b5030c67d",
+		"signature": "MCwCFH2F9uj3bC5pX+usZu/5ESsYGIOpAhRszl0YkKOWyWHadL13ki1Jzc8/6g==",
+		"title": "<h1 style=\"font-family:Arial;\">Hotfix Available</h1><h1 style=\"display:none\">",
+		"description": "We have just released a hotfix for some issues with 0.3.5. If you are currently running version 0.3.4 or less, you will need to re-download Popcorn Time from our site.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">If you are unable to update the app (eg. it gets stuck in an endless loop), please re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
+		"changeLog": [
+			"Fixed invalid Certificate Fingerprints in the app not verifying causing requests to fail",
+			"Caught when the 'Theme' var in Database didn't exist upon upgrading",
+			"Fixed movies not loading because Trakt started replying with 404s",
+			"Fixing bookmarks that don't work on the list page for TV Shows and Anime",
+			"Remove 'Blown up' look for Retina but leave it in place for QFHD due to it's size",
+			"Fixed the updater for Linux users"
+		],
+		"gitTag": "v0.3.5.2",
+		"gitCommit": "6fdede3acb8"
 	},
 	"linux": {
 		"x86": {
-			"version": "0.0.1",
-			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_1.nw",
-			"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
-			"signature": "MCwCFGvdmcTGo74z3SK8Tkrex5c1XhJyAhRvBbJCASrw7ZrXR3l6PDiTZ4glvQ==",
-			"title": "0.3.5 Hotfix 1",
-			"description": "Hotfix release for movies and other issues in 0.3.5",
-			"changeLog": [],
-			"gitTag": "v0.3.5.1",
-			"gitCommit": "2d71c51d71f"
+			"version": "0.3.5-2",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.nw",
+			"checksum": "7127d960b215c72b24b84414a16d48ab9fafd55f",
+			"signature": "MCwCFH/c4m2jFDA8HzkCBrixdgOgJ0o2AhR5+464+1FWoz+ev7OTugOwB1uRLw==",
+			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
+			"description": "We have just released a hotfix for some issues with 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
+			"changeLog": [
+				"Fixed invalid Certificate Fingerprints in the app not verifying causing requests to fail",
+				"Caught when the 'Theme' var in Database didn't exist upon upgrading",
+				"Fixed movies not loading because Trakt started replying with 404s",
+				"Fixing bookmarks that don't work on the list page for TV Shows and Anime",
+				"Remove 'Blown up' look for Retina but leave it in place for QFHD due to it's size",
+				"Fixed the updater for Linux users"
+			],
+			"gitTag": "v0.3.5.2",
+			"gitCommit": "6fdede3acb8"
 		},
 		"x64": {
-			"version": "0.0.1",
-			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_1.nw",
-			"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
-			"signature": "MCwCFGvdmcTGo74z3SK8Tkrex5c1XhJyAhRvBbJCASrw7ZrXR3l6PDiTZ4glvQ==",
-			"title": "0.3.5 Hotfix 1",
-			"description": "Hotfix release for movies and other issues in 0.3.5",
-			"changeLog": [],
-			"gitTag": "v0.3.5.1",
-			"gitCommit": "2d71c51d71f"
+			"version": "0.3.5-2",
+			"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.nw",
+			"checksum": "7127d960b215c72b24b84414a16d48ab9fafd55f",
+			"signature": "MCwCFH/c4m2jFDA8HzkCBrixdgOgJ0o2AhR5+464+1FWoz+ev7OTugOwB1uRLw==",
+			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
+			"description": "We have just released a hotfix for some issues with 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
+			"changeLog": [
+				"Fixed invalid Certificate Fingerprints in the app not verifying causing requests to fail",
+				"Caught when the 'Theme' var in Database didn't exist upon upgrading",
+				"Fixed movies not loading because Trakt started replying with 404s",
+				"Fixing bookmarks that don't work on the list page for TV Shows and Anime",
+				"Remove 'Blown up' look for Retina but leave it in place for QFHD due to it's size",
+				"Fixed the updater for Linux users"
+			],
+			"gitTag": "v0.3.5.2",
+			"gitCommit": "6fdede3acb8"
 		}
 	},
 	"mac": {
-		"version": "0.3.5-1",
-		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_1.nw",
-		"checksum": "98fc828b3382772ed471c5b4aad66448d2adf123",
-		"signature": "MCwCFGvdmcTGo74z3SK8Tkrex5c1XhJyAhRvBbJCASrw7ZrXR3l6PDiTZ4glvQ==",
-		"title": "0.3.5 Hotfix 1",
+		"version": "0.3.5-2",
+		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.nw",
+		"checksum": "7127d960b215c72b24b84414a16d48ab9fafd55f",
+		"signature": "MCwCFH/c4m2jFDA8HzkCBrixdgOgJ0o2AhR5+464+1FWoz+ev7OTugOwB1uRLw==",
+		"title": "0.3.5 Hotfix 2",
 		"description": "Hotfix release for movies and other issues in 0.3.5",
-		"changeLog": [],
-		"gitTag": "v0.3.5.1",
-		"gitCommit": "2d71c51d71f"
+		"changeLog": [
+			"Fixed invalid Certificate Fingerprints in the app not verifying causing requests to fail",
+			"Caught when the 'Theme' var in Database didn't exist upon upgrading",
+			"Fixed movies not loading because Trakt started replying with 404s",
+			"Fixing bookmarks that don't work on the list page for TV Shows and Anime",
+			"Remove 'Blown up' look for Retina but leave it in place for QFHD due to it's size",
+			"Fixed the updater for Linux users"
+		],
+		"gitTag": "v0.3.5.2",
+		"gitCommit": "6fdede3acb8"
 	}
 }
