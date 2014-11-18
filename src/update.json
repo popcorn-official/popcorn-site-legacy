@@ -1,6 +1,6 @@
 {
 	"windows": {
-		"version": "0.0.1",
+		"version": "0.3.5-2",
 		"updateUrl": "http://cdn.popcorntime.io/_updates/0_3_5_2.win.nw",
 		"checksum": "55ec1d16c43bc646b59890d92807f37b5030c67d",
 		"signature": "MCwCFH2F9uj3bC5pX+usZu/5ESsYGIOpAhRszl0YkKOWyWHadL13ki1Jzc8/6g==",
