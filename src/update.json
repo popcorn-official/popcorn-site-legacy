@@ -1,7 +1,7 @@
 {
 	"windows": {
 		"version": "0.3.5-3",
-		"updateUrl": "http://get.popcorntime.io/_updates/0_3_5_3.win.nw",
+		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.win.nw",
 		"checksum": "6dc286f572627c9d5a7ff00ac7a9383047c0c097",
 		"signature": "MCwCFAU0VqBoJ1OGDif81TmRKP6SFz2OAhRGCHs70RrUd5vj5ymOaZisKdsDYA==",
 		"title": "<h1 style=\"font-family:Arial;\">Hotfix Available</h1><h1 style=\"display:none\">",
@@ -18,7 +18,7 @@
 	"linux": {
 		"x86": {
 			"version": "0.3.5-3",
-			"updateUrl": "http://get.popcorntime.io/_updates/0_3_5_3.nw",
+			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
 			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
 			"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
@@ -34,7 +34,7 @@
 		},
 		"x64": {
 			"version": "0.3.5-3",
-			"updateUrl": "http://get.popcorntime.io/_updates/0_3_5_3.nw",
+			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
 			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
 			"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
@@ -51,7 +51,7 @@
 	},
 	"mac": {
 		"version": "0.3.5-3",
-		"updateUrl": "http://get.popcorntime.io/_updates/0_3_5_3.nw",
+		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
 		"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
 		"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
 		"title": "0.3.5 Hotfix 3",
