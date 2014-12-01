@@ -1,11 +1,11 @@
 {
-	"version": "3.5",
+	"version": "3.5-3",
 	"downloads": {
-		"mac": "Popcorn-Time-0.3.5.2-Mac.dmg",
-		"win": "Popcorn-Time-0.3.5.2-Setup.exe",
+		"mac": "Popcorn-Time-0.3.5.3-Mac.dmg",
+		"win": "Popcorn-Time-0.3.5.3-Setup.exe",
 		"lin": {
-			"32bit": "Popcorn-Time-0.3.5.2-Linux32.tar.xz",
-			"64bit": "Popcorn-Time-0.3.5.2-Linux64.tar.xz"
+			"32bit": "Popcorn-Time-0.3.5.3-Linux32.tar.xz",
+			"64bit": "Popcorn-Time-0.3.5.3-Linux64.tar.xz"
 		}
 	}
 }
