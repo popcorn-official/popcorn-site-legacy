@@ -18,9 +18,9 @@
 	"linux": {
 		"x86": {
 			"version": "0.3.5-3",
-			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
-			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
-			"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
+			"updateUrl": "https://get.popcorntime.io/_updates/0.3.5-3.nw",
+			"checksum": "e85b17ae258e639dd75eb39cce9ba304e0c46c16",
+			"signature": "MCwCFG7kjCxMgv4SuuZHO2UZJ4itfrQyAhQ8h4bLlE11x6iWgr+sT0u/OPNtTw==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
 			"description": "Hotfix release for chromecast and other issues in 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
         			"changeLog": [
@@ -34,9 +34,9 @@
 		},
 		"x64": {
 			"version": "0.3.5-3",
-			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
-			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
-			"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
+			"updateUrl": "https://get.popcorntime.io/_updates/0.3.5-3.nw",
+			"checksum": "e85b17ae258e639dd75eb39cce9ba304e0c46c16",
+			"signature": "MCwCFG7kjCxMgv4SuuZHO2UZJ4itfrQyAhQ8h4bLlE11x6iWgr+sT0u/OPNtTw==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
 			"description": "Hotfix release for chromecast and other issues in 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
 			"changeLog": [
@@ -51,9 +51,9 @@
 	},
 	"mac": {
 		"version": "0.3.5-3",
-		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
-		"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
-		"signature": "MCwCFDup0S/JqQkSx0T1EVl3+OXoiA+RAhQqfhRki7VB/RWYDeXzgozehpQoLQ==",
+		"updateUrl": "https://get.popcorntime.io/_updates/0.3.5-3.nw",
+		"checksum": "e85b17ae258e639dd75eb39cce9ba304e0c46c16",
+		"signature": "MCwCFG7kjCxMgv4SuuZHO2UZJ4itfrQyAhQ8h4bLlE11x6iWgr+sT0u/OPNtTw==",
 		"title": "0.3.5 Hotfix 3",
 		"description": "Hotfix release for chromecast and other issues in 0.3.5",
 		"changeLog": [
