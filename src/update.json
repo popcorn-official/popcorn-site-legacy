@@ -50,11 +50,11 @@
 		}
 	},
 	"mac": {
-		"version": "0.3.5-3.1",
-		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3_1.nw",
-		"checksum": "0cb43a1ca8a14908886ed56af4072705161a40e2",
-		"signature": "MCwCFGUgV/Eh9igBm81h30I7JQ1Ir7TpAhRnY9lmw1WvvOHg8f+4nyKrJWsAIA==",
-		"title": "0.3.5 Hotfix 3.1",
+		"version": "0.3.5-4",
+		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_4.nw",
+		"checksum": "eab2e5b8494f92b36fed1423ee6d704672c0ba6a",
+		"signature": "MCwCFG2bw8UxxVwZhZBD3seh54l5uXqXAhQd9b7wu7cH7uAeJdrxcmwU9Jv62Q==",
+		"title": "0.3.5 Hotfix 4",
 		"description": "Hotfix release for chromecast and mac crash in 0.3.5-3",
 		"changeLog": [
 			"Mac crash every 5-10 minutes",
