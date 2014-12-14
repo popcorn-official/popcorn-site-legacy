@@ -10,14 +10,14 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://blog.popcorntime.io/</loc>
+  <loc>https://blog.popcorntime.io/</loc>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://discuss.popcorntime.io/</loc>
+  <loc>https://discuss.popcorntime.io/</loc>
   <changefreq>always</changefreq>
-  <priority>0.90</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://popcorntime.io/tos</loc>
