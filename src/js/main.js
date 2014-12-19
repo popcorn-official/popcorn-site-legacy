@@ -77,7 +77,9 @@ var popcorn = {
                     x: Math.random() * width,     // x-pos
                     y: Math.random() * height,    // y-pos
                     size: Math.random()*4+1,    // radius
-                    weight: Math.random() * count // density
+                    weight: Math.random() * count, // density
+                    seed: Math.random(),
+                    angle: Math.random() * 360
                 });
             }
 
@@ -146,8 +148,9 @@ var popcorn = {
         function update() {
             for(var i = 0; i < count; i++) {
                 var particle = particles[i];
+                particle.angle += 0.01;
                 particle.y += Math.cos(particle.weight) + wind.y + particle.size / 2;
-                particle.x += wind.x;
+                particle.x += Math.sin(particle.angle) + wind.x;
 
                 if(particle.x > width + 5 || particle.x < -5 || 
                    particle.y > height)
