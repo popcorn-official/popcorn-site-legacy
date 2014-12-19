@@ -57,7 +57,7 @@ var popcorn = {
     },
     snow: function() {
         /* Snow Parameters */
-        var count = 30;
+        var count = 75;
         var wind = { x: 2, y: 1 };
 
         var particles = [];
@@ -76,9 +76,8 @@ var popcorn = {
                 particles.push({
                     x: Math.random() * width,     // x-pos
                     y: Math.random() * height,    // y-pos
-                    size: Math.random()*4+1,    // radius
+                    size: 1 + Math.random() * 3,    // radius
                     weight: Math.random() * count, // density
-                    seed: Math.random(),
                     angle: Math.random() * 360
                 });
             }
@@ -129,7 +128,7 @@ var popcorn = {
 
         function render() {
             ctx.clearRect(0, 0, width, height);
-            ctx.fillStyle = 'rgba(255,255,255,0.8)';
+            ctx.fillStyle = 'rgba(250,250,250,0.8)';
             ctx.beginPath();
             for(var i = 0; i < count; i++) {
                 var particle = particles[i];
