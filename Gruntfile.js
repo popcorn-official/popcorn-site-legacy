@@ -53,7 +53,7 @@ module.exports = function(grunt) {
   grunt.registerTask('develop', [
     'connect',
     'watch'
-  ])
+  ]);
 
   grunt.config('pkg', grunt.file.readJSON('package.json'));
   grunt.config('metadata', grunt.file.readJSON('metadata.json'));
