@@ -1,19 +1,28 @@
 body.mac .dl-win,
 body.mac .dl-lin-32,
 body.mac .dl-lin-64,
+body.mac .dl-android,
 body.win .dl-mac,
 body.win .dl-lin-32,
 body.win .dl-lin-64,
+body.win .dl-android,
 body.lin-32 .dl-mac,
 body.lin-64 .dl-mac,
+body.lin-32 .dl-android,
 body.lin-32 .dl-win,
 body.lin-64 .dl-win,
+body.lin-64 .dl-android,
+body.android .dl-win,
+body.android .dl-mac,
+body.android .dl-lin-32,
+body.android .dl-lin-64,
 body.nope .dl-win,
+body.nope .dl-android,
 body.nope .dl-mac {
 	display: none !important;
 }
 
-body .dl-win, body .dl-lin-32, body .dl-lin-64 {
+body .dl-win, body .dl-lin-32, body .dl-lin-64, body .dl-android {
 	display: none !important;
 }
 
@@ -23,5 +32,9 @@ body.win .dl-win {
 
 body.lin-32 .dl-lin-32,
 body.lin-64 .dl-lin-64 {
+	display: block !important;
+}
+
+body.android .dl-android {
 	display: block !important;
 }
