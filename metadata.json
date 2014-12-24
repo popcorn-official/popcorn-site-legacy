@@ -1,6 +1,7 @@
 {
 	"version": "3.5",
 	"downloads": {
+		"android": "Popcorn-Time-0.1.0.apk",
 		"mac": "Popcorn-Time-0.3.5.4-Mac.dmg",
 		"win": "Popcorn-Time-0.3.5.3-Setup.exe",
 		"lin": {

@@ -23,6 +23,8 @@ var popcorn = {
             return 'mac';
         } else if (/Win/.test(ua)) {
             return 'win';
+        } else if (/armv7/.test(ua)) {
+            return 'android';
         } else if (/Lin/.test(ua)) {
             if (/x86_64/.test(ua)) {
                 return 'lin-64';
@@ -151,7 +153,7 @@ var popcorn = {
                 particle.y += Math.cos(particle.weight) + wind.y + particle.size / 2;
                 particle.x += Math.sin(particle.angle) + wind.x;
 
-                if(particle.x > width + 5 || particle.x < -5 || 
+                if(particle.x > width + 5 || particle.x < -5 ||
                    particle.y > height)
                 {
                     if(i % 3 > 0) {
