@@ -2,8 +2,8 @@
 	"windows": {
 		"version": "0.3.6",
 		"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.win.nw",
-		"checksum": "7339603420b9f59aae09145cb72c171ebc28eae3",
-		"signature": "MCwCFAU0VqBoJ1OGDif81TmRKP6SFz2OAhRGCHs70RrUd5vj5ymOaZisKdsDYA==",
+		"checksum": "f1b5b12b9e2a97a1b329ef69c9917cb1e258b8d5",
+		"signature": "MCwCFC/su23VbTYWmq3ks3J41waOACU7AhRcCRKXcGN0WQVJ47vyMcJX94Qtag==",
 		"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
 		"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
 				"changeLog": [],
@@ -14,8 +14,8 @@
 		"x86": {
 			"version": "0.3.6",
 			"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
-			"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
-			"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
+			"checksum": "b74af538ae61160463124072597b4a78580fc6b0",
+			"signature": "MCwCFA6T91/GJpuBU+HwSkjI/hW7o5V6AhRMZImHUlS0v1DtwHS/TEaOIVo9Ng==",
 			"title": "The Christmas tree is up",
 			"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
         			"changeLog": [],
@@ -25,8 +25,8 @@
 		"x64": {
 			"version": "0.3.6",
 			"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
-			"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
-			"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
+			"checksum": "b74af538ae61160463124072597b4a78580fc6b0",
+			"signature": "MCwCFA6T91/GJpuBU+HwSkjI/hW7o5V6AhRMZImHUlS0v1DtwHS/TEaOIVo9Ng==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
 			"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
         			"changeLog": [],
@@ -37,8 +37,8 @@
 	"mac": {
 		"version": "0.3.6",
 		"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
-		"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
-		"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
+		"checksum": "b74af538ae61160463124072597b4a78580fc6b0",
+		"signature": "MCwCFA6T91/GJpuBU+HwSkjI/hW7o5V6AhRMZImHUlS0v1DtwHS/TEaOIVo9Ng==",
 		"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
 		"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
 				"changeLog": [],
