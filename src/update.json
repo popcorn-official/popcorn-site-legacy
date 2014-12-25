@@ -1,69 +1,48 @@
 {
 	"windows": {
-		"version": "0.3.5-3",
-		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.win.nw",
-		"checksum": "6dc286f572627c9d5a7ff00ac7a9383047c0c097",
+		"version": "0.3.6",
+		"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.win.nw",
+		"checksum": "7339603420b9f59aae09145cb72c171ebc28eae3",
 		"signature": "MCwCFAU0VqBoJ1OGDif81TmRKP6SFz2OAhRGCHs70RrUd5vj5ymOaZisKdsDYA==",
-		"title": "<h1 style=\"font-family:Arial;\">Hotfix Available</h1><h1 style=\"display:none\">",
-		"description": "Hotfix release for chromecast and other issues in 0.3.5. If you are currently running version 0.3.4 or less, you will need to re-download Popcorn Time from our site.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">If you are unable to update the app (eg. it gets stuck in an endless loop), please re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
-		"changeLog": [
-			"Airplay issue",
-			"Chromecast issue",
-			"Stuck on loading",
-			"Stuck on subtitles download"
-		],
-		"gitTag": "v0.3.5.3",
+		"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
+		"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
+				"changeLog": [],
+		"gitTag": "v0.3.6",
 		"gitCommit": "56f1b572"
 	},
 	"linux": {
 		"x86": {
-			"version": "0.3.5-3",
-			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
-			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
-			"signature": "MCwCFBMsMeyGwsvvSBqIL0exmt/TacjYAhRiDBxN7cPs+whl5qinwrJu8mAhUA==",
-			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
-			"description": "Hotfix release for chromecast and other issues in 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
-        			"changeLog": [
-        			"Airplay issue",
-        			"Chromecast issue",
-        			"Stuck on loading",
-        			"Stuck on subtitles download"
-        		],
-			"gitTag": "v0.3.5.3",
+			"version": "0.3.6",
+			"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
+			"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
+			"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
+			"title": "The Christmas tree is up",
+			"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
+        			"changeLog": [],
+			"gitTag": "v0.3.6",
 			"gitCommit": "56f1b572"
 		},
 		"x64": {
-			"version": "0.3.5-3",
-			"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_3.nw",
-			"checksum": "a8425c55476b4748ccd369ecd0fa7c9747bceabf",
-			"signature": "MCwCFBMsMeyGwsvvSBqIL0exmt/TacjYAhRiDBxN7cPs+whl5qinwrJu8mAhUA==",
+			"version": "0.3.6",
+			"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
+			"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
+			"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
 			"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
-			"description": "Hotfix release for chromecast and other issues in 0.3.5.<br><i style=\"font-family:Arial;font-weight:bold;color:#000;font-size:15px\">In order for this update to work you will need to re-download Popcorn Time from our site: <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://popcorntime.io'); return false\">https://popcorntime.io</a></i>",
-			"changeLog": [
-        			"Airplay issue",
-        			"Chromecast issue",
-        			"Stuck on loading",
-        			"Stuck on subtitles download"
-        		],
-			"gitTag": "v0.3.5.3",
+			"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
+        			"changeLog": [],
+			"gitTag": "v0.3.6",
 			"gitCommit": "56f1b572"
 		}
 	},
 	"mac": {
-		"version": "0.3.5-4",
-		"updateUrl": "https://get.popcorntime.io/_updates/0_3_5_4.nw",
-		"checksum": "eab2e5b8494f92b36fed1423ee6d704672c0ba6a",
-		"signature": "MCwCFG2bw8UxxVwZhZBD3seh54l5uXqXAhQd9b7wu7cH7uAeJdrxcmwU9Jv62Q==",
-		"title": "0.3.5 Hotfix 4",
-		"description": "Hotfix release for chromecast and mac crash in 0.3.5-3",
-		"changeLog": [
-			"Mac crash every 5-10 minutes",
-			"Airplay issue",
-			"Chromecast issue",
-			"Stuck on loading",
-			"Stuck on subtitles download"
-		],
-		"gitTag": "v0.3.5-3.1",
+		"version": "0.3.6",
+		"updateUrl": "https://get.popcorntime.io/_updates/0_3_6.nw",
+		"checksum": "d0c40074fc18bb54da3d24651e32a27ec24cdfbf",
+		"signature": "MCwCFCaSUQhJim63//LrJKctUAi6G4M/AhQzMp+msH847VTCwBeuG8mb/HWz/g==",
+		"title": "<h1 style=\"font-family:Arial;\">Popcorn Time Outdated</h1><h1 style=\"display:none\">",
+		"description": "Merry Christmas, and Happy Holidays everyone! A LOT of new features, and many bugfixes. <a href=\"#\" style=\"color:#db3445\" onclick=\"gui.Shell.openExternal('https://blog.popcorntime.io/christmas-cheer-and-the-new-years-holiday'); return false\">View blog post</a></i>",
+				"changeLog": [],
+		"gitTag": "v0.3.6",
 		"gitCommit": "56f1b572"
 	}
 }
