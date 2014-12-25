@@ -133,13 +133,9 @@
 		<section id="get-app">
 			<div class="text">
 				<h2>A whole new way to watch movies and TV</h2>
-				<p>Just take care of the popcorn &amp; leave the rest to us.</p>
+				<p>Just take care of the popcorn and leave the rest to us.</p>
 			</div>
 			<ul id="platforms" class="platforms">
-				<li class="android icon-mobile">
-					<a data-i18n="download.text" data-os="Android" href="https://get.popcorntime.io/build/<%- data.meta.downloads.android %>" class="btn-main icon-android">Download Beta 1.0</a>
-					<small data-i18n="download.android">For Android 4.0.3 and above</small>
-				</li>
 				<li class="mac icon-laptop">
 					<a data-i18n="download.text" data-os="Mac" href="https://get.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.mac">For Mac OSX 10.7 and above</small>
@@ -148,13 +144,15 @@
 					<a data-i18n="download.text" data-os="Windows" href="https://get.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.windows">For Windows 7 and above</small>
 				</li>
-				<li class="lin-32 icon-window">
+				<li class="lin-32 lin-64 icon-window">
 					<a data-i18n="download.text" data-os="Linux 32" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux32">For 32-bit Linux</small>
-				</li>
-				<li class="lin-64 icon-window">
 					<a data-i18n="download.text" data-os="Linux 64" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux64">For 64-bit Linux</small>
+				</li>
+				<li class="android icon-mobile">
+					<a data-i18n="download.text" data-os="Android" href="https://get.popcorntime.io/build/<%- data.meta.downloads.android %>" class="btn-main icon-android">Download Beta 1.0</a>
+					<small data-i18n="download.android">For Android 4.0.3 and above</small>
 				</li>
 			</ul>
 		</section>
