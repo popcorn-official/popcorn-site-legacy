@@ -25,6 +25,8 @@ var popcorn = {
             return 'win';
         } else if (/Android/.test(ua)) {
             return 'android';
+        } else if (/armv7/.test(ua)) {
+            return 'android';
         } else if (/Lin/.test(platform)) {
             if (/x86_64/.test(platform)) {
                 return 'lin-64';
