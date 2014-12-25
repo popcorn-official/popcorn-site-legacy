@@ -18,15 +18,15 @@ var popcorn = {
                                        || window[vendors[i]+'CancelRequestAnimationFrame'];
         }
     },
-    detectUA: function(ua) {
-        if (/Mac/.test(ua)) {
+    detectUA: function(platform, ua) {
+        if (/Mac/.test(platform)) {
             return 'mac';
-        } else if (/Win/.test(ua)) {
+        } else if (/Win/.test(platform)) {
             return 'win';
-        } else if (/armv7/.test(ua)) {
+        } else if (/Android/.test(ua)) {
             return 'android';
-        } else if (/Lin/.test(ua)) {
-            if (/x86_64/.test(ua)) {
+        } else if (/Lin/.test(platform)) {
+            if (/x86_64/.test(platform)) {
                 return 'lin-64';
             } else {
                 return 'lin-32';
@@ -178,7 +178,7 @@ var popcorn = {
 };
 
 popcorn.initialize();
-popcorn.updateDownloads(navigator.platform);
+popcorn.updateDownloads(navigator.platform, navigator.userAgent);
 popcorn.updateStatus('#status', 'https://popcorntime.statuspage.io/api/v1/status.json');
 popcorn.smoothScroll();
 if((mnth = new Date().getMonth()) === 11 || mnth === 0) {
