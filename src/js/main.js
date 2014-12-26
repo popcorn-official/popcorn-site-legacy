@@ -19,16 +19,14 @@ var popcorn = {
         }
     },
     detectUA: function(platform, ua) {
-        if (/Mac/.test(platform)) {
+        if (/Mac/.test(ua)) {
             return 'mac';
-        } else if (/Win/.test(platform)) {
+        } else if (/Win/.test(ua)) {
             return 'win';
-        } else if (/Android/.test(ua)) {
+        } else if (/Android/.test(platform)) {
             return 'android';
-        } else if (/armv7/.test(ua)) {
-            return 'android';
-        } else if (/Lin/.test(platform)) {
-            if (/x86_64/.test(platform)) {
+        } else if (/Lin/.test(ua)) {
+            if (/x86_64/.test(ua)) {
                 return 'lin-64';
             } else {
                 return 'lin-32';
@@ -37,8 +35,8 @@ var popcorn = {
             return;
         }
     },
-    updateDownloads: function(ua) {
-        document.body.className += ' ' + (this.detectUA(ua) || 'nope');
+    updateDownloads: function(platform, ua) {
+        document.body.className += ' ' + (this.detectUA(platform, ua) || 'nope');
     },
     updateStatus: function(el, url) {
         $.get(url, function(resp) {
