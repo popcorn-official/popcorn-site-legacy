@@ -19,14 +19,14 @@ var popcorn = {
         }
     },
     detectUA: function(platform, ua) {
-        if (/Mac/.test(ua)) {
+        if (/Mac/.test(platform)) {
             return 'mac';
-        } else if (/Win/.test(ua)) {
+        } else if (/Win/.test(platform)) {
             return 'win';
-        } else if (/Android/.test(platform)) {
+        } else if (/Android/.test(ua)) {
             return 'android';
-        } else if (/Lin/.test(ua)) {
-            if (/x86_64/.test(ua)) {
+        } else if (/Lin/.test(platform)) {
+            if (/x86_64/.test(platform)) {
                 return 'lin-64';
             } else {
                 return 'lin-32';
