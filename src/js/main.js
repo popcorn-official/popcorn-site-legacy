@@ -9,6 +9,9 @@ var popcorn = {
             }
         });
         analytics.pageview();
+        i18n.init({fallbackLng: 'en'}, function() {
+	        $("html").i18n();
+        });
     },
     polyfill: function() {
         var vendors = ['ms', 'moz', 'webkit', 'o'];
