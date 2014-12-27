@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "GYIK",
+        "tos": "ÁSZF",
+        "home": "KEZDŐLAP"
+    },
+    "header": {
+        "beta": {
+            "title": "Nézzen Filmeket és TV műsorokat azonnal",
+            "subtitle": "Jelenleg béta állapotú, de menjen és próbálja ki!"
+        }
+    },
+    "download": {
+        "text": "Béta letőltése %s",
+        "mac": "Mac OSX 10.7 és újabb",
+        "windows": "Windows 7 és újabb",
+        "linux32": "32-bit Linux",
+        "linux64": "64-bit Linux",
+        "android": "Android 4.0.3 és újabb",
+        "platforms": "Egyéb platformok",
+        "free": "A legjobb az egészben... ingyenes!"
+    },
+    "warning": {
+        "whatitdoes": "A Popcorn Time filmeket és TV műsorokat streamel torrentekből",
+        "copyright": "Jogvédett anyagok letöltése illegális lehet az Ön országában. Használja a saját felelősségére."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Kiváló filmek és TV műsorok",
+            "text": "Folyamatosan keressük az egész weben a legjobb torrenteket a legfontosabb oldalakról."
+        },
+        "restrictions": {
+            "title": "Nincsenek korlátozások",
+            "text": "Nézze akármelyik filmet vagy TV műsort annyiszor ahányszor akarja. Mindössze a kezdéshez csak egy megfelelő internet-kapcsolatra van szüksége."
+        },
+        "catalogue": {
+            "title": "Fantasztikus katalógus",
+            "text": "Ha a film vagy TV műsor kint van, a Popcorn Time meg fogja találni a  lehetséges legjobb változatot, és elkezdi steamelni azonnal."
+        },
+        "quality": {
+            "title": "A legjobb minőség",
+            "text": "Nézze filmjét vagy epizódját azonnal HD-ben és feliratokkal. És aztán folyamatosan nézze."
+        },
+        "save": {
+            "title": "Időt takaríthat meg popcorn készítésére",
+            "text": "Nincs várakozás vagy letőltési idő. Azonnali lejátszása a kedvenc filmjeinek és TV műsorainak."
+        }
+    },
+    "how": {
+        "title": "Nehezen hihető?",
+        "subtitle": "Látod, milyen egyszerűen működik...",
+        "open": "Nyissa meg a Popcorn Time-ot<br>és válasszon egy filmet vagy epizódot.",
+        "select": "Válasszon minőséget<br>és feliratot",
+        "play": "Kattintson a lejátszásra<br>és élvezze!"
+    },
+    "get-app": {
+        "new": "Egy teljesen új módja annak, ahogyan filmeket és TV-t néz",
+        "popcorn": "Csak gondoskodjon a pattogatott kukoricáról és a többit bízza ránk."
+    },
+    "email": {
+        "placeholder": "Email cím",
+        "subscribe": "Feliratkozás",
+        "notified": "Értesítést kap, amikor egy új verzió elérhető"
+    },
+    "footer": {
+        "faq": "GYIK",
+        "tos": "Szolgáltatás feltételei",
+        "con": "Kapcsolat / Névjegy"
+    }
+}

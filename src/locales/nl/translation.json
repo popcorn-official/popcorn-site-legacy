@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "HOME"
+    },
+    "header": {
+        "beta": {
+            "title": "Kijk direct al je films en series",
+            "subtitle": "Momenteel in Beta, maar je kunt het natuurlijk altijd proberen!"
+        }
+    },
+    "download": {
+        "text": "Download Beta %s",
+        "mac": "Voor Mac OSX 10.7 en hoger",
+        "windows": "Voor Windows 7 en hoger",
+        "linux32": "Voor 32-bit Linux",
+        "linux64": "Voor 64-bit Linux",
+        "android": "Voor Android 4.0.3 en hoger",
+        "platforms": "Andere besturingssystemen",
+        "free": "En het beste van alles... Het is helemaal gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time streamt films en series via torrents",
+        "copyright": "Het downloaden van auteursrechtelijk beschermd materiaal kan illegaal zijn in jouw land. Gebruik op eigen risico!"
+    },
+    "features": {
+        "greatmovies": {
+            "title": "De beste films en series",
+            "text": "We zijn constant op zoek naar de beste torrents van de belangrijkste websites op het internet."
+        },
+        "restrictions": {
+            "title": "Geen beperkingen",
+            "text": "Bekijk elke film of serie zo vaak als je wilt. Alles wat je nodig hebt is een goede internetverbinding."
+        },
+        "catalogue": {
+            "title": "Geweldige collectie",
+            "text": "Als wij de film of serie die je zoekt kunnen vinden, zorgt Popcorn Time ervoor dat je direct de beste versie kunt bekijken."
+        },
+        "quality": {
+            "title": "De hoogste kwaliteit",
+            "text": "Bekijk je film of serie direct in HD en met ondertiteling. En blijf kijken zo lang als je wilt."
+        },
+        "save": {
+            "title": "Bespaar tijd om popcorn te maken",
+            "text": "Je hoeft niet te wachten. Je kunt je favoriete films en series direct bekijken."
+        }
+    },
+    "how": {
+        "title": "Moeilijk te geloven?",
+        "subtitle": "Bekijk hoe gemakkelijk het is...",
+        "open": "Open Popcorn Time<br>en kies een film of aflevering",
+        "select": "Selecteer de kwaliteit<br>en ondertiteling",
+        "play": "Klik op 'afspelen'<br>en geniet!"
+    },
+    "get-app": {
+        "new": "Een hele nieuwe manier om films en series te kijken",
+        "popcorn": "Jij maakt de popcorn, wij doen de rest."
+    },
+    "email": {
+        "placeholder": "E-mailadres",
+        "subscribe": "Inschrijven",
+        "notified": "Ontvang een bericht als er een nieuwe versie beschikbaar is"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Servicevoorwaarden",
+        "con": "Contact / Over"
+    }
+}
