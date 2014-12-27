@@ -1,0 +1,62 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "HOME"
+    },
+    "header": {
+        "beta": {
+            "title": "Oglądaj filmy i seriale natychmiastowo",
+            "subtitle": "Aktualnie w wersji Beta, ale nie przejmuj się i przetestuj!"
+        }
+    },
+    "download": {
+        "text": "Pobierz wersję Beta <%- data.meta.version %>",
+        "mac": "Dla Mac OSX 10.7 i nowszych",
+        "windows": "Dla Windows 7 i nowszych",
+        "linux32": "Dla 32-bitowego Linuksa",
+        "linux64": "Dla 64-biowegot Linuksa",
+        "platforms": "Inne platformy",
+        "free": "I najlepsze... jest za darmo!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn TIme streamuje filmy i seriale z torrentów",
+        "copyright": "Pobieranie materiałów objętych prawami autorskimi może być nielegalne w Twoim kraju. Używasz na własne ryzyko."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Świetne filmy i seriale",
+            "text": "Nieustannie przeszukujemy sieć w poszukiwaniu jak najlepszych torrentów."
+        },
+        "restrictions": {
+            "title": "Bez ogarniczeń",
+            "text": "Oglądaj dowolny film lub serial tyle razy ile tylko chcesz. Jedyne czego potrzebujesz to odpowiednie łącze internetowe."
+        },
+        "catalogue": {
+            "title": "Niesamowity katalog",
+            "text": "Jeśli film lub serial jest już dostępny, Popcorn Time znajdzie najlepszą z możliwych wersji i zacznie ją streamować dla Ciebie."
+        },
+        "quality": {
+            "title": "Najlepsza jakość",
+            "text": "Oglądaj filmy i seriale natychmiastowo w HD oraz z napisami."
+        },
+        "save": {
+            "title": "Oszczędź czas",
+            "text": "Bez czekania. Natychmiastowe odtwarzanie Twoich ulubionych filmów i seriali."
+        }
+    },
+    "how": {
+        "title": "Ciężko w to uwierzyć?",
+        "subtitle": "Spójrz jak prosto to działa...",
+        "open": "Otwórz Popcorn Time<br>i wybierz film lub serial",
+        "select": "Wybierz jakość<br>i napisy",
+        "play": "Kliknij Odtwarzaj<br>i ciesz się oglądaniem!"
+    },
+    "email": {
+        "placeholder": "Adres email"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Warunki korzystania z usługi"
+    }
+}

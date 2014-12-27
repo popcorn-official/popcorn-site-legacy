@@ -1,0 +1,62 @@
+{
+    "nav": {
+        "faq": "Često postavljana pitanja",
+        "tos": "Uvjeti korištenja",
+        "home": "NASLOVNICA"
+    },
+    "header": {
+        "beta": {
+            "title": "Gledajte filmove i TV serije trenutačno",
+            "subtitle": "Trenutno je u beta testiranju, ali slobodno ga isprobajte!"
+        }
+    },
+    "download": {
+        "text": "Preuzimite Beta <%- data.meta.version %>",
+        "mac": "Za Mac OSX 10.7 i noviji",
+        "windows": "Za Windows 7 i noviji",
+        "linux32": "Za 32-bitni Linux",
+        "linux64": "Za 64-bitni Linux",
+        "platforms": "Ostale platforme",
+        "free": "Najbolje od svega je... da je besplatno!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time streama filmove i TV serije s torrenta",
+        "copyright": "Preuzimanje sadržaja zaštićenog autorskim pravom je možda ilegalno u vašoj zemlji. Koristite na vlastitu odgovornost."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Odlični filmovi i TV serije",
+            "text": "Neprekidno pretražujemo Internet za najboljim torrentima s najpoznatijih stranica."
+        },
+        "restrictions": {
+            "title": "Bez ograničenja",
+            "text": "Gledajte bilo koji film ili TV seriju onoliko puta koliko želite. Sve što vam je potrebno je ispravan pristup Internetu."
+        },
+        "catalogue": {
+            "title": "Odlična videoteka",
+            "text": "Ako je film ili TV serija objavljena, Popcorn Time će pronaći najbolju inačicu i odmah pokrenuti reprodukciju."
+        },
+        "quality": {
+            "title": "Najbolja kvaliteta",
+            "text": "Gledajte film ili epizodu trenutačno u HD razlučivosti i s podnaslovima. Gledajte neprekidno."
+        },
+        "save": {
+            "title": "Uštedite vrijeme za pripremu kokica",
+            "text": "Bez čekanja na završetak preuzimanja. Odmah možete početi gledati vaše omiljene filmove i TV serije."
+        }
+    },
+    "how": {
+        "title": "Teško vam je za povjerovati?",
+        "subtitle": "Pogledajte kako je jednostavno za korštenje...",
+        "open": "Otvorite Popcorn Time<br>i odaberite film ili epizodu",
+        "select": "Odaberite kvalitetu<br> i podnaslove",
+        "play": "Pokrenite reprodukciju <br> i uživajte!"
+    },
+    "email": {
+        "placeholder": "Adresa e-pošte"
+    },
+    "footer": {
+        "faq": "Često postavljana pitanja",
+        "tos": "Uvjeti korištenja"
+    }
+}

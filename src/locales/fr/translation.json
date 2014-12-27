@@ -1,0 +1,62 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "CGU",
+        "home": "ACCUEIL"
+    },
+    "header": {
+        "beta": {
+            "title": "Regardez vos films et vos séries instantanément",
+            "subtitle": "Actuellement en version beta mais venez l'essayer!"
+        }
+    },
+    "download": {
+        "text": "Téléchargez la version beta <%- data.meta.version %>",
+        "mac": "Pour Mac OSX 10.7 et plus",
+        "windows": "Pour Windows 7 et plus",
+        "linux32": "Pour Linux 32-bit",
+        "linux64": "Pour Linux 64-bit",
+        "platforms": "Autres plateformes",
+        "free": "Et le plus beau... c'est gratuit"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time lit les films et les séries depuis des torrents",
+        "copyright": "Le téléchargement d'oeuvres protégées peut être interdit dans votre pays. À utiliser à vos risques et périls."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Les meilleurs films et séries",
+            "text": "Nous cherchons à travers le web les meilleurs torrents sur les sites les plus connus."
+        },
+        "restrictions": {
+            "title": "Pas de limites",
+            "text": "Regardez n'importe quel film ou série autant de fois que vous le souhaitez. Tout ce dont vous avez besoin, c'est d'une connexion internet."
+        },
+        "catalogue": {
+            "title": "Un super catalogue",
+            "text": "Si le film ou la série existe, Popcorn Time trouvera la meilleure version possible et la diffusera."
+        },
+        "quality": {
+            "title": "La meilleure qualité",
+            "text": "Regardez votre film ou épisode instantanément en HD et sous-titré. Et ensuite continuez."
+        },
+        "save": {
+            "title": "D'avantage de temps pour faire du popcorn",
+            "text": "Pas d'attente ou de temps de téléchargement. Lecture instantanée de vos films ou séries préférés."
+        }
+    },
+    "how": {
+        "title": "Difficile à croire ?",
+        "subtitle": "Regardez comme c'est facile...",
+        "open": "Ouvrez Popcorn Time<br>et choisissez votre film ou votre épisode",
+        "select": "Sélectionnez votre qualité<br>et vos sous-titres",
+        "play": "Cliquez sur lire<br>et profitez!"
+    },
+    "email": {
+        "placeholder": "Adresse e-mail"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Conditions Générales d'Utilisation"
+    }
+}
