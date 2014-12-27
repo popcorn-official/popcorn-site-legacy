@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Λήψη Beta <%- data.meta.version %>",
+        "text": "Λήψη Beta %s",
         "mac": "Για Mac OSX 10.7 και πάνω",
         "windows": "Για Windows 7 και πάνω",
         "linux32": "Για 32-bit Linux",

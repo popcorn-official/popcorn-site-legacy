@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Lae alla Beta <%- data.meta.version %>",
+        "text": "Lae alla Beta %s",
         "mac": "Mac OSX 10.7 ja uuemad",
         "windows": "Windows 7 ja uuemad",
         "linux32": "32-bit Linuxile",

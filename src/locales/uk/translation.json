@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Завантажте Beta <%- data.meta.version %>",
+        "text": "Завантажте Beta %s",
         "mac": "Для Mac OSX 10.7 та новіше",
         "windows": "Для Windows 7 та новіше",
         "linux32": "Для 32-бітних Linux",

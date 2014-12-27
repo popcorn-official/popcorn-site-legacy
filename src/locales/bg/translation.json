@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Изтегли Beta версия <%- data.meta.version %>",
+        "text": "Изтегли Beta версия %s",
         "mac": "За Mac OSX 10.7 и нагоре",
         "windows": "За Windows 7 и нагоре",
         "linux32": "За 32-битов Linux",

@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Download Beta <%- data.meta.version %>",
+        "text": "Download Beta %s",
         "mac": "Voor Mac OSX 10.7 en hoger",
         "windows": "Voor Windows 7 en hoger",
         "linux32": "Voor 32-bit Linux",

@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Last ned betaversjon <%- data.meta.version %>",
+        "text": "Last ned betaversjon %s",
         "mac": "For Mac OSX 10.7 eller nyere",
         "windows": "For Windows 7 eller nyere",
         "linux32": "For 32-biters Linux|GNU",
