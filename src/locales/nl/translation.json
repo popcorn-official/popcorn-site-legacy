@@ -53,11 +53,18 @@
         "select": "Selecteer de kwaliteit<br>en ondertiteling",
         "play": "Klik op 'afspelen'<br>en geniet!"
     },
+    "get-app": {
+        "new": "Een hele nieuwe manier om films en series te kijken",
+        "popcorn": "Jij maakt de popcorn, wij doen de rest."
+    },
     "email": {
-        "placeholder": "E-mailadres"
+        "placeholder": "E-mailadres",
+        "subscribe": "Inschrijven",
+        "notified": "Ontvang een bericht als er een nieuwe versie beschikbaar is"
     },
     "footer": {
         "faq": "FAQ",
-        "tos": "Servicevoorwaarden"
+        "tos": "Servicevoorwaarden",
+        "con": "Contact / Over"
     }
 }
