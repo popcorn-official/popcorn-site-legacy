@@ -13,9 +13,9 @@ var popcorn = {
         i18n.init({fallbackLng: 'en'}, function() {
 	        $("html").i18n();
 	        var desktop_version = $("#get-app").attr("data-version");
-	        var android_version = $("#get-app").attr("data-android-version");
+	        var android_version = $("#get-app").attr("data-version-android");
 	        $(".download .btn-main").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [desktop_version]}));
-	        $(".download .android .btn-main").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [android_version]}));
+	        $(".download.android .btn-main").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [android_version]}));
         });
     },
     polyfill: function() {
