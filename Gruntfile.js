@@ -16,6 +16,7 @@ module.exports = function(grunt) {
     'copy:fonts',
     'copy:images',
     'copy:js',
+    'copy:locales',
     'render:dev',
     'copy:misc'
   ]);
@@ -33,6 +34,7 @@ module.exports = function(grunt) {
     'validation:dist',
     'copy:favicon',
     'copy:fonts',
+    'copy:locales',
     'copy:misc'
   ]);
 
@@ -178,6 +180,12 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'src/',
         src: ['update.json', 'sitemap.xml', 'robots.txt'],
+        dest: 'compiled/'
+      },
+      locales: {
+        expand: true,
+        cwd: 'src/',
+        src: 'locales/*',
         dest: 'compiled/'
       }
     },
