@@ -16,3 +16,9 @@ Setting up the website for development is just as easy
   4. Visit [http://localhost:8080/](http://localhost:8080/) 
   5. Edit any file and refresh the page!
   6. Enjoy!
+
+### Updating translations
+Updating the translations from Transifex is easy too, of course
+  1. Make sure you have the [Transifex command-line client](https://github.com/transifex/transifex-client) installed
+  2. Run `tx pull -a` in the root directory
+  3. Run `grunt copy:locales` to update the `locales` directory in the `compiled` folder
