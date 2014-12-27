@@ -1,0 +1,62 @@
+{
+    "nav": {
+        "faq": "SSS",
+        "tos": "Kural ve Koşullar",
+        "home": "Anasayfa"
+    },
+    "header": {
+        "beta": {
+            "title": "Dizileri ve filmleri anında izle",
+            "subtitle": "Deneme aşamasında ama korkmayın deneyin!"
+        }
+    },
+    "download": {
+        "text": "Beta <%- data.meta.version %> indir",
+        "mac": "Mac OSX 10.7 ve üzeri için",
+        "windows": "windows 7 ve üzeri için",
+        "linux32": "32-bit Linux için",
+        "linux64": "64-bit Linux için",
+        "platforms": "Diğer platformlar",
+        "free": "En iyisi... ücretsiz"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Tine film ve dizileri torrentten yayınlar",
+        "copyright": "Telif hakkı bulunan materyalleri indirmek ülkenizde yasadışı olabilir. Oluşacak risklerin sorumluluğu size aittir."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Muhteşem filmler ve diziler",
+            "text": "En iyi sitelerdeki en iyi torrentleri bulabilmek için tüm interneti durmaksızın arıyoruz."
+        },
+        "restrictions": {
+            "title": "Kısıtlama yok",
+            "text": "istediğin diziyi ya da filmi istediğin kadar izle. Tek ihtiyacın düzgün bir internet bağlantısı"
+        },
+        "catalogue": {
+            "title": "Muhteşem katalog",
+            "text": "Eğer bir film ya da dizi çıktıysa Popcorn Time en kaliteli sürümünü bulacak ve hemen yayınlamaya başlayacaktır."
+        },
+        "quality": {
+            "title": "En kalitelisi",
+            "text": "Dizinizi ya da filminizi HD olarak anında ve altyazı ile izleyin ve izlemeye devam edin."
+        },
+        "save": {
+            "title": "Patlamış mısır için zaman kazanın",
+            "text": "Bekleme ve indirme süresi yok. Sevdiğiniz dilmi ve diziyi anında oynatın."
+        }
+    },
+    "how": {
+        "title": "İnanması güç?",
+        "subtitle": "Ne kadar kolay olduğunu görün",
+        "open": "Popcorn Time açın<br>ve film yada dizi seçin",
+        "select": "Kaliteyi<br>ve altyazıyı seçin",
+        "play": "Oynata tıklayın<br>ve eğlenin!"
+    },
+    "email": {
+        "placeholder": "Mail Adresi"
+    },
+    "footer": {
+        "faq": "SSS",
+        "tos": "Kullanım Koşulları"
+    }
+}

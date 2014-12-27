@@ -1,0 +1,64 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "HOME"
+    },
+    "header": {
+        "beta": {
+            "title": "Watch Movies and TV Shows instantly",
+            "subtitle": "Currently in Beta, but go ahead and try it!"
+        }
+    },
+    "download": {
+        "text": "Download Beta <%- data.meta.version %>",
+        "mac": "For Mac OSX 10.7 and above",
+        "windows": "For Windows 7 and above",
+        "linux32": "For 32-bit Linux",
+        "linux64": "For 64-bit Linux",
+        "android": "For Android 4.0.3 and above",
+        "platforms": "Other platforms",
+        "free": "Best of all... it's free!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time streams movies and TV shows from torrents",
+        "copyright": "Downloading copyrighted material may be illegal in your country. Use at your own risk."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Great Movies and TV Shows",
+            "text": "We're constantly searching all over the web for the best torrents from the most important sites."
+        },
+        "restrictions": {
+            "title": "No restrictions",
+            "text": "Watch any movie or TV show as many times as you want. All you need to get started is a proper internet connection."
+        },
+        "catalogue": {
+            "title": "Awesome catalogue",
+            "text": "If the movie or TV show is out there, Popcorn Time will find the best version possible and start streaming it right away."
+        },
+        "quality": {
+            "title": "The best quality",
+            "text": "Watch your movie or episode instantly in HD and with subtitles. And then keep watching."
+        },
+        "save": {
+            "title": "Save time for making popcorn",
+            "text": "No wait or download time. Instant playback of your favorite movies and TV shows."
+        }
+    },
+    "how": {
+        "title": "Hard to believe?",
+        "subtitle": "See how easy it works...",
+        "open": "Open Popcorn Time<br>and select a movie or episode",
+        "select": "Select quality<br>and subtitles",
+        "play": "Click play<br>and enjoy!"
+    },
+    "email": {
+        "placeholder": "Email Address"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Terms of Service",
+        "con": "Contact us / About"
+    }
+}
