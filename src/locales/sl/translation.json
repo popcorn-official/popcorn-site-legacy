@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Prenesi Beta <%- data.meta.version %>",
+        "text": "Prenesi Beta %s",
         "mac": "Za Mac OSX 10.7 in novejše",
         "windows": "Za Windows 7 in novejše",
         "linux32": "Za 32-bit Linux",

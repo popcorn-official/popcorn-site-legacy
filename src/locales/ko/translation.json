@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "베타 <%- data.meta.version %> 다운받기",
+        "text": "베타 %s 다운받기",
         "mac": "MAC OSX 10.7 이상",
         "windows": "Windows 7 이상",
         "linux32": "32-bit Linux",

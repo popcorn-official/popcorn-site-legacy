@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Béta letőltése <%- data.meta.version %>",
+        "text": "Béta letőltése %s",
         "mac": "Mac OSX 10.7 és újabb",
         "windows": "Windows 7 és újabb",
         "linux32": "32-bit Linux",

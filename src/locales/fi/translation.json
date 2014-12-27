@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Lataa betaversio  <%- data.meta.version %>",
+        "text": "Lataa betaversio  %s",
         "mac": "Mac OSX 10.7 tai uudempi",
         "windows": "Windows 7 tai uudempi",
         "linux32": "32-bittiselle Linuxille",

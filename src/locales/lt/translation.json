@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Atsisiųsti Beta <%- data.meta.version %>",
+        "text": "Atsisiųsti Beta %s",
         "mac": "Skirta Mac OSX 10.7 ar naujesnei",
         "windows": "Skirta Windows 7 ar naujesnei",
         "linux32": "Skirta 32-bit Linux",

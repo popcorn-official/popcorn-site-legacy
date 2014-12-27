@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "下载 Beta <%- data.meta.version %>",
+        "text": "下载 Beta %s",
         "mac": "Mac OSX 10.7 及更高版本",
         "windows": "Windows 7 及更高版本",
         "linux32": "32位 Linux",

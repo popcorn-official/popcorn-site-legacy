@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Превземете ја Бета верзијата<%- data.meta.version %>",
+        "text": "Превземете ја Бета верзијата%s",
         "mac": "За Mac OSX 10.7 и понови",
         "windows": "За Windows 7 и понови",
         "linux32": "За 32-bit Linux",

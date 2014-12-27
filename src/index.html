@@ -29,23 +29,23 @@
 		<ul id="links">
 			<li class="download dl-android">
 				<a data-i18n="[html]download.text.android" data-os="Android" href="https://get.popcorntime.io/build/<%- data.meta.downloads.android %>" class="btn-main icon-android">Download Beta 1.0</a><br />
-				<small data-i18n="download.android">For Android 4.0.3 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
+				<small><span data-i18n="download.android">For Android 4.0.3 and above</span> <span class="divider">|</span> <a data-scroll data-i18n="platforms" href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-mac">
 				<a data-i18n="[html]download.text" data-os="Mac" href="https://get.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a><br />
-				<small data-i18n="download.mac">For Mac OSX 10.7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
+				<small><span data-i18n="download.mac">For Mac OSX 10.7 and above</span> <span class="divider">|</span> <a data-scroll data-i18n="platforms" href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-win">
 				<a data-i18n="[html]download.text" data-os="Windows" href="https://get.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a><br />
-				<small data-i18n="download.windows">For Windows 7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
+				<small><span data-i18n="download.windows">For Windows 7 and above</span> <span class="divider">|</span> <a data-scroll data-i18n="platforms" href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-lin-32">
 				<a data-i18n="[html]download.text" data-os="Linux 32" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a><br />
-				<small data-i18n="download.linux32">For 32-bit Linux <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
+				<small><span data-i18n="download.linux32">For 32-bit Linux</span> <span class="divider">|</span> <a data-scroll data-i18n="platforms" href="#get-app">Other platforms</a></small>
 			</li>
 			<li class="download dl-lin-64">
 				<a data-i18n="[html]download.text" data-os="Linux 64" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a><br />
-				<small data-i18n="download.linux64">For 64-bit Linux <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
+				<small><span data-i18n="download.linux64">For 64-bit Linux</span> <span class="divider">|</span> <a data-scroll data-i18n="platforms" href="#get-app">Other platforms</a></small>
 			</li>
 		</ul>
 	</section>
@@ -95,23 +95,23 @@
 				<img src="images/logo-valentines.png" alt="Pochoclin" class="align-center pochoclin">
 				<hr />
 				<h2 data-i18n="download.free">Best of all... it's free!</h2>
-				<div class="dl-android">
+				<div class="download dl-android">
 					<a data-i18n="download.text" data-os="Android" href="https://get.popcorntime.io/build/<%- data.meta.downloads.android %>" class="btn-main icon-android">Download Beta 1.0</a>
 					<small data-i18n="download.android">For Android 4.0.3 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
-				<div class="dl-mac">
+				<div class="download dl-mac">
 					<a data-i18n="download.text" data-os="Mac" href="https://get.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.mac">For Mac OSX 10.7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
-				<div class="dl-win">
+				<div class="download dl-win">
 					<a data-i18n="download.text" data-os="Windows" href="https://get.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.windows">For Windows 7 and above <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
-				<div class="dl-lin-32">
+				<div class="download dl-lin-32">
 					<a data-i18n="download.text" data-os="Linux 32" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-lin">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux32">For 32-bit Linux Users <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
-				<div class="dl-lin-64">
+				<div class="download dl-lin-64">
 					<a data-i18n="download.text" data-os="Linux 64" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-lin">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux64">For 64-bit Linux Users <span class="divider">|</span> <a data-scroll href="#get-app">Other platforms</a></small>
 				</div>
@@ -130,27 +130,27 @@
 			</div>
 		</section>
 
-		<section id="get-app">
+		<section id="get-app" data-version="<%- data.meta.version %>" data-version-android="1.0">
 			<div class="text">
 				<h2 data-i18n="get-app.new">A whole new way to watch movies and TV</h2>
 				<p data-i18n="get-app.popcorn">Just take care of the popcorn and leave the rest to us.</p>
 			</div>
 			<ul id="platforms" class="platforms">
-				<li class="mac icon-laptop">
+				<li class="download mac icon-laptop">
 					<a data-i18n="download.text" data-os="Mac" href="https://get.popcorntime.io/build/<%- data.meta.downloads.mac %>" class="btn-main icon-mac">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.mac">For Mac OSX 10.7 and above</small>
 				</li>
-				<li class="win icon-screen">
+				<li class="download win icon-screen">
 					<a data-i18n="download.text" data-os="Windows" href="https://get.popcorntime.io/build/<%- data.meta.downloads.win %>" class="btn-main icon-win">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.windows">For Windows 7 and above</small>
 				</li>
-				<li class="lin-32 lin-64 icon-window">
+				<li class="download lin-32 lin-64 icon-window">
 					<a data-i18n="download.text" data-os="Linux 32" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['32bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux32">For 32-bit Linux</small>
 					<a data-i18n="download.text" data-os="Linux 64" href="https://get.popcorntime.io/build/<%- data.meta.downloads.lin['64bit'] %>" class="btn-main icon-linux">Download Beta <%- data.meta.version %></a>
 					<small data-i18n="download.linux64">For 64-bit Linux</small>
 				</li>
-				<li class="android icon-mobile">
+				<li class="download android icon-mobile">
 					<a data-i18n="download.text" data-os="Android" href="https://get.popcorntime.io/build/<%- data.meta.downloads.android %>" class="btn-main icon-android">Download Beta 1.0</a>
 					<small data-i18n="download.android">For Android 4.0.3 and above</small>
 				</li>
@@ -158,10 +158,10 @@
 		</section>
 
 		<section id="subscribe">
-			<h2 data-i18n="subscribe/get">Get notified when a new version is available</h2>
+			<h2 data-i18n="email.notified">Get notified when a new version is available</h2>
 			<form action="https://reach.popcorntime.io/sub/1/0v4p6h" method="POST">
 				<input type="email" name="email_address" data-i18n="email.placeholder" placeholder="Email Address">
-				<input type="submit" name="subscribe" data-i18n="subcribe.button" value="Subscribe">
+				<input type="submit" name="subscribe" data-i18n="email.subscribe" value="Subscribe">
 			</form>
 		</section>
 		<% include templates/footer %>

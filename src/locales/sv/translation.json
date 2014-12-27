@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Ladda ner Beta <%- data.meta.version %>",
+        "text": "Ladda ner Beta %s",
         "mac": "För Mac OSX 10.7 och högre",
         "windows": "För Windows 7 och uppåt",
         "linux32": "För 32-bitars Linux",

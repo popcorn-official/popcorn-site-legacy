@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Descargar versión beta <%- data.meta.version %>",
+        "text": "Descargar versión beta %s",
         "mac": "Para Mac OSX 10.7 y superior",
         "windows": "Para Windows 7 y superior",
         "linux32": "Para linux de 32-bits",

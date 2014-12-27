@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Descarcă Beta <%- data.meta.version %>",
+        "text": "Descarcă Beta %s",
         "mac": "Pentru Mac OSX 10.7 și peste",
         "windows": "Pentru Windows 7 și peste",
         "linux32": "Pentru Linux 32-bit",

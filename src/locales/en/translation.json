@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Download Beta <%- data.meta.version %>",
+        "text": "Download Beta %s",
         "mac": "For Mac OSX 10.7 and above",
         "windows": "For Windows 7 and above",
         "linux32": "For 32-bit Linux",
@@ -53,8 +53,14 @@
         "select": "Select quality<br>and subtitles",
         "play": "Click play<br>and enjoy!"
     },
+    "get-app": {
+	  	"new": "A whole new way to watch movies and TV",
+	  	"popcorn": "Just take care of the popcorn and leave the rest to us."  
+    },
     "email": {
-        "placeholder": "Email Address"
+        "placeholder": "Email Address",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
     },
     "footer": {
         "faq": "FAQ",

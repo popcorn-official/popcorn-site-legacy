@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Beta <%- data.meta.version %> indir",
+        "text": "Beta %s indir",
         "mac": "Mac OSX 10.7 ve üzeri için",
         "windows": "windows 7 ve üzeri için",
         "linux32": "32-bit Linux için",
