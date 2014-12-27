@@ -185,7 +185,7 @@ module.exports = function(grunt) {
       locales: {
         expand: true,
         cwd: 'src/',
-        src: 'locales/*',
+        src: 'locales/*/*',
         dest: 'compiled/'
       }
     },
