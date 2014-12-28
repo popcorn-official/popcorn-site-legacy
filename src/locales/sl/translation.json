@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "DOMOV"
+    },
+    "header": {
+        "beta": {
+            "title": "Ogled Filmov in TV Oddaj takoj",
+            "subtitle": "Trenutno v Beta, ampak kar izvolite poskusit!"
+        }
+    },
+    "download": {
+        "text": "Prenesi Beta %s",
+        "mac": "Za Mac OSX 10.7 in novejše",
+        "windows": "Za Windows 7 in novejše",
+        "linux32": "Za 32-bit Linux",
+        "linux64": "Za 64-bit Linux",
+        "android": "Za Android 4.0.3 in novejše",
+        "platforms": "Ostali sistemi",
+        "free": "Najboljše pri tem pa je... da je zastojn!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time predvaja filme in TV oddaje s torentov",
+        "copyright": "Prenos avtorsko zaščitenega materiala je lahko nelagelno v vaši državi. Uporaba na lastno odgovornost."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Dobri Filmi in TV Oddaje",
+            "text": "Nenehno iščemo po vsem internetu najboljše torente pri najpomembnejših straneh."
+        },
+        "restrictions": {
+            "title": "Brez omejitev",
+            "text": "Oglejete si katerikoli film ali katerokoli TV oddajo kolikokrat hočete. Vse kar potrebujete da začnete je primerno internetno povezavo."
+        },
+        "catalogue": {
+            "title": "Izredni katalog",
+            "text": "Če je film ali TV oddaja na razpolagu, bo Popcorn Time poiskal najboljšo možno verzijo in začelo s predvajanjem nemudoma."
+        },
+        "quality": {
+            "title": "Najboljša kvaliteta",
+            "text": "Oglejte si vaš film ali epizodo takoj v HD in s podnapisi. In nato kar nadaljujte z ogledi."
+        },
+        "save": {
+            "title": "Prihrani si čas za kokice",
+            "text": "Brez čakanja brez čas prenosa. Takojšnje predvajanje vaših najljubših filmov in TV oddaj."
+        }
+    },
+    "how": {
+        "title": "Težko verjeti?",
+        "subtitle": "Poglejte kako enostavno deluje...",
+        "open": "Odpri Popcorn Time<br>in izberi film ali epizodo",
+        "select": "Izberi kvaliteto<br>in podnapise",
+        "play": "Klikni predvajaj<br>in uživaj!"
+    },
+    "get-app": {
+        "new": "Popolnoma nov način gledanja filmov in TV",
+        "popcorn": "Vi samo poskrbite za kokice in vse ostalo prepustite nam."
+    },
+    "email": {
+        "placeholder": "Naslov Elektronske Pošte",
+        "subscribe": "Naročite",
+        "notified": "Bodite obveščeni kadar je na voljo nova različica"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Pogoji Storitve",
+        "con": "Kontaktni podatki / Info"
+    }
+}

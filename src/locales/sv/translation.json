@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "Hem"
+    },
+    "header": {
+        "beta": {
+            "title": "Titta på filmer och TV-program direkt",
+            "subtitle": "För närvarande i Beta, men gå vidare och prova det!"
+        }
+    },
+    "download": {
+        "text": "Ladda ner Beta %s",
+        "mac": "För Mac OSX 10.7 och högre",
+        "windows": "För Windows 7 och uppåt",
+        "linux32": "För 32-bitars Linux",
+        "linux64": "För 64-bitars Linux",
+        "android": "För Android 4.0.3 och uppåt ",
+        "platforms": "Andra plattformar",
+        "free": "Bäst av allt... det är gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time strömmar filmer och TV-program från torrents",
+        "copyright": "Nedladdning av upphovsrättsskyddat material kan vara olagligt i ditt land. Använd på egen risk."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Stora filmer och TV-program",
+            "text": "Vi är ständigt efter över hela nätet efter de bästa torrents från de viktigaste platserna."
+        },
+        "restrictions": {
+            "title": "Inga begränsningar",
+            "text": "Titta på någon film eller TV-show så många gånger du vill. Allt du behöver för att komma igång är en bra internetuppkoppling."
+        },
+        "catalogue": {
+            "title": "Toppen katalog",
+            "text": "Om filmen eller TV-show är ute, kommer Popcorn Time hitta den bästa versionen möjligt och börja strömma det genast."
+        },
+        "quality": {
+            "title": "Den bästa kvalitet",
+            "text": "Titta på din film eller episod direkt i HD och med undertexter. Och sedan fortsätta titta."
+        },
+        "save": {
+            "title": "Spara tid för att göra popcorn",
+            "text": "Ingen väntetid eller tid för nedladdning. Omedelbar uppspelning av dina favoritfilmer och tv-program."
+        }
+    },
+    "how": {
+        "title": "Svårt att tro?",
+        "subtitle": "Se hur enkelt det fungerar...",
+        "open": "Öppna Popcorn Time<br>och välj en film eller episod",
+        "select": "Välj kvalitet<br>och textning",
+        "play": "Klicka på play<br>och njut!"
+    },
+    "get-app": {
+        "new": "A whole new way to watch movies and TV",
+        "popcorn": "Just take care of the popcorn and leave the rest to us."
+    },
+    "email": {
+        "placeholder": "E-postadress",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Användarvillkor",
+        "con": "Contact us / About"
+    }
+}
