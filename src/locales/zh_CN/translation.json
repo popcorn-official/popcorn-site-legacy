@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "常见问题",
+        "tos": "服务条款",
+        "home": "主页"
+    },
+    "header": {
+        "beta": {
+            "title": "即刻观看电影和电视剧",
+            "subtitle": "目前还处于Beta阶段，试一试又何妨！"
+        }
+    },
+    "download": {
+        "text": "下载 Beta %s",
+        "mac": "Mac OSX 10.7 及更高版本",
+        "windows": "Windows 7 及更高版本",
+        "linux32": "32位 Linux",
+        "linux64": "64位 Linux",
+        "android": "For Android 4.0.3 and above",
+        "platforms": "其他平台",
+        "free": "最重要的是...完全免费！"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time 通过种子文件传输影片和电视剧",
+        "copyright": "下载受版权保护的内容在您的地区可能是非法的。使用请自行承担风险。"
+    },
+    "features": {
+        "greatmovies": {
+            "title": "精彩电影和电视剧",
+            "text": "我们正在全网和各大知名站点不断搜索最优质的种子文件。"
+        },
+        "restrictions": {
+            "title": "不受任何限制",
+            "text": "只要网络环境良好，您便可以随心所欲观看喜爱的电影和电视剧。"
+        },
+        "catalogue": {
+            "title": "目录简洁美观",
+            "text": "只要电影和电视剧片源一出，Popcorn Time 便会挑出最优版本并立刻提供观影。"
+        },
+        "quality": {
+            "title": "画质有保证",
+            "text": "观看高清带字幕的电影和电视剧，精彩不停。"
+        },
+        "save": {
+            "title": "为您节省出制作爆米花的时间",
+            "text": "不用再花时间等待漫长的下载，即刻播放您最喜爱的影片和剧集。"
+        }
+    },
+    "how": {
+        "title": "难以置信？",
+        "subtitle": "了解它有多易用...",
+        "open": "打开 Popcorn Time<br>挑选电影或电视剧",
+        "select": "自选影片质量<br>和字幕语言",
+        "play": "点击播放<br>尽情享受！"
+    },
+    "get-app": {
+        "new": "A whole new way to watch movies and TV",
+        "popcorn": "Just take care of the popcorn and leave the rest to us."
+    },
+    "email": {
+        "placeholder": "电子邮件地址",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
+    },
+    "footer": {
+        "faq": "常见问题",
+        "tos": "服务条款",
+        "con": "Contact us / About"
+    }
+}
