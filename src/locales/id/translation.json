@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "BERANDA"
+    },
+    "header": {
+        "beta": {
+            "title": "Lihat Film dan Pertunjukan TV dengan instan",
+            "subtitle": "Sedang tahap Beta, tapi coba saja!"
+        }
+    },
+    "download": {
+        "text": "Download Beta %s",
+        "mac": "Untuk Mac OSX 10.7 dan selanjutnya",
+        "windows": "Untuk Windows 7 dan selanjutnya",
+        "linux32": "Untuk Linux 32-bit",
+        "linux64": "Untuk Linux 64-bit",
+        "android": "For Android 4.0.3 and above",
+        "platforms": "Platform lain",
+        "free": "Yang paling utama... gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time menangkap siaran film dan pertunjukan TV dari torrents",
+        "copyright": "Mengunduh material ber-hak cipta mungkin ilegal di negaramu. Risiko ditanggung penumpang."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Film Bagus dan Pertunjukan TV",
+            "text": "Kita selalu mencari torrent terbaik di seluruh web dari berbagai situs situs penting"
+        },
+        "restrictions": {
+            "title": "Tak ada pembatasan",
+            "text": "Lihat film atau acara tv manapun dan berapa kali yang kamu mau. Yang harus kamu lakukan adalah mendapatkan koneksi internet yang layak."
+        },
+        "catalogue": {
+            "title": "Katalog yang keren",
+            "text": "Jika film atau acara TV sudah ada di internet, Popcorn Time akan mencari versi terbaik yang ada dan mulai menerima siarannya."
+        },
+        "quality": {
+            "title": "Kualitas terbaik",
+            "text": "Lihat film atau episode dengan kualitas HD dan dengan anak judul. Dan tetap nonton."
+        },
+        "save": {
+            "title": "Hemat waktu untuk membuat popcorn",
+            "text": "Tak perlu menunggu atau mengunduh. Tinggal tonton film dan acara TV."
+        }
+    },
+    "how": {
+        "title": "Susah dipercaya?",
+        "subtitle": "Lihat betappa mudah Popcorn Time bekerja...",
+        "open": "Buka Popcorn Time<br>dan pilih film atau episode",
+        "select": "Pilih kualitas<br>dan anak judul",
+        "play": "Klik mulai<br>dan asik!"
+    },
+    "get-app": {
+        "new": "A whole new way to watch movies and TV",
+        "popcorn": "Just take care of the popcorn and leave the rest to us."
+    },
+    "email": {
+        "placeholder": "Alamat Email",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Hal Layanan",
+        "con": "Contact us / About"
+    }
+}
