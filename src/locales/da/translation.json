@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "Hjem"
+    },
+    "header": {
+        "beta": {
+            "title": "Se film og tv-shows øjeblikkeligt",
+            "subtitle": "I øjeblikket er programmet en beta udgave, men kom og prøv det!"
+        }
+    },
+    "download": {
+        "text": "Download Beta %s",
+        "mac": "For Mac OSX 10.7 og nyere",
+        "windows": "For Windows 7 og nyere",
+        "linux32": "For 32-bit Linux",
+        "linux64": "For 64-bit Linux",
+        "android": "For Android 4.0.3 og nyere",
+        "platforms": "Andre platforme",
+        "free": "Og det bedste af det hele.... det er gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time streamer film og tv-serier fra torrents",
+        "copyright": "Hentning og deling af filer der er copyright beskyttede, kan være ulovligt i dit land. Brug af programmet er på eget ansvar."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "De bedste film og tv-shows",
+            "text": "Vi leder hele tiden efter de bedste torrents på nettet, fra de største og mest vigtige sider."
+        },
+        "restrictions": {
+            "title": "Ingen begrænsninger",
+            "text": "Se hvilken som helst tv-serie eller film lige så mange gange du har lyst til. Alt hvad du behøver er en god internet forbindelse."
+        },
+        "catalogue": {
+            "title": "Fantastisk udvalg",
+            "text": "Hvis tv-serien eller filmen findes, vil Popcorn Time finde den bedste udgave og starte med at afspille den med det samme."
+        },
+        "quality": {
+            "title": "Den bedste kvalitet",
+            "text": "Se en film eller en episode fra en tv-serie med det samme i HD med undertekster, og bliv ved."
+        },
+        "save": {
+            "title": "Gem lidt tid til at lave popcorn",
+            "text": "Ingen vente- eller downloadtid. Øjeblikkelig afspilning af dine favorit film og tv-serier."
+        }
+    },
+    "how": {
+        "title": "Har du svært ved at tro på det?",
+        "subtitle": "Se hvor nemt det er...",
+        "open": "Åbn Popcorn Time<br>og vælg en film eller en episode",
+        "select": "Vælg kvalitet<br>og undertekster",
+        "play": "Klik afspil<br>og nyd det!"
+    },
+    "get-app": {
+        "new": "En helt ny måde at se film og tv på",
+        "popcorn": "Sørg for popkornene og overlad resten til os."
+    },
+    "email": {
+        "placeholder": "E-mailadresse",
+        "subscribe": "Abonnér",
+        "notified": "Få besked når en ny version er tilgængelig"
+    },
+    "footer": {
+        "faq": "FAQ",
+        "tos": "Servicevilkår",
+        "con": "Kontakt os / Om"
+    }
+}
