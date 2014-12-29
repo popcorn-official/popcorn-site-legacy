@@ -63,6 +63,8 @@
         "notified": "Bodite obveščeni kadar je na voljo nova različica"
     },
     "footer": {
+        "love": "Narejeno z <span>&#10084;</span> s strani kupa piflarčkov iz Vseh Koncev Sveta",
+        "status": "Stanje",
         "faq": "FAQ",
         "tos": "Pogoji Storitve",
         "con": "Kontaktni podatki / Info"

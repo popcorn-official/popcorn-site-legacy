@@ -1,7 +1,7 @@
 {
     "nav": {
         "faq": "GYIK",
-        "tos": "ÁSZF",
+        "tos": "SZF",
         "home": "KEZDŐLAP"
     },
     "header": {
@@ -63,8 +63,10 @@
         "notified": "Értesítést kap, amikor egy új verzió elérhető"
     },
     "footer": {
+        "love": "Szeretettel <span>&#10084;</span> készítve pár kocka által a világ minden tájáról",
+        "status": "Állapot",
         "faq": "GYIK",
-        "tos": "Szolgáltatás feltételei",
+        "tos": "Szolgáltatási feltételek",
         "con": "Kapcsolat / Névjegy"
     }
 }

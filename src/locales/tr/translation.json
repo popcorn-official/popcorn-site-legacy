@@ -63,6 +63,8 @@
         "notified": "Yeni sürüm gelince bildir"
     },
     "footer": {
+        "love": "Dünyanın her yerindeki onlarca geek <span>&#10084;</span> tarafından yapıldı",
+        "status": "Durum",
         "faq": "SSS",
         "tos": "Kullanım Koşulları",
         "con": "Bize ulaşın / hakkında"
