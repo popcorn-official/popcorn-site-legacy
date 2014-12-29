@@ -63,7 +63,9 @@
         "notified": "Get notified when a new version is available"
     },
     "footer": {
-        "faq": "FAQ",
+    	"love": "Made with <span>&#10084;</span> by a bunch of geeks from All Around The World",
+    	"status": "Status",
+    	"faq": "FAQ",
         "tos": "Terms of Service",
         "con": "Contact us / About"
     }
