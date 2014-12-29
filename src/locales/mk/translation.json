@@ -63,6 +63,8 @@
         "notified": "Добиј нотификација кога нова верзија ќе биде достапна"
     },
     "footer": {
+        "love": "Made with <span>&#10084;</span> by a bunch of geeks from All Around The World",
+        "status": "Status",
         "faq": "НПП",
         "tos": "Услови за користење",
         "con": "Контактирајте не/ За нас"
