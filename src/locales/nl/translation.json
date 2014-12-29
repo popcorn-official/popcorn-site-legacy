@@ -63,6 +63,8 @@
         "notified": "Ontvang een bericht als er een nieuwe versie beschikbaar is"
     },
     "footer": {
+        "love": "Gemaakt met <span>&#10084;</span> door een stel nerds van over de hele wereld",
+        "status": "Status",
         "faq": "FAQ",
         "tos": "Servicevoorwaarden",
         "con": "Contact / Over"

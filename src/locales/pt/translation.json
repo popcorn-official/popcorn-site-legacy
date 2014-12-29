@@ -7,11 +7,11 @@
     "header": {
         "beta": {
             "title": "Vê filmes e séries instantaneamente",
-            "subtitle": "Atualmente em Beta, mas descarrega e experimenta!"
+            "subtitle": "Ainda em Beta, mas transfere e experimenta!"
         }
     },
     "download": {
-        "text": "Descarregar Beta %s",
+        "text": "Transferir Beta %s",
         "mac": "Para Mac OSX 10.7 ou superior",
         "windows": "Para Windows 7 ou superior",
         "linux32": "Para Linux 32-bit",
@@ -34,7 +34,7 @@
             "text": "Vê qualquer filme ou série quantas vezes quiseres. Para o fazeres, apenas precisas de uma ligação à Internet em condições."
         },
         "catalogue": {
-            "title": "Excelente catálogo",
+            "title": "Catálogo espetacular",
             "text": "Se o filme ou série existir algures, o Popcorn Time irá encontrar a melhor versão possível e começará a reproduzir imediatamente."
         },
         "quality": {
@@ -63,6 +63,8 @@
         "notified": "Recebe uma notificação quando estiver disponível uma nova versão"
     },
     "footer": {
+        "love": "Feito com <span>&#10084;</span> por um grupo de nerds do mundo inteiro",
+        "status": "Estado",
         "faq": "FAQ",
         "tos": "Termos de serviço",
         "con": "Contacta-nos / Sobre"

@@ -6,40 +6,40 @@
     },
     "header": {
         "beta": {
-            "title": "Regardez vos films et vos séries instantanément",
-            "subtitle": "Actuellement en version beta mais venez l'essayer!"
+            "title": "Regardez vos films et vos séries en un clic",
+            "subtitle": "Actuellement en version bêta, mais venez l'essayer!"
         }
     },
     "download": {
-        "text": "Téléchargez la version beta %s",
+        "text": "Téléchargez la version bêta %s",
         "mac": "Pour Mac OSX 10.7 et plus",
         "windows": "Pour Windows 7 et plus",
-        "linux32": "Pour Linux 32-bit",
-        "linux64": "Pour Linux 64-bit",
+        "linux32": "Pour Linux 32 bit",
+        "linux64": "Pour Linux 64 bit",
         "android": "Pour Android 4.0.3 et plus",
         "platforms": "Autres plateformes",
         "free": "Et le plus beau... c'est gratuit"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time lit les films et les séries depuis des torrents",
-        "copyright": "Le téléchargement d'oeuvres protégées peut être interdit dans votre pays. À utiliser à vos risques et périls."
+        "whatitdoes": "Popcorn Time lit des films et des séries depuis des torrents",
+        "copyright": "Le téléchargement d’œuvres protégées peut être interdit dans votre pays. À utiliser à vos risques et périls."
     },
     "features": {
         "greatmovies": {
             "title": "Les meilleurs films et séries",
-            "text": "Nous cherchons à travers le web les meilleurs torrents sur les sites les plus connus."
+            "text": "Nous allons chercher sur le web les meilleurs torrents venant des sites les plus importants."
         },
         "restrictions": {
-            "title": "Pas de limites",
+            "title": "Aucune limite",
             "text": "Regardez n'importe quel film ou série autant de fois que vous le souhaitez. Tout ce dont vous avez besoin, c'est d'une connexion internet."
         },
         "catalogue": {
-            "title": "Un super catalogue",
+            "title": "Un catalogue impressionnant",
             "text": "Si le film ou la série existe, Popcorn Time trouvera la meilleure version possible et la diffusera."
         },
         "quality": {
             "title": "La meilleure qualité",
-            "text": "Regardez votre film ou épisode instantanément en HD et sous-titré. Et ensuite continuez."
+            "text": "Regardez votre film ou épisode instantanément en HD et sous-titré. Et ne vous arrêtez plus."
         },
         "save": {
             "title": "D'avantage de temps pour faire du popcorn",
@@ -54,15 +54,17 @@
         "play": "Cliquez sur lire<br>et profitez!"
     },
     "get-app": {
-        "new": "Une toute nouvelle façon de regarder des films et des séries TV",
-        "popcorn": "Il suffit de prendre soin du popcorn et laisser le reste pour nous."
+        "new": "Une façon révolutionnaire de regarder des films et des séries",
+        "popcorn": "Occupez-vous simplement du popcorn et laisser-nous faire le reste."
     },
     "email": {
         "placeholder": "Adresse e-mail",
-        "subscribe": "S'Inscrire",
-        "notified": "Recevez des notifications par email quand une mise à jour est disponible"
+        "subscribe": "S'inscrire",
+        "notified": "Recevez une notification par e-mail lorsqu'une mise à jour est disponible"
     },
     "footer": {
+        "love": "Fais avec <span>&#10084;</span> par une bande de geeks venant du monde entier",
+        "status": "État",
         "faq": "FAQ",
         "tos": "Conditions Générales d'Utilisation",
         "con": "Contact"
