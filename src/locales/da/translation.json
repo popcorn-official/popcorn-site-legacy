@@ -63,6 +63,8 @@
         "notified": "Få besked når en ny version er tilgængelig"
     },
     "footer": {
+        "love": "Lavet med <span>&#10084;</span> af en flok nørder fra hele verden",
+        "status": "Status",
         "faq": "FAQ",
         "tos": "Servicevilkår",
         "con": "Kontakt os / Om"

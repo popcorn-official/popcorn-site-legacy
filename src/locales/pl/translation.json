@@ -15,7 +15,7 @@
         "mac": "Dla Mac OSX 10.7 i nowszych",
         "windows": "Dla Windows 7 i nowszych",
         "linux32": "Dla 32-bitowego Linuksa",
-        "linux64": "Dla 64-biowegot Linuksa",
+        "linux64": "Dla 64-biowego Linuksa",
         "android": "Dla Androida 4.0.3 i nowszych",
         "platforms": "Inne platformy",
         "free": "I najlepsze... jest za darmo!"
@@ -63,6 +63,8 @@
         "notified": "Otrzymuj powiadomienia o nowych wersjach"
     },
     "footer": {
+        "love": "Stworzone z <span>&#10084;</span> przez grupę geeków z całego świata",
+        "status": "Status",
         "faq": "FAQ",
         "tos": "Warunki korzystania z usługi",
         "con": "Kontakt / O nas"

@@ -63,6 +63,8 @@
         "notified": "Notificar cuando una nueva versión esté disponible"
     },
     "footer": {
+        "love": "Hecho con <span>&#10084;</span> por un grupo de geeks de todas partes del mundo",
+        "status": "Estado",
         "faq": "FAQ",
         "tos": "Términos del Servicio",
         "con": "Contáctanos / Acerca de"

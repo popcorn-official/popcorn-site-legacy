@@ -63,8 +63,10 @@
         "notified": "Budite obaviješteni kada je nova inačica dostupna"
     },
     "footer": {
+        "love": "Napravljen <span>&#10084;</span> od strane geekova iz cijeloga svijeta",
+        "status": "Stanje",
         "faq": "Često postavljana pitanja",
         "tos": "Uvjeti korištenja",
-        "con": "Kontaktirajte nas / O aplikaciji"
+        "con": "Kontaktirajte nas / O programu"
     }
 }
