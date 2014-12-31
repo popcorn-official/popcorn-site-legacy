@@ -2,7 +2,7 @@
     "nav": {
         "faq": "FAQ",
         "tos": "TOS",
-        "home": "Hem"
+        "home": "HEM"
     },
     "header": {
         "beta": {
@@ -31,15 +31,15 @@
         },
         "restrictions": {
             "title": "Inga begränsningar",
-            "text": "Titta på någon film eller TV-show så många gånger du vill. Allt du behöver för att komma igång är en bra internetuppkoppling."
+            "text": "Titta på någon film eller TV-program så många gånger du vill. Allt du behöver för att komma igång är en bra internetuppkoppling."
         },
         "catalogue": {
             "title": "Toppen katalog",
             "text": "Om filmen eller TV-show är ute, kommer Popcorn Time hitta den bästa versionen möjligt och börja strömma det genast."
         },
         "quality": {
-            "title": "Den bästa kvalitet",
-            "text": "Titta på din film eller episod direkt i HD och med undertexter. Och sedan fortsätta titta."
+            "title": "Den bästa kvalitén ",
+            "text": "Titta på din film eller avsnitt direkt i HD och med undertexter. Och sedan fortsätta titta."
         },
         "save": {
             "title": "Spara tid för att göra popcorn",
@@ -50,21 +50,23 @@
         "title": "Svårt att tro?",
         "subtitle": "Se hur enkelt det fungerar...",
         "open": "Öppna Popcorn Time<br>och välj en film eller episod",
-        "select": "Välj kvalitet<br>och textning",
+        "select": "Välj kvalite <br> och textning",
         "play": "Klicka på play<br>och njut!"
     },
     "get-app": {
-        "new": "A whole new way to watch movies and TV",
-        "popcorn": "Just take care of the popcorn and leave the rest to us."
+        "new": "Ett helt nytt sätt att se på filmer och TV-program",
+        "popcorn": "Du behöver bara ordna popcorn, vi fixar resten."
     },
     "email": {
         "placeholder": "E-postadress",
-        "subscribe": "Subscribe",
-        "notified": "Get notified when a new version is available"
+        "subscribe": "Prenumerera",
+        "notified": "Få notifikation när en ny version är tillgänglig"
     },
     "footer": {
+        "love": "Skapat med <span>&#10084;</span> och av ett gäng nördar från hela världen",
+        "status": "Status",
         "faq": "FAQ",
         "tos": "Användarvillkor",
-        "con": "Contact us / About"
+        "con": "Kontakta oss / Om"
     }
 }

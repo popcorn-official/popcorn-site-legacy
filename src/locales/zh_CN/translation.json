@@ -16,7 +16,7 @@
         "windows": "Windows 7 及更高版本",
         "linux32": "32位 Linux",
         "linux64": "64位 Linux",
-        "android": "For Android 4.0.3 and above",
+        "android": "为Android 4.0.3及以上",
         "platforms": "其他平台",
         "free": "最重要的是...完全免费！"
     },
@@ -54,17 +54,19 @@
         "play": "点击播放<br>尽情享受！"
     },
     "get-app": {
-        "new": "A whole new way to watch movies and TV",
-        "popcorn": "Just take care of the popcorn and leave the rest to us."
+        "new": "一种全新的方式来观看电影和电视",
+        "popcorn": "只是照顾爆米花，其余留给我们。"
     },
     "email": {
         "placeholder": "电子邮件地址",
-        "subscribe": "Subscribe",
-        "notified": "Get notified when a new version is available"
+        "subscribe": "订阅",
+        "notified": "得到通知时，一个新的版本可用"
     },
     "footer": {
+        "love": "制作与 <span>&#10084;</ span> 由一群爱好者的来自世界各地的世界",
+        "status": "状态",
         "faq": "常见问题",
         "tos": "服务条款",
-        "con": "Contact us / About"
+        "con": "联系我们 / 大约"
     }
 }

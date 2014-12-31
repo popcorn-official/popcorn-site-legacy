@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "Întrebări frecvente",
+        "tos": "Termeni și condiții",
+        "home": "ACASĂ"
+    },
+    "header": {
+        "beta": {
+            "title": "Vizionează Filme și Show-uri TV instant",
+            "subtitle": "Momentan în stadiul Beta, dar poți să îl încerci!"
+        }
+    },
+    "download": {
+        "text": "Descarcă Beta %s",
+        "mac": "Pentru Mac OSX 10.7 și peste",
+        "windows": "Pentru Windows 7 și peste",
+        "linux32": "Pentru Linux 32-bit",
+        "linux64": "Pentru Linux 64-bit",
+        "android": "Pentru Android 4.0.3 și peste",
+        "platforms": "Alte platforme",
+        "free": "Cel mai bun dintre toate... este gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time utilizează torrente pentru a difuza filme și show-uri TV",
+        "copyright": "Descărcarea de materiale piratate poate fi ilegală în țara ta. Utilizați pe propriul risc."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "FIlme și Show-uri TV excelente",
+            "text": "Noi căutăm încontinuu prin cele mai importante site-uri, pentru a găsi cele mai bune torrente."
+        },
+        "restrictions": {
+            "title": "Fără restricții",
+            "text": "Vizionează orice film sau show TV de câte ori vrei. Singurul lucru de care ai nevoie este o conexiune la internet adecvată."
+        },
+        "catalogue": {
+            "title": "Un catalog senzațional",
+            "text": "Dacă filmul sau show-ul TV este prezent, atunci Popcorn Time va găsi cea mai bună conexiune și îl va transmite imediat."
+        },
+        "quality": {
+            "title": "Cea mai bună calitate",
+            "text": "Vizionează-ți instant filmul sau episodul într-o calitate HD și cu subtitrări. Și apoi continuă să vizionezi."
+        },
+        "save": {
+            "title": "Timp salvat pentru pregatit popcorn-ul",
+            "text": "Fără timpi de așteptare și download. Vizionează instant filmele si serialele tale favorite."
+        }
+    },
+    "how": {
+        "title": "Greu de crezut?",
+        "subtitle": "Vezi cât de ușor funcționează...",
+        "open": "Deschide Popcorn Time<br>și selectează un film sau un episod",
+        "select": "Selectează calitatea<br>și subtitrarea",
+        "play": "Apasă play<br>și bucură-te!"
+    },
+    "get-app": {
+        "new": "Un nou mod de a viziona filme și seriale TV",
+        "popcorn": "Doar aveți grijă de popcorn și lăsați restul în seama noastră."
+    },
+    "email": {
+        "placeholder": "Adresa de email",
+        "subscribe": "Subscrie",
+        "notified": "Fi notificat când este disponibilă o nouă versiune"
+    },
+    "footer": {
+        "love": "Conceput cu <span>&#10084;</span> de o bandă de tocilari din toată lumea",
+        "status": "Stare",
+        "faq": "Întrebări frecvente",
+        "tos": "Termeni și condiții de utilizare",
+        "con": "Contactează-ne / Despre`"
+    }
+}

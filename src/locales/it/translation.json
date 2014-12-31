@@ -18,7 +18,7 @@
         "linux64": "Per Linux a 64-bit",
         "android": "Per Sistema Android 4.0.3 e successivi",
         "platforms": "Altre piattaforme",
-        "free": "Il migliore di tutti... ed è gratis!"
+        "free": "E la cosa migliore... è gratis!"
     },
     "warning": {
         "whatitdoes": "Popcorn Time permette lo streaming di film e programmi TV direttamente da file torrent",
@@ -39,7 +39,7 @@
         },
         "quality": {
             "title": "La migliore qualità",
-            "text": "Guarda il tuo film o episodio immediatamente in HD e con sottotioli. E poi continua a guardare!"
+            "text": "Guarda il tuo film o episodio immediatamente in HD e con sottotitoli. E poi continua a guardare!"
         },
         "save": {
             "title": "Risparmia tempo per farti i popcorn",
