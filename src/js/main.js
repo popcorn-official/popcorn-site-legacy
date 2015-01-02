@@ -70,6 +70,8 @@ var popcorn = {
         var count = 75;
         var wind = { x: 2, y: 1 };
 
+        var PI2 = Math.PI * 2;
+
         var particles = [];
         var width = window.innerWidth;
         var height = window.innerHeight;
@@ -143,7 +145,7 @@ var popcorn = {
             for(var i = 0; i < count; i++) {
                 var particle = particles[i];
                 ctx.moveTo(particle.x, particle.y);
-                ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2, true);
+                ctx.arc(particle.x, particle.y, particle.size, 0, PI2, true);
             }
             ctx.fill();
             update();
