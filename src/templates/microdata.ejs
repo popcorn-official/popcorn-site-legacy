@@ -56,7 +56,25 @@
   "operatingSystem" : "Linux",
   "processorRequirements" : "32-bit",
   "softwareVersion" : "<%- data.pkg.version %>"
-}, {
+},
+ {
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Popcorn Time",
+  "url" : "https://popcorntime.io",
+  "image" : "https://popcorntime.io/images/graph-image.png",
+  "screenshot" : "https://popcorntime.io/images/graph-image.png",
+  "author" : <% author() %>,
+  "isFamilyFriendly" : true,
+  "applicationCategory" : "Multimedia",
+  "applicationSubCategory" : "Streaming",
+  "downloadUrl" : "https://cdn.popcorntime.io/build/<%- data.meta.downloads.android %>",
+  "operatingSystem" : "Android",
+  "processorRequirements" : "32-bit",
+  "softwareVersion" : "<%- data.pkg.version %>"
+},
+
+{
   "@context" : "http://schema.org",
   "@type" : "SoftwareApplication",
   "name" : "Popcorn Time",
