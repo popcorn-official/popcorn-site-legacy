@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-html-validation');
   grunt.loadNpmTasks('grunt-ejs-render');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-connect');
@@ -27,6 +28,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('dist', [
+    'clean',
     'css',
     'html',
     'js',
@@ -150,6 +152,8 @@ module.exports = function(grunt) {
         }
       }
     },
+    // Dist Cleaning
+    clean: ['compiled/'],
     // Asset Copying
     copy: {
       favicon: {
