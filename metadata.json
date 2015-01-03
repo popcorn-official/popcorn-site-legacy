@@ -1,5 +1,9 @@
 {
-	"version": "3.6",
+	"version": {
+		"desktop": "3.6",
+		"android": "1.1",
+		"ios": "0.0"
+	},
 	"downloads": {
 		"android": "Popcorn-Time-0.1.1.apk",
 		"mac": "Popcorn-Time-0.3.6-Mac.dmg",
