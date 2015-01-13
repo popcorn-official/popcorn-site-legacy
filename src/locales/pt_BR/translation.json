@@ -59,12 +59,12 @@
     },
     "email": {
         "placeholder": "Endereço de email",
-        "subscribe": "Inscrever",
+        "subscribe": "Inscrever-se",
         "notified": "Seja notificado quando uma nova versão estiver disponível"
     },
     "footer": {
-        "love": "Feito com <span>&#10084;</span> por um bando de geeks Ao Redor de Todo o Mundo",
-        "status": "Estado",
+        "love": "Feito com <span>&#10084;</span> por um grupo de geeks de todas as partes do mundo",
+        "status": "Status",
         "faq": "Perguntas frequentes",
         "tos": "Termos de Serviço",
         "con": "Contate-nos / Sobre"

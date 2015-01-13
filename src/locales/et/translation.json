@@ -6,8 +6,8 @@
     },
     "header": {
         "beta": {
-            "title": "Vaata Filme ja TV Seriaale koheselt",
-            "subtitle": "Hetkel Beta, aga mine ja proovi!"
+            "title": "Vaata Filme ja TV Seriaale otse netist",
+            "subtitle": "Hetkel beta, aga lae alla ja proovi!"
         }
     },
     "download": {
@@ -55,14 +55,16 @@
     },
     "get-app": {
         "new": "Täiesti uus viis filmide ja TV vaatamiseks",
-        "popcorn": "Lihtsalt kanna hoolt popcorni eest ja jäta ülejäänu meie teha."
+        "popcorn": "Lihtsalt kanna hoolt, et popcorn olemas oleks ja jäta ülejäänu meie teha."
     },
     "email": {
-        "placeholder": "Emaili Aaddress",
+        "placeholder": "Emaili aaddress",
         "subscribe": "Telli",
         "notified": "Saa teada kui uus versioon on saadaval"
     },
     "footer": {
+        "love": "Tehtud <span>&#10084;</span> kamba programmeerijate poolt üle kogu maailma.",
+        "status": "Olek",
         "faq": "KKK",
         "tos": "Kasutamistingimused",
         "con": "Kontakt / Info"

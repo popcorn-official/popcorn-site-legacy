@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "Usein kysytyt kysymykset",
+        "tos": "Käyttöehdot",
+        "home": "Etusivu"
+    },
+    "header": {
+        "beta": {
+            "title": "Katso elokuvia ja TV-ohjelmia välittömästi",
+            "subtitle": "Ohjelma on vielä betavaiheessa, mutta kokeile silti!"
+        }
+    },
+    "download": {
+        "text": "Lataa betaversio  %s",
+        "mac": "Mac OSX 10.7 tai uudempi",
+        "windows": "Windows 7 tai uudempi",
+        "linux32": "32-bittiselle Linuxille",
+        "linux64": "64-bittiselle Linuxille",
+        "android": "Android 4.0.3 ja uudempi",
+        "platforms": "Muut alustat",
+        "free": "Kaikkein parasta - Popcorn Time on ilmainen!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time suoratoistaa elokuvia ja TV-sarjoja torrenteista",
+        "copyright": "Tekijänoikeuksilla suojatun materiaalin lataaminen maassasi saattaa olla kiellettyä, joten käytä ohjelmaa omalla vastuullasi."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Loistavia elokuvia ja TV-ohjelmia",
+            "text": "Etsimme jatkuvasti torrentteja parhailta internetsivustoilta."
+        },
+        "restrictions": {
+            "title": "Ilman rajoituksia",
+            "text": "Katso mitä tahansa elokuvaa tai TV-sarjaa niin useasti kuin haluat. Päästäksesi alkuun tarvitset vain kunnollisen internetyhteyden."
+        },
+        "catalogue": {
+            "title": "Loistava valikoima",
+            "text": "Popcorn Time löytää elokuvan tai TV-ohjelman parhaalla laadulla ja toistaa sen sinulle heti."
+        },
+        "quality": {
+            "title": "Paras kuvanlaatu",
+            "text": "Katso elokuvia ja TV-ohjelmia tekstityksillä välittömästi teräväpiirtona."
+        },
+        "save": {
+            "title": "Säästä aikaa popcornin valmistamiseen",
+            "text": "Toista lempielokuviasi tai TV-ohjelmiasi välittömästi ilman pitkiä latausaikoja."
+        }
+    },
+    "how": {
+        "title": "Etkö usko?",
+        "subtitle": "Näin helposti se toimii...",
+        "open": "Avaa Popcorn Time<br>ja valitse elokuva tai TV-sarjan jakso",
+        "select": "Valitse laatu<br>ja tekstitykset",
+        "play": "Paina katso<br>ja nauti!"
+    },
+    "get-app": {
+        "new": "Täysin uudenlainen tapa katso TV-ohjelmia ja elokuvia",
+        "popcorn": "Huolehdi vain popcornin valmistuksesta ja jätä loput meille."
+    },
+    "email": {
+        "placeholder": "Sähköpostiosoite",
+        "subscribe": "Tilaa",
+        "notified": "Tilaa ilmoitus uusista versioista"
+    },
+    "footer": {
+        "love": "Tehty <span>&#10084;</span> maailmanlaajuisen yhteison avulla",
+        "status": "Tila",
+        "faq": "Usein kysytyt kysymykset",
+        "tos": "Käyttöehdot",
+        "con": "Ota yhteyttä / Tietoja"
+    }
+}

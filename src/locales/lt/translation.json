@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "DUK",
+        "tos": "PTS",
+        "home": "PRADINIS"
+    },
+    "header": {
+        "beta": {
+            "title": "Žiūrėkite filmus ir TV laidas iš karto",
+            "subtitle": "Kol kas Beta stadijoje, tačiau nebijokite išbandyti!"
+        }
+    },
+    "download": {
+        "text": "Atsisiųsti Beta %s",
+        "mac": "Skirta Mac OSX 10.7 ar naujesnei",
+        "windows": "Skirta Windows 7 ar naujesnei",
+        "linux32": "Skirta 32-bit Linux",
+        "linux64": "Skirta 64-bit Linux",
+        "android": "Skirta Android 4.0.3 ar naujesnei",
+        "platforms": "Kitos platformos",
+        "free": "Ir svarbiausia... tai nemokama!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time transliuoja filmus ir TV laidas naudojant torentus",
+        "copyright": "Siųstis autorinių teisių saugomą medžiagą gali būti nelegalu jūsų šalyje. Naudokite savo pačių rizika."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Puikūs filmai ir TV laidos",
+            "text": "Mes nuolatos ieškome geriausių torentų svarbiausiuose puslapiuose visame žiniatinklyje."
+        },
+        "restrictions": {
+            "title": "Jokių apribojimų",
+            "text": "Peržiūrėkite bet kurį filmą ar TV laidą tiek kartų, kiek norite. Viskas ko reikia norint pradėti, tai interneto ryšys."
+        },
+        "catalogue": {
+            "title": "Nuostabus katalogas",
+            "text": "Jei filmas ar TV laida jau išleisti, Popcorn Time suras geriausią įmanomą versiją ir pradės transliaciją nedelsiant."
+        },
+        "quality": {
+            "title": "Geriausia kokybė",
+            "text": "Peržiūrėkite filmą ar epizodą iš karto HD kokybėje ir su subtitrais. O tada žiūrėkite toliau."
+        },
+        "save": {
+            "title": "Sutaupykite laiko spragėsių gamybai",
+            "text": "Jokio laukimo ar siuntimo laiko. Jūsų mėgiamo filmo ar TV laidos atkūrimas akimirksniu."
+        }
+    },
+    "how": {
+        "title": "Sunku patikėti?",
+        "subtitle": "Pažiūrėkite kaip paprastai tai veikia...",
+        "open": "Atidarykite Popcorn Time<br>ir pasirinkite filmą ar epizodą",
+        "select": "Pasirinkite kokybę<br>ir subtitrus",
+        "play": "Paspauskite atkurti<br>ir mėgaukitės!"
+    },
+    "get-app": {
+        "new": "Visiškai naujas būdas žiūrėti filmus ir TV",
+        "popcorn": "Tiesiog pasirūpinkite spragėsiais, o visa kita palikite mums."
+    },
+    "email": {
+        "placeholder": "El. pašto adresas",
+        "subscribe": "Prenumeruoti",
+        "notified": "Informuoti mane, kai bus prieinama nauja versija"
+    },
+    "footer": {
+        "love": "Sukurta su <span>&#10084;</span> krūvos moksliukų iš viso pasaulio",
+        "status": "Būsena",
+        "faq": "DUK",
+        "tos": "Paslaugų teikimo sąlygos",
+        "con": "Susisiekti su mumis / Apie"
+    }
+}

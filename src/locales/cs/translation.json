@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "Podmínky",
+        "home": "Domů"
+    },
+    "header": {
+        "beta": {
+            "title": "Sledujte Filmy a TV pořady okamžitě",
+            "subtitle": "V součastnosti v Beta verzi, ale do toho, vyzkoušejte ji!"
+        }
+    },
+    "download": {
+        "text": "Stáhnout Beta",
+        "mac": "Pro Mac OSX 10.7 a novější",
+        "windows": "Pro Windows 7 a novější",
+        "linux32": "Pro 32-bit Linux",
+        "linux64": "Pro 64-bit Linux",
+        "android": "Pro Android 4.0.3 a novější",
+        "platforms": "Další platformy",
+        "free": "A nejlepší ze všeho... Je to zadarmo!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time přehrává filmy a TV pořady přímo z torrentů",
+        "copyright": "Stahování autorsky chráněných děl může být ve vaší zemi nezakonné. Používáte na vlastní nebezpečí."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Skvělé filmy a TV pořady",
+            "text": "Neustále hledáme na celém webu nejlepší torrenty umístěné na nejvýznamějších stránkách."
+        },
+        "restrictions": {
+            "title": "Bez omezení",
+            "text": "Sledujte jakýkoliv film nebo TV pořad kolikrát chcete. Vše, co potřebujete je správně internetové připojení."
+        },
+        "catalogue": {
+            "title": "Úžasný katalog",
+            "text": "Pokud je film nebo TV pořad k dispozici, Popcorn Time najde jeho nejlepší možnou verzi a může ji začít přehrávat."
+        },
+        "quality": {
+            "title": "Nejlepší kvalita",
+            "text": "Sledujte vaše filmy nebo TV seriály v HD a s titulky. A sledujte je i v budoucnu."
+        },
+        "save": {
+            "title": "Ušetřete čas na výrobu popcornu",
+            "text": "Bez zpoždění nebo čekání na dokončení stahování. Okamžité přehrávání vašeho oblíbeného filmu či TV pořadu."
+        }
+    },
+    "how": {
+        "title": "Je těžké tomu uvěřit?",
+        "subtitle": "Zjistěte jak jednoduše to funguje...",
+        "open": "Otevřete Popcorn Time<br>a zvolte film nebo díl TV pořadu",
+        "select": "Vyberte kvalitu<br>a titulky",
+        "play": "Klikněte na přehrát<br>a užívejte si!"
+    },
+    "get-app": {
+        "new": "Úplně nový způsob jak sledovat filmy a TV pořady.",
+        "popcorn": "Starejte se pouze o popcorn a zbytek nechte na nás."
+    },
+    "email": {
+        "placeholder": "Emailová adresa",
+        "subscribe": "Přihlásit",
+        "notified": "Upozorněte mne na novou verzi."
+    },
+    "footer": {
+        "love": "Vytvořeno s <span>&#10084;</span> skupinou geeků z celého světa",
+        "status": "Status",
+        "faq": "FAQ",
+        "tos": "Podmínky poskytovéní služby",
+        "con": "Kontaktujte nás / O nás"
+    }
+}

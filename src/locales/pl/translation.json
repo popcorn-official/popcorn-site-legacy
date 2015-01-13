@@ -15,7 +15,7 @@
         "mac": "Dla Mac OSX 10.7 i nowszych",
         "windows": "Dla Windows 7 i nowszych",
         "linux32": "Dla 32-bitowego Linuksa",
-        "linux64": "Dla 64-biowego Linuksa",
+        "linux64": "Dla 64-bitowego Linuksa",
         "android": "Dla Androida 4.0.3 i nowszych",
         "platforms": "Inne platformy",
         "free": "I najlepsze... jest za darmo!"
@@ -51,7 +51,7 @@
         "subtitle": "Spójrz jak prosto to działa...",
         "open": "Otwórz Popcorn Time<br>i wybierz film lub serial",
         "select": "Wybierz jakość<br>i napisy",
-        "play": "Kliknij Odtwarzaj<br>i ciesz się oglądaniem!"
+        "play": "Kliknij Oglądaj<br>i ciesz się oglądaniem!"
     },
     "get-app": {
         "new": "Zupełnie nowy sposób na oglądanie filmów i seriali",

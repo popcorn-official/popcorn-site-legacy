@@ -18,7 +18,7 @@
         "linux64": "Za 64-bitni Linux",
         "android": "Za Android 4.0.3 i noviji",
         "platforms": "Ostale platforme",
-        "free": "Najbolje od svega je... da je besplatno!"
+        "free": "Najbolje od svega... besplatno je!"
     },
     "warning": {
         "whatitdoes": "Popcorn Time streama filmove i TV serije s torrenta",
@@ -55,7 +55,7 @@
     },
     "get-app": {
         "new": "Potpuno novi način gledanja filmova i TV serija",
-        "popcorn": "Pobrinite se za kokice, a ostalo prepustite nama."
+        "popcorn": "Vi se pobrinite za kokice, a ostalo prepustite nama."
     },
     "email": {
         "placeholder": "Adresa e-pošte",

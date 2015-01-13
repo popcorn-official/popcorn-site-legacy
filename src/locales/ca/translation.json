@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "INICI"
+    },
+    "header": {
+        "beta": {
+            "title": "Mira pel·lícules i sèries instantàniament",
+            "subtitle": "Actualment en versió beta, però endavant, prova'l!"
+        }
+    },
+    "download": {
+        "text": "Descarregar Beta %s",
+        "mac": "Per Mac OSX 10.7 i superior",
+        "windows": "Per Windows 7 i superior",
+        "linux32": "Per Linux 32 bits",
+        "linux64": "Per Linux 64 bits",
+        "android": "Per Android 4.0.3 i superior",
+        "platforms": "Altres plataformes",
+        "free": "I el millor de tot... és gratuït!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time transmet pel·lícules i sèries des d'arxius torrent",
+        "copyright": "Descarregar continguts protegits amb drets d'autor pot ser il·legal en el teu país. Usar sota risc propi."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Pel·lícules i sèries fenomenals",
+            "text": "Contínuament estem buscant per tota la xarxa els millors arxius torrent de les pàgines més importants."
+        },
+        "restrictions": {
+            "title": "Sense restriccions",
+            "text": "Mira qualsevol pel·lícula o sèrie tantes vegades com vulguis. Tot el que necessites per començar és una connexió a Internet adequada."
+        },
+        "catalogue": {
+            "title": "Un catàleg espectacular",
+            "text": "Si existeix una pel·lícula o sèrie, Popcorn Time trobarà la millor versió possible i la reproduirà immediatament."
+        },
+        "quality": {
+            "title": "La qualitat més alta",
+            "text": "Mira la pel·lícula o episodi instantàniament en alta definició i amb subtítols. I després mira'n més."
+        },
+        "save": {
+            "title": "Estalvia temps per fer crispetes",
+            "text": "Sense temps d'espera ni de descàrrega. Reproducció instantània de les teves pel·lícules i sèries preferides."
+        }
+    },
+    "how": {
+        "title": "Difícil de creure?",
+        "subtitle": "Mira com n'és de fàcil...",
+        "open": "Obre Popcorn Time<br>i escull una pel·lícula o episodi",
+        "select": "Escull la qualitat<br>i els subtítols",
+        "play": "Fes clic a play<br>i gaudeix!"
+    },
+    "get-app": {
+        "new": "Una nova manera de veure pel·lícules i televisió",
+        "popcorn": "Ocupa't només de les crispetes i deixa'ns la resta a nosaltres"
+    },
+    "email": {
+        "placeholder": "Adreça electrònica",
+        "subscribe": "Subscriu-te",
+        "notified": "Rep una notificació quan hi haja una nova versió disponible"
+    },
+    "footer": {
+        "love": "Fet amb <span>&#10084;</span> per un grapat de geeks de tot el món",
+        "status": "Estat",
+        "faq": "Preguntes més freqüents",
+        "tos": "Condicions del servei",
+        "con": "Contacta'ns / Sobre nosaltres"
+    }
+}

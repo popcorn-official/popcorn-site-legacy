@@ -6,67 +6,67 @@
     },
     "header": {
         "beta": {
-            "title": "Lihat Film dan Pertunjukan TV dengan instan",
-            "subtitle": "Sedang tahap Beta, tapi coba saja!"
+            "title": "Tonton Film dan TV Seri secara instan",
+            "subtitle": "Sedang dalam tahap Beta, tapi silahkan coba!"
         }
     },
     "download": {
-        "text": "Download Beta %s",
+        "text": "Unduh Beta %s",
         "mac": "Untuk Mac OSX 10.7 dan selanjutnya",
         "windows": "Untuk Windows 7 dan selanjutnya",
         "linux32": "Untuk Linux 32-bit",
         "linux64": "Untuk Linux 64-bit",
-        "android": "For Android 4.0.3 and above",
-        "platforms": "Platform lain",
+        "android": "Untuk Android 4.0.3 dan diatasnya",
+        "platforms": "Serambi lain",
         "free": "Yang paling utama... gratis!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time menangkap siaran film dan pertunjukan TV dari torrents",
-        "copyright": "Mengunduh material ber-hak cipta mungkin ilegal di negaramu. Risiko ditanggung penumpang."
+        "whatitdoes": "Popcorn Time menstream film dan tv seri dari torrents",
+        "copyright": "Mengunduh material ber-hak cipta mungkin ilegal di negaramu. Gunakan dengan resiko sendiri."
     },
     "features": {
         "greatmovies": {
-            "title": "Film Bagus dan Pertunjukan TV",
-            "text": "Kita selalu mencari torrent terbaik di seluruh web dari berbagai situs situs penting"
+            "title": "Film Bagus dan TV seri",
+            "text": "Kita selalu mencari torrent terbaik di seluruh web dari berbagai situs situs penting."
         },
         "restrictions": {
             "title": "Tak ada pembatasan",
-            "text": "Lihat film atau acara tv manapun dan berapa kali yang kamu mau. Yang harus kamu lakukan adalah mendapatkan koneksi internet yang layak."
+            "text": "Lihat film atau tv seri sebanyak yang kamu mau. Yang kamu butuhkan untuk memulai adalah koneksi internet yang layak."
         },
         "catalogue": {
             "title": "Katalog yang keren",
-            "text": "Jika film atau acara TV sudah ada di internet, Popcorn Time akan mencari versi terbaik yang ada dan mulai menerima siarannya."
+            "text": "Jika film atau TV seri sudah ada, Popcorn Time akan mencari versi terbaik yang ada dan anda bisa segera menstreamingnya.."
         },
         "quality": {
             "title": "Kualitas terbaik",
-            "text": "Lihat film atau episode dengan kualitas HD dan dengan anak judul. Dan tetap nonton."
+            "text": "Lihat film atau episode dengan kualitas HD dan dengan terjemahannya. Dan tetap nonton."
         },
         "save": {
             "title": "Hemat waktu untuk membuat popcorn",
-            "text": "Tak perlu menunggu atau mengunduh. Tinggal tonton film dan acara TV."
+            "text": "Tak perlu menunggu atau mengunduh. Segera tonton film favorit dan tv seri anda."
         }
     },
     "how": {
         "title": "Susah dipercaya?",
-        "subtitle": "Lihat betappa mudah Popcorn Time bekerja...",
+        "subtitle": "Lihat betapa mudahnya pengoperasiannya...",
         "open": "Buka Popcorn Time<br>dan pilih film atau episode",
-        "select": "Pilih kualitas<br>dan anak judul",
-        "play": "Klik mulai<br>dan asik!"
+        "select": "Pilih kualitas<br>dan terjemahannya",
+        "play": "Klik mulai<br>dan nikmati!"
     },
     "get-app": {
-        "new": "A whole new way to watch movies and TV",
-        "popcorn": "Just take care of the popcorn and leave the rest to us."
+        "new": "Cara baru untuk menonton film dan tv seri",
+        "popcorn": "Cukup urus popcorn dan tinggalkan yang lainnya bagi kami."
     },
     "email": {
         "placeholder": "Alamat Email",
-        "subscribe": "Subscribe",
-        "notified": "Get notified when a new version is available"
+        "subscribe": "Berlangganan",
+        "notified": "Dapatkan notifikasi ketika versi terbaru tersedia"
     },
     "footer": {
-        "love": "Made with <span>&#10084;</span> by a bunch of geeks from All Around The World",
+        "love": "Dibuat dengan <span>&#10084;</span> oleh sekumpulan ahli dari seluruh dunia",
         "status": "Status",
         "faq": "FAQ",
-        "tos": "Hal Layanan",
-        "con": "Contact us / About"
+        "tos": "Ketentuan Layanan",
+        "con": "Hubungi kami / Tentang"
     }
 }

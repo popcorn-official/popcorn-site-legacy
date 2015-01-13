@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "서비스 약관",
+        "home": "홈"
+    },
+    "header": {
+        "beta": {
+            "title": "영화와 TV 쇼를 곧바로 보세요",
+            "subtitle": "현재는 베타지만, 한번 즐겨보세요!"
+        }
+    },
+    "download": {
+        "text": "베타 %s 다운받기",
+        "mac": "MAC OSX 10.7 이상",
+        "windows": "Windows 7 이상",
+        "linux32": "32-bit Linux",
+        "linux64": "64-bit Linux",
+        "android": "안드로이드 4.0.3 이상",
+        "platforms": "다른 플랫폼",
+        "free": "최고는...무료라는 것!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time은 토렌트로부터 영화와 TV 쇼를 스트리밍합니다.",
+        "copyright": "저작권있는 영상을 다운 받는 것은 불법일 수 있습니다. 책임은 본인이 져야합니다."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "환상적인 영화와 TV 쇼",
+            "text": "지속적으로 웹에서 최고의 토렌트를 찾습니다."
+        },
+        "restrictions": {
+            "title": "제한 없음",
+            "text": "보고싶은 만큼 영화나 TV 쇼를 보세요. 시작하기 전에 필요한 것은 인터넷 연결 뿐입니다."
+        },
+        "catalogue": {
+            "title": "매력적인 카달로크",
+            "text": "영화나 TV 쇼가 없다면, Popcorn Time은 최상의 버전을 찾고 곧바로 스트리밍을 시작합니다."
+        },
+        "quality": {
+            "title": "최고의 품질",
+            "text": "영화나 에피소드를 자막과 함께 HD로 즉시 보세요. 그리고 계속 시청하세요."
+        },
+        "save": {
+            "title": "팝콘을 만들 수 있게 시간 아끼기",
+            "text": "기다릴 필요 없거나 다운로드 정도만 기다리세요. 즐겨보는 영화와 TV 쇼를 즉시 재생하세요."
+        }
+    },
+    "how": {
+        "title": "믿기 어렵나요?",
+        "subtitle": "얼마나 쉽게 되는지 보세요...",
+        "open": "Popcorn Time을 열고<br>영화나 에피소드를 선택하세요",
+        "select": "품질과 자막을<br>선택하세요",
+        "play": "재생을 누르고<br>즐기세요!"
+    },
+    "get-app": {
+        "new": "영화와 TV를 보는 완전히 새로운 방법",
+        "popcorn": "팝콘만 신경쓰시고 나머지는 우리한테 맡기세요,"
+    },
+    "email": {
+        "placeholder": "이메일 주소",
+        "subscribe": "구독",
+        "notified": "새 버전 출시 알람 받기"
+    },
+    "footer": {
+        "love": "전 세계의 geek들이 <span>&#10084;</span>을 가지고 만듦",
+        "status": "상태",
+        "faq": "FAQ",
+        "tos": "서비스 약관",
+        "con": "문의 / 정보"
+    }
+}
