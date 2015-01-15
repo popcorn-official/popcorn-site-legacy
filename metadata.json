@@ -1,16 +1,16 @@
 {
 	"version": {
-		"desktop": "3.6",
+		"desktop": "3.7",
 		"android": "1.1",
 		"ios": "0.0"
 	},
 	"downloads": {
 		"android": "Popcorn-Time-0.1.1.apk",
-		"mac": "Popcorn-Time-0.3.6-Mac.dmg",
-		"win": "Popcorn-Time-0.3.6-Setup.exe",
+		"mac": "Popcorn-Time-0.3.7-Mac.dmg",
+		"win": "Popcorn-Time-0.3.7-Setup.exe",
 		"lin": {
-			"32bit": "Popcorn-Time-0.3.6-Linux32.tar.xz",
-			"64bit": "Popcorn-Time-0.3.6-Linux64.tar.xz"
+			"32bit": "Popcorn-Time-0.3.7-Linux32.tar.xz",
+			"64bit": "Popcorn-Time-0.3.7-Linux64.tar.xz"
 		}
 	}
 }
