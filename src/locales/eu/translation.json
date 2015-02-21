@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "MEG",
+        "tos": "LO",
+        "home": "SARRERA"
+    },
+    "header": {
+        "beta": {
+            "title": "Ikusi Film eta Telesailak zuzenean",
+            "subtitle": "Oraingoz Betan, baina ez atzean gelditu eta probatu!"
+        }
+    },
+    "download": {
+        "text": "Deskargatu Beta %s",
+        "mac": "Mac OSX 10.7 eta goragokoentzat",
+        "windows": "Windows 7 eta goragokoentzat",
+        "linux32": "32-biteko Linuxentzat",
+        "linux64": "64-biteko Linuxentzat",
+        "android": "Android 4.0.3 eta goragokoentzat",
+        "platforms": "Beste plataformak",
+        "free": "Eta onena... dohainik da!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Timek film eta telesailak emititzen ditu torrent bitartez",
+        "copyright": "Copyright-dun materiala deskargatzea ilegala izan daiteke zure herrialdean. Erabili zure ardurapean."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Film eta Telesail mundialak",
+            "text": "Webgune garrantzitsuenetatik torrent onenak sare osoan zehar etengabe bilatzen ari gara."
+        },
+        "restrictions": {
+            "title": "Murrizketarik ez",
+            "text": "Ikusi edozein film edo ikuskizun nahi duzun adina. Horretarako behar duzun gauza bakarra internet konexio ona da."
+        },
+        "catalogue": {
+            "title": "Katalogo aparta",
+            "text": "Filma edo telesaila hor nonbait bada, Popcorn Timek posible duen bertsiorik onena aurkitu eta berehala emititzen hasiko da."
+        },
+        "quality": {
+            "title": "Kalitate hoberena",
+            "text": "Ikusi zure film edo atala zuzenean HDn eta azpitituluekin. Eta gero jarraitu gehiago ikusten."
+        },
+        "save": {
+            "title": "Irabazi denbora krispetak prestatzeko",
+            "text": "Itxaronaldi edo deskarga denborarik gabe. Zure film eta telesaile gogokoenen zuzeneko erreprodukzioa."
+        }
+    },
+    "how": {
+        "title": "Sinesgaitza?",
+        "subtitle": "Ikusi zeinen erraz dabilen...",
+        "open": "Ireki Popcorn Time<br>eta aukeratu film edo atalen bat",
+        "select": "Aukeratu kalitatea<br>eta azpitituluak",
+        "play": "Erreproduzitu klikatu<br>eta gozatu!"
+    },
+    "get-app": {
+        "new": "Film eta TB ikusteko modu guztiz berritzailea",
+        "popcorn": "Arduratu krispetez eta utzi gainerakoa gure esku."
+    },
+    "email": {
+        "placeholder": "Eposta helbidea",
+        "subscribe": "Harpidetu",
+        "notified": "Bertsio berri bat eskuragarri denean jakinarazpena jaso"
+    },
+    "footer": {
+        "love": "Mundu osoko geek mordo batek <span>&#10084;</span>ez egina",
+        "status": "Egoera",
+        "faq": "MEG",
+        "tos": "Lege oharrak",
+        "con": "Kontaktatu / Honi buruz"
+    }
+}

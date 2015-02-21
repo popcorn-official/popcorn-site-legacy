@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "Pyetje të shpeshta",
+        "tos": "TOS",
+        "home": "Shtëpi"
+    },
+    "header": {
+        "beta": {
+            "title": "Shiko filma dhe seriale menjëherë",
+            "subtitle": "Aktualisht në Beta, por vazhdo dhe provoje!"
+        }
+    },
+    "download": {
+        "text": "Shkarko Beta",
+        "mac": "Për Mac OSX 10.7 dhe më lart",
+        "windows": "Për Windows 7 dhe më lart",
+        "linux32": "Për 32-bit Linux",
+        "linux64": "Për 64-bit Linux",
+        "android": "Për Android 4.0.3 dhe lart",
+        "platforms": "Platforma të tjera",
+        "free": "Dhe më e mira...është pa para!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time ju tregon filmat dhe serialet nga torrente",
+        "copyright": "Shkarkimi i materialeve të mbrojtura me të drejta të autorit mund të jetë e paligjshme në shtetin tuaj. Përdoreni me përgjegjësinë tuaj."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Filma dhe seriale të mrekullueshme.",
+            "text": "Ne gjithmonë jemi duke kërkuar në internet për torrentët më të mirë nga webfaqet më të rëndësishme."
+        },
+        "restrictions": {
+            "title": "Pa kufizime",
+            "text": "Shikoni cfarëdo filmi apo seriali sa herë të doni. Gjithcka që ju nevojitet është lidhja e mirë me internet."
+        },
+        "catalogue": {
+            "title": "Katalog i mrekullueshëm",
+            "text": "Nëse filmi apo seriali është diku, Popcorn Time do ta gjej verzionin më të mire dhe t'ua tregoj menjëherë. "
+        },
+        "quality": {
+            "title": "Cilësia më e mirë",
+            "text": "Shikoni filmin apo episodën tuaj menjëherë ne HD dhe me titra. Pastaj vazhdoni shikoni më shumë."
+        },
+        "save": {
+            "title": "Ruani pak kohë për të bërë popcorn",
+            "text": "Pa kohë pritjeje apo shkarkimi. Shikim i menjëhershëm të filmave dhe serialeve tuaja të preferuara. "
+        }
+    },
+    "how": {
+        "title": "E vështirë për tu besuar?",
+        "subtitle": "E shihni sa lehtë punon...",
+        "open": "Hapni Popcorn Time<br>dhe zgjidhni një film apo epizodë",
+        "select": "Zgjidhni kualitetin<br>dhe titrat",
+        "play": "Klikoni play<br>dhe kënaquni!"
+    },
+    "get-app": {
+        "new": "Një mënyrë krejtësisht e re e shikimit të filmave dhe serialeve",
+        "popcorn": "Vetëm kujdesuni për popcorn dhe të tjerat na i lini neve."
+    },
+    "email": {
+        "placeholder": "Adresa e emailit",
+        "subscribe": "Abonohu",
+        "notified": "Njoftohuni kur ka version të ri"
+    },
+    "footer": {
+        "love": "E bërë me <span>&#10084;</span> nga disa njerëz prej Tërë Botës",
+        "status": "Statusi",
+        "faq": "Pyetje të shpeshta",
+        "tos": "Kushtet e përdorimit",
+        "con": "Na kontaktoni / Rreth"
+    }
+}
