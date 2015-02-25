@@ -7,15 +7,15 @@
     "header": {
         "beta": {
             "title": "Regardez vos films et vos séries en un clic",
-            "subtitle": "Actuellement en version bêta, mais venez l'essayer!"
+            "subtitle": "Actuellement en version bêta, mais venez l'essayer !"
         }
     },
     "download": {
         "text": "Téléchargez la version bêta %s",
         "mac": "Pour Mac OSX 10.7 et plus",
         "windows": "Pour Windows 7 et plus",
-        "linux32": "Pour Linux 32 bit",
-        "linux64": "Pour Linux 64 bit",
+        "linux32": "Pour Linux 32 bits",
+        "linux64": "Pour Linux 64 bits",
         "android": "Pour Android 4.0.3 et plus",
         "platforms": "Autres plateformes",
         "free": "Et le plus beau... c'est gratuit"
@@ -51,7 +51,7 @@
         "subtitle": "Regardez comme c'est facile...",
         "open": "Ouvrez Popcorn Time<br>et choisissez votre film ou votre épisode",
         "select": "Sélectionnez votre qualité<br>et vos sous-titres",
-        "play": "Cliquez sur lire<br>et profitez!"
+        "play": "Cliquez sur lire<br>et profitez !"
     },
     "get-app": {
         "new": "Une façon révolutionnaire de regarder des films et des séries",
@@ -63,7 +63,7 @@
         "notified": "Recevez une notification par e-mail lorsqu'une mise à jour est disponible"
     },
     "footer": {
-        "love": "Fait avec <span>&#10084;</span> par une bande de geeks venant du monde entier",
+        "love": "Fait avec <span>&#10084;</span> par une bande de geeks venant du monde entier.",
         "status": "État",
         "faq": "FAQ",
         "tos": "Conditions Générales d'Utilisation",
