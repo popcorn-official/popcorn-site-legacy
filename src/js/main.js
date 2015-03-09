@@ -43,6 +43,16 @@ var popcorn = {
             return;
         }
     },
+    getAndroidVersion: function () {
+        $.get('http://ci.popcorntime.io/android/mobile/release', function(resp) {
+            var version = resp.mobile.release["armeabi-v7a"].versionName;
+            var newUrl = 'https://get.popcorntime.io/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
+            if(version.indexOf("0") == 0) {
+                version = version.substring(2, version.length);
+            }
+            $('a[data-os="Android"]').attr('href', newUrl).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
+        }, 'json');
+    },
     updateDownloads: function(platform, ua) {
         document.body.className += ' ' + (this.detectUA(platform, ua) || 'nope');
     },
@@ -188,6 +198,7 @@ var popcorn = {
 };
 
 popcorn.initialize();
+popcorn.getAndroidVersion();
 popcorn.updateDownloads(navigator.platform, navigator.userAgent);
 popcorn.updateStatus('#status', 'https://popcorntime.statuspage.io/api/v1/status.json');
 popcorn.smoothScroll();
