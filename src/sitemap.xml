@@ -20,6 +20,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://ci.popcorntime.io/</loc>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://popcorntime.io/tos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
