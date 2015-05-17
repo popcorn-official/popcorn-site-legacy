@@ -1,11 +1,11 @@
 {
 	"version": {
 		"desktop": "3.7",
-		"android": "1.3.1",
+		"android": "0.2.0",
 		"ios": "0.0"
 	},
 	"downloads": {
-		"android": "0.1.3.1/mobile-armeabi-v7a-release-0.1.3.1.apk",
+		"android": "0.2.0/mobile-armeabi-v7a-release-0.2.0.apk",
 		"mac": "Popcorn-Time-0.3.7.2-Mac.dmg",
 		"win": "Popcorn-Time-0.3.7.2-Setup.exe",
 		"lin": {
