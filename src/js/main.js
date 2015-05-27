@@ -1,15 +1,6 @@
 var popcorn = {
     initialize: function() {
         this.polyfill();
-        analytics.initialize({
-            'Google Analytics' : {
-                trackingId              : 'UA-38440155-3',
-                domain                  : 'popcorntime.io',
-                universalClient         :  true
-            }
-        });
-        analytics.pageview();
-        
         i18n.init({fallbackLng: 'en'}, function() {
 	        $("html").i18n();
 	        var desktop_version = $("#get-app").attr("data-version");
