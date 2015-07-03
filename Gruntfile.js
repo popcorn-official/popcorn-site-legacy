@@ -91,7 +91,8 @@ module.exports = function (grunt) {
                 files: {
                     'compiled/index.html': 'compiled/index.html',
                     'compiled/faq.html': 'compiled/faq.html',
-                    'compiled/tos.html': 'compiled/tos.html'
+                    'compiled/tos.html': 'compiled/tos.html',
+                    'compiled/get.html': 'compiled/get.html'
                 }
             }
         },
@@ -135,7 +136,8 @@ module.exports = function (grunt) {
                     src: [
                         'compiled/index.html',
                         'compiled/faq.html',
-                        'compiled/tos.html'
+                        'compiled/tos.html',
+                        'compiled/get.html'
                     ]
                 }
             },
@@ -147,7 +149,8 @@ module.exports = function (grunt) {
                     src: [
                         'compiled/index.html',
                         'compiled/faq.html',
-                        'compiled/tos.html'
+                        'compiled/tos.html',
+                        'compiled/get.html'
                     ]
                 }
             }
@@ -208,7 +211,8 @@ module.exports = function (grunt) {
                 files: {
                     'compiled/index.html': ['src/index.html'],
                     'compiled/faq.html': ['src/faq.html'],
-                    'compiled/tos.html': ['src/tos.html']
+                    'compiled/tos.html': ['src/tos.html'],
+                    'compiled/get.html': ['src/get.html']
                 },
                 options: {
                     data: {
@@ -222,7 +226,8 @@ module.exports = function (grunt) {
                 files: {
                     'compiled/index.html': ['src/index.html'],
                     'compiled/faq.html': ['src/faq.html'],
-                    'compiled/tos.html': ['src/tos.html']
+                    'compiled/tos.html': ['src/tos.html'],
+                    'compiled/get.html': ['src/get.html']
                 },
                 options: {
                     data: {

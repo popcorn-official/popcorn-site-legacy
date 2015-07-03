@@ -1,0 +1,85 @@
+#page-get {
+
+	#get {
+		padding-top: 130px;
+		position: static;
+		font-family: 'Proxima Nova Light';
+		font-weight: normal;
+	}
+
+	.warning {
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		line-height: 0px;
+		padding-bottom: 20px;
+	}
+
+	#header {
+		height: auto;
+		position: static;
+		background-image: none;
+	}
+
+	.container {
+		top: auto;
+		z-index: 10000;
+
+		article {
+			border-top: 1px solid #eee;
+			padding: 10px 0 15px;
+		}
+
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			color: $dark-blue;
+			margin-bottom: 10px;
+		}
+		#what {
+			border-top: 0;
+			padding: 0;
+			p {
+				font-size: 24px;
+				line-height: 32px;
+				margin-bottom: 20px;
+				margin-top: 0;
+			}
+		}
+		article:not(#what) p {
+			font-size: 18px;
+			line-height: 22px;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			color: $dark-blue;
+			margin-bottom: 5px;
+		}
+		h2 + p {
+			margin-top: 0;
+		}
+		strong {
+			color: $dark-blue;
+			opacity: .6;
+		}
+		.icon-mac,
+		.icon-win {
+			position: relative;
+			padding-left: 50px;
+
+			&:before {
+				position: absolute;
+				left: 18px;
+				top: 13px;
+			}
+		}
+
+		.step-code li {
+			list-style: none;
+			padding: 5px 0 5px 10px;
+		}
+	}
+}
