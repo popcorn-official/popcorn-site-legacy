@@ -6,8 +6,8 @@
     },
     "header": {
         "beta": {
-            "title": "Mira filmes e series de TV ao instante",
-            "subtitle": "Actualmente en Beta, aínda así próbao!"
+            "title": "Ve filmes e series de TV ó instante",
+            "subtitle": "Actualmente está en Beta, pero aínda así próbao!"
         }
     },
     "download": {
@@ -18,38 +18,38 @@
         "linux64": "Para Linux de 64-bit",
         "android": "Para Android 4.0.3 e superior",
         "platforms": "Outras plataformas",
-        "free": "Primeiro de todo... é de balde!"
+        "free": "E o mellor de todo... é de balde!"
     },
     "warning": {
         "whatitdoes": "Popcorn Time reproduce filmes e series de TV dende torrents",
-        "copyright": "Descargar material con copyright pode ser ilegal no teu país. Úsao baixo a túa responsabilidade."
+        "copyright": "Seica o descargar material con copyright pode ser ilegal no teu país. Úsao baixo a túa responsabilidade."
     },
     "features": {
         "greatmovies": {
-            "title": "Excelentes filmes e series de TV",
-            "text": "Estamos constantemente a procurar por toda a web os mellores torrents  dos sitios máis importantes."
+            "title": "Boísimos filmes e series de TV",
+            "text": "Estamos constantemente a apañar por toda a web os mellores torrents dos sitios máis importantes."
         },
         "restrictions": {
             "title": "Sen restricións",
-            "text": "Mira calquera filme ou serie de TV todas as veces que queiras, todo o que precisas é dunha conexión a internet axeitada."
+            "text": "Ve calquera filme ou serie de TV todas as veces que queiras. Todo o que precisas é dunha conexión axeitada a internet."
         },
         "catalogue": {
-            "title": "Impresionante catálogo",
+            "title": "Catálogo abraiante",
             "text": "Se existe un filme ou serie de TV, Popcorn Time atopará a melllor versión e reproduciraa de inmediato."
         },
         "quality": {
             "title": "A mellor calidade",
-            "text": "Mira o teu filme ou episodio ao instante en HD e subtitulado. E logo segue vendo."
+            "text": "Ve o teu filme ou episodio ao instante en HD e subtitulado. E logo segue vendo."
         },
         "save": {
-            "title": "Aforra tempo para facer flocos de millo",
-            "text": "Sen tempos de espera ou descarga, reproduce ao instante os teus filmes e series de TV favoritos."
+            "title": "Aforra o tempo para facer flocos de millo",
+            "text": "Sen tempos de espera ou descarga. Reproduce ó instante os teus filmes e series de TV favoritos."
         }
     },
     "how": {
-        "title": "Difícil de crer?",
+        "title": "Non cho cres?",
         "subtitle": "Mira o doado que é utilizalo...",
-        "open": "Abre Popcorn Time<br>e selecciona un filme ou episodio",
+        "open": "Abre o Popcorn Time<br>e selecciona un filme ou capítulo",
         "select": "Selecciona a calidade<br>e os subtítulos",
         "play": "Clica en reproducir<br>e goza!"
     },

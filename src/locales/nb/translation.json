@@ -2,11 +2,11 @@
     "nav": {
         "faq": "Ofte stilte spørsmål",
         "tos": "Tjenestevilkår",
-        "home": "Framside"
+        "home": "Forside"
     },
     "header": {
         "beta": {
-            "title": "Se filmer of TV-programmer umiddelbart!",
+            "title": "Se filmer og TV-programmer med en gang!",
             "subtitle": "Foreløpig i Beta-versjon, men bare prøv!"
         }
     },
@@ -55,7 +55,7 @@
     },
     "get-app": {
         "new": "En helt ny måte å se film og TV på",
-        "popcorn": "Du trenger bare lage popcorn og la oss gjøre resten."
+        "popcorn": "Du trenger bare å lage popcorn og la oss gjøre resten."
     },
     "email": {
         "placeholder": "E-postadresse",
@@ -63,10 +63,10 @@
         "notified": "Bli varslet når en ny versjon er tilgjengelig"
     },
     "footer": {
-        "love": "Laget med <span>&#10084;</span> av en haug med nerder fra Alle Verdens Kanter",
+        "love": "Laget med <span>&#10084;</span> av en haug med nerder fra alle verdens kanter",
         "status": "Status",
         "faq": "Ofte stilte spørsmål",
         "tos": "Tjenestevilkår",
-        "con": "Kontakt oss / Om"
+        "con": "Kontakt oss / Om oss"
     }
 }

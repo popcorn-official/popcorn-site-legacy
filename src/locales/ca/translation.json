@@ -1,17 +1,17 @@
 {
     "nav": {
-        "faq": "FAQ",
-        "tos": "TOS",
+        "faq": "PMF",
+        "tos": "CDS",
         "home": "INICI"
     },
     "header": {
         "beta": {
-            "title": "Mira pel·lícules i sèries instantàniament",
-            "subtitle": "Actualment en versió beta, però endavant, prova'l!"
+            "title": "Mireu pel·lícules i sèries instantàniament",
+            "subtitle": "Actualment en versió beta, però endavant, proveu-la!"
         }
     },
     "download": {
-        "text": "Descarregar Beta %s",
+        "text": "Baixa la beta %s",
         "mac": "Per Mac OSX 10.7 i superior",
         "windows": "Per Windows 7 i superior",
         "linux32": "Per Linux 32 bits",
@@ -21,52 +21,52 @@
         "free": "I el millor de tot... és gratuït!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time transmet pel·lícules i sèries des d'arxius torrent",
-        "copyright": "Descarregar continguts protegits amb drets d'autor pot ser il·legal en el teu país. Usar sota risc propi."
+        "whatitdoes": "Popcorn Time transmet pel·lícules i sèries des de fitxers torrent",
+        "copyright": "La baixada de continguts protegits amb drets d'autor pot ser il·legal al vostre país. Useu-la sota risc propi."
     },
     "features": {
         "greatmovies": {
             "title": "Pel·lícules i sèries fenomenals",
-            "text": "Contínuament estem buscant per tota la xarxa els millors arxius torrent de les pàgines més importants."
+            "text": "Estem cercant contínuament per tota la xarxa els millors fitxers torrent de les pàgines més importants."
         },
         "restrictions": {
             "title": "Sense restriccions",
-            "text": "Mira qualsevol pel·lícula o sèrie tantes vegades com vulguis. Tot el que necessites per començar és una connexió a Internet adequada."
+            "text": "Mireu qualsevol pel·lícula o sèrie tantes vegades com vulgueu. Per començar només cal una connexió a Internet adequada."
         },
         "catalogue": {
             "title": "Un catàleg espectacular",
-            "text": "Si existeix una pel·lícula o sèrie, Popcorn Time trobarà la millor versió possible i la reproduirà immediatament."
+            "text": "Si la pel·lícula o sèrie existeix, Popcorn Time trobarà la millor versió possible i la reproduirà immediatament."
         },
         "quality": {
-            "title": "La qualitat més alta",
-            "text": "Mira la pel·lícula o episodi instantàniament en alta definició i amb subtítols. I després mira'n més."
+            "title": "La millor qualitat",
+            "text": "Mireu la pel·lícula o episodi instantàniament en alta definició i amb subtítols. I després mireu-ne més."
         },
         "save": {
-            "title": "Estalvia temps per fer crispetes",
-            "text": "Sense temps d'espera ni de descàrrega. Reproducció instantània de les teves pel·lícules i sèries preferides."
+            "title": "Estalvieu temps per fer crispetes",
+            "text": "Sense temps d'espera ni de baixada. Reproducció instantània de les vostres pel·lícules i sèries preferides."
         }
     },
     "how": {
         "title": "Difícil de creure?",
-        "subtitle": "Mira com n'és de fàcil...",
-        "open": "Obre Popcorn Time<br>i escull una pel·lícula o episodi",
-        "select": "Escull la qualitat<br>i els subtítols",
-        "play": "Fes clic a play<br>i gaudeix!"
+        "subtitle": "Mireu com n'és de fàcil...",
+        "open": "Obriu Popcorn Time<br>i trieu una pel·lícula o episodi",
+        "select": "Trieu la qualitat<br>i els subtítols",
+        "play": "Feu clic al play<br>i gaudiu!"
     },
     "get-app": {
         "new": "Una nova manera de veure pel·lícules i televisió",
-        "popcorn": "Ocupa't només de les crispetes i deixa'ns la resta a nosaltres"
+        "popcorn": "Ocupeu-vos només de les crispetes i deixeu-nos la resta a nosaltres."
     },
     "email": {
         "placeholder": "Adreça electrònica",
-        "subscribe": "Subscriu-te",
-        "notified": "Rep una notificació quan hi haja una nova versió disponible"
+        "subscribe": "Subscriu-me",
+        "notified": "Rebeu una notificació quan hi haja una nova versió disponible"
     },
     "footer": {
-        "love": "Fet amb <span>&#10084;</span> per un grapat de geeks de tot el món",
+        "love": "Fet amb <span>&#10084;</span> per un grapat de geeks d'arreu del món",
         "status": "Estat",
-        "faq": "Preguntes més freqüents",
+        "faq": "PMF",
         "tos": "Condicions del servei",
-        "con": "Contacta'ns / Sobre nosaltres"
+        "con": "Contacteu-nos / Quant a"
     }
 }

@@ -6,8 +6,8 @@
     },
     "header": {
         "beta": {
-            "title": "Titta på filmer och TV-program direkt",
-            "subtitle": "För närvarande i Beta, men gå vidare och prova det!"
+            "title": "Titta på Filmer och Serier direkt",
+            "subtitle": "För närvarande i Beta, men sätt igång och prova det!"
         }
     },
     "download": {
@@ -21,25 +21,25 @@
         "free": "Bäst av allt... det är gratis!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time strömmar filmer och TV-program från torrents",
+        "whatitdoes": "Popcorn Time strömmar filmer och serier från torrents",
         "copyright": "Nedladdning av upphovsrättsskyddat material kan vara olagligt i ditt land. Använd på egen risk."
     },
     "features": {
         "greatmovies": {
-            "title": "Stora filmer och TV-program",
-            "text": "Vi är ständigt efter över hela nätet efter de bästa torrents från de viktigaste platserna."
+            "title": "Stora Filmer och Serier",
+            "text": "Vi söker ständigt över hela nätet efter de bästa torrents ifrån de viktigaste sidorna."
         },
         "restrictions": {
             "title": "Inga begränsningar",
-            "text": "Titta på någon film eller TV-program så många gånger du vill. Allt du behöver för att komma igång är en bra internetuppkoppling."
+            "text": "Titta på vilken film eller serier så många gånger du vill. Allt du behöver för att komma igång är en bra internetuppkoppling."
         },
         "catalogue": {
             "title": "Toppen katalog",
-            "text": "Om filmen eller TV-show är ute, kommer Popcorn Time hitta den bästa versionen möjligt och börja strömma det genast."
+            "text": "Om filmen eller serie är ute, kommer Popcorn Time hitta den bästa versionen möjligt och börja strömma det genast."
         },
         "quality": {
             "title": "Den bästa kvalitén ",
-            "text": "Titta på din film eller avsnitt direkt i HD och med undertexter. Och sedan fortsätta titta."
+            "text": "Titta på din film eller episod direkt i HD och med undertexter. Och sedan fortsätta titta."
         },
         "save": {
             "title": "Spara tid för att göra popcorn",
@@ -48,13 +48,13 @@
     },
     "how": {
         "title": "Svårt att tro?",
-        "subtitle": "Se hur enkelt det fungerar...",
-        "open": "Öppna Popcorn Time<br>och välj en film eller episod",
-        "select": "Välj kvalite <br> och textning",
+        "subtitle": "Se hur lätt det fungerar...",
+        "open": "Öppna Popcorn Time<br>och välj en film eller serier",
+        "select": "Välj kvalite<br>och textning",
         "play": "Klicka på play<br>och njut!"
     },
     "get-app": {
-        "new": "Ett helt nytt sätt att se på filmer och TV-program",
+        "new": "Ett helt nytt sätt att se på filmer och serier",
         "popcorn": "Du behöver bara ordna popcorn, vi fixar resten."
     },
     "email": {

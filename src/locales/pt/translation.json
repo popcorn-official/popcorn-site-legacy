@@ -1,19 +1,19 @@
 {
     "nav": {
         "faq": "FAQ",
-        "tos": "TOS",
+        "tos": "TDS",
         "home": "INÍCIO"
     },
     "header": {
         "beta": {
             "title": "Vê filmes e séries instantaneamente",
-            "subtitle": "Ainda em Beta, mas transfere e experimenta!"
+            "subtitle": "Ainda em beta, mas podes descarregar e experimentar!"
         }
     },
     "download": {
-        "text": "Transferir Beta %s",
-        "mac": "Para Mac OSX 10.7 ou superior",
-        "windows": "Para Windows 7 ou superior",
+        "text": "Descarregar (Beta %s)",
+        "mac": "Para Mac OS X 10.7 ou posterior",
+        "windows": "Para Windows 7 ou posterior",
         "linux32": "Para Linux 32-bit",
         "linux64": "Para Linux 64-bit",
         "android": "Para Android 4.0.3 ou superior",
@@ -21,8 +21,8 @@
         "free": "Melhor de tudo... é grátis!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time reproduz filmes e séries a partir de torrents",
-        "copyright": "Transferir material protegido por direitos de autor pode ser ilegal no teu país. Usa por tua conta e risco."
+        "whatitdoes": "O Popcorn Time reproduz filmes e séries a partir de torrents",
+        "copyright": "Descarregar material protegido por direitos de autor pode ser ilegal no teu país. Usa por tua conta e risco."
     },
     "features": {
         "greatmovies": {
@@ -66,7 +66,7 @@
         "love": "Feito com <span>&#10084;</span> por um grupo de nerds do mundo inteiro",
         "status": "Estado",
         "faq": "FAQ",
-        "tos": "Termos de serviço",
-        "con": "Contacta-nos / Sobre"
+        "tos": "Termos do serviço",
+        "con": "Contacta-nos / Informações"
     }
 }

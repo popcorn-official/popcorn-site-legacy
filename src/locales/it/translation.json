@@ -27,7 +27,7 @@
     "features": {
         "greatmovies": {
             "title": "Bellissimi Film e Programmi TV",
-            "text": "Siamo alla ricerca costante su tutto il web dei torrent migliori dai più importanti siti."
+            "text": "Siamo alla ricerca costante su tutto il web dei torrent migliori dai siti più importanti."
         },
         "restrictions": {
             "title": "Senza restrizioni",
@@ -55,7 +55,7 @@
     },
     "get-app": {
         "new": "Un modo tutto nuovo di guardare Film e TV",
-        "popcorn": "Occupatevi solo dei Popcorn e lasciate il resto a noi"
+        "popcorn": "Occupatevi solo dei popcorn e lasciate il resto a noi"
     },
     "email": {
         "placeholder": "Indirizzo email",

@@ -1,13 +1,13 @@
 {
     "nav": {
         "faq": "SSS",
-        "tos": "Kural ve Koşullar",
-        "home": "Anasayfa"
+        "tos": "Kullanım Şartları",
+        "home": "ANASAYFA"
     },
     "header": {
         "beta": {
             "title": "Dizileri ve filmleri anında izle",
-            "subtitle": "Deneme aşamasında ama korkmayın deneyin!"
+            "subtitle": "Şu an deneme aşamasında ama korkmayın deneyin!"
         }
     },
     "download": {
@@ -18,16 +18,16 @@
         "linux64": "64-bit Linux için",
         "android": "Android 4.0.3 ve daha üstü",
         "platforms": "Diğer platformlar",
-        "free": "En iyisi... ücretsiz"
+        "free": "En iyisi... ücretsiz!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Tine film ve dizileri torrentten yayınlar",
+        "whatitdoes": "Popcorn Time film ve dizileri torrentten yayınlar",
         "copyright": "Telif hakkı bulunan materyalleri indirmek ülkenizde yasadışı olabilir. Oluşacak risklerin sorumluluğu size aittir."
     },
     "features": {
         "greatmovies": {
-            "title": "Muhteşem filmler ve diziler",
-            "text": "En iyi sitelerdeki en iyi torrentleri bulabilmek için tüm interneti durmaksızın arıyoruz."
+            "title": "Muhteşem Filmler ve Diziler",
+            "text": "En önemli sitelerdeki en iyi torrentleri bulabilmek için tüm interneti durmaksızın arıyoruz."
         },
         "restrictions": {
             "title": "Kısıtlama yok",
@@ -38,35 +38,35 @@
             "text": "Eğer bir film ya da dizi çıktıysa Popcorn Time en kaliteli sürümünü bulacak ve hemen yayınlamaya başlayacaktır."
         },
         "quality": {
-            "title": "En kalitelisi",
-            "text": "Dizinizi ya da filminizi HD olarak anında ve altyazı ile izleyin ve izlemeye devam edin."
+            "title": "En iyi kalite",
+            "text": "Dizinizi ya da filminizi HD olarak anında altyazılı izleyin ve izlemeye devam edin."
         },
         "save": {
             "title": "Patlamış mısır için zaman kazanın",
-            "text": "Bekleme ve indirme süresi yok. Sevdiğiniz dilmi ve diziyi anında oynatın."
+            "text": "Bekleme ve indirme süresi yok. Favori filminizi ve dizinizi anında oynatın."
         }
     },
     "how": {
         "title": "İnanması güç?",
-        "subtitle": "Ne kadar kolay olduğunu görün",
-        "open": "Popcorn Time açın<br>ve film yada dizi seçin",
+        "subtitle": "Ne kadar kolay olduğunu görün...",
+        "open": "Popcorn Time açın<br>ve film ya da dizi seçin",
         "select": "Kaliteyi<br>ve altyazıyı seçin",
         "play": "Oynata tıklayın<br>ve eğlenin!"
     },
     "get-app": {
         "new": "Film ve TV izlemek için tamamen yeni bir yol",
-        "popcorn": "Popcorn'a iyi bakın gerisini bize bırakın."
+        "popcorn": "Siz sadece Popcorn'a iyi bakın ve gerisini bize bırakın."
     },
     "email": {
-        "placeholder": "Mail Adresi",
+        "placeholder": "E-Posta Adresi",
         "subscribe": "Abone ol",
-        "notified": "Yeni sürüm gelince bildir"
+        "notified": "Yeni sürüm hazır olduğunda bildir"
     },
     "footer": {
         "love": "Dünyanın her yerindeki onlarca geek <span>&#10084;</span> tarafından yapıldı",
         "status": "Durum",
         "faq": "SSS",
         "tos": "Kullanım Koşulları",
-        "con": "Bize ulaşın / hakkında"
+        "con": "Bize ulaşın / Hakkımızda"
     }
 }

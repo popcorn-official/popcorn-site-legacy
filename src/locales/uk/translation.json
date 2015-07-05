@@ -16,7 +16,7 @@
         "windows": "Для Windows 7 та новіше",
         "linux32": "Для 32-бітних Linux",
         "linux64": "Для 64-бітних Linux",
-        "android": "For Android 4.0.3 and above",
+        "android": "Для Андроїд 4.0.3 та новіше",
         "platforms": "Інші платформи",
         "free": "Найкраще... та безкоштовне!"
     },
@@ -54,17 +54,19 @@
         "play": "Натисніть \"грати\"<br>і насолоджуйтесь!"
     },
     "get-app": {
-        "new": "A whole new way to watch movies and TV",
-        "popcorn": "Just take care of the popcorn and leave the rest to us."
+        "new": "Абсолютно новий спосіб дивитись фільми та телебачення",
+        "popcorn": "Піклуйся про попкорн і залиш все інше для нас"
     },
     "email": {
         "placeholder": "E-mail адреса",
-        "subscribe": "Subscribe",
-        "notified": "Get notified when a new version is available"
+        "subscribe": "Приєднуватись",
+        "notified": "Отримай повідомлення коли нова версія буде доступна"
     },
     "footer": {
+        "love": "Зроблено з <span>&#10084;</span> групою ентузіастів зі Всього Світу. ",
+        "status": "Статус",
         "faq": "FAQ",
         "tos": "Угода користувача",
-        "con": "Contact us / About"
+        "con": "Зв'язок з нами/ зворотній"
     }
 }

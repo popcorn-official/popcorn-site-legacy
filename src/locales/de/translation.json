@@ -1,6 +1,6 @@
 {
     "nav": {
-        "faq": "OGF",
+        "faq": "FAQ",
         "tos": "TOS",
         "home": "HOME"
     },
@@ -27,7 +27,7 @@
     "features": {
         "greatmovies": {
             "title": "Großartige Filme und Fernsehserien",
-            "text": "Wir suchen stetig die besten Torrents von den wichtigsten Webseiten überall im Netz."
+            "text": "Wir suchen stetig die besten Torrents von den besten Webseiten überall im Netz."
         },
         "restrictions": {
             "title": "Keine Beschränkungen",
@@ -35,14 +35,14 @@
         },
         "catalogue": {
             "title": "Großartiger Katalog",
-            "text": "Sofern ein Film oder eine Fernsehsendung im Netz ist, Popcorn Time wird die bestmögliche Version finden und sofort verfügbar stellen."
+            "text": "Sobald ein Film oder eine Fernsehsendung veröffentlicht wird, wird Popcorn Time die bestmögliche Version finden und sofort verfügbar stellen."
         },
         "quality": {
             "title": "Die beste Qualität",
             "text": "Schau dir deinen Film oder deine Episode in HD ohne Verzögerung und mit Untertiteln an."
         },
         "save": {
-            "title": "Sparen Sie Zeit für die Herstellung von Popcorn",
+            "title": "Sparen Sie sich die Zeit um das Popcorn bereitzustellen",
             "text": "Keine Warte- oder Downloadzeit. Sofortige Wiedergabe deiner Lieblingsfilme und -fernsehsendungen."
         }
     },
@@ -54,7 +54,7 @@
         "play": "Klicke auf abspielen<br> und geniesse!"
     },
     "get-app": {
-        "new": "Ein total neuartiger Weg Filme und Fernseh zu schauen",
+        "new": "Ein total neue Art Filme und Fernseh zu schauen",
         "popcorn": "Wenn du dich um das Popcorn kümmerst, machen wir den Rest."
     },
     "email": {
@@ -63,9 +63,9 @@
         "notified": "Benachrichtigt werden, wenn eine neue Version verfügbar ist"
     },
     "footer": {
-        "love": "Gemacht mit viel <span>&10084;</span> von einem Haufen Computerfreaks von überall auf der Welt",
+        "love": "Auf die Beine gestellt mit viel <span>&#10084;</span> von einem Haufen Computerfreaks von überall auf der Welt",
         "status": "Status",
-        "faq": "HGF",
+        "faq": "FAQ",
         "tos": "Nutzungsbedingungen",
         "con": "Kontaktieren Sie uns / Über"
     }

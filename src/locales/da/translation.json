@@ -1,6 +1,6 @@
 {
     "nav": {
-        "faq": "FAQ",
+        "faq": "OSS",
         "tos": "TOS",
         "home": "Hjem"
     },
@@ -65,7 +65,7 @@
     "footer": {
         "love": "Lavet med <span>&#10084;</span> af en flok nørder fra hele verden",
         "status": "Status",
-        "faq": "FAQ",
+        "faq": "OSS",
         "tos": "Servicevilkår",
         "con": "Kontakt os / Om"
     }

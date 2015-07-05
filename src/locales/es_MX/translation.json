@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "INICIO"
+    },
+    "header": {
+        "beta": {
+            "title": "Ve películas y series de televisión al instante",
+            "subtitle": "Actualmente en versión beta, ¡pero adelante, pruébalo!"
+        }
+    },
+    "download": {
+        "text": "Descargar beta %s",
+        "mac": "Para Mac OSX 10.7 y superior",
+        "windows": "Para Windows 7 y superior",
+        "linux32": "Para Linux de 32-bits",
+        "linux64": "Para Linux de 64-bits",
+        "android": "Para Android 4.0.3 y superior",
+        "platforms": "Otras plataformas",
+        "free": "Lo mejor de todo... ¡es gratis!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time reproduce películas y series de televisión desde archivos torrent",
+        "copyright": "Descargar material protegido con derechos de autor puede ser ilegal en tu país. Úsalo bajo tu propia responsabilidad."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Excelentes películas y series de televisión",
+            "text": "Estamos buscando constantemente por toda la red los mejores archivos torrent de los sitios más importantes."
+        },
+        "restrictions": {
+            "title": "Sin restricciones",
+            "text": "Ve cualquier película o serie de televisión tantas veces como quieras. Todo lo que necesitas para empezar es una conexión a Internet adecuada."
+        },
+        "catalogue": {
+            "title": "Catálogo impresionante",
+            "text": "Si existe una película o serie, Popcorn Time encontrará la mejor versión posible y la reproducirá  de inmediato."
+        },
+        "quality": {
+            "title": "La mejor calidad",
+            "text": "Ve tu película o episodio al instante, en HD y con subtítulos."
+        },
+        "save": {
+            "title": "Ahorra tiempo para hacer tus palomitas de maíz",
+            "text": "Sin tiempos de espera o de descarga. Reproducción instantánea de tus películas y series favoritas."
+        }
+    },
+    "how": {
+        "title": "¿Difícil de creer?",
+        "subtitle": "Mira qué fácil funciona...",
+        "open": "Abre Popcorn Time<br>y selecciona una película o una serie",
+        "select": "Selecciona la calidad<br>y los subtítulos",
+        "play": "Haz clic en reproducir<br>¡y a disfrutar!"
+    },
+    "get-app": {
+        "new": "Una nueva forma de ver películas y series de televisión",
+        "popcorn": "Preocúpate sólo de las palomitas de maíz y déjanos el resto a nosotros."
+    },
+    "email": {
+        "placeholder": "Dirección de correo electrónico",
+        "subscribe": "Suscríbete",
+        "notified": "Serás notificado cuando una nueva versión esté disponible"
+    },
+    "footer": {
+        "love": "Hecho con <span>&#10084;</span> por un grupo de geeks de todas partes del mundo",
+        "status": "Estado",
+        "faq": "FAQ",
+        "tos": "Términos del servicio",
+        "con": "Contáctanos / Acerca de"
+    }
+}

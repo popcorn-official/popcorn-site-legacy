@@ -11,7 +11,7 @@
         }
     },
     "download": {
-        "text": "Download Beta %s",
+        "text": "Beta %s downloaden",
         "mac": "Voor Mac OSX 10.7 en hoger",
         "windows": "Voor Windows 7 en hoger",
         "linux32": "Voor 32-bit Linux",
@@ -22,7 +22,7 @@
     },
     "warning": {
         "whatitdoes": "Popcorn Time streamt films en series via torrents",
-        "copyright": "Het downloaden van auteursrechtelijk beschermd materiaal kan illegaal zijn in jouw land. Gebruik op eigen risico!"
+        "copyright": "Het downloaden van auteursrechtelijk beschermd materiaal is mogelijk illegaal in jouw land. Gebruik op eigen risico!"
     },
     "features": {
         "greatmovies": {
@@ -48,7 +48,7 @@
     },
     "how": {
         "title": "Moeilijk te geloven?",
-        "subtitle": "Bekijk hoe gemakkelijk het is...",
+        "subtitle": "Kijk eens hoe gemakkelijk het is...",
         "open": "Open Popcorn Time<br>en kies een film of aflevering",
         "select": "Selecteer de kwaliteit<br>en ondertiteling",
         "play": "Klik op 'afspelen'<br>en geniet!"

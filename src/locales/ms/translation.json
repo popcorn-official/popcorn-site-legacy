@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "RUMAH"
+    },
+    "header": {
+        "beta": {
+            "title": "Tonton Cereka dan Rancangan TV secara mudah",
+            "subtitle": "Buat masa ini dalam Beta, tetapi cubalah dahulu!"
+        }
+    },
+    "download": {
+        "text": "Muat turun Beta %s",
+        "mac": "Bagi Mac OSX 10.7 dan ke atas",
+        "windows": "Bagi Windows 7 dan ke atas",
+        "linux32": "Bagi Linux 32-bit",
+        "linux64": "Bagi Linux 64-bit",
+        "android": "Bagi Android 4.0.3 dan ke atas",
+        "platforms": "Platform lain",
+        "free": "Yang terbaik.... ianya percuma!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time menstrim cereka dan rancangan TV dari torrent",
+        "copyright": "Memuat turun bahan berhakcipta mungkin tidak dibenarkan dalam negara anda. Guna atas risiko sendiri."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Banyak Cereka dan Rancangan TV yang hebat",
+            "text": "Kami sentiasa menggelntar sesawang untuk mencari torrent yang terbaik daripada kebanyakan laman-laman yang penting."
+        },
+        "restrictions": {
+            "title": "Tiada sekatan",
+            "text": "Tonton apa jua cereka atau rancangan TV sebanyak mana yang anda mahu. Apa yang anda perlukan adalah sambungan internet."
+        },
+        "catalogue": {
+            "title": "Katalog yang menakjubkan",
+            "text": "Jika ada cereka atau rancangan TV, Popcorn Time akan mencari versi terbaiknya dan mulakan penstriman sekarang jua."
+        },
+        "quality": {
+            "title": "Kualiti terbaik",
+            "text": "Tonton cereka atau episod serta-merta dalam HD dengan sarikata. Dan sentiasalah menonton."
+        },
+        "save": {
+            "title": "Ada masa untuk membuat bertih jagung",
+            "text": "Tidak perlu tunggu atau ada masa muat turun. Mainbalik segera cereka dan rancangan TV kegemaran anda."
+        }
+    },
+    "how": {
+        "title": "Sukar percaya?",
+        "subtitle": "Lihat bagaimana ia dikendalikan dengan mudah...",
+        "open": "Buka Popcorn Time<br>dan pilih satu cereka atau episod",
+        "select": "Pilih kualiti<br>dan sarikata",
+        "play": "Klik main<br>dan nikmatilah!"
+    },
+    "get-app": {
+        "new": "Cara terbaharu menonton cereka dan TV",
+        "popcorn": "Hanya uruskan bertih jagung dan biarkan kami uruskan yang lain."
+    },
+    "email": {
+        "placeholder": "Alamat Emel",
+        "subscribe": "Langgan",
+        "notified": "Dapat makluman bila versi baharu sudah tersedia"
+    },
+    "footer": {
+        "love": "Dihasilkan oleh <span>&#10084;</span> sekumpulan gek dari Seluruh Dunia",
+        "status": "Status",
+        "faq": "FAQ",
+        "tos": "Terma Perkhidmatan",
+        "con": "Hubungi kami / Perihal"
+    }
+}

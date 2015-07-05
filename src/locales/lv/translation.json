@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "Sākumlapa"
+    },
+    "header": {
+        "beta": {
+            "title": "Skaties Filmas un Seriālus nekavējoties",
+            "subtitle": "Pašlaik beta versiā, bet lūdzu pamēģini!"
+        }
+    },
+    "download": {
+        "text": "Lejuplādēt Beta %s",
+        "mac": "Priekš Mac OSX 10.7 un augstāk",
+        "windows": "Priekš Windows 7 un augstāk",
+        "linux32": "Priekš 32-bitu Linux",
+        "linux64": "Priekš 64-bitu Lunux",
+        "android": "Priekš Android 4.0.3 un augstāk",
+        "platforms": "Citas platformas",
+        "free": "Vislabākais... ka ir brīvu!"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time straumē filmas un TV šovus no torrentiem",
+        "copyright": "Lejuplādējot ar autortiesībām aizsargāru materiālu var būt nelegēli jūsu valstī. Visa atbildība ir uz jums."
+    },
+    "features": {
+        "greatmovies": {
+            "title": "Lieliskas Filmas un Seriāli",
+            "text": "Mēs nepārtraukti meklējam vislabākos torrentus pa visu internetu no visslabākajām lapām."
+        },
+        "restrictions": {
+            "title": "Bez ierobežojumiem",
+            "text": "Skaties jebkuru filmu vai seriālu cik vien vēlies. Tev tikai ir vajadzīgs normāls internets."
+        },
+        "catalogue": {
+            "title": "Satriecošs katalogs",
+            "text": "Ja filma vai seriāls ir pieejams, Popcorn Time atradīs pašu labāko versiju un sāks rādīt."
+        },
+        "quality": {
+            "title": "Pati labākā kvalitāte",
+            "text": "Skaties savau filmu vai epizodi nekavējoties HD un ar subtitriem. Un turpini skatīties."
+        },
+        "save": {
+            "title": "Ietaupi laiku, lai uztaisītu popkornu",
+            "text": "Nekāda gaidīsana uz jejuplādēm. Iecienītāko filmu un seriālu momentāla atskaņošana."
+        }
+    },
+    "how": {
+        "title": "Grūti noricēt?",
+        "subtitle": "Paskaties cik vienkārši tas darbojas...",
+        "open": "Atver Popcorn Time<br>un izvēlies filmu vai seriāju",
+        "select": "Izvēlies<br>un subtitrus",
+        "play": "Kliko patskaņot<br>un izbaudi!"
+    },
+    "get-app": {
+        "new": "Pilnīgi jauns veids kā skatīties filmas un seriālus",
+        "popcorn": "Tev tikai popkorns jāsagādā, mēs visu pārējo saliksim."
+    },
+    "email": {
+        "placeholder": "Ē-pasa Adrese",
+        "subscribe": "Abonē",
+        "notified": "Saņem paziņojumu par jaunas versijas pieejamību"
+    },
+    "footer": {
+        "love": "Veidots ar daudz<span>&#10084;</span>un vesela bara gīkiem No Visas Pasaules.",
+        "status": "Status",
+        "faq": "FAQ",
+        "tos": "Pakalpojumu sniegšanas noteikumi",
+        "con": "Kontaktinformācija / Par"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "faq": "常見問題",
+        "tos": "服務條款",
+        "home": "首頁"
+    },
+    "header": {
+        "beta": {
+            "title": "即時觀看電影和電視節目",
+            "subtitle": "目前處於測試階段，但請試試吧！"
+        }
+    },
+    "download": {
+        "text": "下載 Beta %s",
+        "mac": "適用於Mac OSX 10.7及以上",
+        "windows": "適用於Windows7及以上",
+        "linux32": "適用於 32-bit Linux",
+        "linux64": "適用於 64-bit Linux",
+        "android": "適用於Android4.0.3及以上",
+        "platforms": "其他平台",
+        "free": "最重要的是...它是免費的！"
+    },
+    "warning": {
+        "whatitdoes": "Popcorn Time 從Torrents 串流電影和電視節目",
+        "copyright": "下載受版權保護的材料在您的國家可能是是非法的。使用時需要您自己承擔風險。"
+    },
+    "features": {
+        "greatmovies": {
+            "title": "很棒的電影和電視節目",
+            "text": "我們一直在所有網站尋找最好的Torrents。"
+        },
+        "restrictions": {
+            "title": "無限制",
+            "text": "無限次觀看任何電影或電視節目。你需要的只是網路連接。"
+        },
+        "catalogue": {
+            "title": "一流的目錄",
+            "text": "如果電影或電視節目就在那裡，Popcorn Time 會找到最好的版本並開始串流。"
+        },
+        "quality": {
+            "title": "質量最好的",
+            "text": "即時在高清和字幕看你的電影或集數。繼續觀看吧。"
+        },
+        "save": {
+            "title": "為準備爆米花節省時間",
+            "text": "無需等待及沒有下載時間。即時播放您最喜愛的電影和電視節目。"
+        }
+    },
+    "how": {
+        "title": "難以置信？",
+        "subtitle": "看看它如何簡易地操作。。。",
+        "open": "開啟Popcorn Time<br>選擇一個電影或集數",
+        "select": "選擇質素<br>和字幕",
+        "play": "按播放<br/>然後享受！"
+    },
+    "get-app": {
+        "new": "一種觀看電影和電視的全新方式",
+        "popcorn": "準備爆米花，其餘留給我們。"
+    },
+    "email": {
+        "placeholder": "電郵地址",
+        "subscribe": "訂閱",
+        "notified": "新的版本可用時得到通知"
+    },
+    "footer": {
+        "love": "由一群來自世界各地的愛好者用 <span>&#10084;</span> 製作",
+        "status": "狀態",
+        "faq": "常見問題",
+        "tos": "服務條款",
+        "con": "聯繫我們/關於"
+    }
+}
