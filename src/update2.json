@@ -15,7 +15,7 @@
                 "x86": {
                         "version": "0.3.8-0",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.l32.nw",
-                        "checksum": "be53c41f3dcf03b5525af3b0829c829226ea9e2a",
+                        "checksum": "01bd959641a42ff270c2ca8d3e82afee41ba034f",
                         "signature": "MCwCFAQn1nXWBPek1UvkmAmnANaLAwbzAhQd7/6Fz1jG8mi1cp6UdqrfgXQsGQ==",
                         "title": "The long awaited 0.3.8",
                         "description": "Movies and Trakt are back, along with new exciting features!",
