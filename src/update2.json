@@ -3,8 +3,8 @@
         "windows": {
                 "version": "0.3.8-0",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.win.nw",
-                "checksum": "ad70601206f07ff7a24b5f225cada2331d2f3c79",
-                "signature": "MCwCFFSh9HIJX5rFcSyVH/2qtn8d95MRAhRzvellX6WkJf8BfovHtfCtmSXjqw==",
+                "checksum": "a1457e4524260097fbe2eab7ed6975c5d69a0ee8",
+                "signature": "MCwCFFNAz08c/EfpCzQ1hYx9zvrUB9d6AhQCIihFzFFcpHHSAggQDiEqVcP5Pg==",
                 "title": "The long awaited 0.3.8",
                 "description": "Movies and Trakt are back, along with new exciting features!",
                 "changeLog": [],
@@ -15,8 +15,8 @@
                 "x86": {
                         "version": "0.3.8-0",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.l32.nw",
-                        "checksum": "be53c41f3dcf03b5525af3b0829c829226ea9e2a",
-                        "signature": "MCwCFBNjDFg7mgQpwyTDKEnMXT89UV/kAhQ35j8zsNN9pxnq3Aeikm4/FLvq0Q==",
+                        "checksum": "01bd959641a42ff270c2ca8d3e82afee41ba034f",
+                        "signature": "MCwCFAQn1nXWBPek1UvkmAmnANaLAwbzAhQd7/6Fz1jG8mi1cp6UdqrfgXQsGQ==",
                         "title": "The long awaited 0.3.8",
                         "description": "Movies and Trakt are back, along with new exciting features!",
                 "changeLog": [],
@@ -26,8 +26,8 @@
                 "x64": {
                         "version": "0.3.8-0",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.l64.nw",
-                        "checksum": "8a393c0437dd3ad0aeedae20d939c936fde085df",
-                        "signature": "MCwCFGcc7FwPJtwDcYUhpTp40ghPzfVxAhQ9TbB9StnCCdtbtAeZrK6KawiQAw==",
+                        "checksum": "aea81deb2dcd596152924a0c7b7bc81c34512e0f",
+                        "signature": "MCwCFHszILu18MQU5ZbWNl0y6JMqUvwfAhRW/omGxWxsBkKp1fsPz+EjKpgAEQ==",
                         "title": "The long awaited 0.3.8",
                         "description": "Movies and Trakt are back, along with new exciting features!",
                 "changeLog": [],
@@ -38,8 +38,8 @@
         "mac": {
                 "version": "0.3.8-0",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.mac.nw",
-                "checksum": "6aa8aa851010268ecfb760d54d02cfa2a52e8820",
-                "signature": "MCwCFEtVLJOT+aElTYk6IzmRx2dQjMk1AhQ4922WG36EzdciDOmTuHjpAYCZsQ==",
+                "checksum": "55810f091d88ef08d1d5d4a24febd42cc54b7381",
+                "signature": "MC0CFBJ+19z6hpBuOFYdNhTDwBD8S6WUAhUAgRRi5NtuECic0GOCsx9/uKems8Y=",
                 "title": "The long awaited 0.3.8",
                 "description": "Movies and Trakt are back, along with new exciting features!",
                 "changeLog": [],
