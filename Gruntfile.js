@@ -183,7 +183,7 @@ module.exports = function (grunt) {
             misc: {
                 expand: true,
                 cwd: 'src/',
-                src: ['update.json', 'notification.json', 'sitemap.xml', 'robots.txt'],
+                src: ['update.json', 'update2.json', 'update3.json', 'notification.json', 'sitemap.xml', 'robots.txt'],
                 dest: 'compiled/'
             },
             locales: {
