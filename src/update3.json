@@ -1,7 +1,7 @@
 {
         "windows": {
                 "version": "0.3.7-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.win.nw",
+                "updateUrl": "https://get.popcorntime.re/_updates/0_3_7_3.win.nw",
                 "checksum": "51dd688ac3bab6e3a5ede1da8c227016766f2491",
                 "signature": "MCwCFCI+iI3PHOkHF7yVO5AIhg3cOE0SAhQueVg0ppXQ6ykvBgkiSxfHHFq31w==",
                 "title": "Updater Hotfix",
@@ -13,7 +13,7 @@
         "linux": {
                 "x86": {
                         "version": "0.3.7-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
+                        "updateUrl": "https://get.popcorntime.re/_updates/0_3_7_3.nw",
                         "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
                         "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
                         "title": "Updater Hotfix",
@@ -24,7 +24,7 @@
                 },
                 "x64": {
                         "version": "0.3.7-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
+                        "updateUrl": "https://get.popcorntime.re/_updates/0_3_7_3.nw",
                         "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
                         "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
                         "title": "Updater Hotfix",
@@ -36,7 +36,7 @@
         },
         "mac": {
                 "version": "0.3.7-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
+                "updateUrl": "https://get.popcorntime.re/_updates/0_3_7_3.nw",
                 "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
                 "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
                 "title": "Updater Hotfix",

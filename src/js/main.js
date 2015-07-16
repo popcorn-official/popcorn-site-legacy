@@ -35,9 +35,9 @@ var popcorn = {
         }
     },
     getAndroidVersion: function () {
-        $.get('https://ci.popcorntime.io/android/mobile/release', function(resp) {
+        $.get('https://ci.popcorntime.re/android/mobile/release', function(resp) {
             var version = resp.mobile.release["armeabi-v7a"].versionName;
-            var newUrl = 'https://get.popcorntime.io/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
+            var newUrl = 'https://get.popcorntime.re/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
             if(version.indexOf("0") == 0) {
                 version = version.substring(2, version.length);
             }

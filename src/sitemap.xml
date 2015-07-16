@@ -5,37 +5,37 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://popcorntime.io/</loc>
+  <loc>https://popcorntime.re/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://blog.popcorntime.io/</loc>
+  <loc>https://blog.popcorntime.re/</loc>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://discuss.popcorntime.io/</loc>
+  <loc>https://discuss.popcorntime.re/</loc>
   <changefreq>always</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://ci.popcorntime.io/</loc>
+  <loc>https://ci.popcorntime.re/</loc>
   <changefreq>always</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://popcorntime.io/tos</loc>
+  <loc>https://popcorntime.re/tos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://popcorntime.io/faq</loc>
+  <loc>https://popcorntime.re/faq</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://status.popcorntime.io/</loc>
+  <loc>http://status.popcorntime.re/</loc>
   <changefreq>always</changefreq>
   <priority>0.50</priority>
 </url>
