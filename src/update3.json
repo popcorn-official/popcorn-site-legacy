@@ -1,48 +1,48 @@
 {
         "windows": {
-                "version": "0.3.7-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.win.nw",
-                "checksum": "51dd688ac3bab6e3a5ede1da8c227016766f2491",
-                "signature": "MCwCFCI+iI3PHOkHF7yVO5AIhg3cOE0SAhQueVg0ppXQ6ykvBgkiSxfHHFq31w==",
-                "title": "Updater Hotfix",
-                "description": "hotfix containing the necessary to update to 0.3.8",
+                "version": "0.3.8-1",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
+                "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
+                "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                "title": "Updater Fix",
+                "description": "Fix auto-updater fallback",
                 "changeLog": [],
-                "gitTag": "v0.3.7-3",
-                "gitCommit": "8a5e9853"
+                "gitTag": "v0.3.8-1",
+                "gitCommit": "6444037"
         },
         "linux": {
                 "x86": {
-                        "version": "0.3.7-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
-                        "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
-                        "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
-                        "title": "Updater Hotfix",
-                        "description": "hotfix containing the necessary to update to 0.3.8",
-                "changeLog": [],
-                        "gitTag": "v0.3.7-3",
-                        "gitCommit": "8a5e9853"
+                        "version": "0.3.8-1",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
+                        "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
+                        "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                        "title": "Updater Fix",
+                        "description": "Fix auto-updater fallback",
+                        "changeLog": [],
+                        "gitTag": "v0.3.8-1",
+                        "gitCommit": "6444037"
                 },
                 "x64": {
-                        "version": "0.3.7-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
-                        "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
-                        "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
-                        "title": "Updater Hotfix",
-                        "description": "hotfix containing the necessary to update to 0.3.8",
-                "changeLog": [],
-                        "gitTag": "v0.3.7-3",
-                        "gitCommit": "8a5e9853"
+                        "version": "0.3.8-1",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
+                        "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
+                        "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                        "title": "Updater Fix",
+                        "description": "Fix auto-updater fallback",
+                        "changeLog": [],
+                        "gitTag": "v0.3.8-1",
+                        "gitCommit": "6444037"
                 }
         },
         "mac": {
-                "version": "0.3.7-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_7_3.nw",
-                "checksum": "a51909a9f614bb82f123faabb429d902553b1045",
-                "signature": "MCwCFBIr0EBnkix6TyXsU46/CYbXa+wxAhQ18bMN0+hpCJofwBHip5gGU8l6BA==",
-                "title": "Updater Hotfix",
-                "description": "hotfix containing the necessary to update to 0.3.8",
+                "version": "0.3.8-1",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
+                "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
+                "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                "title": "Updater Fix",
+                "description": "Fix auto-updater fallback",
                 "changeLog": [],
-                "gitTag": "v0.3.7-3",
-                "gitCommit": "8a5e9853"
+                "gitTag": "v0.3.8-1",
+                "gitCommit": "6444037"
         }
 }
