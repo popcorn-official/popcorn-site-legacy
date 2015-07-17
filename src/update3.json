@@ -1,9 +1,9 @@
 {
         "windows": {
                 "version": "0.3.8-1",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
-                "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
-                "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.win.nw",
+                "checksum": "a22a85bb5420b032d77f67e509739ca2f61d4bb5",
+                "signature": "MCwCFA+cTCkUFa0GEB6p7ULSk9+sGc0tAhR8MYlmKNniq41bA1EI2LVIHBbiuQ==",
                 "title": "Updater Fix",
                 "description": "Fix auto-updater fallback",
                 "changeLog": [],
