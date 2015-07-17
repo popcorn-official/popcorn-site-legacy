@@ -36,9 +36,9 @@
         },
         "mac": {
                 "version": "0.3.8-1",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
-                "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
-                "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.mac.nw",
+                "checksum": "088d86e072e137708303b2dfb3b072c3529f8674",
+                "signature": "MCwCFD+TGi6lmXFntCbOuwemmMlIkpZZAhQ+M66LKzfX2Is2w+L1PZ6QC2586Q==",
                 "title": "Updater Fix",
                 "description": "Fix auto-updater fallback",
                 "changeLog": [],
