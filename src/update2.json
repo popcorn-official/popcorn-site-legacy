@@ -2,7 +2,7 @@
         "extended": true,
         "windows": {
                 "version": "0.3.8-0",
-                "updateUrl": "https://get.popcorntime.re/_updates/0_3_8.win.nw",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.win.nw",
                 "checksum": "a1457e4524260097fbe2eab7ed6975c5d69a0ee8",
                 "signature": "MCwCFGODCIKplwZLhxjgHJ2hbOU4VXNaAhRTeaPo7c7kcKqqG0/YU+CijUGe3w==",
                 "title": "The long awaited 0.3.8",
@@ -14,7 +14,7 @@
         "linux": {
                 "x86": {
                         "version": "0.3.8-0",
-                        "updateUrl": "https://get.popcorntime.re/_updates/0_3_8.l32.nw",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.l32.nw",
                         "checksum": "01bd959641a42ff270c2ca8d3e82afee41ba034f",
                         "signature": "MCwCFAQn1nXWBPek1UvkmAmnANaLAwbzAhQd7/6Fz1jG8mi1cp6UdqrfgXQsGQ==",
                         "title": "The long awaited 0.3.8",
@@ -25,7 +25,7 @@
                 },
                 "x64": {
                         "version": "0.3.8-0",
-                        "updateUrl": "https://get.popcorntime.re/_updates/0_3_8.l64.nw",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.l64.nw",
                         "checksum": "aea81deb2dcd596152924a0c7b7bc81c34512e0f",
                         "signature": "MCwCFHszILu18MQU5ZbWNl0y6JMqUvwfAhRW/omGxWxsBkKp1fsPz+EjKpgAEQ==",
                         "title": "The long awaited 0.3.8",
@@ -37,7 +37,7 @@
         },
         "mac": {
                 "version": "0.3.8-0",
-                "updateUrl": "https://get.popcorntime.re/_updates/0_3_8.mac.nw",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8.mac.nw",
                 "checksum": "55810f091d88ef08d1d5d4a24febd42cc54b7381",
                 "signature": "MC0CFBJ+19z6hpBuOFYdNhTDwBD8S6WUAhUAgRRi5NtuECic0GOCsx9/uKems8Y=",
                 "title": "The long awaited 0.3.8",
