@@ -5,7 +5,7 @@
                 "checksum": "3985a654cac0550f1cd917f63630efdabe439436",
                 "signature": "MCwCFHs2HTAEx7DHcyMmmyHZv/vGotILAhRZlDI2RP08Ect80EUMknxCpXFmtg==",
                 "title": "Hotfix",
-                "description": "Security & Minor bugfixes",
+                "description": "Minor bugfixes",
                 "changeLog": [],
                 "gitTag": "v0.3.8-2",
                 "gitCommit": "378df3e9"
@@ -17,7 +17,7 @@
                         "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
                         "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
                         "title": "Hotfix",
-                        "description": "Security & Minor bugfixes",
+                        "description": "Minor bugfixes",
                         "changeLog": [],
                         "gitTag": "v0.3.8-2",
                         "gitCommit": "378df3e9"
@@ -28,7 +28,7 @@
                         "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
                         "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
                         "title": "Hotfix",
-                        "description": "Security & Minor bugfixes",
+                        "description": "Minor bugfixes",
                         "changeLog": [],
                         "gitTag": "v0.3.8-2",
                         "gitCommit": "378df3e9"
@@ -40,7 +40,7 @@
                 "checksum": "cc275c5cee808cfef9020792c0f49f7ccb79e4a2",
                 "signature": "MCwCFBqu9WiUJ6R7uC58c8TUbW0nTrNTAhQlHphqSwYUd0VrwfloIFwEQolEqA==",
                 "title": "Hotfix",
-                "description": "Security & Minor bugfixes",
+                "description": "Minor bugfixes",
                 "changeLog": [],
                 "gitTag": "v0.3.8-2",
                 "gitCommit": "378df3e9"
