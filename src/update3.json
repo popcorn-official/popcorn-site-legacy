@@ -1,48 +1,48 @@
 {
         "windows": {
-                "version": "0.3.8-1",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.win.nw",
-                "checksum": "a22a85bb5420b032d77f67e509739ca2f61d4bb5",
-                "signature": "MCwCFA+cTCkUFa0GEB6p7ULSk9+sGc0tAhR8MYlmKNniq41bA1EI2LVIHBbiuQ==",
-                "title": "Updater Fix",
-                "description": "Fix auto-updater fallback",
+                "version": "0.3.8-2",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.win.nw",
+                "checksum": "3985a654cac0550f1cd917f63630efdabe439436",
+                "signature": "MCwCFHs2HTAEx7DHcyMmmyHZv/vGotILAhRZlDI2RP08Ect80EUMknxCpXFmtg==",
+                "title": "Hotfix",
+                "description": "Security & Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-1",
-                "gitCommit": "6444037"
+                "gitTag": "v0.3.8-2",
+                "gitCommit": "378df3e9"
         },
         "linux": {
                 "x86": {
-                        "version": "0.3.8-1",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
-                        "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
-                        "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
-                        "title": "Updater Fix",
-                        "description": "Fix auto-updater fallback",
+                        "version": "0.3.8-2",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.linux.nw",
+                        "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
+                        "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
+                        "title": "Hotfix",
+                        "description": "Security & Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-1",
-                        "gitCommit": "6444037"
+                        "gitTag": "v0.3.8-2",
+                        "gitCommit": "378df3e9"
                 },
                 "x64": {
-                        "version": "0.3.8-1",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.nw",
-                        "checksum": "11edf3669fad0bcbe33d4cace676b9606928fcc7",
-                        "signature": "MCwCFDZqzXi6A+gjmydSHrzaCRS/0AMYAhQ++jI53R5QDp9+dP0F8H5wz/3suA==",
-                        "title": "Updater Fix",
-                        "description": "Fix auto-updater fallback",
+                        "version": "0.3.8-2",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.linux.nw",
+                        "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
+                        "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
+                        "title": "Hotfix",
+                        "description": "Security & Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-1",
-                        "gitCommit": "6444037"
+                        "gitTag": "v0.3.8-2",
+                        "gitCommit": "378df3e9"
                 }
         },
         "mac": {
-                "version": "0.3.8-1",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_1.mac.nw",
-                "checksum": "088d86e072e137708303b2dfb3b072c3529f8674",
-                "signature": "MCwCFD+TGi6lmXFntCbOuwemmMlIkpZZAhQ+M66LKzfX2Is2w+L1PZ6QC2586Q==",
-                "title": "Updater Fix",
-                "description": "Fix auto-updater fallback",
+                "version": "0.3.8-2",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.mac.nw",
+                "checksum": "cc275c5cee808cfef9020792c0f49f7ccb79e4a2",
+                "signature": "MCwCFBqu9WiUJ6R7uC58c8TUbW0nTrNTAhQlHphqSwYUd0VrwfloIFwEQolEqA==",
+                "title": "Hotfix",
+                "description": "Security & Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-1",
-                "gitCommit": "6444037"
+                "gitTag": "v0.3.8-2",
+                "gitCommit": "378df3e9"
         }
 }
