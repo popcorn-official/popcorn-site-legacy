@@ -1,16 +1,16 @@
 {
 	"version": {
-		"desktop": "3.8.2",
+		"desktop": "3.8.3",
 		"android": "2.4",
 		"ios": "0.0"
 	},
 	"downloads": {
 		"android": "0.2.4.1/mobile-armeabi-v7a-release-0.2.4.1.apk",
-		"mac": "Popcorn-Time-0.3.8-2-Mac.dmg",
-		"win": "Popcorn-Time-0.3.8-2-Setup.exe",
+		"mac": "Popcorn-Time-0.3.8-3-Mac.dmg",
+		"win": "Popcorn-Time-0.3.8-3-Setup.exe",
 		"lin": {
-			"32bit": "Popcorn-Time-0.3.8-2-Linux-32.tar.xz",
-			"64bit": "Popcorn-Time-0.3.8-2-Linux-64.tar.xz"
+			"32bit": "Popcorn-Time-0.3.8-3-Linux-32.tar.xz",
+			"64bit": "Popcorn-Time-0.3.8-3-Linux-64.tar.xz"
 		}
 	}
 }

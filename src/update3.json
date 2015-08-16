@@ -1,48 +1,48 @@
 {
         "windows": {
-                "version": "0.3.8-2",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.win.nw",
-                "checksum": "3985a654cac0550f1cd917f63630efdabe439436",
-                "signature": "MCwCFHs2HTAEx7DHcyMmmyHZv/vGotILAhRZlDI2RP08Ect80EUMknxCpXFmtg==",
-                "title": "Hotfix",
+                "version": "0.3.8-3",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.win.nw",
+                "checksum": "8ddccdf7db9560c5cc0536fe019770350d5ce29b",
+                "signature": "MCwCFCHg6bbpn/ljW1QyOta8imp5xELQAhRHqIXYar8N+W0ibuwQLphoioVP7A==",
+                "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-2",
-                "gitCommit": "378df3e9"
+                "gitTag": "v0.3.8-3",
+                "gitCommit": "4ccb1c0f"
         },
         "linux": {
                 "x86": {
-                        "version": "0.3.8-2",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.linux.nw",
-                        "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
-                        "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
-                        "title": "Hotfix",
+                        "version": "0.3.8-3",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
+                        "checksum": "28fcad9d6bc4f44c803d0a8eadca6679aa383878",
+                        "signature": "MCwCFG2+AaHs8QYjJSsROGQ17ItkFLImAhQpHjQD1SzPd/BrZfi0I6RWuasiKw==",
+                        "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-2",
-                        "gitCommit": "378df3e9"
+                        "gitTag": "v0.3.8-3",
+                        "gitCommit": "4ccb1c0f"
                 },
                 "x64": {
-                        "version": "0.3.8-2",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.linux.nw",
-                        "checksum": "2af251ffc2a73887c8d63943d5936e937367dbaa",
-                        "signature": "MCwCFFeYkjFxr3VXGXdaqnUZ0IuzwlKFAhQ9wyoLtTT6Q2jX165XWM0ufehy9A==",
-                        "title": "Hotfix",
+                        "version": "0.3.8-3",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
+                        "checksum": "28fcad9d6bc4f44c803d0a8eadca6679aa383878",
+                        "signature": "MCwCFG2+AaHs8QYjJSsROGQ17ItkFLImAhQpHjQD1SzPd/BrZfi0I6RWuasiKw==",
+                        "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-2",
-                        "gitCommit": "378df3e9"
+                        "gitTag": "v0.3.8-3",
+                        "gitCommit": "4ccb1c0f"
                 }
         },
         "mac": {
-                "version": "0.3.8-2",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_2.mac.nw",
-                "checksum": "cc275c5cee808cfef9020792c0f49f7ccb79e4a2",
-                "signature": "MCwCFBqu9WiUJ6R7uC58c8TUbW0nTrNTAhQlHphqSwYUd0VrwfloIFwEQolEqA==",
-                "title": "Hotfix",
+                "version": "0.3.8-3",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.mac.nw",
+                "checksum": "61c1079c0654aca9adef1f53feac6f8aa63a2016",
+                "signature": "MCwCFBo5cjqkpjqG8Ifc/bd2XeZ4rd8TAhQ0jdkRdLZWGwLcloF3PSEugYJHjw==",
+                "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-2",
-                "gitCommit": "378df3e9"
+                "gitTag": "v0.3.8-3",
+                "gitCommit": "4ccb1c0f"
         }
 }
