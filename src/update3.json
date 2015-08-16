@@ -2,8 +2,8 @@
         "windows": {
                 "version": "0.3.8-3",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.win.nw",
-                "checksum": "035635516997478303bc000784d44d2bd3057e31",
-                "signature": "MCwCFBIZkrwFwjlyJ7K88IstdZU3TsaFAhRMtBJX2nipjXi/NrcP+5/gcLor8w==",
+                "checksum": "de4168fe213c9442601d107e7f23730fddb04c69",
+                "signature": "MCwCFEvkuOJooDehNzMzjeKOZK9UX70XAhRxfO8SejnfWl/jDMfDMdmUplnRoA==",
                 "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
@@ -14,8 +14,8 @@
                 "x86": {
                         "version": "0.3.8-3",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "de6547c1aebd6790f9e7018f65f5b68c77abb36b",
-                        "signature": "MCwCFFmIHWYsm8CpB0+EEkhmbZX8BImDAhROaGiZLss4VInaWPXJcwSNzajziw==",
+                        "checksum": "b3e23526ba3168b43217a75bda1542a712034ac5",
+                        "signature": "MCwCFB8NnzcqYZxsXb4LcrNdHiJY7qTZAhRyGwq2Np0+z/76+qeRiRAnsgX4BQ==",
                         "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
@@ -25,8 +25,8 @@
                 "x64": {
                         "version": "0.3.8-3",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "de6547c1aebd6790f9e7018f65f5b68c77abb36b",
-                        "signature": "MCwCFFmIHWYsm8CpB0+EEkhmbZX8BImDAhROaGiZLss4VInaWPXJcwSNzajziw==",
+                        "checksum": "b3e23526ba3168b43217a75bda1542a712034ac5",
+                        "signature": "MCwCFB8NnzcqYZxsXb4LcrNdHiJY7qTZAhRyGwq2Np0+z/76+qeRiRAnsgX4BQ==",
                         "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
@@ -37,8 +37,8 @@
         "mac": {
                 "version": "0.3.8-3",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.mac.nw",
-                "checksum": "c91cd7f38120548d736f8e9e21127a0c3806ce49",
-                "signature": "MCwCFERp0Wgx1AWSV2FJRcaMBLbr37ofAhQRgDSNLcAnil63GOY34zQwTnEKeQ==",
+                "checksum": "7f4a01b1be2d8f953838458eaf63209eda6bd22c",
+                "signature": "MCwCFG+QwLcvTqqUz0sqNdJR0PKkN+tnAhRTbP7Qq7m7GU8HNkZaY9aA7pLymw==",
                 "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
