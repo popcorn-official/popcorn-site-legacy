@@ -37,8 +37,8 @@
         "mac": {
                 "version": "0.3.8-3",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.mac.nw",
-                "checksum": "61c1079c0654aca9adef1f53feac6f8aa63a2016",
-                "signature": "MCwCFBo5cjqkpjqG8Ifc/bd2XeZ4rd8TAhQ0jdkRdLZWGwLcloF3PSEugYJHjw==",
+                "checksum": "31e59823bed3d8a652d453043345228b2719dc33",
+                "signature": "MCwCFGgnblhzqMVXC6VzYHxU9x+1ff8VAhRkXMntIKfyWC3ldumfAA9k2xDMag==",
                 "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
