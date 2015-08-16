@@ -2,8 +2,8 @@
         "windows": {
                 "version": "0.3.8-3",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.win.nw",
-                "checksum": "8ddccdf7db9560c5cc0536fe019770350d5ce29b",
-                "signature": "MCwCFCHg6bbpn/ljW1QyOta8imp5xELQAhRHqIXYar8N+W0ibuwQLphoioVP7A==",
+                "checksum": "035635516997478303bc000784d44d2bd3057e31",
+                "signature": "MCwCFBIZkrwFwjlyJ7K88IstdZU3TsaFAhRMtBJX2nipjXi/NrcP+5/gcLor8w==",
                 "title": "Security Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
