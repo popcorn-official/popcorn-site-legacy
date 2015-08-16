@@ -14,8 +14,8 @@
                 "x86": {
                         "version": "0.3.8-3",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "28fcad9d6bc4f44c803d0a8eadca6679aa383878",
-                        "signature": "MCwCFG2+AaHs8QYjJSsROGQ17ItkFLImAhQpHjQD1SzPd/BrZfi0I6RWuasiKw==",
+                        "checksum": "de6547c1aebd6790f9e7018f65f5b68c77abb36b",
+                        "signature": "MCwCFFmIHWYsm8CpB0+EEkhmbZX8BImDAhROaGiZLss4VInaWPXJcwSNzajziw==",
                         "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
@@ -25,8 +25,8 @@
                 "x64": {
                         "version": "0.3.8-3",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "28fcad9d6bc4f44c803d0a8eadca6679aa383878",
-                        "signature": "MCwCFG2+AaHs8QYjJSsROGQ17ItkFLImAhQpHjQD1SzPd/BrZfi0I6RWuasiKw==",
+                        "checksum": "de6547c1aebd6790f9e7018f65f5b68c77abb36b",
+                        "signature": "MCwCFFmIHWYsm8CpB0+EEkhmbZX8BImDAhROaGiZLss4VInaWPXJcwSNzajziw==",
                         "title": "Security Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
