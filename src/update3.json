@@ -2,8 +2,8 @@
         "windows": {
                 "version": "0.3.8-4",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.win.nw",
-                "checksum": "c7818daefe25b8f75744b8e2259cc4bccec6ca34",
-                "signature": "MCwCFAhF9+9ki1U8x76dqpeaAWQYq5msAhQwpdBF7znLaB485aFoRinGEL+/2A==",
+                "checksum": "d3614b32a7eaefdd6e477f712596118abd281d10",
+                "signature": "MCwCFA/tuHvE1ha5CAkKiOa2mb+eZ3gHAhQk0rk6Ty3ScvBs2zyWRIg6s5hR/g==",
                 "title": "Hotfix",
                 "description": "Fix Auto Updater",
                 "changeLog": [],
@@ -14,8 +14,8 @@
                 "x86": {
                         "version": "0.3.8-4",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.lin.nw",
-                        "checksum": "441ad52794d4cb5da63cc6edb52bd91b624cb863",
-                        "signature": "MCwCFAHNTa3+/cPqRhtJV8+sj5loiCfPAhQRe8/2KM7eqbWMed6X6owAAO3eSQ==",
+                        "checksum": "b61d28f2d5ff4ec29e241af82d9dd962b8d7b1d3",
+                        "signature": "MCwCFBlrpXoO0AVzvwhsNETczXB04C3tAhQ8418TqzCdS4QlUrFBHQsF79Q3hw==",
                         "title": "Hotfix",
                         "description": "Fix Auto Updater",
                         "changeLog": [],
@@ -25,8 +25,8 @@
                 "x64": {
                         "version": "0.3.8-4",
                         "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.lin.nw",
-                        "checksum": "441ad52794d4cb5da63cc6edb52bd91b624cb863",
-                        "signature": "MCwCFAHNTa3+/cPqRhtJV8+sj5loiCfPAhQRe8/2KM7eqbWMed6X6owAAO3eSQ==",
+                        "checksum": "b61d28f2d5ff4ec29e241af82d9dd962b8d7b1d3",
+                        "signature": "MCwCFBlrpXoO0AVzvwhsNETczXB04C3tAhQ8418TqzCdS4QlUrFBHQsF79Q3hw==",
                         "title": "Hotfix",
                         "description": "Fix Auto Updater",
                         "changeLog": [],
@@ -37,8 +37,8 @@
         "mac": {
                 "version": "0.3.8-4",
                 "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.mac.nw",
-                "checksum": "647387e4644ec270b6b65d83df76bbb47979c404",
-                "signature": "MCwCFExvaO9joJZHWg/qSuuWvedM9Q7uAhQeQT2tEeuryzmBHgw2tTOgoeo6kw==",
+                "checksum": "3c8381c7ec7f1235362d848e989c651b06b168c3",
+                "signature": "MCwCFGlqHZA2fKiMQmMGwN8q5mAGvj3pAhRZCqvoMfTqTGgJQ67itXSRK+O3PA==",
                 "title": "Hotfix",
                 "description": "Fix Auto Updater",
                 "changeLog": [],
