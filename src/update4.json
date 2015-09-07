@@ -1,0 +1,49 @@
+{
+        "extended": true,
+        "windows": {
+                "version": "0.3.8-5",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_5.win.nw",
+                "checksum": "21cca069b309d17e7e49b5bad561b8036e86dcd2",
+                "signature": "MCwCFHLaqeP5yzhtmXpVgS09G7gHVYFMAhQ2x3dd8PcWDbNEQ3KURiQ5cRSmWQ==",
+                "title": "Update NW.js",
+                "description": "Minor bugfixes",
+                "changeLog": [],
+                "gitTag": "v0.3.8-5",
+                "gitCommit": "9d0b6efe"
+        },
+        "linux": {
+                "x86": {
+                        "version": "0.3.8-5",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-5.l32.nw",
+                        "checksum": "c2af16e3123926c0ba030b2832fcd513a4ade02b",
+                        "signature": "MCwCFH36LqDAcMujrCNdogY5KRcjrFlqAhRR78f2zKmbbLdak0fR8Jf1nlOZiw==",
+                        "title": "Update NW.js",
+                        "description": "Minor bugfixes",
+                        "changeLog": [],
+                        "gitTag": "v0.3.8-5",
+                        "gitCommit": "9d0b6efe"
+                },
+                "x64": {
+                        "version": "0.3.8-5",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-5.l64.nw",
+                        "checksum": "84286a039a9f8817cbf4decc7bcae1ca987afe27",
+                        "signature": "MCwCFGIVjn5KPkRark0LbZ/XzDXAEadxAhRr/lHWbW/uTRfSKIcGrpCdSfob0w==",
+                        "title": "Update NW.js",
+                        "description": "Minor bugfixes",
+                        "changeLog": [],
+                        "gitTag": "v0.3.8-5",
+                        "gitCommit": "9d0b6efe"
+                }
+        },
+        "mac": {
+                "version": "0.3.8-5",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-5.mac.nw",
+                "checksum": "9a323875a11e7c7bfe409f327533cf8bad7c21a1",
+                "signature": "MCwCFBnvTzKd3eQKfz9Ykkjxe5YEOJ6VAhRAr8ayhCQvlwthiOuxwzyRnhFGhQ==",
+                "title": "Update NW.js",
+                "description": "Minor bugfixes",
+                "changeLog": [],
+                "gitTag": "v0.3.8-5",
+                "gitCommit": "9d0b6efe"
+        }
+}

@@ -1,49 +1,48 @@
 {
-        "extended": true,
         "windows": {
                 "version": "0.3.8-4",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.win.nw",
-                "checksum": "ac99b5a0a1b17eafb7f579c2c59febe9205d93e6",
-                "signature": "MCwCFH7z8R6HgriCbVTOBAv+vFLG1F4MAhR67Jk3q978bmgoiSvoRTrEpTKKWg==",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.win.nw",
+                "checksum": "4083a304cc03f849f19ef1fd74fe09d9f5fa5588",
+                "signature": "MCwCFGiXBcdLGkIKHW/JaionYxwoJAkDAhQ3h/qgG7f4tYqDF2Rk4VCy/UblEA==",
                 "title": "Hotfix",
-                "description": "Minor bugfixes",
+                "description": "Fix Auto Updater",
                 "changeLog": [],
                 "gitTag": "v0.3.8-4",
-                "gitCommit": "ae59a048"
+                "gitCommit": "b5bcd515"
         },
         "linux": {
                 "x86": {
                         "version": "0.3.8-4",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.l32.nw",
-                        "checksum": "0571a10f444f1503aacc1f6f86a529d7716e206b",
-                        "signature": "MCwCFEeLYq0BMCHgEev/jAHFW7IkG2y8AhQFdc6OKnLF5uQhgvUI/H0VZSINaw==",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.lin.nw",
+                        "checksum": "8304b3a64707e61da123f4db6df4060e01fc7d7e",
+                        "signature": "MCwCFFIlHq5WmTtUJIkwF2fDhxw62qtoAhQ7NMPPhBSKypDYaFv2NZRKSi2GGg==",
                         "title": "Hotfix",
-                        "description": "Minor bugfixes",
+                        "description": "Fix Auto Updater",
                         "changeLog": [],
                         "gitTag": "v0.3.8-4",
-                        "gitCommit": "ae59a048"
+                        "gitCommit": "b5bcd515"
                 },
                 "x64": {
                         "version": "0.3.8-4",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.l64.nw",
-                        "checksum": "c75a740b6f54f7d70b99d3e070b7d5043da0bfb2",
-                        "signature": "MCwCFH0CWjUT16rM+wSZdmRnqqzKQk/xAhQScksW70eVPzipBNkTw42sPd0tzg==",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.lin.nw",
+                        "checksum": "8304b3a64707e61da123f4db6df4060e01fc7d7e",
+                        "signature": "MCwCFFIlHq5WmTtUJIkwF2fDhxw62qtoAhQ7NMPPhBSKypDYaFv2NZRKSi2GGg==",
                         "title": "Hotfix",
-                        "description": "Minor bugfixes",
+                        "description": "Fix Auto Updater",
                         "changeLog": [],
                         "gitTag": "v0.3.8-4",
-                        "gitCommit": "ae59a048"
+                        "gitCommit": "b5bcd515"
                 }
         },
         "mac": {
                 "version": "0.3.8-4",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.mac.nw",
-                "checksum": "ea47da42ce24009e579fd47c1afa1be9cb84c56f",
-                "signature": "MCwCFFtrMPfo/If33wCHACv9G+G/S+SbAhQj2iv5n7tcfS8a2aoSDAWlgJ6oJw==",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_4.mac.nw",
+                "checksum": "f50c25645233d102f4057c2854ff09aea5dc1d2e",
+                "signature": "MCwCFEo+0c491XuXhjjFeBkUUvYp28vsAhRBJHv6moH26jOsa+wb808DpilO7Q==",
                 "title": "Hotfix",
-                "description": "Minor bugfixes",
+                "description": "Fix Auto Updater",
                 "changeLog": [],
                 "gitTag": "v0.3.8-4",
-                "gitCommit": "ae59a048"
+                "gitCommit": "b5bcd515"
         }
 }
