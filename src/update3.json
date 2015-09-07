@@ -1,48 +1,49 @@
 {
+        "extended": true,
         "windows": {
-                "version": "0.3.8-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.win.nw",
-                "checksum": "de4168fe213c9442601d107e7f23730fddb04c69",
-                "signature": "MCwCFEvkuOJooDehNzMzjeKOZK9UX70XAhRxfO8SejnfWl/jDMfDMdmUplnRoA==",
-                "title": "Security Hotfix",
+                "version": "0.3.8-4",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.win.nw",
+                "checksum": "ac99b5a0a1b17eafb7f579c2c59febe9205d93e6",
+                "signature": "MCwCFH7z8R6HgriCbVTOBAv+vFLG1F4MAhR67Jk3q978bmgoiSvoRTrEpTKKWg==",
+                "title": "Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-3",
-                "gitCommit": "4ccb1c0f"
+                "gitTag": "v0.3.8-4",
+                "gitCommit": "ae59a048"
         },
         "linux": {
                 "x86": {
-                        "version": "0.3.8-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "b3e23526ba3168b43217a75bda1542a712034ac5",
-                        "signature": "MCwCFB8NnzcqYZxsXb4LcrNdHiJY7qTZAhRyGwq2Np0+z/76+qeRiRAnsgX4BQ==",
-                        "title": "Security Hotfix",
+                        "version": "0.3.8-4",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.l32.nw",
+                        "checksum": "0571a10f444f1503aacc1f6f86a529d7716e206b",
+                        "signature": "MCwCFEeLYq0BMCHgEev/jAHFW7IkG2y8AhQFdc6OKnLF5uQhgvUI/H0VZSINaw==",
+                        "title": "Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-3",
-                        "gitCommit": "4ccb1c0f"
+                        "gitTag": "v0.3.8-4",
+                        "gitCommit": "ae59a048"
                 },
                 "x64": {
-                        "version": "0.3.8-3",
-                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.linux.nw",
-                        "checksum": "b3e23526ba3168b43217a75bda1542a712034ac5",
-                        "signature": "MCwCFB8NnzcqYZxsXb4LcrNdHiJY7qTZAhRyGwq2Np0+z/76+qeRiRAnsgX4BQ==",
-                        "title": "Security Hotfix",
+                        "version": "0.3.8-4",
+                        "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.l64.nw",
+                        "checksum": "c75a740b6f54f7d70b99d3e070b7d5043da0bfb2",
+                        "signature": "MCwCFH0CWjUT16rM+wSZdmRnqqzKQk/xAhQScksW70eVPzipBNkTw42sPd0tzg==",
+                        "title": "Hotfix",
                         "description": "Minor bugfixes",
                         "changeLog": [],
-                        "gitTag": "v0.3.8-3",
-                        "gitCommit": "4ccb1c0f"
+                        "gitTag": "v0.3.8-4",
+                        "gitCommit": "ae59a048"
                 }
         },
         "mac": {
-                "version": "0.3.8-3",
-                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8_3.mac.nw",
-                "checksum": "7f4a01b1be2d8f953838458eaf63209eda6bd22c",
-                "signature": "MCwCFG+QwLcvTqqUz0sqNdJR0PKkN+tnAhRTbP7Qq7m7GU8HNkZaY9aA7pLymw==",
-                "title": "Security Hotfix",
+                "version": "0.3.8-4",
+                "updateUrl": "https://get.popcorntime.io/_updates/0_3_8-4.mac.nw",
+                "checksum": "ea47da42ce24009e579fd47c1afa1be9cb84c56f",
+                "signature": "MCwCFFtrMPfo/If33wCHACv9G+G/S+SbAhQj2iv5n7tcfS8a2aoSDAWlgJ6oJw==",
+                "title": "Hotfix",
                 "description": "Minor bugfixes",
                 "changeLog": [],
-                "gitTag": "v0.3.8-3",
-                "gitCommit": "4ccb1c0f"
+                "gitTag": "v0.3.8-4",
+                "gitCommit": "ae59a048"
         }
 }
