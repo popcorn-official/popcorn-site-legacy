@@ -7,7 +7,7 @@
     "header": {
         "beta": {
             "title": "即刻观看电影和电视剧",
-            "subtitle": "目前还处于Beta阶段，试一试又何妨！"
+            "subtitle": "目前还处于 Beta 阶段，但试一试又何妨！"
         }
     },
     "download": {
@@ -22,7 +22,7 @@
     },
     "warning": {
         "whatitdoes": "Popcorn Time 通过种子文件传输影片和电视剧",
-        "copyright": "下载受版权保护的内容在您的地区可能是非法的。使用请自行承担风险。"
+        "copyright": "下载受版权保护的内容在您的地区可能是非法的。请自行承担使用风险。"
     },
     "features": {
         "greatmovies": {
@@ -47,10 +47,10 @@
         }
     },
     "how": {
-        "title": "难以置信？",
-        "subtitle": "了解它有多易用...",
+        "title": "不相信吗？",
+        "subtitle": "了解它的易用性...",
         "open": "打开 Popcorn Time<br>挑选电影或电视剧",
-        "select": "自选影片质量<br>和字幕语言",
+        "select": "选择影片质量<br>和字幕语言",
         "play": "点击播放<br>尽情享受！"
     },
     "get-app": {

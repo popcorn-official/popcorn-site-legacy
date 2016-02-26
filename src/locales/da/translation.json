@@ -7,7 +7,7 @@
     "header": {
         "beta": {
             "title": "Se film og tv-shows øjeblikkeligt",
-            "subtitle": "I øjeblikket er programmet en beta udgave, men kom og prøv det!"
+            "subtitle": "I øjeblikket er programmet en beta udgave, men giv det et forsøg!"
         }
     },
     "download": {
@@ -22,28 +22,28 @@
     },
     "warning": {
         "whatitdoes": "Popcorn Time streamer film og tv-serier fra torrents",
-        "copyright": "Hentning og deling af filer der er copyright beskyttede, kan være ulovligt i dit land. Brug af programmet er på eget ansvar."
+        "copyright": "Downloading og deling af filer der er copyright beskyttede, kan være ulovligt i dit land. Brug af programmet er på eget ansvar."
     },
     "features": {
         "greatmovies": {
-            "title": "De bedste film og tv-shows",
-            "text": "Vi leder hele tiden efter de bedste torrents på nettet, fra de største og mest vigtige sider."
+            "title": "Fantastiske film og tv-shows",
+            "text": "Vi leder hele tiden efter de bedste torrents overalt på internettet, fra de vigtigste websider."
         },
         "restrictions": {
             "title": "Ingen begrænsninger",
-            "text": "Se hvilken som helst tv-serie eller film lige så mange gange du har lyst til. Alt hvad du behøver er en god internet forbindelse."
+            "text": "Se hvilken som helst film eller tv-serie lige så mange gange du har lyst. Alt hvad du behøver er en god internet forbindelse."
         },
         "catalogue": {
             "title": "Fantastisk udvalg",
-            "text": "Hvis tv-serien eller filmen findes, vil Popcorn Time finde den bedste udgave og starte med at afspille den med det samme."
+            "text": "Hvis filmen eller tv-serien findes på internettet, så vil Popcorn Time finde den bedst mulige udgave og afspille den med det samme."
         },
         "quality": {
             "title": "Den bedste kvalitet",
-            "text": "Se en film eller en episode fra en tv-serie med det samme i HD med undertekster, og bliv ved."
+            "text": "Se din film eller tv-episode øjeblikkeligt i HD og med undertekster."
         },
         "save": {
             "title": "Gem lidt tid til at lave popcorn",
-            "text": "Ingen vente- eller downloadtid. Øjeblikkelig afspilning af dine favorit film og tv-serier."
+            "text": "Ingen vente- eller downloadtid. Øjeblikkelig afspilning af dine yndlings film og tv-serier."
         }
     },
     "how": {
@@ -55,7 +55,7 @@
     },
     "get-app": {
         "new": "En helt ny måde at se film og tv på",
-        "popcorn": "Sørg for popkornene og overlad resten til os."
+        "popcorn": "Bare sørg for popkornene og overlad resten til os."
     },
     "email": {
         "placeholder": "E-mailadresse",
@@ -63,7 +63,7 @@
         "notified": "Få besked når en ny version er tilgængelig"
     },
     "footer": {
-        "love": "Lavet med <span>&#10084;</span> af en flok nørder fra hele verden",
+        "love": "Lavet med <span>&#10084;</span> af en flok nørder fra Hele Verden",
         "status": "Status",
         "faq": "OSS",
         "tos": "Servicevilkår",

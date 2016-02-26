@@ -32,7 +32,6 @@ module.exports = function (grunt) {
         'css',
         'html',
         'js',
-        'imagemin',
         'validation:dist',
         'copy:favicon',
         'copy:fonts',

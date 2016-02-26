@@ -1,7 +1,7 @@
 {
     "nav": {
-        "faq": "Perguntas frequentes",
-        "tos": "Termos de Serviço",
+        "faq": "FAQ",
+        "tos": "TOS",
         "home": "HOME"
     },
     "header": {
@@ -11,23 +11,23 @@
         }
     },
     "download": {
-        "text": "Download Beta %s",
-        "mac": "Para Mac OSX 10.7 e superior",
-        "windows": "Para Windows 7 e acima",
+        "text": "Baixar Beta %s",
+        "mac": "Para Mac OSX 10.7 e acima",
+        "windows": "Para Windows 7 e superior",
         "linux32": "Para Linux 32-bits",
         "linux64": "Para Linux 64-bits",
         "android": "Para Android 4.0.3 e superior",
         "platforms": "Outras plataformas",
-        "free": "O melhor de tudo ... é grátis!"
+        "free": "E o melhor de tudo... é grátis!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time transmite filmes e programas de TV de torrents",
-        "copyright": "Download de material protegido por direitos autorais pode ser ilegal em seu país. Use por sua conta e risco."
+        "whatitdoes": "O Popcorn Time transmite filmes e programas de TV de torrents",
+        "copyright": "Baixar material protegido por direitos autorais pode ser ilegal em seu país. Use por sua própria conta e risco."
     },
     "features": {
         "greatmovies": {
-            "title": "Ótimos Filmes e programas de TV",
-            "text": "Estamos constantemente à procura em toda a web pelos melhores torrents nos sites mais importantes."
+            "title": "Ótimos Filmes e Programas de TV",
+            "text": "Estamos constantemente procurando por toda a web pelos melhores torrents dos sites mais importantes."
         },
         "restrictions": {
             "title": "Sem restrições",
@@ -49,7 +49,7 @@
     "how": {
         "title": "Difícil de acreditar?",
         "subtitle": "Veja como é fácil...",
-        "open": "Abra Popcorn Time<br>e selecione um filme ou episódio",
+        "open": "Abra o Popcorn Time<br>e selecione um filme ou episódio",
         "select": "Selecione a qualidade<br>e legendas",
         "play": "Aperte play<br>e divirta-se!"
     },
@@ -63,7 +63,7 @@
         "notified": "Seja notificado quando uma nova versão estiver disponível"
     },
     "footer": {
-        "love": "Feito com <span>&#10084;</span> por um grupo de geeks de todas as partes do mundo",
+        "love": "Feito com <span>&#10084;</span> por um bando de nerds de todo o mundo",
         "status": "Status",
         "faq": "FAQ",
         "tos": "Termos de Serviço",

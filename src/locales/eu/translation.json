@@ -1,72 +1,72 @@
 {
     "nav": {
-        "faq": "MEG",
+        "faq": "SEG",
         "tos": "LO",
-        "home": "SARRERA"
+        "home": "ETXEA"
     },
     "header": {
         "beta": {
-            "title": "Ikusi Film eta Telesailak zuzenean",
-            "subtitle": "Oraingoz Betan, baina ez atzean gelditu eta probatu!"
+            "title": "Ikusi Filma eta TB Ikuskizunak zuzenean",
+            "subtitle": "Oraingoz Betan, baina egin aurrera eta probatu!"
         }
     },
     "download": {
-        "text": "Deskargatu Beta %s",
-        "mac": "Mac OSX 10.7 eta goragokoentzat",
-        "windows": "Windows 7 eta goragokoentzat",
-        "linux32": "32-biteko Linuxentzat",
-        "linux64": "64-biteko Linuxentzat",
-        "android": "Android 4.0.3 eta goragokoentzat",
+        "text": "Jeitsi Beta %s",
+        "mac": "Mac OSX 10.7 eta berriagoak",
+        "windows": "Windows 7 eta berriagoak",
+        "linux32": "32-biteko Linux-rako",
+        "linux64": "64-biteko Linux-rako",
+        "android": "Android 4.0.3 eta berriagoak",
         "platforms": "Beste plataformak",
-        "free": "Eta onena... dohainik da!"
+        "free": "Eta hoberena... dohainik da!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Timek film eta telesailak emititzen ditu torrent bitartez",
-        "copyright": "Copyright-dun materiala deskargatzea ilegala izan daiteke zure herrialdean. Erabili zure ardurapean."
+        "whatitdoes": "Popcorn Timek filmak eta TB ikuskizunak jariotzen ditu torrentetatik",
+        "copyright": "Copyrighta duen materiala jeistea legezkanpokoa izan daiteke zure herrialdean. Erabili zeure arriskupean."
     },
     "features": {
         "greatmovies": {
-            "title": "Film eta Telesail mundialak",
-            "text": "Webgune garrantzitsuenetatik torrent onenak sare osoan zehar etengabe bilatzen ari gara."
+            "title": "Filma eta TB Ikuskizun handiak",
+            "text": "Etengabe ari gara web guztian zehar gune garrantzitsuenetatik torrent hoberenen bila."
         },
         "restrictions": {
             "title": "Murrizketarik ez",
-            "text": "Ikusi edozein film edo ikuskizun nahi duzun adina. Horretarako behar duzun gauza bakarra internet konexio ona da."
+            "text": "Ikusi edozein filma edo TB ikuskizun nahi duzun aldi guztietan. Behar duzun guztia internet elkarketa egoki bat da."
         },
         "catalogue": {
-            "title": "Katalogo aparta",
-            "text": "Filma edo telesaila hor nonbait bada, Popcorn Timek posible duen bertsiorik onena aurkitu eta berehala emititzen hasiko da."
+            "title": "Katalogo zoragarria",
+            "text": "Filma edo TB ikuskizun hor nonbait badago, Popcorn Timek ahal den bertsio hoberena bilatu eta berehala hasiko da jariotzen."
         },
         "quality": {
             "title": "Kalitate hoberena",
-            "text": "Ikusi zure film edo atala zuzenean HDn eta azpitituluekin. Eta gero jarraitu gehiago ikusten."
+            "text": "Ikusi zure filma edo atala berehala HD-an eta azpidatziekin. Eta gero jarraitu gehiago ikusten."
         },
         "save": {
-            "title": "Irabazi denbora krispetak prestatzeko",
-            "text": "Itxaronaldi edo deskarga denborarik gabe. Zure film eta telesaile gogokoenen zuzeneko erreprodukzioa."
+            "title": "Aurreztu denbora krispetak egiteko",
+            "text": "Itxaronaldi edo jeitsiera denborarik gabe. Irakurri berehala zure filma eta TB ikuskizun gogoena."
         }
     },
     "how": {
         "title": "Sinesgaitza?",
         "subtitle": "Ikusi zeinen erraz dabilen...",
-        "open": "Ireki Popcorn Time<br>eta aukeratu film edo atalen bat",
-        "select": "Aukeratu kalitatea<br>eta azpitituluak",
-        "play": "Erreproduzitu klikatu<br>eta gozatu!"
+        "open": "Ireki Popcorn Time<br>eta hautatu filma edo atal bat",
+        "select": "Hautatu kalitatea<br>eta azpidatziak",
+        "play": "Klikatu irakurri<br>eta gozatu!"
     },
     "get-app": {
-        "new": "Film eta TB ikusteko modu guztiz berritzailea",
-        "popcorn": "Arduratu krispetez eta utzi gainerakoa gure esku."
+        "new": "Filma eta TB ikusteko bide guztiz berria",
+        "popcorn": "Arduratu krispetez bakarrik eta utzi gainerakoa gure esku."
     },
     "email": {
-        "placeholder": "Eposta helbidea",
+        "placeholder": "Post@ Helbidea",
         "subscribe": "Harpidetu",
-        "notified": "Bertsio berri bat eskuragarri denean jakinarazpena jaso"
+        "notified": "Lortu jakinarazpen bat bertsio berri bat eskuragarri dagoenean"
     },
     "footer": {
-        "love": "Mundu osoko geek mordo batek <span>&#10084;</span>ez egina",
+        "love": "<span>&#10084;</span>ez egina Mundu Osoko geek mordo baten artean",
         "status": "Egoera",
-        "faq": "MEG",
+        "faq": "SEG",
         "tos": "Lege oharrak",
-        "con": "Kontaktatu / Honi buruz"
+        "con": "Harremana / Honi buruz"
     }
 }

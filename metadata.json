@@ -1,16 +1,21 @@
 {
 	"version": {
-		"desktop": "3.8.5",
-		"android": "2.4",
+		"desktop": "3.9",
+		"android": "2.8",
+		"androidtv": "1.2",
 		"ios": "0.0"
 	},
 	"downloads": {
-		"android": "0.2.4.1/mobile-armeabi-v7a-release-0.2.4.1.apk",
-		"mac": "Popcorn-Time-0.3.8-5-Mac.dmg",
-		"win": "Popcorn-Time-0.3.8-5-Setup.exe",
+		"android": "0.2.8/mobile-armeabi-v7a-release-0.2.8.apk",
+		"androidtv": {
+			"arm32": "0.1.2/tv-armeabi-v7a-release-0.1.2.apk",
+			"x86": "0.1.2/tv-x86-release-0.1.2.apk"
+		},
+		"mac": "Popcorn-Time-0.3.9-Mac.tar.xz",
+		"win": "Popcorn-Time-0.3.9-Setup.exe",
 		"lin": {
-			"32bit": "Popcorn-Time-0.3.8-5-Linux-32.tar.xz",
-			"64bit": "Popcorn-Time-0.3.8-5-Linux-64.tar.xz"
+			"32bit": "Popcorn-Time-0.3.9-Linux-32.tar.xz",
+			"64bit": "Popcorn-Time-0.3.9-Linux-64.tar.xz"
 		}
 	}
 }

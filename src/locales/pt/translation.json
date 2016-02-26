@@ -16,9 +16,9 @@
         "windows": "Para Windows 7 ou posterior",
         "linux32": "Para Linux 32-bit",
         "linux64": "Para Linux 64-bit",
-        "android": "Para Android 4.0.3 ou superior",
+        "android": "Para Android 4.0.3 ou posterior",
         "platforms": "Outras plataformas",
-        "free": "Melhor de tudo... é grátis!"
+        "free": "E o melhor de tudo… é grátis!"
     },
     "warning": {
         "whatitdoes": "O Popcorn Time reproduz filmes e séries a partir de torrents",
@@ -42,20 +42,20 @@
             "text": "Vê o teu filme ou episódio instantaneamente em alta-definição e com legendas. E depois continua a ver."
         },
         "save": {
-            "title": "Poupa tempo para fazer pipocas",
+            "title": "Poupa tempo para fazeres pipocas",
             "text": "Sem espera enquanto descarrega. Reprodução instantânea dos teus filmes e séries favoritas."
         }
     },
     "how": {
-        "title": "Difícil de acreditar?",
-        "subtitle": "Vê como é fácil de usar...",
+        "title": "É difícil de acreditar?",
+        "subtitle": "Vê como é fácil de usar…",
         "open": "Abre o Popcorn Time<br>e escolhe um filme ou episódio",
         "select": "Escolhe a qualidade<br>e as legendas",
-        "play": "Clica em ver<br>e disfruta!"
+        "play": "Clica em “Ver agora”<br>e desfruta!"
     },
     "get-app": {
         "new": "Um forma revolucionária de ver filmes e séries",
-        "popcorn": "Preocupa-te apenas com as pipocas e deixa o resto connosco."
+        "popcorn": "Preocupa-te só com as pipocas e deixa o resto connosco."
     },
     "email": {
         "placeholder": "Endereço de e-mail",
@@ -63,7 +63,7 @@
         "notified": "Recebe uma notificação quando estiver disponível uma nova versão"
     },
     "footer": {
-        "love": "Feito com <span>&#10084;</span> por um grupo de nerds do mundo inteiro",
+        "love": "Feito com <span>&#10084;</span> por um grupo de nerds de todo o mundo",
         "status": "Estado",
         "faq": "FAQ",
         "tos": "Termos do serviço",

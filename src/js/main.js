@@ -5,8 +5,10 @@ var popcorn = {
 	        $("html").i18n();
 	        var desktop_version = $("#get-app").attr("data-version");
 	        var android_version = $("#get-app").attr("data-version-android");
+            var androidtv_version = $("#get-app").attr("data-version-androidtv");
 	        $(".download .btn-main").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [desktop_version]}));
 	        $(".download .btn-main.icon-android").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [android_version]}));
+            $(".download .btn-main.icon-android.androidtv").html(i18n.t("download.text", {postProcess: 'sprintf', sprintf: [androidtv_version]}));
         });
     },
     polyfill: function() {
@@ -35,13 +37,22 @@ var popcorn = {
         }
     },
     getAndroidVersion: function () {
-        $.get('https://ci.popcorntime.io/android/mobile/release', function(resp) {
+        $.get('https://ci.popcorntime.sh/android', function(resp) {
             var version = resp.mobile.release["armeabi-v7a"].versionName;
-            var newUrl = 'https://get.popcorntime.io/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
+            var newUrl = 'https://get.popcorntime.sh/android/' + version + '/mobile-armeabi-v7a-release-' + version + '.apk';
             if(version.indexOf("0") == 0) {
                 version = version.substring(2, version.length);
             }
             $('a[data-os="Android"]').attr('href', newUrl).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
+
+            version = resp.tv.release["armeabi-v7a"].versionName;
+            var newArmUrl = 'https://get.popcorntime.sh/android/' + version + '/tv-armeabi-v7a-release-' + version + '.apk';
+            var newX86Url = 'https://get.popcorntime.sh/android/' + version + '/tv-x86-release-' + version + '.apk';
+            if(version.indexOf("0") == 0) {
+                version = version.substring(2, version.length);
+            }
+            $('a[data-os="Android TV arm32"]').attr('href', newArmUrl).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
+            $('a[data-os="Android TV x86"]').attr('href', newX86Url).html(i18n.t("download.text", { defaultValue: "Download Beta %s", postProcess: 'sprintf', sprintf: [version] }));
         }, 'json');
     },
     updateDownloads: function(platform, ua) {

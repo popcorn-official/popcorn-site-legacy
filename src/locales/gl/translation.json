@@ -7,7 +7,7 @@
     "header": {
         "beta": {
             "title": "Ve filmes e series de TV ó instante",
-            "subtitle": "Actualmente está en Beta, pero aínda así próbao!"
+            "subtitle": "Actualmente está en Beta, pero aínda así podes próbalo!"
         }
     },
     "download": {
@@ -21,7 +21,7 @@
         "free": "E o mellor de todo... é de balde!"
     },
     "warning": {
-        "whatitdoes": "Popcorn Time reproduce filmes e series de TV dende torrents",
+        "whatitdoes": "O Popcorn Time reproduce filmes e series de TV dende torrents",
         "copyright": "Seica o descargar material con copyright pode ser ilegal no teu país. Úsao baixo a túa responsabilidade."
     },
     "features": {
@@ -31,11 +31,11 @@
         },
         "restrictions": {
             "title": "Sen restricións",
-            "text": "Ve calquera filme ou serie de TV todas as veces que queiras. Todo o que precisas é dunha conexión axeitada a internet."
+            "text": "Podes ver calquera filme ou serie de TV todas as veces que queiras. Todo o que precisas é dunha conexión axeitada a internet."
         },
         "catalogue": {
             "title": "Catálogo abraiante",
-            "text": "Se existe un filme ou serie de TV, Popcorn Time atopará a melllor versión e reproduciraa de inmediato."
+            "text": "Se existe un filme ou serie de TV, o Popcorn Time atopará a súa versión e reproduciraa de inmediato."
         },
         "quality": {
             "title": "A mellor calidade",
@@ -51,7 +51,7 @@
         "subtitle": "Mira o doado que é utilizalo...",
         "open": "Abre o Popcorn Time<br>e selecciona un filme ou capítulo",
         "select": "Selecciona a calidade<br>e os subtítulos",
-        "play": "Clica en reproducir<br>e goza!"
+        "play": "Clica en reproducir<br>e a gozar!"
     },
     "get-app": {
         "new": "Unha nova forma de ver filmes e a TV",
@@ -63,7 +63,7 @@
         "notified": "Recibir unha notificación cando unha nova versión versión estea dispoñible"
     },
     "footer": {
-        "love": "Feito con <span>&#10084;</span> por un grupo de geeks de Todo o Mundo",
+        "love": "Feito con <span>&#10084;</span>por unha morea de geeks espallados polo mundo adiante",
         "status": "Estado",
         "faq": "FAQ",
         "tos": "Termos do Servizo",
