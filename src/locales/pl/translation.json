@@ -17,11 +17,11 @@
         "linux32": "Dla 32-bitowego Linuksa",
         "linux64": "Dla 64-bitowego Linuksa",
         "android": "Dla Androida 4.0.3 i nowszych",
-        "platforms": "Inne platformy",
+        "platforms": "Pozostałe platformy",
         "free": "I najlepsze... jest za darmo!"
     },
     "warning": {
-        "whatitdoes": "Popcorn TIme streamuje filmy i seriale z torrentów",
+        "whatitdoes": "Popcorn Time streamuje filmy i seriale z torrentów",
         "copyright": "Pobieranie materiałów objętych prawami autorskimi może być nielegalne w Twoim kraju. Używasz na własne ryzyko."
     },
     "features": {
