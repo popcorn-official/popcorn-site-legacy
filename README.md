@@ -1,4 +1,4 @@
-Popcorn Time Website
+The Amazing Tasty Popcorn Time Website
 ======================
 
 ### Setup for production
