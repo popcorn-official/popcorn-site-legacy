@@ -15,7 +15,7 @@ Setting up the website for development is just as easy
   3. Run `grunt develop` 
   4. Visit [http://localhost:8080/](http://localhost:8080/) 
   5. Edit any file and refresh the page!
-  6. Enjoy!
+  6. Enjoy coding!
 
 ### Updating translations
 Updating the translations from Transifex is easy too, of course
