@@ -1,12 +1,12 @@
 {
-  "name": "popcorn-site",
+  "name": "popcorn-official-site",
   "version": "0.3.8-2",
   "description": "Website for Popcorn Time",
   "repository": {
     "type": "git",
     "url": "https://github.com/popcorn-official/popcorn-site.git"
   },
-  "author": "Popcorn Official",
+  "author": "Popcorn Official Website",
   "license": "GPL-3",
   "bugs": {
     "url": "https://github.com/popcorn-official/popcorn-site/issues"
