@@ -1,4 +1,4 @@
-Popcorn Time Website
+The Popcorn Time Website
 ======================
 
 ### Setup for production
