@@ -1,14 +1,14 @@
 Popcorn Time Website
 ======================
 
-### Setup for production
+### production Setup        
 Setting up the website for production is easy
   1. Run `npm install` in the root directory to pull in the build dependencies
   2. Run `grunt dist` to compile and build the site
   3. Setup a webserver to serve the `compiled` folder
   4. Enjoy!
 
-### Setup for developers
+### developers Setup
 Setting up the website for development is just as easy
   1. Run `npm install` in the root directory
   2. Run `grunt`
